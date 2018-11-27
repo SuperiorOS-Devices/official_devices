@@ -20,7 +20,7 @@ Then
 
 ```bash
 
-bash OTA.sh <device_codename> superior
+bash OTA.sh <device_codename> <rom_dir>
 
 ```
 
@@ -41,7 +41,7 @@ Then
 
 ```bash
 
-bash Maintainers.sh <device_codename> superior
+bash Maintainers.sh <device_codename> <rom_dir>
 
 ```
 
