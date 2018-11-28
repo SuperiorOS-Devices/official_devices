@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1543315204,
-      "filename": "SuperiorOS-Meteor-ef63-OFFICIAL-20181127-1040.zip",
-      "id": "9d95ee8a83519853abe173eb21234cb5",
+      "datetime":1543414052,
+      "filename": "SuperiorOS-Meteor-ef63-OFFICIAL-20181128-1408.zip",
+      "id": "d7ef571e4980f7235b020b47b4eb4df0",
       "romtype": "OFFICIAL",
-      "size":405585749,
-      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Meteor-ef63-OFFICIAL-20181127-1040.zip",
+      "size":405459840,
+      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Meteor-ef63-OFFICIAL-20181128-1408.zip",
       "version": "Meteor"
     }
   ]
