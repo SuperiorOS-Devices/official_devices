@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1543199172,
-      "filename": "SuperiorOS-Meteor-X00TD-OFFICIAL-20181123-0950.zip",
-      "id": "61709273dec030c5c25045aaa50ab5be",
+      "datetime":1543758596,
+      "filename": "SuperiorOS-Meteor-X00TD-OFFICIAL-20181202-1352.zip",
+      "id": "6cb1ab04ce7923a3bad1824f13755fbd",
       "romtype": "OFFICIAL",
-      "size":760515965,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X00TD/SuperiorOS-Meteor-X00TD-OFFICIAL-20181123-0950.zip",
+      "size":784570529,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X00TD/SuperiorOS-Meteor-X00TD-OFFICIAL-20181202-1352.zip",
       "version": "Meteor"
     }
   ]
