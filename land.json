@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1543578677,
-      "filename": "SuperiorOS-Meteor-land-OFFICIAL-20181130-1151.zip",
-      "id": "7da168fcf42f3e81c46453a911f0f2db",
-      "romtype": "OFFICIAL",
-      "size":621538645,
-      "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Meteor-land-OFFICIAL-20181130-1151.zip",
-      "version": "Meteor"
+      "datetime":1544101618,
+      "filename": "SuperiorOS-Destructor-land-land-20181206-1307.zip",
+      "id": "62873e219965653512fa209c30459a80",
+      "romtype": "land",
+      "size":635042324,
+      "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Destructor-land-OFFICIAL-20181206-1307.zip",
+      "version": "Deshmukh/sp/out/target/product/land/SuperiorOS"
     }
   ]
 }
