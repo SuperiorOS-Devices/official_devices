@@ -5,10 +5,10 @@
       "datetime":1544101618,
       "filename": "SuperiorOS-Destructor-land-land-20181206-1307.zip",
       "id": "62873e219965653512fa209c30459a80",
-      "romtype": "land",
+      "romtype": "OFFICIAL",
       "size":635042324,
       "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Destructor-land-OFFICIAL-20181206-1307.zip",
-      "version": "Deshmukh/sp/out/target/product/land/SuperiorOS"
+      "version": "Meteor"
     }
   ]
 }
