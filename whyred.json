@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1543300073,
-      "filename": "SuperiorOS-Meteor-whyred-OFFICIAL-20181127-0628.zip",
-      "id": "8fbe0564ddbdf290cf927d4b6513b69b",
+      "datetime":1544068780,
+      "filename": "SuperiorOS-Destructor-whyred-OFFICIAL-20181206-0400.zip",
+      "id": "a77968698fa668e01fb8dc80541805be",
       "romtype": "OFFICIAL",
-      "size":760430393,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Meteor-whyred-OFFICIAL-20181127-0628.zip",
-      "version": "Meteor"
+      "size":751920816,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Destructor-whyred-OFFICIAL-20181206-0400.zip",
+      "version": "Destructor"
     }
   ]
 }
