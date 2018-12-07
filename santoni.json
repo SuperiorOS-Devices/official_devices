@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1543545736,
-      "filename": "SuperiorOS-Meteor-santoni-OFFICIAL-20181130-0115.zip",
-      "id": "b7e49bfb3356d7462b2b104d5480a658",
+      "datetime":1544143020,
+      "filename": "SuperiorOS-Destructor-santoni-OFFICIAL-20181207-0037.zip",
+      "id": "47668ac7c407c4da10a8fb98d4e6b1cd",
       "romtype": "OFFICIAL",
-      "size":586542823,
-      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Meteor-santoni-OFFICIAL-20181130-0115.zip",
+      "size":596760927,
+      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Destructor-santoni-OFFICIAL-20181207-0037.zip",
       "version": "Meteor"
     }
   ]
