@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime":1544068780,
-      "filename": "SuperiorOS-Destructor-sanders-OFFICIAL-20181207-1528.zip",
-      "id": "6338adbd4011464d4755b1a256ad8353",
+      "datetime":1544850631,
+      "filename": "SuperiorOS-Destructor-sanders-OFFICIAL-20181215-0510.zip",
+      "id": "46a24d12c83fdbd72919cf20491db13c",
       "romtype": "OFFICIAL",
-      "size":612280816,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sanders/SuperiorOS-Destructor-sanders-OFFICIAL-20181207-1528.zip",
-      "version": "Meteor"
+      "size":616774155,
+      "url": "https://master.dl.sourceforge.net/project/superioros/sanders/SuperiorOS-Destructor-sanders-OFFICIAL-20181215-0510.zip",
+      "version": "Destructor"
     }
   ]
 }
