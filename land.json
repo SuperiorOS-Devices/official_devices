@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1544795767,
-      "filename": "SuperiorOS-Destructor-land-land-20181214-1356.zip",
-      "id": "252c28da9d52479cca7f7a41d85508d3",
+      "datetime":1545760771,
+      "filename": "SuperiorOS-Destructor-land-OFFICIAL-20181225-1800.zip",
+      "id": "a270f2c5b64ed4db484a8622f7073c28",
       "romtype": "OFFICIAL",
-      "size":642588815,
-      "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Destructor-land-OFFICIAL-20181214-1356.zip",
+      "size":640539626,
+      "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Destructor-land-OFFICIAL-20181225-1800.zip",
       "version": "Destructor"
     }
   ]
