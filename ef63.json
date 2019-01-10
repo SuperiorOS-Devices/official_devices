@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1546265536,
-      "filename": "SuperiorOS-Destructor-ef63-OFFICIAL-20181231-1412.zip",
-      "id": "22f1ae1e55eaf9a849580f83c1265665",
+      "datetime":1547103980,
+      "filename": "SuperiorOS-Destructor-ef63-OFFICIAL-20190110-0706.zip",
+      "id": "822f66851ac40f8ab5885a44d0f98497",
       "romtype": "OFFICIAL",
-      "size":433017399,
-      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Destructor-ef63-OFFICIAL-20181231-1412.zip",
+      "size":419135297,
+      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Destructor-ef63-OFFICIAL-20190110-0706.zip",
       "version": "Destructor"
     }
   ]
