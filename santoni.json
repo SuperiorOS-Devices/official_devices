@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1545896780,
-      "filename": "SuperiorOS-Destructor-santoni-OFFICIAL-20181227-0746.zip",
-      "id": "3f3a65cc604157bf40ca03f9a8fdd79b",
+      "datetime":1547433362,
+      "filename": "SuperiorOS-Destructor-santoni-OFFICIAL-20190114-0237.zip",
+      "id": "ebcf4964da36444983297f8efa25df6f",
       "romtype": "OFFICIAL",
-      "size":604943915,
-      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Destructor-santoni-OFFICIAL-20181227-0746.zip",
+      "size":589943199,
+      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Destructor-santoni-OFFICIAL-20190114-0237.zip",
       "version": "Destructor"
     }
   ]
