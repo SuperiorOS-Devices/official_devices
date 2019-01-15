@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1547108627,
-      "filename": "SuperiorOS-Destructor-whyred-OFFICIAL-20190110-0825.zip",
-      "id": "7872fc1c9d2bbe8865277755bd80e86f",
+      "datetime":1547569008,
+      "filename": "SuperiorOS-Destructor-whyred-OFFICIAL-20190115-1617.zip",
+      "id": "fe093f4f28be566afeed1c5434667e46",
       "romtype": "OFFICIAL",
-      "size":756859873,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Destructor-whyred-OFFICIAL-20190110-0825.zip",
+      "size":756547961,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Destructor-whyred-OFFICIAL-20190115-1617.zip",
       "version": "Destructor"
     }
   ]
