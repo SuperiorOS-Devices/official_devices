@@ -24,7 +24,7 @@ bash OTA.sh <device_codename> <rom_dir>
 
 ```
 
-Example - bash OTA.sh whyred superior.
+Example - bash OTA.sh whyred superior
 
 
 
@@ -45,4 +45,4 @@ bash Maintainers.sh <device_codename> <rom_dir>
 
 ```
 
-Example - bash Maintainers.sh whyred superior.
+Example - bash Maintainers.sh whyred superior
