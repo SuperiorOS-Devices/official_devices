@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1547891727,
-      "filename": "SuperiorOS-Destructor-z2_plus-OFFICIAL-20190119-0956.zip",
-      "id": "f30c048df1a23ad966dd1cad17fbab15",
+      "datetime":1548159477,
+      "filename": "SuperiorOS-Destructor-z2_plus-OFFICIAL-20190122-1218.zip",
+      "id": "4c11cc1c1880d1110b74d60285381223",
       "romtype": "OFFICIAL",
-      "size":567200987,
-      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Destructor-z2_plus-OFFICIAL-20190119-0956.zip",
+      "size":550130903,
+      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Destructor-z2_plus-OFFICIAL-20190122-1218.zip",
       "version": "Destructor"
     }
   ]
