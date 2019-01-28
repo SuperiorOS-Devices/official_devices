@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1544259930,
-      "filename": "SuperiorOS-Destructor-tissot-OFFICIAL-20181208-0910.zip",
-      "id": "a01ed60d31852516dcbf0c43b9744b4b",
+      "datetime":1548667337,
+      "filename": "SuperiorOS-Destructor-tissot-OFFICIAL-20190128-0922.zip",
+      "id": "f76d7ec48f3cc3ae2ea9c9af59a1eda7",
       "romtype": "OFFICIAL",
-      "size":613064779,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Destructor-tissot-OFFICIAL-20181208-0910.zip",
-      "version": "Meteor"
+      "size":661676451,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Destructor-tissot-OFFICIAL-20190128-0922.zip",
+      "version": "Destructor"
     }
   ]
 }
