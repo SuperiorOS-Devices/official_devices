@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1547850122,
-      "filename": "SuperiorOS-Destructor-markw-OFFICIAL-20190118-2226.zip",
-      "id": "30a67d28d0f57f9322dfafdd2dcbbbd7",
+      "datetime":1549434750,
+      "filename": "SuperiorOS-Destructor-markw-OFFICIAL-20190206-0633.zip",
+      "id": "23f0083c5831bf825fe310e05552fdd7",
       "romtype": "OFFICIAL",
-      "size":614399045,
-      "url": "https://master.dl.sourceforge.net/project/superioros/markw/SuperiorOS-Destructor-markw-OFFICIAL-20190118-2226.zip",
+      "size":654074736,
+      "url": "https://master.dl.sourceforge.net/project/superioros/markw/SuperiorOS-Destructor-markw-OFFICIAL-20190206-0633.zip",
       "version": "Destructor"
     }
   ]
