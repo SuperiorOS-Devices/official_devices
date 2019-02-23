@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1550891001,
-      "filename": "SuperiorOS-Destructor-tulip-OFFICIAL-20190223-0303.zip",
-      "id": "ccabac4e7c74ed1ec8e520cb7d7963bd",
+      "datetime":1550939946,
+      "filename": "SuperiorOS-Destructor-tulip-OFFICIAL-20190223-1639.zip",
+      "id": "a57144d17879226d55fd3b68dc2e6baa",
       "romtype": "OFFICIAL",
-      "size":787751181,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tulip/SuperiorOS-Destructor-tulip-OFFICIAL-20190223-0303.zip",
+      "size":785589610,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tulip/SuperiorOS-Destructor-tulip-OFFICIAL-20190223-1639.zip",
       "version": "Destructor"
     }
   ]
