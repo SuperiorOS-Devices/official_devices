@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1549696453,
-      "filename": "SuperiorOS-Destructor-kuntao-OFFICIAL-20190209-0714.zip",
-      "id": "99c69a5130e3d9abcbeaf669f70ccf38",
+      "datetime":1550856485,
+      "filename": "SuperiorOS-Destructor-kuntao-OFFICIAL-20190222-1728.zip",
+      "id": "890b28fc2323fa405a98612d7441acdf",
       "romtype": "OFFICIAL",
-      "size":582814574,
-      "url": "https://sourceforge.net/projects/superioros/files/kuntao/SuperiorOS-Destructor-kuntao-OFFICIAL-20190209-0714.zip/download",
+      "size":582490291,
+      "url": "https://sourceforge.net/projects/superioros/files/kuntao/SuperiorOS-Destructor-kuntao-OFFICIAL-20190222-1728.zip/download",
       "version": "Destructor"
     }
   ]
