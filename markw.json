@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1549953562,
-      "filename": "SuperiorOS-Destructor-markw-OFFICIAL-20190212-0640.zip",
-      "id": "21cd326f5664076192223867f28b5c03",
+      "datetime":1551514969,
+      "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
+      "id": "07d7ebdfbda7461984485284cafd79c0",
       "romtype": "OFFICIAL",
-      "size":656310453,
-      "url": "https://master.dl.sourceforge.net/project/superioros/markw/SuperiorOS-Destructor-markw-OFFICIAL-20190212-0640.zip",
-      "version": "Destructor"
+      "size":608856319,
+      "url": "https://master.dl.sourceforge.net/project/superioros/markw/SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
+      "version": "Nemesis"
     }
   ]
 }
