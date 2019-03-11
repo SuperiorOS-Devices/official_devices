@@ -1,0 +1,30 @@
+[
+	{
+	    "device_name": "Lenovo P2",
+	    "codename": "kunato",
+	    "datetime": 1552142097,
+	    "filename": "SuperiorOS-Nemesis-kuntao-OFFICIAL-20190309-1435.zip",
+	    "id": "9e525f34949438af24d8e7965b3c915d",
+	    "romtype": "OFFICIAL",
+	    "size": 595133209,
+	    "url": "https://sourceforge.net/projects/superioros/files/kuntao/SuperiorOS-Nemesis-kuntao-OFFICIAL-20190309-1435.zip/download",
+	    "version": "Nemesis",
+	    "date": "09-03-2019",
+	    "maintainer_name": "Saikiran",
+	    "xda_thread": "https://forum.xda-developers.com/lenovo-p2/development/rom-superioros-t3888760"
+	},
+	{
+	    "device_name": "Redmi Note 4",
+	    "codename": "mido",
+	    "datetime": 1552208129,
+	    "filename": "SuperiorOS-Nemesis-mido-OFFICIAL-20190310-0732.zip",
+	    "id": "97939381335ed26ccd721e2320d4f97d",
+	    "romtype": "OFFICIAL",
+	    "size": 615574549,
+	    "url": "https://master.dl.sourceforge.net/project/superioros/mido/SuperiorOS-Nemesis-mido-OFFICIAL-20190310-0732.zip",
+	    "version": "Nemesis",
+	    "date": "2019/03/10",
+	    "maintainer_name": "Himanshu Naamdev",
+	    "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-superioros-t3890105"
+	}
+]
