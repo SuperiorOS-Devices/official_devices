@@ -2,7 +2,7 @@
 	{
 	    "device_name": "Lenovo P2",
 	    "codename": "kunato",
-	    "assert": [],
+	    "assert": ["Lenovo P2", "Lenovo P2a42"],
 	    "datetime": 1552142097,
 	    "filename": "SuperiorOS-Nemesis-kuntao-OFFICIAL-20190309-1435.zip",
 	    "id": "9e525f34949438af24d8e7965b3c915d",
