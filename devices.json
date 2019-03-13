@@ -32,7 +32,7 @@
 	{
 	    "device_name": "Oneplus 2",
 	    "codename": "oneplus2",
-	    "assert": [],
+	    "assert": ["Oneplus 2", "ONE A2003"],
 	    "datetime": 1551983666,
 	    "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
 	    "id": "597c1e677a9b5b425390b275a80980de",
