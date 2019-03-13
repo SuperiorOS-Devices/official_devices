@@ -29,7 +29,7 @@
 	    "maintainer_name": "Himanshu Naamdev",
 	    "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-superioros-t3890105"
 	},
-        {
+    {
 	    "device_name": "Asus Zenfone Max Pro m1",
 	    "codename": "X00T",
 	    "assert": ["Max Pro M1", "X00TDA", "X00TD"],
@@ -47,7 +47,7 @@
 	{
 	    "device_name": "Oneplus 2",
 	    "codename": "oneplus2",
-	    "assert": ["Oneplus 2", "ONE A2003"],
+	    "assert": ["Oneplus 2", "A2003"],
 	    "datetime": 1551983666,
 	    "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
 	    "id": "597c1e677a9b5b425390b275a80980de",
@@ -59,7 +59,7 @@
 	    "maintainer_name": "Sarthak Aditya",
 	    "xda_thread": "https://forum.xda-developers.com/oneplus-2/development/rom-superior-os-destructor-t3906371"
 	},
-        {
+	{
 		"device_name": "Redmi 4 Prime",
 	    "codename": "markw",
 	    "assert": ["Redmi 4", "Redmi 4 Prime"],
@@ -73,5 +73,6 @@
 	    "date": "2019/03/02",
 	    "maintainer_name": "DarkAngelGR",
 	    "xda_thread": "https://forum.xda-developers.com/redmi-4-prime/development/9-0-superioros-t3890506"
-		
+	}
+]	
 
