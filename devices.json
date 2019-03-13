@@ -58,6 +58,20 @@
 	    "date": "2019/03/08",
 	    "maintainer_name": "Sarthak Aditya",
 	    "xda_thread": "https://forum.xda-developers.com/oneplus-2/development/rom-superior-os-destructor-t3906371"
-	}
+	},
+        {
+		"device_name": "Redmi 4 Prime",
+	    "codename": "markw",
+	    "assert": ["Redmi 4", "Redmi 4 Prime"],
+	    "datetime": 1551514969,
+	    "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
+	    "id": "07d7ebdfbda7461984485284cafd79c0",
+	    "romtype": "OFFICIAL",
+	    "size": 608856319,
+	    "url": "https://master.dl.sourceforge.net/project/superioros/markw/SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
+	    "version": "Nemesis",
+	    "date": "2019/03/02",
+	    "maintainer_name": "DarkAngelGR",
+	    "xda_thread": "https://forum.xda-developers.com/redmi-4-prime/development/9-0-superioros-t3890506"
+		
 
-]
