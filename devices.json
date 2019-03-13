@@ -62,7 +62,7 @@
 	{
 		"device_name": "Redmi 4 Prime",
 	    "codename": "markw",
-	    "assert": ["Redmi 4", "Redmi 4 Prime"],
+	    "assert": ["Redmi 4 Prime"],
 	    "datetime": 1551514969,
 	    "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
 	    "id": "07d7ebdfbda7461984485284cafd79c0",
