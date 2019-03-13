@@ -2,6 +2,7 @@
 	{
 	    "device_name": "Lenovo P2",
 	    "codename": "kunato",
+	    "assert": [],
 	    "datetime": 1552142097,
 	    "filename": "SuperiorOS-Nemesis-kuntao-OFFICIAL-20190309-1435.zip",
 	    "id": "9e525f34949438af24d8e7965b3c915d",
@@ -16,6 +17,7 @@
 	{
 	    "device_name": "Redmi Note 4",
 	    "codename": "mido",
+	    "assert": ["Redmi Note 4", "Redmi Note 4X", "mido"],
 	    "datetime": 1552208129,
 	    "filename": "SuperiorOS-Nemesis-mido-OFFICIAL-20190310-0732.zip",
 	    "id": "97939381335ed26ccd721e2320d4f97d",
@@ -30,6 +32,7 @@
 	{
 	    "device_name": "Oneplus 2",
 	    "codename": "oneplus2",
+	    "assert": [],
 	    "datetime": 1551983666,
 	    "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
 	    "id": "597c1e677a9b5b425390b275a80980de",
