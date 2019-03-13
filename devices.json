@@ -26,5 +26,20 @@
 	    "date": "2019/03/10",
 	    "maintainer_name": "Himanshu Naamdev",
 	    "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-superioros-t3890105"
+	},
+	{
+	    "device_name": "Oneplus 2",
+	    "codename": "oneplus2",
+	    "datetime": 1551983666,
+	    "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
+	    "id": "597c1e677a9b5b425390b275a80980de",
+	    "romtype": "OFFICIAL",
+	    "size": 546770738,
+	    "url": "https://master.dl.sourceforge.net/project/superioros/oneplus2/SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
+	    "version": "Nemesis",
+	    "date": "2019/03/08",
+	    "maintainer_name": "Sarthak Aditya",
+	    "xda_thread": "https://forum.xda-developers.com/oneplus-2/development/rom-superior-os-destructor-t3906371"
 	}
+
 ]
