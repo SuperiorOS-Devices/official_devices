@@ -88,6 +88,21 @@
 	    "date": "2019/03/06",
 	    "maintainer_name": "Widi Aprianto",
 	    "xda_thread": "https://forum.xda-developers.com/redmi-note-5/development/unofficial-superioros-vince01-02-2019-t3896046"
+	},
+	{
+	    "device_name": "Redmi 3S/X/Prime",
+	    "codename": "land",
+	    "assert": ["Redmi 3S/X/Prime"],
+	    "datetime":1552566625,
+            "filename": "SuperiorOS-Nemesis-land-OFFICIAL-20190314-1231.zip",
+            "id": "111491818820ce3a62e734a3df0a5a52",
+            "romtype": "OFFICIAL",
+            "size":612045073,
+            "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Nemesis-land-OFFICIAL-20190314-1231.zip",
+            "version": "Nemesis",
+	    "date": "2019/03/14",
+	    "maintainer_name": "Jacob Deepu",
+	    "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-3s/development/9-0-superioros-t3903407"
 	}
 ]	
 
