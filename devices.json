@@ -60,9 +60,9 @@
       "xda_thread": "https://forum.xda-developers.com/oneplus-2/development/rom-superior-os-destructor-t3906371"
     },
     {
-		"device_name": "Redmi 4 Prime",
+	  "device_name": "Redmi 4 Prime",
       "codename": "markw",
-      "assert": ["Redmi 4 Prime"],
+      "assert": ["Redmi 4"],
       "datetime": 1551514969,
       "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190302-0822.zip",
       "id": "07d7ebdfbda7461984485284cafd79c0",
@@ -77,7 +77,7 @@
     {
       "device_name": "Redmi 5 Plus",
       "codename": "vince",
-      "assert": ["Redmi 5 Plus"],
+      "assert": ["Redmi 5 Plus", "Redmi 5 Plu"],
       "datetime": 1551890835,
       "filename": "SuperiorOS-Nemesis-vince-OFFICIAL-20190306-1647.zip",
       "id": "e273b6ba8db9d0c42a03cf075452ab39",
