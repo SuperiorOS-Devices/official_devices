@@ -60,7 +60,7 @@ version_old=`cat ~/official_devices/$device.json | grep "version" | cut -d':' -f
 `sed -i "s|$version_old|$version|g" ~/official_devices/$device.json`
 
 # url
-url="https://master.dl.sourceforge.net/project/superioros/$device/$zip_name"
+url="https://downloads.sourceforge.net/project/superioros/$device/$zip_name"
 url_old=`cat ~/official_devices/$device.json | grep https | cut -d '"' -f4`
 `sed -i "s|$url_old|$url|g" ~/official_devices/$device.json`
 
