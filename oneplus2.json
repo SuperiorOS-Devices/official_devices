@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1551983666,
-      "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
-      "id": "597c1e677a9b5b425390b275a80980de",
+      "datetime":1554294574,
+      "filename": "SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190403-1234.zip",
+      "id": "d51149d32695d2ca1ff127c4d7262ca9",
       "romtype": "OFFICIAL",
-      "size":546770738,
-      "url": "https://master.dl.sourceforge.net/project/superioros/oneplus2/SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190307-1834.zip",
+      "size":551690125,
+      "url": "https://master.dl.sourceforge.net/project/superioros/oneplus2/SuperiorOS-Nemesis-oneplus2-OFFICIAL-20190403-1234.zip",
       "version": "Nemesis"
     }
   ]
