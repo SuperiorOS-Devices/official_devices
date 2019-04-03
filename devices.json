@@ -118,6 +118,21 @@
       "date": "2019/03/16",
       "maintainer_name": "Sipun Ku Mahanta",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
+    },
+    {
+      "device_name": "Poco F1",
+      "codename": "beryllium",
+      "assert": ["Poco F1"],
+      "datetime":1554296302,
+      "filename": "SuperiorOS-Nemesis-beryllium-OFFICIAL-20190403-1258.zip",
+      "id": "0aca5716b995d319cb08625bb7378023",
+      "romtype": "OFFICIAL",
+      "size":514703391,
+      "url": "https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Nemesis-beryllium-OFFICIAL-20190403-1258.zip",
+      "version": "Nemesis",
+      "date": "2019/04/03",
+      "maintainer_name": "Saikiran",
+      "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-t3914764"
     }
 ]	
 
