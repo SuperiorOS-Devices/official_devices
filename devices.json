@@ -133,6 +133,21 @@
       "date": "2019/04/03",
       "maintainer_name": "Saikiran",
       "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-t3914764"
+    },
+    {
+     "device_name": "Redmi4A",
+     "codename": "rolex",
+     "assert": ["Redmi 4A"],
+     "datetime":1554376393,
+     "filename": "SuperiorOS-Nemesis-rolex-OFFICIAL-20190404-1113.zip",
+     "id": "e556aa673767686196a6cbf027e11028",
+     "romtype": "OFFICIAL",
+     "size":1554376393,
+     "url":" https://master.dl.sourceforge.net/project/superioros/rolex/SuperiorOS-Nemesis-rolex-OFFICIAL-20190404-1113.zip",
+     "version": "Nemesis",
+     "date": "2019/04/04",
+     "maintainer_name": "Arpon Sarkar",
+     "xda_thread": "https://forum.xda-developers.com/redmi-4a/development/rom-superioros-nemesis-t3908260",
     }
-]	
+]
 
