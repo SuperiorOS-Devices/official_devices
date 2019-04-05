@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime":1548159477,
-      "filename": "SuperiorOS-Destructor-z2_plus-OFFICIAL-20190122-1218.zip",
-      "id": "4c11cc1c1880d1110b74d60285381223",
+      "datetime":1554433522,
+      "filename": "SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190405-0306.zip",
+      "id": "08d5112cad247d423ed6b82c20503965",
       "romtype": "OFFICIAL",
-      "size":550130903,
-      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Destructor-z2_plus-OFFICIAL-20190122-1218.zip",
-      "version": "Destructor"
+      "size":579617212,
+      "url": "https://downloads.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190405-0306.zip",
+      "version": "Nemesis"
     }
   ]
 }
