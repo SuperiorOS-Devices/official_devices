@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1547433362,
-      "filename": "SuperiorOS-Destructor-santoni-OFFICIAL-20190114-0237.zip",
-      "id": "ebcf4964da36444983297f8efa25df6f",
+      "datetime":1554517242,
+      "filename": "SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
+      "id": "7357225a00654e5f9fe5699169895dab",
       "romtype": "OFFICIAL",
-      "size":589943199,
-      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Destructor-santoni-OFFICIAL-20190114-0237.zip",
-      "version": "Destructor"
+      "size":605062743,
+      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
+      "version": "Nemesis"
     }
   ]
 }
