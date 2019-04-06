@@ -148,6 +148,21 @@
      "date": "2019/04/04",
      "maintainer_name": "Arpon Sarkar",
      "xda_thread": "https://forum.xda-developers.com/redmi-4a/development/rom-superioros-nemesis-t3908260",
+    },
+    {
+     "device_name": "Redmi 4X",
+     "codename": "santoni",
+     "assert": ["Redmi 4X"],
+     "datetime":1554517242,
+     "filename": "SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
+     "id": "7357225a00654e5f9fe5699169895dab",
+     "romtype": "OFFICIAL",
+     "size":605062743,
+     "url":" https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
+     "version": "Nemesis",
+     "date": "2019/04/06",
+     "maintainer_name": "Anindito",
+     "xda_thread": "https://forum.xda-developers.com/showthread.php?t=3916500",
     }
 ]
 
