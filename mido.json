@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1552208129,
-      "filename": "SuperiorOS-Nemesis-mido-OFFICIAL-20190310-0732.zip",
-      "id": "97939381335ed26ccd721e2320d4f97d",
+      "datetime":1554546385,
+      "filename": "SuperiorOS-Nemesis-mido-OFFICIAL-20190405-0554.zip",
+      "id": "0e2dea0b7ad04d7495b8864b55e7af4b",
       "romtype": "OFFICIAL",
-      "size":615574549,
-      "url": "https://master.dl.sourceforge.net/project/superioros/mido/SuperiorOS-Nemesis-mido-OFFICIAL-20190310-0732.zip",
+      "size":586008833,
+      "url": "https://downloads.sourceforge.net/project/superioros/mido/SuperiorOS-Nemesis-mido-OFFICIAL-20190405-0554.zip",
       "version": "Nemesis"
     }
   ]
