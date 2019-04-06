@@ -163,6 +163,21 @@
      "date": "2019/04/06",
      "maintainer_name": "Anindito",
      "xda_thread": "https://forum.xda-developers.com/showthread.php?t=3916500"
+    },
+    {
+      "device_name": "Asus Zenfone Max Pro m2",
+      "codename": "X01BD",
+      "assert": ["Max Pro M2", "X01BD", "X01BDA"],
+      "datetime":1554334831,
+      "filename": "SuperiorOS-Nemesis-X01BD-20190403-2341.zip",
+      "id": "e3503b40ca0b4d5cd1a993acc81a895d",
+      "romtype": "OFFICIAL",
+      "size":687078031,
+      "url": "https://downloads.sourceforge.net/project/superioros/X01BD/SuperiorOS-Nemesis-X01BD-OFFICIAL-20190403-2341.zip",
+      "version": "Nemesis",
+      "date": "2019/04/06",
+      "maintainer_name": "Jayant Deshmukh",
+      "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-superioros-destructor-t3906095"
     }
 ]
 
