@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1549537011,
-      "filename": "SuperiorOS-Destructor-X00T-OFFICIAL-20190207-1059.zip",
-      "id": "5b9b01b02ddd3d26cb86fc30aca7c719",
+      "datetime":1554552828,
+      "filename": "SuperiorOS-Nemesis-X00T-OFFICIAL-20190406-1213.zip",
+      "id": "1dcc4b819f42d1bc091b11def42d995a",
       "romtype": "OFFICIAL",
-      "size":726381177,
-      "url": "https://sourceforge.net/projects/superioros/files/X00T/SuperiorOS-Destructor-X00T-OFFICIAL-20190207-1059.zip/download",
-      "version": "Destructor"
+      "size":739682320,
+      "url": "https://sourceforge.net/projects/superioros/files/X00T/SuperiorOS-Nemesis-X00T-OFFICIAL-20190406-1213.zip/download",
+      "version": "Nemesis"
     }
   ]
 }
