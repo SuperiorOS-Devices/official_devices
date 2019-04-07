@@ -30,17 +30,17 @@
       "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-superioros-t3890105"
     },
     {
-      "device_name": "Asus Zenfone Max Pro m1",
+      "device_name": "Asus Zenfone Max Pro M1",
       "codename": "X00T",
-      "assert": ["Max Pro M1", "X00TDA", "X00TD"],
-      "datetime": 15527146951,
-      "filename": "SuperiorOS-Nemesis-X00T-OFFICIAL-20190309-1556.zip",
-      "id": "0e891a57d9514eb5cda82276cd8c8d7e",
+      "assert": ["Max Pro M1", "X00TDA", "X00TD", "X00T"],
+      "datetime": 1554552828,
+      "filename": "SuperiorOS-Nemesis-X00T-OFFICIAL-20190406-1213.zip",
+      "id": "1dcc4b819f42d1bc091b11def42d995a",
       "romtype": "OFFICIAL",
-      "size": 737148928,
-      "url": "https://sourceforge.net/projects/superioros/files/X00T/SuperiorOS-Nemesis-X00T-OFFICIAL-20190309-1556.zip/download",
+      "size": 739682320,
+      "url": "https://liquidtelecom.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Nemesis-X00T-OFFICIAL-20190406-1213.zip",
       "version": "Nemesis",
-      "date": "2019/03/10",
+      "date": "2019/04/06",
       "maintainer_name": "Shen",
       "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-superior-os-t3862215"
     },
@@ -165,7 +165,7 @@
      "xda_thread": "https://forum.xda-developers.com/showthread.php?t=3916500"
     },
     {
-      "device_name": "Asus Zenfone Max Pro m2",
+      "device_name": "Asus Zenfone Max Pro M2",
       "codename": "X01BD",
       "assert": ["Max Pro M2", "X01BD", "X01BDA"],
       "datetime":1554334831,
