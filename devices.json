@@ -178,6 +178,21 @@
       "date": "2019/04/06",
       "maintainer_name": "Jayant Deshmukh",
       "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-superioros-destructor-t3906095"
+    },
+    {
+      "device_name": "Lenovo ZUK Z2 Plus",
+      "codename": "z2_plus",
+      "assert": ["z2_plus"],
+      "datetime":1554952499,
+      "filename": "SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190411-0315.zip",
+      "id": "6ae13d98bc4921603e06f8bd08002b08",
+      "romtype": "OFFICIAL",
+      "size":589786863,
+      "url": "https://downloads.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190411-0315.zip",
+      "version": "Nemesis",
+      "date": "2019/04/11",
+      "maintainer_name": "Yashodhan Sawardekar",
+      "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/unofficial-superior-os-destructor-t3889798"
     }
 ]
 
