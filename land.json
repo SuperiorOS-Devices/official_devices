@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1552566625,
-      "filename": "SuperiorOS-Nemesis-land-OFFICIAL-20190314-1231.zip",
-      "id": "111491818820ce3a62e734a3df0a5a52",
+      "datetime":1555464398,
+      "filename": "SuperiorOS-Nemesis-land-OFFICIAL-20190417-0127.zip",
+      "id": "5f2833e44acf6e0aa02f291ce455491c",
       "romtype": "OFFICIAL",
-      "size":612045073,
-      "url": "https://master.dl.sourceforge.net/project/superioros/land/SuperiorOS-Nemesis-land-OFFICIAL-20190314-1231.zip",
+      "size":617707659,
+      "url": "https://downloads.sourceforge.net/project/superioros/land/SuperiorOS-Nemesis-land-OFFICIAL-20190417-0127.zip",
       "version": "Nemesis"
     }
   ]
