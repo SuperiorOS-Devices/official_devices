@@ -8,6 +8,15 @@
       "size":405391155,
       "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Nemesis-ef63-OFFICIAL-20190302-1119.zip",
       "version": "Destructor"
+    },
+    {
+      "datetime": "1557594153",
+      "filename": "SuperiorOS-Nemesis-ef63-OFFICIAL-20190511-1703.zip",
+      "id": "9d89e09c203e05cfc55ff5d499027ff1",
+      "romtype": "OFFICIAL",
+      "size": "418239517",
+      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Nemesis-ef63-OFFICIAL-20190511-1703.zip",
+      "version": "Nemesis"
     }
   ]
 }
