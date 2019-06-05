@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1558611821,
-      "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190523-1144.zip",
-      "id": "c3095bb71eb31e411ec617b0bf773ebd",
+      "datetime":1559679369,
+      "filename": "SuperiorOS-Nemesis-markw-OFFICIAL-20190604-2016.zip",
+      "id": "26f2cb1b741e9ba926ff2b64f9bc7ae1",
       "romtype": "OFFICIAL",
-      "size":678482504,
-      "url": "https://downloads.sourceforge.net/project/superioros/markw/SuperiorOS-Nemesis-markw-OFFICIAL-20190523-1144.zip",
+      "size":629774745,
+      "url": "https://downloads.sourceforge.net/project/superioros/markw/SuperiorOS-Nemesis-markw-OFFICIAL-20190604-2016.zip",
       "version": "Nemesis"
     }
   ]
