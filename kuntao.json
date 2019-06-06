@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1554602487,
-      "filename": "SuperiorOS-Nemesis-kuntao-OFFICIAL-20190407-0201.zip",
-      "id": "ba5611650a4de51ff7157d2c96134b74",
+      "datetime":1559815657,
+      "filename": "SuperiorOS-Nemesis-kuntao-OFFICIAL-20190606-1010.zip",
+      "id": "8a61bf4a518a2045062559c2b13bb5da",
       "romtype": "OFFICIAL",
-      "size":582989349,
-      "url": "https://master.dl.sourceforge.net/project/superioros/kuntao/SuperiorOS-Nemesis-kuntao-OFFICIAL-20190407-0201.zip",
+      "size":599634869,
+      "url": "https://downloads.sourceforge.net/project/superioros/kuntao/SuperiorOS-Nemesis-kuntao-OFFICIAL-20190606-1010.zip",
       "version": "Nemesis"
     }
   ]
