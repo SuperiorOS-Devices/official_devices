@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1559867515,
-      "filename": "SuperiorOS-Nemesis-tiffany-OFFICIAL-20190607-0032.zip",
-      "id": "e90b4c3368019de4d0dc99f621da12d0",
+      "datetime":1560921682,
+      "filename": "SuperiorOS-Nemesis-tiffany-OFFICIAL-20190619-0521.zip",
+      "id": "f0f4cc9f4b4ff4500669f897bfc49070",
       "romtype": "OFFICIAL",
-      "size":627229118,
-      "url": "https://downloads.sourceforge.net/project/superioros/tiffany/SuperiorOS-Nemesis-tiffany-OFFICIAL-20190607-0032.zip",
+      "size":627013986,
+      "url": "https://downloads.sourceforge.net/project/superioros/tiffany/SuperiorOS-Nemesis-tiffany-OFFICIAL-20190619-0521.zip",
       "version": "Nemesis"
     }
   ]
