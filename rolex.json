@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1559660488,
-      "filename": "SuperiorOS-Nemesis-rolex-OFFICIAL-20190604-1501.zip",
-      "id": "68a9d28300d005d46ddbbd06af04054a",
+      "datetime":1560881727,
+      "filename": "SuperiorOS-Nemesis-rolex-OFFICIAL-20190618-1815.zip",
+      "id": "cd3cc6ce82a4a4855c105cb9f5d3223d",
       "romtype": "OFFICIAL",
-      "size":591482956,
-      "url": "https://downloads.sourceforge.net/project/superioros/rolex/SuperiorOS-Nemesis-rolex-OFFICIAL-20190604-1501.zip",
+      "size":588271030,
+      "url": "https://downloads.sourceforge.net/project/superioros/rolex/SuperiorOS-Nemesis-rolex-OFFICIAL-20190618-1815.zip",
       "version": "Nemesis"
     }
   ]
