@@ -12,9 +12,9 @@ Any failure in following the below instructions will make you unfit for the main
 
 • You must have knowledge of git.
 
-• You must do one or two unofficial build,  be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
+• You must do one or two unofficial build[Post at XDA],  be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
 
-• You must have your device sources public.
+• You must have your device sources public [Modified trees needed]  .
 
 
 ### 2. Maintainers conduct notes:
