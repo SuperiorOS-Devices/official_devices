@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1560076871,
-      "filename": "SuperiorOS-Nemesis-X00T-OFFICIAL-20190609-1041.zip",
-      "id": "baa9432f3caadb50da673751eb3fe362",
+      "datetime":1561134812,
+      "filename": "SuperiorOS-Nemesis-X00T-OFFICIAL-20190621-1633.zip",
+      "id": "5da4eb392fbd4bc6168c990ef7536a70",
       "romtype": "OFFICIAL",
-      "size":646721778,
-      "url": "https://downloads.sourceforge.net/project/superioros/X00T/SuperiorOS-Nemesis-X00T-OFFICIAL-20190609-1041.zip",
+      "size":646596222,
+      "url": "https://downloads.sourceforge.net/project/superioros/X00T/SuperiorOS-Nemesis-X00T-OFFICIAL-20190621-1633.zip",
       "version": "Nemesis"
     }
   ]
