@@ -223,5 +223,20 @@
       "date": "2019/06/05",
       "maintainer_name": "Pavan Patel",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/9-0-superioros-t3890607"
+    },
+    {
+      "device_name": "VEGA IRON 2",
+      "codename": "ef63",
+      "assert": ["ef63s", "ef63k", "ef63l"],
+      "datetime":1560152653,
+      "filename": "SuperiorOS-Nemesis-ef63-OFFICIAL-20190610-0744.zip",
+      "id": "40961188badf738be805b42c245cba96",
+      "romtype": "OFFICIAL",
+      "size":419557836,
+      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Nemesis-ef63-OFFICIAL-20190610-0744.zip",
+      "version": "Nemesis",
+      "date": "2019/06/10",
+      "maintainer_name": "Chau Truong Thinh",
+      "xda_thread": ""
     }
 ]
