@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1559733841,
-      "filename": "SuperiorOS-Nemesis-riva-OFFICIAL-20190605-1124.zip",
-      "id": "f7654cf3cabf6db01c91e00ae39983b2",
+      "datetime":1561362654,
+      "filename": "SuperiorOS-Nemesis-riva-OFFICIAL-20190625-0751.zip",
+      "id": "544b2f91eef87a1f5936b1cae1428fd4",
       "romtype": "OFFICIAL",
-      "size":591439091,
-      "url": "https://downloads.sourceforge.net/project/superioros/riva/SuperiorOS-Nemesis-riva-OFFICIAL-20190605-1124.zip",
+      "size":586978956,
+      "url": "https://downloads.sourceforge.net/project/superioros/riva/SuperiorOS-Nemesis-riva-OFFICIAL-20190624-0751.zip",
       "version": "Nemesis"
     }
   ]
