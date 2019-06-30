@@ -238,5 +238,20 @@
       "date": "2019/06/10",
       "maintainer_name": "Chau Truong Thinh",
       "xda_thread": ""
+    },
+    {
+      "device_name": "ONEPLUS ONE",
+      "codename": "bacon",
+      "assert": ["oneplus","one"],
+      "datetime":1561883728,
+      "filename": "SuperiorOS-Nemesis-bacon-OFFICIAL-20190630-0838.zip",
+      "id": "e26cca53c40ed2ba8b7699491b24accf",
+      "romtype": "OFFICIAL",
+      "size":423694342,
+      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Nemesis-bacon-OFFICIAL-20190630-0838.zip",
+      "version": "Nemesis",
+      "date": "2019/06/30",
+      "maintainer_name": "Shahbaz Qadri",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superior-os-nemesis-t3942192"
     }
 ]
