@@ -253,5 +253,20 @@
       "date": "2019/06/30",
       "maintainer_name": "Shahbaz Qadri",
       "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superior-os-nemesis-t3942192"
+    },
+    {
+      "device_name": "REDMI NOTE 7 PRO",
+      "codename": "violet",
+      "assert": ["violet"],
+      "datetime":1561909361,
+      "filename": "SuperiorOS-Nemesis-violet-OFFICIAL-20190630-1543.zip",
+      "id": "c69142e68fa88cc47d57280a5e89858b",
+      "romtype": "OFFICIAL",
+      "size":840540844,
+      "url": "https://sourceforge.net/projects/superioros/files/violet/SuperiorOS-Nemesis-violet-OFFICIAL-20190630-1543.zip",
+      "version": "Nemesis",
+      "date": "2019/06/30",
+      "maintainer_name": "Yashpal Joshi",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-violet-t3942448" 
     }
 ]
