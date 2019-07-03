@@ -268,5 +268,20 @@
       "date": "2019/06/30",
       "maintainer_name": "Yashpal Joshi",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-violet-t3942448" 
+    },
+    {
+      "device_name": "ONEPLUS 6",
+      "codename": "enchilada",
+      "assert": ["oneplus 6"],
+      "datetime":1562161978,
+      "filename": "SuperiorOS-Nemesis-enchilada-OFFICIAL-20190703-1353.zip",
+      "id": "cbeac5cc20e8ed0e0610446f3fc269af",
+      "romtype": "OFFICIAL",
+      "size":490065054,
+      "url": "https://sourceforge.net/projects/superioros/files/enchilada/SuperiorOS-Nemesis-enchilada-OFFICIAL-20190703-1353.zip",
+      "version": "Nemesis",
+      "date": "2019/07/03",
+      "maintainer_name": "Yash Sonawane",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-superior-os-t3943733"
     }
 ]
