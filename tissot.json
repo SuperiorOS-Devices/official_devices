@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1560925085,
-      "filename": "SuperiorOS-Nemesis-tissot-OFFICIAL-20190619-0618.zip",
-      "id": "2d5a0d4338982adc0033f7a994ec2303",
+      "datetime":1562234486,
+      "filename": "SuperiorOS-Nemesis-tissot-OFFICIAL-20190704-1002.zip",
+      "id": "cada8e3963b639acf1ed9f209e780845",
       "romtype": "OFFICIAL",
-      "size":606332453,
-      "url": "https://downloads.sourceforge.net/project/superioros/tissot/SuperiorOS-Nemesis-tissot-OFFICIAL-20190619-0618.zip",
+      "size":594165062,
+      "url": "https://downloads.sourceforge.net/project/superioros/tissot/SuperiorOS-Nemesis-tissot-OFFICIAL-20190704-1002.zip",
       "version": "Nemesis"
     }
   ]
