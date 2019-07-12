@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1557313401,
-      "filename": "SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190508-1104.zip",
-      "id": "cbf2f24d3e1449fd9ed371d8a6ac24d7",
+      "datetime":1562929808,
+      "filename": "SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190712-1110.zip",
+      "id": "43c7bd8a9eb97fac5d70ccd435cb4b36",
       "romtype": "OFFICIAL",
-      "size":595163633,
-      "url": "https://downloads.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190508-1104.zip",
+      "size":619808428,
+      "url": "https://downloads.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Nemesis-z2_plus-OFFICIAL-20190712-1110.zip",
       "version": "Nemesis"
     }
   ]
