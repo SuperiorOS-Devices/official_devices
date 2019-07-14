@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1562325009,
-      "filename": "SuperiorOS-Nemesis-violet-OFFICIAL-20190705-1110.zip",
-      "id": "620c47fe9639168af2dc4b23e78bf059",
+      "datetime":1563077051,
+      "filename": "SuperiorOS-Nemesis-violet-OFFICIAL-20190714-0408.zip",
+      "id": "9fa4fe8cfcab865a07b8968af15ae9e1",
       "romtype": "OFFICIAL",
-      "size":841118428,
-      "url": "https://downloads.sourceforge.net/project/superioros/violet/SuperiorOS-Nemesis-violet-OFFICIAL-20190705-1110.zip",
+      "size":843302473,
+      "url": "https://downloads.sourceforge.net/project/superioros/violet/SuperiorOS-Nemesis-violet-OFFICIAL-20190714-0408.zip",
       "version": "Nemesis"
     }
   ]
