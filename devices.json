@@ -283,5 +283,20 @@
       "date": "2019/07/03",
       "maintainer_name": "Yash Sonawane",
       "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-superior-os-t3943733"
+    },
+    {
+      "device_name": "XIAOMI MI 8 LITE",
+      "codename": "platina",
+      "assert": ["platina"],
+      "datetime":1563865095,
+      "filename": "SuperiorOS-Nemesis-platina-OFFICIAL-20190723-0659.zip",
+      "id": "dc49d09fe14014676b1aa7b903987ed3",
+      "romtype": "OFFICIAL",
+      "size":741973422,
+      "url": "https://sourceforge.net/projects/superioros/files/platina/SuperiorOS-Nemesis-platina-OFFICIAL-20190723-0659.zip",
+      "version": "Nemesis",
+      "date": "2019/07/23",
+      "maintainer_name": "Maghfur Cak",
+      "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-superior-os-nemesis-t3948647"
     }
 ]
