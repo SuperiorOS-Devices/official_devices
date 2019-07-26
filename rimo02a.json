@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1562508771,
-      "filename": "SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190707-1413.zip",
-      "id": "cfa983055dd559a26933b362e015a435",
+      "datetime":20190725,
+      "filename": "SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190725-2330.zip",
+      "id": "2e76214e9fa5ea047d139f1be93eb573",
       "romtype": "OFFICIAL",
-      "size":549999534,
-      "url": "https://downloads.sourceforge.net/project/superioros/rimo02a/SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190707-1413.zip",
+      "size":551932071,
+      "url": "https://liquidtelecom.dl.sourceforge.net/project/superioros/rimo02a/SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190725-2330.zip",
       "version": "Nemesis"
     }
   ]
