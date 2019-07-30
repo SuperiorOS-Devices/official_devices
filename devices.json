@@ -313,5 +313,20 @@
       "date": "2019/07/23",
       "maintainer_name": "pawelik001",
       "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/9-0-superioros-xiaomi-mi-a2-lite-t3946434"
+    },
+    {
+      "device_name": "Google Nexus 6P",
+      "codename": "angler",
+      "assert": ["angler"],
+      "datetime":1564433624,
+      "filename": "SuperiorOS-Nemesis-angler-OFFICIAL-20190729-2054.zip",
+      "id": "f155c2bf1e24db9478631b4a91066e93",
+      "romtype": "OFFICIAL",
+      "size":562396572,
+      "url": "https://sourceforge.net/projects/superioros/files/angler/SuperiorOS-Nemesis-angler-OFFICIAL-20190729-2054.zip",
+      "version": "Nemesis",
+      "date": "2019/07/29",
+      "maintainer_name": "PixelBoot",
+      "xda_thread": "https://forum.xda-developers.com/nexus-6p/development/rom-superior-os-nemesis-t3951936"
     }
 ]
