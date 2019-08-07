@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1562221724,
-      "filename": "SuperiorOS-Nemesis-X01BD-OFFICIAL-20190704-0629.zip",
-      "id": "455cdf11770d8e3d2570e980457b209a",
+      "datetime":1565199556,
+      "filename": "SuperiorOS-Nemesis-X01BD-OFFICIAL-20190807-1739.zip",
+      "id": "3bd9e54cfead2a5b69482dc34fb91dbb",
       "romtype": "OFFICIAL",
-      "size":673511318,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Nemesis-X01BD-OFFICIAL-20190704-0629.zip",
+      "size":672042704,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Nemesis-X01BD-OFFICIAL-20190807-1739.zip",
       "version": "Nemesis"
     }
   ]
