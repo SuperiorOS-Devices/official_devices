@@ -328,5 +328,20 @@
       "date": "2019/07/29",
       "maintainer_name": "PixelBoot",
       "xda_thread": "https://forum.xda-developers.com/nexus-6p/development/rom-superior-os-nemesis-t3951936"
+    },
+    {
+      "device_name": "Xiaomi Mi Pad 4",
+      "codename": "clover",
+      "assert": ["clover"],
+      "datetime":1562234486,
+      "filename": "SuperiorOS-Nemesis-clover-OFFICIAL-20190808-0409.zip",
+      "id": "460a00642b7672b93e621579c7dfadf3",
+      "romtype": "OFFICIAL",
+      "size":693310071,
+      "url": "https://sourceforge.net/projects/superioros/files/clover/SuperiorOS-Nemesis-clover-OFFICIAL-20190808-0409.zip",
+      "version": "Nemesis",
+      "date": "2019/08/08",
+      "maintainer_name": "mamarama9904",
+      "xda_thread": "https://forum.xda-developers.com/mi-pad-4/development/rom-superioros-mi-pad-4-t3949601"
     }
 ]
