@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1562234486,
-      "filename": "SuperiorOS-Nemesis-clover-OFFICIAL-20190808-0409.zip",
-      "id": "460a00642b7672b93e621579c7dfadf3",
+      "datetime":1566608940,
+      "filename": "SuperiorOS-Nemesis-clover-OFFICIAL-20190824-1009.zip",
+      "id": "ed7dec6cc87f2f474d0c45bb4b068a82",
       "romtype": "OFFICIAL",
-      "size":693310071,
-      "url": "https://master.dl.sourceforge.net/project/superioros/clover/SuperiorOS-Nemesis-clover-OFFICIAL-20190808-0409.zip",
+      "size":696768627,
+      "url": "https://master.dl.sourceforge.net/project/superioros/clover/SuperiorOS-Nemesis-clover-OFFICIAL-20190824-1009.zip",
       "version": "Nemesis"
     }
   ]
