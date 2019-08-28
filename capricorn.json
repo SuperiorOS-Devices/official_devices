@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1565395289,
-      "filename": "SuperiorOS-Nemesis-capricorn-OFFICIAL-20190810-0005.zip",
-      "id": "861248dbfce45d35c6b7a1dcc053497f",
+      "datetime":1566995411,
+      "filename": "SuperiorOS-Nemesis-capricorn-OFFICIAL-20190828-1230.zip",
+      "id": "034f3b7bf639347ab968edb07afb4ea1",
       "romtype": "OFFICIAL",
-      "size":643923617,
-      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Nemesis-capricorn-OFFICIAL-20190810-0005.zip",
+      "size":663113157,
+      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Nemesis-capricorn-OFFICIAL-20190828-1230.zip",
       "version": "Nemesis"
     }
   ]
