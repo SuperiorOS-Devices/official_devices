@@ -1,0 +1,188 @@
+====================
+     08-30-2019
+====================
+
+   * device/pantech/msm8974-common/
+10363b2  msm8974-common: reconfig camera again  [Chau Truong Thinh]
+da18877  msm8974-common: Make the external camera provider ignore internal cameras  [Chau Truong Thinh]
+2fb8108  Revert "msm8974-common: Add external camera provider to device manifest"  [Chau Truong Thinh]
+082156c  msm8974-common: Move acdbdata file to vendor (1/2)  [Chau Truong Thinh]
+47a353b  msm8974-common: Enable doze mode  [Chau Truong Thinh]
+088a25a  msm8974-common: Add config_show_homeWake  [Chau Truong Thinh]
+   * vendor/pantech/
+dd526fa  msm8974-common: Update to acdbdata of LG-G2  [Chau Truong Thinh]
+d42bcba  msm8974-common: Move acdbdata file to vendor (2/2)  [Chau Truong Thinh]
+
+====================
+     08-29-2019
+====================
+
+
+====================
+     08-28-2019
+====================
+
+
+====================
+     08-27-2019
+====================
+
+
+====================
+     08-26-2019
+====================
+
+   * device/superior/sepolicy/
+74a731d  Add rules for Long screenshot service  [Jayant-Deshmukh]
+   * frameworks/av/
+4da581b  audiopolicy: Fixes for internal audio recording  [Jayant-Deshmukh]
+   * frameworks/base/
+4c57198  fwb: Port extended screenshot function from OOS  [Jayant-Deshmukh]
+6b4f4fce  fwb: Add support for internal audio recording  [Jayant-Deshmukh]
+   * manifest/
+5ac413a  manifest: Pick Recorder and Longshot  [Jayant-Deshmukh]
+   * vendor/superior/
+7819148  overlay: Remove config_screenshotEditor  [Jayant-Deshmukh]
+9b3b19e  vendor: Copy Recorder app permissions  [Jayant-Deshmukh]
+e19267b  vendor: Include Recorder and Longshot  [Jayant-Deshmukh]
+
+====================
+     08-25-2019
+====================
+
+
+====================
+     08-24-2019
+====================
+
+
+====================
+     08-23-2019
+====================
+
+   * frameworks/base/
+e354f43  Correction in logic of roundend size calculation of SD card  [Sipun Ku Mahanta]
+8dacb57  SystemUI: Use appropriate function when trying to retrieve colorError  [Sipun Ku Mahanta]
+c6cc9ca  Default the network location provider to none  [Sipun Ku Mahanta]
+97cfd76  combo issue when location reported by providers do not come with extras  [Sipun Ku Mahanta]
+2686c6e  NLP Combo feature  [Sipun Ku Mahanta]
+798b158  NetworkManagement : Add ability to restrict app vpn usage  [Sipun Ku Mahanta]
+f18110a  Switch widgets away from android.text.format.Time  [Sipun Ku Mahanta]
+6340c83  Migrate telephony code away from Time  [Sipun Ku Mahanta]
+2aeaa07  Remove unused class  [Sipun Ku Mahanta]
+4167d51  Remove unnecessary usage of deprecated Time class  [Sipun Ku Mahanta]
+b3a4f7a  Add a basic benchmark for android.text.format.Time  [Sipun Ku Mahanta]
+0122eb9  Avoid use of DateUtilsBridge.icuTimeZone()  [Sipun Ku Mahanta]
+   * frameworks/compile/mclinker/
+9806ce2  Update FlexLinker.h to current version of flex.  [Sipun Ku Mahanta]
+   * packages/apps/FMRadio/
+46275c5  FMRadio: jni: Disable some warnings turning out to be errors  [Sipun Ku Mahanta]
+   * packages/apps/Longshot/
+3886633  Import modded Longshot app  [jhenrique09]
+   * packages/apps/Recorder/
+de4f475  Switch to prebuilt  [jhenrique09]
+44e1cd6  Add app/release to .gitignore  [jhenrique09]
+c70d94d  Bump version  [jhenrique09]
+e1c6e84  Update icon  [jhenrique09]
+   * packages/apps/Settings/
+5df3bcd  Settings: per-app VPN data restriction  [Sipun Ku Mahanta]
+   * system/netd/
+c7b42ad  NetD : Allow passing in interface names for vpn app restriction  [Sipun Ku Mahanta]
+   * vendor/superior/
+bc0796e  LatinIME: Add Polish dictionary  [Sipun Ku Mahanta]
+
+====================
+     08-22-2019
+====================
+
+   * frameworks/base/
+8d1e19f  FOD: change Windowmanager flags  [Jayant-Deshmukh]
+7975961  Utils: Add blend colors related codes  [Jayant-Deshmukh]
+   * manifest/
+e52f0ba  manifest: add customdoze package and supporting repos  [Jayant-Deshmukh]
+   * packages/apps/CustomDoze/
+e340ec0  Make changes for SuperiorOS  [Jayant-Deshmukh]
+   * packages/apps/Recorder/
+5d31749  Use org.pixelexperience.recorder.SUPPORTED feature  [jhenrique09]
+613c490  Make app dummy  [jhenrique09]
+9bb9138  Grant CAPTURE_AUDIO_OUTPUT permission  [jhenrique09]
+9783d38  Add framework jar to fix build  [jhenrique09]
+9452e10  Rebrand  [jhenrique09]
+92c6ca5  Android studio import  [jhenrique09]
+   * packages/apps/Settings/
+6dcc248  Settings: Add CustomDoze package to ambient display  [Jayant-Deshmukh]
+   * vendor/superior/
+8536f8c  Build CustomDoze for all devices  [Jayant-Deshmukh]
+   * vendor/support/
+502c95b  Refractor for SupeiorOS - This is the common all in one support for various elements. This repo only helps CustomDoze for now (Cleanup of settings to use this common support while be done later(maybe):p  [Jayant-Deshmukh]
+
+====================
+     08-21-2019
+====================
+
+   * external/toybox/
+232850b  Regenerate config files  [Luca Stefani]
+d3b8f50  Fix cp -r dir/. symlink child.  [Luca Stefani]
+1053863  Add failing test for cp -r dir/. symlink child.  [Luca Stefani]
+beef651  Fix cp permissions when copying symlink contents, and add test.  [Luca Stefani]
+c078b2b  Implement --preserve default = mot behavior (fixes segfault when no argument).  [Luca Stefani]
+50a83f5  Fix "cp -p" doesn't preserve timestamps bug  [Luca Stefani]
+f11efa3  Add cp --parents  [Luca Stefani]
+c113fb1  Add mkpath() for common case of mkpathat(), and #define magic constants.  [Luca Stefani]
+   * hardware/qcom/display/
+4ddd151  Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"  [razorloves]
+   * prebuilts/clang/host/linux-x86/
+cdc3e8a  Update prebuilt Clang to r365631.  [Sipun Ku Mahanta]
+
+====================
+     08-20-2019
+====================
+
+   * frameworks/base/
+7a64e8d  Ambient brightness values: use a custom system setting [1/2]  [Jayant-Deshmukh]
+a517a3a  base: Add CustomDoze  [Jayant-Deshmukh]
+04f3ae7  base: Double tap to trigger doze [1/2]  [Jayant-Deshmukh]
+
+====================
+     08-19-2019
+====================
+
+   * frameworks/base/
+4c3c2e0  base: Turn on display if Doze On Charge is Enabled  [Jayant-Deshmukh]
+da5f5cb  base: wake from aod on unplug if we show on charging only  [Jayant-Deshmukh]
+21c1ae1  base: add option to enable AOD on charging only [1/2]  [Jayant-Deshmukh]
+620307e  Live Volume Steps [1/2]  [Jayant-Deshmukh]
+fba0108  GlobalActionsDialog: Fix emergency icon on dark theme  [Jayant-Deshmukh]
+   * kernel/pantech/msm8x74/
+9d84784  prima: merge with Onyx kernel  [Chau Truong Thinh]
+48510ff  defconfig: Enable usb fast charge mode  [Chau Truong Thinh]
+6bada7e  usb: Update usb fast charge mode sysfs  [Chau Truong Thinh]
+3c74c85  usb: Implement usb fast charge mode  [Chau Truong Thinh]
+   * packages/apps/Settings/
+a5947da  Settings: Override doze packages  [Jayant-Deshmukh]
+   * packages/apps/SuperiorSettings/
+7d46eee  Live Volume Steps [2/2]  [Jayant-Deshmukh]
+
+====================
+     08-18-2019
+====================
+
+   * frameworks/base/
+514f3a8  Update navigation bar upon change of display density  [Jayant-Deshmukh]
+32e649f  Unable to input PIN with hardware keyboard  [Jayant-Deshmukh]
+b552b95  SystemUI: fix constant FC on certain devices after b20262a40fcf2f73a1faf0e57dd3971534be8951  [Jayant-Deshmukh]
+
+====================
+     08-17-2019
+====================
+
+
+====================
+     08-16-2019
+====================
+
+   * manifest/
+0f1d52b  manifest: track PhoneCommon packagefrom our org  [Sipun Ku Mahanta]
+   * packages/apps/PhoneCommon/
+6a12aee  Merge tag 'LA.UM.7.3.r1-07900-sdm845.0' of https://source.codeaurora.org/quic/la/platform/packages/apps/PhoneCommon into pie  [Sipun Ku Mahanta]
+
