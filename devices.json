@@ -358,5 +358,20 @@
       "date": "2019/06/18",
       "maintainer_name": "Mayur Varde",
       "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-superioros-moto-g5s-plus-t3936993"
-    }
+    },
+    {
+      "device_name": "Smartron SRT Phone",
+      "codename": "rimo02a",
+      "assert": ["rimo02a"],
+      "datetime":1565843712,
+      "filename": "SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190815-0435.zip",
+      "id": "f26b332af09162bb67b149dac2a18613",
+      "romtype": "OFFICIAL",
+      "size":552320287,
+      "url": "https://master.dl.sourceforge.net/project/superioros/rimo02a/SuperiorOS-Nemesis-rimo02a-OFFICIAL-20190815-0435.zip",
+      "version": "Nemesis",
+      "date": "15/08/2019",
+      "maintainer_name": "Shreehari Vaasishta",
+      "xda_thread": "https://forum.xda-developers.com/android/software-hacking/unofficial-superioros-srt-phone-t3930006"
+    }    
 ]
