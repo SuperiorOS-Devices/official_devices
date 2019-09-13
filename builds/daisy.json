@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1567669876,
-      "filename": "SuperiorOS-Nemesis-daisy-OFFICIAL-20190905-0751.zip",
-      "id": "b6bbbb753169c82716f68ecd56791705",
+      "datetime":1568385818,
+      "filename": "SuperiorOS-Nemesis-daisy-OFFICIAL-20190913-1444.zip",
+      "id": "cd400d84a26e6ec93f41d7ae08fe4faf",
       "romtype": "OFFICIAL",
-      "size":461598317,
-      "url": "https://master.dl.sourceforge.net/project/superioros/daisy/SuperiorOS-Nemesis-daisy-OFFICIAL-20190905-0751.zip",
+      "size":468169982,
+      "url": "https://master.dl.sourceforge.net/project/superioros/daisy/SuperiorOS-Nemesis-daisy-OFFICIAL-20190913-1444.zip",
       "version": "Nemesis"
     }
   ]
