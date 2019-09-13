@@ -1,0 +1,290 @@
+====================
+     09-13-2019
+====================
+
+   * build/make/
+dc30d6d  Accept TARGET_DEVICE_DIR preserved from previous product load  [Sipun Ku Mahanta]
+b8743e2  Correctly configure armv8-2a for 32-bit  [Sipun Ku Mahanta]
+0a8442a  Support kryo385 CPU.  [Sipun Ku Mahanta]
+6ce0e70  Enable armv8-2a supporting on 2nd arch. variant  [Sipun Ku Mahanta]
+3852a56  build: cleanup some makefiles  [Sipun Ku Mahanta]
+   * build/soong/
+240b63b  soong: Change armv8 march and kryo385 mcpu  [Sipun Ku Mahanta]
+7ebc185  Merge pull request #1 from rashedsahaji/pie  [GitHub]
+40bb9e8  Add kryo300 to CPU optimizations list  [rashedsahaji]
+
+====================
+     09-12-2019
+====================
+
+   * frameworks/base/
+2dd7e6b  Automatic translation import  [Sipun Ku Mahanta]
+   * manifest/
+932bcd3  revert back to R47  [Sipun Ku Mahanta]
+   * packages/apps/DeskClock/
+663f189  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+03f71ff  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/ExactCalculator/
+81ab00a  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Messaging/
+0f00787  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+5623aef  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNav/
+7c3d36f  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNavSettings/
+71a8678  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+d32f618  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+88668b2  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+9e56877  Automatic translation import  [Sipun Ku Mahanta]
+   * vendor/superior/
+957efc3  Update lawnchair to alpha 2399  [LordShenron]
+
+====================
+     09-11-2019
+====================
+
+   * frameworks/base/
+886ad53  Fix the behavior of keyguard bouncer in a corner case  [Sipun Ku Mahanta]
+5feb5ca  Fix to register the receiver for all users  [Sipun Ku Mahanta]
+56556a5  Remove unnecessary right padding from time picker  [Sipun Ku Mahanta]
+0bf7250  Fix sim pin on DSDS  [Sipun Ku Mahanta]
+b837091  Dismiss SIM lock page after correct SIM  [Sipun Ku Mahanta]
+383934a  When data switches during voice call, make sure signal bar updates it.  [Sipun Ku Mahanta]
+7f241e9  SystemUI: Fix multiple issues with hiding unprovisioned SIMs  [Sipun Ku Mahanta]
+a27267d  Fix wrong locale causing reboot in recovery  [Sipun Ku Mahanta]
+3b8ef6a  Fix NPE in SyncRtSurfaceTransactionApplier#scheduleApply  [Sipun Ku Mahanta]
+c40428f  GPU Renderer: OpenGL is not the default GPU renderer anymore  [Sipun Ku Mahanta]
+9149218  base: Add Circle battery style from PA [1/2]  [Jayant-Deshmukh]
+   * packages/apps/Settings/
+fe3bcf1  settings : move wifi mac randomization to wifi settings  [Sipun Ku Mahanta]
+ea09de5  Display correct device type in lock screen suggestion  [Sipun Ku Mahanta]
+a5ddbde  Settings: mobile -> cellular  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+10edeee  Automatic translation import  [Sipun Ku Mahanta]
+03ad710  Automatic translation import  [Sipun Ku Mahanta]
+c4d8862  Automatic translation import  [Sipun Ku Mahanta]
+67e5eae  Automatic translation import  [Sipun Ku Mahanta]
+64dc721  Snap: allow to disable image stabilization per device  [Sipun Ku Mahanta]
+e331021  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+6777911  Settings: Add Circle battery style from PA [2/2]  [Jayant-Deshmukh]
+   * vendor/superior/
+78a48cb  extract_utils: Support extracting from product partition  [Sipun Ku Mahanta]
+
+====================
+     09-10-2019
+====================
+
+   * frameworks/base/
+371dfc2  SystemUI: Whitelist our recorder on CastController  [Jayant-Deshmukh]
+6bd8077  VolumeDialogControllerImpl: Check for internal audio recording support  [Jayant-Deshmukh]
+259533b  base: seekbar: Increase bottom padding  [Jayant-Deshmukh]
+21b918c  Better QS detail clip animation  [Jayant-Deshmukh]
+42d2905  SystemUI: Allow for notch view to be ignored  [Jayant-Deshmukh]
+fa12c91  Allow override of DUN settings  [Jayant-Deshmukh]
+6143b6b  SystemUI: CellularTile: Improve layout  [Jayant-Deshmukh]
+6c45f5d  SystemUI: Add default data sub switcher in CellularTile  [Jayant-Deshmukh]
+   * manifest/
+9e05942  manifest: Track our own repo frameworks/opt/net/ims  [Jayant-Deshmukh]
+   * packages/apps/Recorder/
+407999c  Recorder: UI changes and improvements  [Jayant-Deshmukh]
+   * packages/apps/SuperiorSettings/
+0aa6538  Nemesis: Drop kuntao dev info  [Sipun Ku Mahanta]
+   * vendor/superior/
+1da7fe9  superior: drop kuntao  [Sipun Ku Mahanta]
+
+====================
+     09-09-2019
+====================
+
+   * build/make/
+12a836b  Bump Security String to 2019-09-05  [Sipun Ku Mahanta]
+941d3b6  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/build into pie  [Sipun Ku Mahanta]
+be3859f  More base_rules.mk optimizations  [Sipun Ku Mahanta]
+df476dc  Skip much of aux_config.mk  [Sipun Ku Mahanta]
+   * external/libcups/
+4fb0353  Fix heap buffer overflow in ipp.c  [Sipun Ku Mahanta]
+   * external/libhevc/
+f44d8fa  decoder: Fix valid SPS check in parsing SEI  [Sipun Ku Mahanta]
+   * frameworks/av/
+e038988  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/av  into pie  [Sipun Ku Mahanta]
+   * frameworks/base/
+5709ed7  permissions: Add Location & Storage to Default Dialer App  [Sipun Ku Mahanta]
+1a4885e  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into pie  [Sipun Ku Mahanta]
+   * frameworks/native/
+2eba472  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into pie  [Sipun Ku Mahanta]
+   * frameworks/opt/net/ims/
+577dd4d  Remove some code from r48 (fix compilation)  [Jayant-Deshmukh]
+   * hardware/nxp/nfc/
+0d02137  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/hardware/nxp/nfc into pie  [Sipun Ku Mahanta]
+   * manifest/
+793b924  Update sync instructions  [Sipun Ku Mahanta]
+5505bc0  Track some repos needed for Security patch  [Sipun Ku Mahanta]
+9d5c7dd  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/manifest into pie  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+d0b07dc  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie  [Sipun Ku Mahanta]
+   * packages/apps/Nfc/
+481f02e  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Nfc into pie  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+5e7315c  Settings: Prevent DataSaverBackend from overwriting uid policies  [Sipun Ku Mahanta]
+7433f51  Substratum: enable FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES by default  [Sipun Ku Mahanta]
+893a96e  Settings: Import Adaptive Battery translations from crosshatch  [Sipun Ku Mahanta]
+864a710  Fix to show eSIM reset checkbox in eng build  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+778ed3b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into pie  [Sipun Ku Mahanta]
+   * packages/services/Telecomm/
+c610ca7  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/services/Telecomm into pie  [Sipun Ku Mahanta]
+   * system/core/
+df9953e  Fix a memory leak in gatekeeper.  [Sipun Ku Mahanta]
+   * system/netd/
+14cb511  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/netd into pie  [Sipun Ku Mahanta]
+   * system/nfc/
+95ab708  Prevent integer overflow in NDEF_MsgValidate  [Sipun Ku Mahanta]
+00df784  Prevent OOB read in rw_t4t.cc  [Sipun Ku Mahanta]
+   * system/vold/
+091c24b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/vold into pie  [Sipun Ku Mahanta]
+   * vendor/superior/
+3ab7f85  LatinIME: Add en_GB, en_US, lt, lv, ro, sl, sr, tr dictionaries  [Sipun Ku Mahanta]
+c702916  kernel: Add TARGET_KERNEL_ADDITIONAL_FLAGS to allow setting extra cflags  [Sipun Ku Mahanta]
+fcb7615  overlay: Disable config_keyguardUserSwitcher on sw600dp  [Sipun Ku Mahanta]
+
+====================
+     09-08-2019
+====================
+
+
+====================
+     09-07-2019
+====================
+
+   * frameworks/base/
+82347f5  base: remove screenrecorder  [Jayant-Deshmukh]
+   * manifest/
+e8ef828  Manifest for Android 9.0.0 Release 48  [Bill Yi]
+e555a5a  Manifest for Android 9.0.0 Release 48  [The Android Open Source Project]
+
+====================
+     09-06-2019
+====================
+
+
+====================
+     09-05-2019
+====================
+
+   * frameworks/base/
+9d67f1f  Fix Google Markup FC  [Sipun Ku Mahanta]
+5fc0669  SystemUI: disable wallpaper-based tint for scrim  [Sipun Ku Mahanta]
+c4e9c0c  FOD: Change default icon and color  [Sipun Ku Mahanta]
+3fe17d4  fwb: media_seekbar: make it sexy  [Sipun Ku Mahanta]
+93a929c  fw/b: Use common network restrict apps method  [Sipun Ku Mahanta]
+dc689e5  Override the method onMenuPressed() in CarStatusBar to do the action "dismiss keyguard"  [Sipun Ku Mahanta]
+dbf3a51  Adjust QS Tile to work with new long screenshots  [Sipun Ku Mahanta]
+4518ca3  fwb: Increase Longshot timeout to 2 seconds  [Sipun Ku Mahanta]
+   * packages/apps/Longshot/
+124c3a2  Add edit action on notification  [Sipun Ku Mahanta]
+c76222e  Declare priv-app permission  [Sipun Ku Mahanta]
+
+====================
+     09-04-2019
+====================
+
+   * packages/apps/Recorder/
+25243f4  Automatic translation import  [jhenrique09]
+
+====================
+     09-03-2019
+====================
+
+   * packages/apps/Recorder/
+c74af6a  overlay: Use dp instead of sp on timer tick  [jhenrique09]
+6586a41  Keep overlay always dark  [jhenrique09]
+e4765ae  ScreencastService: Update notification immediately after recording started  [jhenrique09]
+5467cfc  OverlayService: Hide when starting recording, if not overlay should not be displayed  [jhenrique09]
+a3ba553  Fix inline build  [jhenrique09]
+fc9f85b  Revert "Android studio import"  [jhenrique09]
+c28df9e  Android studio import  [jhenrique09]
+f9d51c4  Improve error handling and some code  [jhenrique09]
+acc6ec7  Prevent miss-clicks on views  [jhenrique09]
+
+====================
+     09-02-2019
+====================
+
+   * packages/apps/Recorder/
+fc01360  Fix lag when dragging overlay and updating timer  [jhenrique09]
+5b48203  Add alpha on floating window  [jhenrique09]
+16e3015  Cleanup config  [jhenrique09]
+a650176  Adjust internal audio recording params  [jhenrique09]
+1f56e9a  Add timer into activity  [jhenrique09]
+5f33ba7  Revert "Open last recorded item on stop"  [jhenrique09]
+9778c93  Improve floating window  [jhenrique09]
+f04b85c  Use accent from framework  [jhenrique09]
+54deb67  Don't hardcode font  [jhenrique09]
+4fc7b0f  Fix black theme  [jhenrique09]
+54130d1  overlay: Add little spacing on the end of recording button  [jhenrique09]
+19386d1  Improve share notifications  [jhenrique09]
+263eac9  Disable qs tiles when locked  [jhenrique09]
+dd671a9  Open last recorded item on stop  [jhenrique09]
+aad89be  Add listener on Settings activity  [jhenrique09]
+f33d5a3  Stop overlay service on record started  [jhenrique09]
+3a78d14  Add orientation preference  [jhenrique09]
+0e4e3a4  Pause recording when screen off to save resources  [jhenrique09]
+db7264c  Check before unregistering broadcast receiver  [jhenrique09]
+309b558  Always use H264  [jhenrique09]
+5d4f105  Hide some activities from recents  [jhenrique09]
+73f9d42  Add more preferences  [jhenrique09]
+dbb5dec  Use reflection to collapse statusbar  [jhenrique09]
+1ede6d1  Improve transparent theme  [jhenrique09]
+02c298e  Conditionally disable internal audio recording support  [jhenrique09]
+38c59b2  Import custom androidx preference library for better theming  [jhenrique09]
+fec3196  More theming improvements  [jhenrique09]
+c09bc90  Refactor settings UI  [jhenrique09]
+adbd547  Refactor recording methods  [jhenrique09]
+9511b58  Separate and improve strings  [jhenrique09]
+446ad5a  Rename strings to custom_strings.xml  [jhenrique09]
+6574d90  Cleanup intents  [jhenrique09]
+9afc974  Remove from launcher  [jhenrique09]
+6e48d03  Update icon  [jhenrique09]
+8ff4d49  Change version  [jhenrique09]
+7004cc5  Implement qs tiles and refactor code  [jhenrique09]
+2885a4d  Improve recording floating overlay  [jhenrique09]
+33ce278  Don't use shared prefs to store recording state  [jhenrique09]
+fccca20  UI redesign  [jhenrique09]
+55254ec  Add system audio recording support [1/2]  [jhenrique09]
+e97bc73  Rebrand  [jhenrique09]
+1ad0339  Bump sdk  [jhenrique09]
+   * packages/apps/Updater/
+74cb481  Fix typo  [GitHub]
+a07d717  Updater: update server URL & changelog URL * Update Updater for new changelog URL  [Chau Truong Thinh]
+
+====================
+     09-01-2019
+====================
+
+   * hardware/interfaces/
+0751825  camera: fix compilation errors (#1)  [Jayant Deshmukh]
+   * manifest/
+6ba3634  manifest: track sm8150 hals  [Jayant-Deshmukh]
+
+====================
+     08-31-2019
+====================
+
+   * frameworks/base/
+678ffad  Disable suggestions (1/2)  [Jayant-Deshmukh]
+ccab277  Ability to disable dashboards conditions (1/2)  [Jayant-Deshmukh]
+   * packages/apps/Settings/
+ac07874  Disable suggestions (2/2) Thanks to @ezio84  [Jayant-Deshmukh]
+c979c0a  Ability to disable dashboards conditions (2/2)  [Jayant-Deshmukh]
+
+====================
+     08-30-2019
+====================
+
+
