@@ -1,0 +1,137 @@
+====================
+     09-17-2019
+====================
+
+
+====================
+     09-16-2019
+====================
+
+   * vendor/qcom/opensource/interfaces/
+4d2c5cd  IDisplayConfig: Add interface to get attributes of active display (#1)  [Jayant Deshmukh]
+
+====================
+     09-15-2019
+====================
+
+
+====================
+     09-14-2019
+====================
+
+
+====================
+     09-13-2019
+====================
+
+   * build/make/
+dc30d6d  Accept TARGET_DEVICE_DIR preserved from previous product load  [Sipun Ku Mahanta]
+   * build/soong/
+240b63b  soong: Change armv8 march and kryo385 mcpu  [Sipun Ku Mahanta]
+
+====================
+     09-12-2019
+====================
+
+   * frameworks/base/
+2dd7e6b9  Automatic translation import  [Sipun Ku Mahanta]
+   * manifest/
+932bcd3  revert back to R47  [Sipun Ku Mahanta]
+   * packages/apps/DeskClock/
+663f189  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+03f71ff  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/ExactCalculator/
+81ab00a  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Messaging/
+0f00787  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+5623aef  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNav/
+7c3d36f  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNavSettings/
+71a8678  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+d32f618  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+88668b2  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+9e56877  Automatic translation import  [Sipun Ku Mahanta]
+   * vendor/superior/
+957efc3  Update lawnchair to alpha 2399  [LordShenron]
+
+====================
+     09-11-2019
+====================
+
+
+====================
+     09-10-2019
+====================
+
+   * frameworks/opt/net/ims/
+577dd4d  Remove some code from r48 (fix compilation)  [Jayant-Deshmukh]
+   * packages/apps/Recorder/
+407999c  Recorder: UI changes and improvements  [Jayant-Deshmukh]
+
+====================
+     09-09-2019
+====================
+
+   * external/libcups/
+4fb0353  Fix heap buffer overflow in ipp.c  [Sipun Ku Mahanta]
+   * external/libhevc/
+f44d8fa  decoder: Fix valid SPS check in parsing SEI  [Sipun Ku Mahanta]
+   * frameworks/av/
+e038988  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/av  into pie  [Sipun Ku Mahanta]
+   * frameworks/native/
+2eba472  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into pie  [Sipun Ku Mahanta]
+   * hardware/nxp/nfc/
+0d02137  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/hardware/nxp/nfc into pie  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+d0b07dc  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie  [Sipun Ku Mahanta]
+   * packages/apps/Nfc/
+481f02e  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Nfc into pie  [Sipun Ku Mahanta]
+   * packages/services/Telecomm/
+c610ca7  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/services/Telecomm into pie  [Sipun Ku Mahanta]
+   * system/core/
+df9953e  Fix a memory leak in gatekeeper.  [Sipun Ku Mahanta]
+   * system/netd/
+14cb511  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/netd into pie  [Sipun Ku Mahanta]
+   * system/nfc/
+95ab708  Prevent integer overflow in NDEF_MsgValidate  [Sipun Ku Mahanta]
+   * system/vold/
+091c24b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/vold into pie  [Sipun Ku Mahanta]
+
+====================
+     09-08-2019
+====================
+
+
+====================
+     09-07-2019
+====================
+
+
+====================
+     09-06-2019
+====================
+
+
+====================
+     09-05-2019
+====================
+
+   * packages/apps/Longshot/
+124c3a2  Add edit action on notification  [Sipun Ku Mahanta]
+
+====================
+     09-04-2019
+====================
+
+
+====================
+     09-03-2019
+====================
+
+
