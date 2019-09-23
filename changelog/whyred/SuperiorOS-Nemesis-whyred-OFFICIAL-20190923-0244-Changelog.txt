@@ -1,0 +1,239 @@
+====================
+     09-23-2019
+====================
+
+
+====================
+     09-22-2019
+====================
+
+
+====================
+     09-21-2019
+====================
+
+
+====================
+     09-20-2019
+====================
+
+
+====================
+     09-19-2019
+====================
+
+
+====================
+     09-18-2019
+====================
+
+   * packages/apps/Updater/
+93a64ec  Updater: update server URL & changelog URL  [Chau Truong Thinh]
+
+====================
+     09-17-2019
+====================
+
+   * vendor/qcom/opensource/interfaces/
+4d2c5cd  IDisplayConfig: Add interface to get attributes of active display (#1)  [Jayant Deshmukh]
+
+====================
+     09-16-2019
+====================
+
+
+====================
+     09-15-2019
+====================
+
+   * device/xiaomi/whyred/
+d0f4f12  Revert "whyred: Use clang 9.0.6"  [Subinsmani]
+
+====================
+     09-14-2019
+====================
+
+   * device/xiaomi/whyred/
+0af92ec  whyred: Use clang 9.0.6  [Sipun Ku Mahanta]
+
+====================
+     09-13-2019
+====================
+
+   * build/make/
+dc30d6d82  Accept TARGET_DEVICE_DIR preserved from previous product load  [Sipun Ku Mahanta]
+b8743e2b2  Correctly configure armv8-2a for 32-bit  [Sipun Ku Mahanta]
+0a8442abb  Support kryo385 CPU.  [Sipun Ku Mahanta]
+6ce0e7047  Enable armv8-2a supporting on 2nd arch. variant  [Sipun Ku Mahanta]
+3852a5660  build: cleanup some makefiles  [Sipun Ku Mahanta]
+   * build/soong/
+240b63bf  soong: Change armv8 march and kryo385 mcpu  [Sipun Ku Mahanta]
+7ebc1855  Merge pull request #1 from rashedsahaji/pie  [GitHub]
+40bb9e88  Add kryo300 to CPU optimizations list  [rashedsahaji]
+   * vendor/xiaomi/MiuiCamera/
+b62a88e  Update vendor path  [GitHub]
+
+====================
+     09-12-2019
+====================
+
+   * device/xiaomi/whyred/
+9a71d95  whyred: overlay: Disable night light  [Sipun Ku Mahanta]
+63bb2bf  whyred: Add call recording Overlay  [Sipun Ku Mahanta]
+4e8c370  whyred: parts: Add vector icons  [Sipun Ku Mahanta]
+8fa5d47  whyred: Superior OS Bringup  [Sipun Ku Mahanta]
+   * frameworks/base/
+2dd7e6b9de4  Automatic translation import  [Sipun Ku Mahanta]
+   * manifest/
+932bcd3  revert back to R47  [Sipun Ku Mahanta]
+   * packages/apps/DeskClock/
+663f18969  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+03f71fff1  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/ExactCalculator/
+81ab00a  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Messaging/
+0f00787  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+5623aefbbc  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNav/
+7c3d36f  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNavSettings/
+71a8678  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+d32f61822  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+88668b2  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+9e56877  Automatic translation import  [Sipun Ku Mahanta]
+   * vendor/superior/
+957efc3a  Update lawnchair to alpha 2399  [LordShenron]
+   * vendor/xiaomi/MiuiCamera/
+916636b  Add privapp perms  [Sipun Ku Mahanta]
+
+====================
+     09-11-2019
+====================
+
+   * frameworks/base/
+886ad53c158  Fix the behavior of keyguard bouncer in a corner case  [Sipun Ku Mahanta]
+5feb5ca4064  Fix to register the receiver for all users  [Sipun Ku Mahanta]
+56556a57cf0  Remove unnecessary right padding from time picker  [Sipun Ku Mahanta]
+0bf72504f47  Fix sim pin on DSDS  [Sipun Ku Mahanta]
+b8370910b50  Dismiss SIM lock page after correct SIM  [Sipun Ku Mahanta]
+383934a5562  When data switches during voice call, make sure signal bar updates it.  [Sipun Ku Mahanta]
+7f241e94cce  SystemUI: Fix multiple issues with hiding unprovisioned SIMs  [Sipun Ku Mahanta]
+a27267ddf18  Fix wrong locale causing reboot in recovery  [Sipun Ku Mahanta]
+3b8ef6a7883  Fix NPE in SyncRtSurfaceTransactionApplier#scheduleApply  [Sipun Ku Mahanta]
+c40428fde15  GPU Renderer: OpenGL is not the default GPU renderer anymore  [Sipun Ku Mahanta]
+9149218e757  base: Add Circle battery style from PA [1/2]  [Jayant-Deshmukh]
+371dfc2fd40  SystemUI: Whitelist our recorder on CastController  [Jayant-Deshmukh]
+6bd807735e5  VolumeDialogControllerImpl: Check for internal audio recording support  [Jayant-Deshmukh]
+259533b9e64  base: seekbar: Increase bottom padding  [Jayant-Deshmukh]
+21b918c330e  Better QS detail clip animation  [Jayant-Deshmukh]
+42d2905e2e6  SystemUI: Allow for notch view to be ignored  [Jayant-Deshmukh]
+fa12c913386  Allow override of DUN settings  [Jayant-Deshmukh]
+6143b6bc6a2  SystemUI: CellularTile: Improve layout  [Jayant-Deshmukh]
+6c45f5d3d8b  SystemUI: Add default data sub switcher in CellularTile  [Jayant-Deshmukh]
+   * kernel/xiaomi/whyred/
+d4aff4c5da14  whyred-perf_defconfig: purecaf x11  [srfarias]
+412ccb5c194a  drivers: input: touchscreen: nvt_touch_e7s & synaptics_dsx_e7s: Use FIFO  [srfarias]
+faa250b61a31  fpc1020: Set fingerprintd priority to max when screen is off  [srfarias]
+7eaf8e150b9f  HACK: fingerprint: use realtime mutex  [srfarias]
+210ebbdf15df  iommu: msm: Rewrite to improve clarity and performance  [srfarias]
+fb19bbfb6758  whyred-perf_defconfig: disable wake boost  [srfarias]
+9362258ba152  whyred-perf_defconfig: enable wq power efficient by default  [srfarias]
+6505e252455f  mdss_fb: Fix sRGB reset after screen off/on  [srfarias]
+e0d44f7bdc83  Revert "arch: arm: dts: Remove ce and srgb command for tianma td4310 panel"  [srfarias]
+197d4c7d51d1  whyred-perf_defconfig: add RCU_KTHREAD_PRIO  [srfarias]
+19e391e7b919  ARM: dts: sdm660: Set cpubw governor to bw_hwmon  [srfarias]
+989c557486cd  [DNM]whyred: Remove rcu_expedited  [srfarias]
+   * packages/apps/Recorder/
+407999c  Recorder: UI changes and improvements  [Jayant-Deshmukh]
+   * packages/apps/Settings/
+fe3bcf1aca  settings : move wifi mac randomization to wifi settings  [Sipun Ku Mahanta]
+ea09de5cba  Display correct device type in lock screen suggestion  [Sipun Ku Mahanta]
+a5ddbde150  Settings: mobile -> cellular  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+10edeee88  Automatic translation import  [Sipun Ku Mahanta]
+03ad710ef  Automatic translation import  [Sipun Ku Mahanta]
+c4d886204  Automatic translation import  [Sipun Ku Mahanta]
+67e5eae5d  Automatic translation import  [Sipun Ku Mahanta]
+64dc7216c  Snap: allow to disable image stabilization per device  [Sipun Ku Mahanta]
+e331021f2  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+6777911  Settings: Add Circle battery style from PA [2/2]  [Jayant-Deshmukh]
+   * vendor/superior/
+78a48cba  extract_utils: Support extracting from product partition  [Sipun Ku Mahanta]
+
+====================
+     09-10-2019
+====================
+
+   * device/xiaomi/whyred/
+e5e4fd3  whyred: Add remapping table for display modes  [srfarias]
+   * frameworks/opt/net/ims/
+577dd4d  Remove some code from r48 (fix compilation)  [Jayant-Deshmukh]
+   * kernel/xiaomi/whyred/
+b051f361beee  whyred-perf_defconfig: update max freq boost  [srfarias]
+62077f2ee31b  [DNM]whyred-perf_defconfig: conservative by default  [srfarias]
+   * manifest/
+9e05942  manifest: Track our own repo frameworks/opt/net/ims  [Jayant-Deshmukh]
+   * packages/apps/SuperiorSettings/
+0aa6538  Nemesis: Drop kuntao dev info  [Sipun Ku Mahanta]
+   * vendor/superior/
+1da7fe90  superior: drop kuntao  [Sipun Ku Mahanta]
+
+====================
+     09-09-2019
+====================
+
+   * build/make/
+12a836be9  Bump Security String to 2019-09-05  [Sipun Ku Mahanta]
+941d3b63b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/build into pie  [Sipun Ku Mahanta]
+be3859f5f  More base_rules.mk optimizations  [Sipun Ku Mahanta]
+df476dcb9  Skip much of aux_config.mk  [Sipun Ku Mahanta]
+   * external/libcups/
+4fb0353  Fix heap buffer overflow in ipp.c  [Sipun Ku Mahanta]
+   * external/libhevc/
+f44d8fa  decoder: Fix valid SPS check in parsing SEI  [Sipun Ku Mahanta]
+   * frameworks/av/
+e038988a7  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/av  into pie  [Sipun Ku Mahanta]
+   * frameworks/base/
+5709ed76cef  permissions: Add Location & Storage to Default Dialer App  [Sipun Ku Mahanta]
+1a4885e2ed8  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into pie  [Sipun Ku Mahanta]
+   * frameworks/native/
+2eba472dc  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into pie  [Sipun Ku Mahanta]
+   * hardware/nxp/nfc/
+0d02137  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/hardware/nxp/nfc into pie  [Sipun Ku Mahanta]
+   * manifest/
+793b924  Update sync instructions  [Sipun Ku Mahanta]
+5505bc0  Track some repos needed for Security patch  [Sipun Ku Mahanta]
+9d5c7dd  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/manifest into pie  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+d0b07dc6  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie  [Sipun Ku Mahanta]
+   * packages/apps/Nfc/
+481f02eb  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Nfc into pie  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+5e7315cf7e  Settings: Prevent DataSaverBackend from overwriting uid policies  [Sipun Ku Mahanta]
+7433f51afa  Substratum: enable FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES by default  [Sipun Ku Mahanta]
+893a96eeda  Settings: Import Adaptive Battery translations from crosshatch  [Sipun Ku Mahanta]
+864a71048d  Fix to show eSIM reset checkbox in eng build  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+778ed3b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into pie  [Sipun Ku Mahanta]
+   * packages/services/Telecomm/
+c610ca7f  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/services/Telecomm into pie  [Sipun Ku Mahanta]
+   * system/core/
+df9953ec5  Fix a memory leak in gatekeeper.  [Sipun Ku Mahanta]
+   * system/netd/
+14cb511  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/netd into pie  [Sipun Ku Mahanta]
+   * system/nfc/
+95ab708  Prevent integer overflow in NDEF_MsgValidate  [Sipun Ku Mahanta]
+00df784  Prevent OOB read in rw_t4t.cc  [Sipun Ku Mahanta]
+   * system/vold/
+091c24b  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/vold into pie  [Sipun Ku Mahanta]
+   * vendor/superior/
+3ab7f852  LatinIME: Add en_GB, en_US, lt, lv, ro, sl, sr, tr dictionaries  [Sipun Ku Mahanta]
+c702916c  kernel: Add TARGET_KERNEL_ADDITIONAL_FLAGS to allow setting extra cflags  [Sipun Ku Mahanta]
+fcb76153  overlay: Disable config_keyguardUserSwitcher on sw600dp  [Sipun Ku Mahanta]
+
