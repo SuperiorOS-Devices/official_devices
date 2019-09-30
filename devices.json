@@ -358,5 +358,20 @@
       "date": "2019/06/18",
       "maintainer_name": "Mayur Varde",
       "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-superioros-moto-g5s-plus-t3936993"
+    },
+    {
+     "device_name": "Mi 5S",
+     "codename": "capricorn",
+     "assert": ["Mi 5S"],
+     "datetime":1568799046,
+     "filename": "SuperiorOS-Nemesis-capricorn-OFFICIAL-20190918-0932.zip",
+     "id": "70b90c5343fd22b7c55c6159c6790eea",
+     "romtype": "OFFICIAL",
+     "size":669296571,
+     "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Nemesis-capricorn-OFFICIAL-20190918-0932.zip",
+     "version": "Nemesis",
+     "date": "2019/09/18",
+     "maintainer_name": "henmadx",
+     "xda_thread": "https://forum.xda-developers.com/mi-5s/development/rom-superioros-9-0-t3909656"
     }
 ]
