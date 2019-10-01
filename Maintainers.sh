@@ -65,11 +65,11 @@ url_old=`cat ~/official_devices/builds/$device.json | grep https | cut -d '"' -f
 `sed -i "s|$url_old|$url|g" ~/official_devices/builds/$device.json`
 
 # Changelogs
-if [ -d ~/official_devices/changelog/$device ];then
-cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelog/$device/
+if [ -d ~/official_devices/changelogs/$device ];then
+cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelogs/$device/
 else
-mkdir -p ~/official_devices/changelog/$device
-cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelog/$device/
+mkdir -p ~/official_devices/changelogs/$device
+cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelogs/$device/
 fi
 
 # add & push commit to github
