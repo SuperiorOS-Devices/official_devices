@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1566964333,
-      "filename": "SuperiorOS-Nemesis-platina-OFFICIAL-20190828-0352.zip",
-      "id": "8f0d32e1bac09140304dc3fe3e499265",
+      "datetime":1570723967,
+      "filename": "SuperiorOS-Nemesis-platina-OFFICIAL-20191010-1613.zip",
+      "id": "381c139095db89513ebf31bd3f1f3fd8",
       "romtype": "OFFICIAL",
-      "size":782564226,
-      "url": "https://master.dl.sourceforge.net/project/superioros/platina/SuperiorOS-Nemesis-platina-OFFICIAL-20190828-0352.zip",
+      "size":790592671,
+      "url": "https://master.dl.sourceforge.net/project/superioros/platina/SuperiorOS-Nemesis-platina-OFFICIAL-20191010-1613.zip",
       "version": "Nemesis"
     }
   ]
