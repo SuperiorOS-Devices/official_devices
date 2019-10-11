@@ -1,0 +1,308 @@
+====================
+     10-11-2019
+====================
+
+   * frameworks/base/
+109adfb1739  Import translations for Typographic Clock  [Sipun Ku Mahanta]
+80e82dce362  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+6dbf14fdcb  Automatic translation import  [Sipun Ku Mahanta]
+   * vendor/qcom/opensource/cryptfs_hw/
+77e2bb7  cryptfs_hw: Featurize support for waiting on QSEE to start  [Sipun Ku Mahanta]
+2198c6a  cryptfs_hw: Add compatibility for pre-O hw crypto  [Sipun Ku Mahanta]
+f9c0d5a  cryptfs_hw: add missing logging tag  [Sipun Ku Mahanta]
+   * vendor/superior/
+a34d2834  soong_config: Add flag for crypto waiting on QSEE to start  [Sipun Ku Mahanta]
+37cb8b32  soong_config: Add flag for legacy HW FDE  [Sipun Ku Mahanta]
+fce3e693  soong_config: Add new flags for HW FDE  [Sipun Ku Mahanta]
+1705f6a1  Revert "soong_config: Add new flags for HW FDE"  [Sipun Ku Mahanta]
+d685e615  Revert "soong_config: Add flag for legacy HW FDE"  [Sipun Ku Mahanta]
+c23c0e73  Revert "soong_config: Add flag for crypto waiting on QSEE to start"  [Sipun Ku Mahanta]
+
+====================
+     10-10-2019
+====================
+
+   * packages/apps/DeskClock/
+e241edc26  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+55b537bb4  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/ExactCalculator/
+866c212  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Messaging/
+058a52f  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNav/
+9c99714  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SmartNavSettings/
+1f66164  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Snap/
+38fb99da8  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+910894d  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+bd31425  Automatic translation import  [Sipun Ku Mahanta]
+   * system/vold/
+37c28e5  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/system/vold into pie  [Sipun Ku Mahanta]
+ea074ff  vold: change to upgrade key if export fails  [Sipun Ku Mahanta]
+62de889  vold: add support for clear key  [Sipun Ku Mahanta]
+4d19794  vold: Use separate flag for wrappedkey  [Sipun Ku Mahanta]
+1d9a89b  vold: Wrapped key support for FBE  [Sipun Ku Mahanta]
+ffff437  vold: add support for more filesystems for public storage  [Sipun Ku Mahanta]
+8b0d2ea  vold: Add linkage for fs_mgr changes  [Sipun Ku Mahanta]
+8ab46d9  vold: Move QCOM HW FDE inclusion under namespace  [Sipun Ku Mahanta]
+12ba2f6  system: vold: Remove crypto block device creation  [Sipun Ku Mahanta]
+6d2a778  vold: Add Hardware FDE feature  [Sipun Ku Mahanta]
+5f2583c  Merge tag 'android-9.0.0_r12' of https://android.googlesource.com/platform/system/vold into pie  [Sipun Ku Mahanta]
+
+====================
+     10-09-2019
+====================
+
+
+====================
+     10-08-2019
+====================
+
+
+====================
+     10-07-2019
+====================
+
+
+====================
+     10-06-2019
+====================
+
+
+====================
+     10-05-2019
+====================
+
+   * hardware/qcom/display-caf/msm8998/
+7e778780e  gralloc: Add option for YCrCb venus camera preview  [LuK1337]
+0ba726674  gralloc: Allow devices to opt-in for YCrCb camera preview  [LuK1337]
+
+====================
+     10-04-2019
+====================
+
+
+====================
+     10-03-2019
+====================
+
+   * packages/apps/SuperiorSettings/
+91117d8  SuperiorSettings: add x2, zenfone3 (#24)  [Sipun Ku Mahanta]
+   * vendor/superior/
+a4bc22ea  superior: add x2, zenfone3 (#15)  [Sipun Ku Mahanta]
+
+====================
+     10-02-2019
+====================
+
+   * frameworks/base/
+c1a3f4f7927  SystemUI: Tiny expanding improvement  [Sipun Ku Mahanta]
+16ae5861ce7  base: SystemUI: make storage notification channel blockable  [Sipun Ku Mahanta]
+   * system/sepolicy/
+6d63d515  adbd: do not audit vsock_socket create  [Sipun Ku Mahanta]
+   * vendor/superior/
+38affe64  BoardConfigQcom: Fix setting UM4.9 and UM4.14 specific flags  [Sipun Ku Mahanta]
+424fa3c0  apn: Update Bulgarian carriers  [Sipun Ku Mahanta]
+
+====================
+     10-01-2019
+====================
+
+
+====================
+     09-30-2019
+====================
+
+
+====================
+     09-29-2019
+====================
+
+
+====================
+     09-28-2019
+====================
+
+   * hardware/qcom/audio-caf/msm8960/
+5afa1930e  audio_hw: match destruction of mutexes  [Arne Coucheron]
+1409cb84b  hal: close audio calibration fd  [Arne Coucheron]
+1102d5f1a  hal: Add support for voice calls on Fusion3 platforms  [Arne Coucheron]
+5ccd4d923  audio-hw: Restrict voice_start_usecase only for 1 call at a time  [Arne Coucheron]
+5bd98d30b  hal: Fix no audio during voice call with voip in background  [Arne Coucheron]
+2a7ce7570  hal: fix no sound issue in voice call  [Arne Coucheron]
+9dd8d5268  hal: Ensure mic mute state updated before starting voice call  [Arne Coucheron]
+286c33946  hal: fix Rx path mute issue during incall recording  [Arne Coucheron]
+6dde97342  audio: Use generated kernel headers  [Arne Coucheron]
+b1692dc2e  msm8960: fix unused-parameter errors when no extensions are defined  [Arne Coucheron]
+2b9cc7f08  hal: Require feature flags to be explicitly enabled  [Arne Coucheron]
+3ba81f897  hal: Update prefixes for audio system properties  [Arne Coucheron]
+4ab970516  mm-audio: Add -Wno-error to compile with global -Werror.  [Arne Coucheron]
+90e42fe32  audio: Fix deprecated log warning  [Arne Coucheron]
+f56ae1248  Use -Werror in hardware/qcom/audio  [Arne Coucheron]
+a32bccb95  post_proc: do not use GNU old-style field designators  [Arne Coucheron]
+1d26abcf4  visualizer: do not use GNU old-style field designators  [Arne Coucheron]
+8c13aa1c4  voice_processing: do not use GNU old-style field designators  [Arne Coucheron]
+980efe517  Enable strict error for warnings  [Arne Coucheron]
+9720ebfd6  audio: Fix complilation warnings under Clang  [Arne Coucheron]
+54cac82d5  audio: Remove policy hal directory  [Arne Coucheron]
+49faa9704  Use header lib instead of using global include path  [Arne Coucheron]
+a3269cffa  hal: Use LOCAL_VENDOR_MODULE  [Arne Coucheron]
+8e5442d14  policy_hal: Partial revert "audio: remove 5.1 channel mask if SSR is not supported"  [Arne Coucheron]
+d04778891  msm8960: treblize configuration  [Arne Coucheron]
+c31b9164d  hal: audio-test: Move omx tests mm-audio-internal  [Arne Coucheron]
+a188e8bda  mm-audio: Remove omx decoder components from mm-audio folder  [Arne Coucheron]
+79c1b7727  policy_hal: fix for MR1 function prototype.  [Arne Coucheron]
+0a21127ee  policy_hal: update custom audio policy against OPR1.170521.001_AOSP  [Arne Coucheron]
+e309bb097  hal: return EINVAL by default for presentation_position  [Arne Coucheron]
+fe4d8324f  policy_hal: update custom audio policy APIs against AOSP  [Arne Coucheron]
+30dca06fb  policy_hal: update custom audio policy implementation APIs against O-AOSP  [Arne Coucheron]
+b75b9901c  Equalizer: Check value size for get preset name  [Arne Coucheron]
+027d30204  aenc-aac: bounds checking  [Arne Coucheron]
+9d78a156b  Fix parameters passed to pcm_open to include PCM_MONOTONIC  [Arne Coucheron]
+15fdc27a8  HAL: Align error code with HIDL wrapper  [Arne Coucheron]
+c699c20ad  Move device dependent modules to /vendor  [Arne Coucheron]
+71578d835  policy_hal: fix build with concurrent audio capture  [Arne Coucheron]
+92041d2a8  Add missing liblog dependency  [Arne Coucheron]
+1ee5f87a2  policy_hal: Add libbase static library dependency  [Arne Coucheron]
+78d8f6e68  Fix security vulnerability: Equalizer setParameter memory overflow  [Arne Coucheron]
+97ced6666  audiopolicy: do not set FM volume during device connection/disconnection  [Arne Coucheron]
+be3836249  audiopolicy: update correct device for primary output when FM resumed  [Arne Coucheron]
+9c3c24d32  Fix security vulnerability: Equalizer command might allow negative indexes  [Arne Coucheron]
+64804e241  Fix security vulnerability: Effect command might allow negative indexes  [Arne Coucheron]
+3eddbdbab  hal: Additional checks for dedicated VOIP input  [Arne Coucheron]
+a75285115  hal: Remove volume boost feature for msm8960  [Arne Coucheron]
+638e404a0  audio policy: fix media volume after ringtone  [Arne Coucheron]
+2a51bd491  audio: set voice call volume step by property  [Arne Coucheron]
+8d93feb47  hal: Port the dock support to non-legacy 8960 hal  [Arne Coucheron]
+c4b7b4643  audiopolicy: Avoid spurious routing in APM::stopSource  [Arne Coucheron]
+af1613a4e  hal: Remove compress voip formats and voip_rx flag  [Arne Coucheron]
+b9d0f77f8  hal: Fix device selection at start of the voice call  [Arne Coucheron]
+86c1e6caa  hal: Fix routing issue for voip use case  [Arne Coucheron]
+a1ee938b2  hal: Stop log spam when COMPRESS_VOIP_ENABLED is not defined  [Arne Coucheron]
+d99536d4d  Add AudioRecord timestamps  [Arne Coucheron]
+248ef645a  policy_hal: Update policy hal for N  [Arne Coucheron]
+cbfff7dfc  hal: Increase deep buffer buffering  [Arne Coucheron]
+86fc7205c  hal: Add legacy EDID channel retrieval  [Arne Coucheron]
+a57008257  hal: Remove listen calibration from 8960 hal  [Arne Coucheron]
+b9641fb21  hal: Don't make missing CSD init/deinit functions fatal  [Arne Coucheron]
+c5cbd7c3b  hal: Detect additional baseband properties  [Arne Coucheron]
+fb8984e89  hal: Add support for HTC CSD client  [Arne Coucheron]
+f72f52dd6  hal: Support old CSD API and add support for Samsung CSD client  [Arne Coucheron]
+ee399ac24  hal: only open the amplifier once  [Arne Coucheron]
+f244ec43e  hal: enable amplifier earlier  [Arne Coucheron]
+5f7bde413  hal: Notify amplifier of device enable/disable  [Arne Coucheron]
+c041d62c1  hal: Convert libaudioamp to audio_amplifier HAL  [Arne Coucheron]
+505496624  hal: Support the audio amplifier hook  [Arne Coucheron]
+3dd304dc4  hal: Clean up from merge  [Arne Coucheron]
+f4080e6aa  hal: Remove obsolete FM_ENABLED flag  [Arne Coucheron]
+6d7c0e348  voice_extn: remove redundant check of mode when stop voice use case  [Arne Coucheron]
+22fbe47a4  audiopolicy: enable deep buffer output by default for music streams  [Arne Coucheron]
+85a496d8d  audiopolicy: use deep buffer output by default for music streams  [Arne Coucheron]
+4a01503a3  mm-audio: omx: Fix OMX encoders timestamp  [Arne Coucheron]
+6ab6482b6  hal: fix resource leak issues in platform.c  [Arne Coucheron]
+6fddf05a9  audio HAL: do not stop capture on overrun  [Arne Coucheron]
+f371dbd40  audio HAL: fix thread starvation  [Arne Coucheron]
+b6fb40825  hal: Validate active input before accessing source  [Arne Coucheron]
+041282b9e  hal: fm: add parameter to set mute options  [Arne Coucheron]
+21c3705a7  policy_hal: fix for FM playback without active music stream  [Arne Coucheron]
+2edf449de  policy_hal: fix for volume burst during FM device switch  [Arne Coucheron]
+b3eeb06f6  policy: Delay FM volume update to start of FM playback  [Arne Coucheron]
+651847378  policy: Avoid unnecessary set_parameter calls  [Arne Coucheron]
+6ef895283  hal: audio_extn: fix pop noise when FM is interrupted by voice call  [Arne Coucheron]
+2a421fa92  audio: update flags for selection of VoIP direct output  [Arne Coucheron]
+6b283342f  hal: add support to use low latency as primary output  [Arne Coucheron]
+8220cb3e8  hal: Sync name_to_index table with pcm_device_table  [Arne Coucheron]
+9a5d07147  hal: Fix voice call recording on msm8960  [Arne Coucheron]
+7e43b83c3  hal: Adjust DEEP_BUFFER_OUTPUT_PERIOD_COUNT to match legacy kernel  [Arne Coucheron]
+cdc3673dc  hal: Reduce some logspam  [Arne Coucheron]
+f7faa89d5  hal: Update and cleanup makefiles  [Arne Coucheron]
+2c25004bb  hal: Use old mixer for setting voice volume  [Arne Coucheron]
+bd8d3fe0c  hal: Rename from 8974/8084 to msm8960  [Arne Coucheron]
+4ea756ffb  hal: Copy msm8974 platform to msm8960  [Arne Coucheron]
+28d22cc32  hal: Squashed set of updates and fixes from 8974 branch  [Arne Coucheron]
+ba2e9bf82  hal: header file fix for audio_hw  [Arne Coucheron]
+982f085f4  audio: Fix compilation errors  [Arne Coucheron]
+c0e79bc3c  audio: fix member initialization  [Arne Coucheron]
+589ad9307  hal: fix the input device selection for headphones  [Arne Coucheron]
+e2f071e49  hal: fix miscellaneous errors  [Arne Coucheron]
+f1ae5ef9d  hal: fix unused param warnings  [Arne Coucheron]
+25f2c4656  hal: fix incompatible APIs  [Arne Coucheron]
+c40da96fa  hal: avoid usage of extern functions and tables  [Arne Coucheron]
+d3098dfce  hal: miscellaneous fixes  [Arne Coucheron]
+2cab1be21  hal: Remove unnecessary check in make file  [Arne Coucheron]
+28e7e2a23  policy_hal: Always call local implementation of updateCallRouting  [Arne Coucheron]
+d459b1076  policy_hal: Add custom audio policy  [Arne Coucheron]
+29eb741a8  alsa_sound: Remove deprecated DEVICE_OUT_FM_TX  [Arne Coucheron]
+dfeacab15  alsa_sound: Remove deprecated audio policy sources  [Arne Coucheron]
+0a2356d98  alsa_sound: Enable QCOM_PROXY_DEVICE_ENABLED by default  [Arne Coucheron]
+a9333c377  alsa_sound: Fix handling of zero size write request  [Arne Coucheron]
+ad86259d9  libalsa-intf: Fix clang compiler errors  [Arne Coucheron]
+ff40a6bed  alsa_sound: Fix clang compiler errors  [Arne Coucheron]
+d2d3efee7  libalsa-intf: Don't log as error on successful EC change  [Arne Coucheron]
+4967a84f7  alsa_sound: Make changes for FM_TUNER support  [Arne Coucheron]
+8b82aab29  alsa_sound: Invert proxy/usbaudio check  [Arne Coucheron]
+e458ccebd  alsa_sound: Add MSM string parameters.  [Arne Coucheron]
+2469463a3  Use standard initializers  [Arne Coucheron]
+f9d1d8584  Remove checks for TARGET_SIMULATOR  [Arne Coucheron]
+18a48c110  Remove obsolete LOCAL_PRELINK_MODULE  [Arne Coucheron]
+e4756a55a  alsa_sound: Disable tunnel/LPA  [Arne Coucheron]
+f246effa4  audio: Notify amplifier of device enable/disable  [Arne Coucheron]
+d58219950  audio: Refactor amplifier_set_device logic  [Arne Coucheron]
+b9083017b  audio: Convert libaudioamp to audio_amplifier HAL  [Arne Coucheron]
+be1b31af2  audio: Make audio device accessible to HAL functions  [Arne Coucheron]
+41b872723  alsa_sound: Fix compilation for 5.1  [Arne Coucheron]
+54f3fc09c  alsa_sound: Remove orphaned QCOM_COMPRESSED_AUDIO flag  [Arne Coucheron]
+3c657e35c  hal: Make use of hwdep calibration optional  [Arne Coucheron]
+a32ea8d5c  alsa_sound: Fix CSD client check  [Arne Coucheron]
+9c3a1d95b  Invert ANC Headset.  [Arne Coucheron]
+a315b78a7  audio: Use Fluence constant internal to HAL  [Arne Coucheron]
+703e6bb8e  alsa_sound: Add support for "Voice Earpiece Extra Gain" mode  [Arne Coucheron]
+ec487c731  alsa_sound: Add support for seperated FM devices  [Arne Coucheron]
+08ccd2db4  alsa_sound: Raise priority of separate VOIP input  [Arne Coucheron]
+8dd930ad4  alsa_sound: fix doRouting parameters  [Arne Coucheron]
+2b4049197  alsa_sound: fix build when QCOM_USBAUDIO_ENABLED = false  [Arne Coucheron]
+3c65d3b85  alsa_sound: prevent mSSRComplete from being uninitialized  [Arne Coucheron]
+7211a28d3  alsa_sound: Clean up makefiles  [Arne Coucheron]
+80981140c  alsa_sound: Squash of commits dealing with CSD client  [Arne Coucheron]
+21824a52a  alsa_sound: Add support for Moto X sound card  [Arne Coucheron]
+53897b75b  alsa_sound: Fix camcorder input selection  [Arne Coucheron]
+03d1b4308  alsa_sound: Add support for separated speaker mic devices  [Arne Coucheron]
+d7a8767c6  alsa_sound: Initialize variable  [Arne Coucheron]
+75e588dcd  Add Motorola EMU audio dock support  [Arne Coucheron]
+81ff91049  libalsa-intf: snd_use_case_apply_voice_acdb: initialise current_mod[]  [Arne Coucheron]
+7eb65a86a  alsa_sound: ensure mInputSource is initialised  [Arne Coucheron]
+53201397e  alsa_sound: Fix compiler warnings  [Arne Coucheron]
+bea0ac647  alsa_sound: Add support for sound card in Galaxy S4 Mini  [Arne Coucheron]
+91bf03617  alsa_sound: Don't use USB devices for calls  [Arne Coucheron]
+8a626fe26  alsa_sound: Improve USB device detection  [Arne Coucheron]
+b0ee71a17  alsa_sound: Allow dual-mic device to be used for VOIP calls  [Arne Coucheron]
+54aecbd77  alsa_sound: Untangle VOIP/voice speaker handling  [Arne Coucheron]
+523546734  alsa_sound: Trigger immediate doRouting() on setMode() change to normal  [Arne Coucheron]
+5e632ad41  audio: provide a hook for audio amplifier implementations  [Arne Coucheron]
+2b48d4f0b  alsa_sound: Add support for VR-on-wired-headset device  [Arne Coucheron]
+5fe109c16  alsa_sound: Add support for seperated headset mic devices  [Arne Coucheron]
+3e51042a8  alsa_sound: Add support for seperated VOIP devices  [Arne Coucheron]
+af65aef23  alsa_sound: modify the SPEAKER_RX_ACDB to support both MONO and STEREO speaker  [Arne Coucheron]
+60be2bec4  alsa_sound: add HTC CSD CLIENT board flag for special cases (BT)  [Arne Coucheron]
+1144a245d  alsa_sound: Support ES325 2Mic and Samsung CSD client  [Arne Coucheron]
+e282635b8  alsa_sound: fix debug message derp  [Arne Coucheron]
+21f89d962  alsa_sound: Disable verbose logging  [Arne Coucheron]
+afb33053e  alsa_sound: Add option to use seperated speakerphone device  [Arne Coucheron]
+92df92271  alsa_sound: Allow SPEAKER_DUAL_MIC_* UCMs with USES_FLUENCE_INCALL  [Arne Coucheron]
+40363f17c  alsa: fix platform detection for m7 devices  [Arne Coucheron]
+1d0c34fb1  audio: Dynamic library loading, compilation fixes.  [Arne Coucheron]
+cc0a10d60  alsa_sound: Fix separated audio input support  [Arne Coucheron]
+2de780ad1  alsa_sound: Add support for Audience A2220  [Arne Coucheron]
+c8cde6fbd  audio: Enhance ALSA for USB Dock Audio support  [Arne Coucheron]
+4f4607ace  audio: Use    * pathmap  [Arne Coucheron]
+
+====================
+     09-27-2019
+====================
+
+
