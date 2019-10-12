@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1566040531,
-      "filename": "SuperiorOS-Nemesis-angler-OFFICIAL-20190817-1116.zip",
-      "id": "33489e3604bfc860a2131328dd701e50",
+      "datetime":1570858152,
+      "filename": "SuperiorOS-Nemesis-angler-OFFICIAL-20191012-0529.zip",
+      "id": "9a3949b6ddabdf25b5d88364135f4dc6",
       "romtype": "OFFICIAL",
-      "size":596622268,
-      "url": "https://master.dl.sourceforge.net/project/superioros/angler/SuperiorOS-Nemesis-angler-OFFICIAL-20190817-1116.zip",
+      "size":529195717,
+      "url": "https://master.dl.sourceforge.net/project/superioros/angler/SuperiorOS-Nemesis-angler-OFFICIAL-20191012-0529.zip",
       "version": "Nemesis"
     }
   ]
