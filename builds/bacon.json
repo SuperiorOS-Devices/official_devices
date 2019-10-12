@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1568610615,
-      "filename": "SuperiorOS-Nemesis-bacon-OFFICIAL-20190916-0510.zip",
-      "id": "44dc7110cf070b295283c0316c0cc735",
+      "datetime":1570862229,
+      "filename": "SuperiorOS-Nemesis-bacon-OFFICIAL-20191012-0637.zip",
+      "id": "079a3bba4c0a8e9d1b4325075542806a",
       "romtype": "OFFICIAL",
-      "size":436346595,
-      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Nemesis-bacon-OFFICIAL-20190916-0510.zip/download",
+      "size":437132810,
+      "url": "https://master.dl.sourceforge.net/project/superioros/bacon/SuperiorOS-Nemesis-bacon-OFFICIAL-20191012-0637.zip",
       "version": "Nemesis"
     }
   ]
