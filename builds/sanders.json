@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1560869139,
-      "filename": "SuperiorOS-Nemesis-sanders-OFFICIAL-20190618-1445.zip",
-      "id": "b9ab4a9655e986fb553e8a75a6576127",
+      "datetime":1570888483,
+      "filename": "SuperiorOS-Nemesis-sanders-OFFICIAL-20191012-1355.zip",
+      "id": "25f1bed01782fba36b9635e1b2a64a57",
       "romtype": "OFFICIAL",
-      "size":620036716,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sanders/SuperiorOS-Nemesis-sanders-OFFICIAL-20190618-1445.zip",
+      "size":617413049,
+      "url": "https://master.dl.sourceforge.net/project/superioros/sanders/SuperiorOS-Nemesis-sanders-OFFICIAL-20191012-1355.zip",
       "version": "Nemesis"
     }
   ]
