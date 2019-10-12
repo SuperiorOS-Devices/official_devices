@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1562607051,
-      "filename": "SuperiorOS-Nemesis-tulip-OFFICIAL-20190708-1731.zip",
-      "id": "480f9e0ab8f137461c7392fc16955470",
+      "datetime":1570892826,
+      "filename": "SuperiorOS-Nemesis-tulip-OFFICIAL-20191012-1507.zip",
+      "id": "14451fabb5893e6444d48be6a5878687",
       "romtype": "OFFICIAL",
-      "size":698020799,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tulip/SuperiorOS-Nemesis-tulip-OFFICIAL-20190708-1731.zip",
+      "size":707871704,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tulip/SuperiorOS-Nemesis-tulip-OFFICIAL-20191012-1507.zip",
       "version": "Nemesis"
     }
   ]
