@@ -373,5 +373,20 @@
      "date": "2019/09/18",
      "maintainer_name": "henmadx",
      "xda_thread": "https://forum.xda-developers.com/mi-5s/development/rom-superioros-9-0-t3909656"
+    },
+    {
+     "device_name": "Xiaomi Mi 5X",
+     "codename": "tiffany",
+     "assert": ["tiffany"],
+     "datetime":1568705452,
+     "filename": "SuperiorOS-Nemesis-tiffany-OFFICIAL-20190917-0731.zip",
+     "id": "e2d6a044fd900502fe501e05e7104b85",
+     "romtype": "OFFICIAL",
+     "size":655095687,
+     "url": "https://master.dl.sourceforge.net/project/superioros/tiffany/SuperiorOS-Nemesis-tiffany-OFFICIAL-20190917-0731.zip",
+     "version": "Nemesis",
+     "date": "2019/09/17",
+     "maintainer_name": "Eytan",
+     "xda_thread": "https://forum.xda-developers.com/mi-5x/development/unofficial-superioros-nemesis-t3929844"
     }
 ]
