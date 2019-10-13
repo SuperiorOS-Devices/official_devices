@@ -388,5 +388,35 @@
      "date": "2019/09/17",
      "maintainer_name": "Eytan",
      "xda_thread": "https://forum.xda-developers.com/mi-5x/development/unofficial-superioros-nemesis-t3929844"
+    },
+    {
+      "device_name": "LeEco Le Max 2",
+      "codename": "x2",
+      "assert": ["x2","le_x2","le_x2_india","le_x2_na","LeMax2_CN","LeMax2_NA","LeMax2_WW","LeMax2"],
+      "datetime":1570963272,
+      "filename": "SuperiorOS-Nemesis-x2-OFFICIAL-20191002-1832.zip",
+      "id": "0fa1cb4f2a3621ebd36d2c8ddd3f136b",
+      "romtype": "OFFICIAL",
+      "size":611192216,
+      "url": "https://sourceforge.net/projects/superioros/files/x2/SuperiorOS-Nemesis-x2-OFFICIAL-20191002-1832.zip",
+      "version": "Nemesis",
+      "date": "2019/10/02",
+      "maintainer_name": "mamarama9904",
+      "xda_thread": "https://forum.xda-developers.com/le-max-2/development/9-0-superioros-le-max-2-t3967628"
+    },
+    {
+      "device_name": "Asus ZenFone 3",
+      "codename": "zenfone3",
+      "assert": ["zenfone3"],
+      "datetime":1570963481,
+      "filename": "SuperiorOS-Nemesis-zenfone3-OFFICIAL-20191002-1704.zip",
+      "id": "928b68ba4e31eecd540bfee8d2fdd429",
+      "romtype": "OFFICIAL",
+      "size":624053641,
+      "url": "https://sourceforge.net/projects/superioros/files/zenfone3/SuperiorOS-Nemesis-zenfone3-OFFICIAL-20191002-1704.zip",
+      "version": "Nemesis",
+      "date": "2019/10/12",
+      "maintainer_name": "mamarama9904",
+      "xda_thread": "https://forum.xda-developers.com/zenfone-3/development/9-0-superioros-zenfone3-t3967048"
     }
 ]
