@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1562161978,
-      "filename": "SuperiorOS-Nemesis-enchilada-OFFICIAL-20190703-1353.zip",
-      "id": "cbeac5cc20e8ed0e0610446f3fc269af",
+      "datetime":1571717799,
+      "filename": "SuperiorOS-Nemesis-enchilada-OFFICIAL-20191022-0417.zip",
+      "id": "a874ce274af3999b4b9352400e183189",
       "romtype": "OFFICIAL",
-      "size":490065054,
-      "url": "https://master.dl.sourceforge.net/project/superioros/enchilada/SuperiorOS-Nemesis-enchilada-OFFICIAL-20190703-1353.zip",
+      "size":499337522,
+      "url": "https://master.dl.sourceforge.net/project/superioros/enchilada/SuperiorOS-Nemesis-enchilada-OFFICIAL-20191022-0417.zip",
       "version": "Nemesis"
     }
   ]
