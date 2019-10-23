@@ -1,0 +1,17 @@
+[
+    {
+      "device_name": "Redmi Note 5 Pro",
+      "codename": "whyred",
+      "assert": ["Redmi Note 5 Pro"],
+      "datetime":1557493600,
+      "filename": "SuperiorOS-Nemesis-whyred-OFFICIAL-20190510-1307.zip",
+      "id": "517d552f73452dc9e937005c6adc70db",
+      "romtype": "OFFICIAL",
+      "size":759641564,
+      "url": "https://downloads.sourceforge.net/project/superioros/whyred/SuperiorOS-Nemesis-whyred-OFFICIAL-20190510-1307.zip",
+      "version": "Nemesis",
+      "date": "2019/05/10",
+      "maintainer_name": "Sipun Ku Mahanta",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
+    }
+]
