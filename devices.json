@@ -3,15 +3,15 @@
       "device_name": "Redmi Note 5 Pro",
       "codename": "whyred",
       "assert": ["Redmi Note 5 Pro"],
-      "datetime":1557493600,
-      "filename": "SuperiorOS-Nemesis-whyred-OFFICIAL-20190510-1307.zip",
-      "id": "517d552f73452dc9e937005c6adc70db",
+      "datetime":1572456890,
+      "filename": "SuperiorOS-Phoenix-whyred-OFFICIAL-20191030-1735.zip",
+      "id": "69df4a1e1ea79a97a80ac14de7defd43",
       "romtype": "OFFICIAL",
-      "size":759641564,
-      "url": "https://downloads.sourceforge.net/project/superioros/whyred/SuperiorOS-Nemesis-whyred-OFFICIAL-20190510-1307.zip",
-      "version": "Nemesis",
-      "date": "2019/05/10",
+      "size":692171207,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Phoenix-whyred-OFFICIAL-20191030-1735.zip",
+      "version": "Phoenix",
+      "date": "2019/10/30",
       "maintainer_name": "Sipun Ku Mahanta",
-      "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-phoenix-whyred30-10-t3994395"
     }
 ]
