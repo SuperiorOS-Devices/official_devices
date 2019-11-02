@@ -13,5 +13,20 @@
       "date": "2019/10/30",
       "maintainer_name": "Sipun Ku Mahanta",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-phoenix-whyred30-10-t3994395"
+    },
+    {
+      "device_name": "Poco F1",
+      "codename": "beryllium",
+      "assert": ["Poco F1"],
+      "datetime":1572687645,
+      "filename": "SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
+      "id": "d59771a07b51725b60dbaff28b3ae347",
+      "romtype": "OFFICIAL",
+      "size":799230078,
+      "url": "https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
+      "version": "Phoenix",
+      "date": "2019/11/02",
+      "maintainer_name": "Saikiran",
+      "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-phoenix-beryllium-t3995999"
     }
 ]
