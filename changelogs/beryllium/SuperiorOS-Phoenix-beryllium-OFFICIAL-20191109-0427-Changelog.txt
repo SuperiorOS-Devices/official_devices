@@ -1,0 +1,516 @@
+=======================
+     11-09-2019
+=======================
+
+
+   * build/make/
+c41e7f3d1  build: Livewalls up  [Sipun Ku Mahanta]
+   * frameworks/base/
+fbf03c41c6d  Automatic translation import  [Sipun Ku Mahanta]
+   * manifest/
+d617d4e  manifest: track hals from los  [Sipun Ku Mahanta]
+357b20e  manifest: Stop tracking clang from superior  [Sipun Ku Mahanta]
+a1a0f7e  manifest: Track wallpaperpicker2 from superior  [Sipun Ku Mahanta]
+458f4c4  manifest: Add launcher3 to crowdin  [Sipun Ku Mahanta]
+   * packages/apps/Launcher3/
+f39555910  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+0a1b3dbcf3  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+d2e56fb  Automatic translation import  [Sipun Ku Mahanta]
+b96d497  Phoenix: Use accent colors in drawables  [Sipun Ku Mahanta]
+dd3e88e  Phoenix: About    * fixup  [Sipun Ku Mahanta]
+   * packages/apps/WallpaperPicker2/
+b8ae0bd  WallpaperPicker2: Remove launcher activity  [Sipun Ku Mahanta]
+=======================
+     11-08-2019
+=======================
+
+
+   * build/make/
+d56ced36e  core: Use prebuilt lzma  [Sipun Ku Mahanta]
+2ecca2175  build: Stop installing the sample APN list  [Sipun Ku Mahanta]
+   * frameworks/av/
+48b373618  stagefright: add changes related to high-framerates in CameraSource  [Chau Truong Thinh]
+02b18eccc  stagefright: Move QCOM_BSP_LEGACY flag to correct blueprint file  [Chau Truong Thinh]
+   * frameworks/base/
+6be50ce2c6f  Keep recent tasks for more time in memory  [Subinsmani]
+d325a84c781  Make percentage text inside battery readable  [Subinsmani]
+cff28943749  SystemUI: Reduce padding between battery & signal  [Subinsmani]
+3539128e8ac  SystemUI: Tweak battery icon size to match rest  [Subinsmani]
+6c9cdaa5312  SystemUI: Make battery icon slightly thicker for text visability  [Subinsmani]
+82cde999543  [1/2] base: navigation mode settings  [saikiran2001]
+   * packages/apps/Settings/
+3a6d3c8f58  Merge pull request #5 from saikiran2001/10  [GitHub]
+d035d5d456  Settings: Add platform and RAM to Model & Hardware  [saikiran2001]
+f21cc31ccd  Settings: Navigation mode settings [2/2]  [saikiran2001]
+a755107b26  Settings: Fix dismissal card bg color  [saikiran2001]
+cf4877144a  Fix ViLTE is not available when WiFi Calling is disabled  [saikiran2001]
+=======================
+     11-07-2019
+=======================
+
+
+   * build/make/
+6b76504ac  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/build into ten  [Sipun Ku Mahanta]
+   * device/superior/sepolicy/
+974277e  sepolicy: vendor: Migrate to power 1.2  [Sipun Ku Mahanta]
+   * external/f2fs-tools/
+17f84e4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform//external/f2fs-tools into ten  [Sipun Ku Mahanta]
+   * frameworks/av/
+fd5b56e27  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/av into ten  [Sipun Ku Mahanta]
+   * frameworks/base/
+cca44fd0045  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/base into ten  [Subinsmani]
+   * frameworks/native/
+ddb015d15  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/native into ten  [Sipun Ku Mahanta]
+   * hardware/interfaces/
+8dd1347f6  audio hal: Add interface declarations for audio hal service  [Sipun Ku Mahanta]
+415e56c37  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform//hardware/interfaces into ten  [Sipun Ku Mahanta]
+   * manifest/
+8419b0e  manifest: track sdm845 hals from los  [Subinsmani]
+e4170bc  manifest: track some external repos from superior  [Sipun Ku Mahanta]
+8ca6f36  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/manifest into ten  [Sipun Ku Mahanta]
+67f82d9  manifest: Track calculator - Also remove settings intellegence we have it it prebuilt  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+b591cf44  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten  [Sipun Ku Mahanta]
+   * packages/apps/Calendar/
+5b63037b  Calendar: Drop no longer existing activity from manifest  [Sipun Ku Mahanta]
+8f367261  Calendar: Don't optimize out no-arg Fragment constructors  [Sipun Ku Mahanta]
+76f66be4  Calendar: Fix translatables  [Sipun Ku Mahanta]
+b07161e6  Calendar: adaptive icon  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+a938e2420e  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Settings/ into ten  [Sipun Ku Mahanta]
+   * packages/apps/Updater/
+33ba2b3  updater: Changes for ten  [Subinsmani]
+   * packages/services/Telephony/
+b9a292cfb  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/services/Telephony into ten  [Sipun Ku Mahanta]
+   * system/bt/
+9f96a527e  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/system/bt into ten  [Sipun Ku Mahanta]
+   * system/core/
+5badc37bd  Adapt to superior  [Subinsmani]
+9cb672d2b  LockscreenCharging: squashed (2/3)  [Subinsmani]
+=======================
+     11-06-2019
+=======================
+
+
+   * packages/apps/SuperiorSettings/
+980653b  Maintainers: Add dipper details (#33)  [Sipun Ku Mahanta]
+   * vendor/superior/
+78a8f3a8  Add dipper as official (#20)  [Sipun Ku Mahanta]
+=======================
+     11-05-2019
+=======================
+
+
+   * hardware/qcom-caf/common/
+27e52b3  fwk-detect: Relocate from vendor/qcom-opensource/core-utils  [Rashed Abdel-Tawab]
+   * manifest/
+84db708  Manifest for Android 10.0.0 Release 14  [The Android Open Source Project]
+0ad853a  Manifest for Android 10.0.0 Release 13  [The Android Open Source Project]
+425389b  Manifest for Android 10.0.0 Release 12  [The Android Open Source Project]
+   * packages/apps/SuperiorSettings/
+6838cd1  Update superior_strings.xml (#32)  [Sipun Ku Mahanta]
+   * tools/repohooks/
+6d340a1  hooks: add more bad Bug: test cases  [Mike Frysinger]
+   * vendor/codeaurora/telephony/
+cf07a22  Revert "IMS-VT: Low battery handling for Video calls"  [Rashed Abdel-Tawab]
+=======================
+     11-04-2019
+=======================
+
+
+   * frameworks/base/
+dffc73bc547  Revert "Disable dashboards conditions and suggestions (1/2)"  [Jayant Deshmukh]
+   * packages/apps/Settings/
+678b910ee7  settings: correct charging sound string  [Jayant Deshmukh]
+803d55b42b  Revert "Disable dashboards conditions and suggestions (2/2)"  [Jayant Deshmukh]
+=======================
+     11-03-2019
+=======================
+
+
+   * frameworks/base/
+dd945b25b23  SystemUI: Fix crash when trying to remove an already removed statusbar item * Fixes crash: https://del.dog/eguracinoq * Needs proof of concept  [Jayant Deshmukh]
+215fcde524c  base: Show battery in qs status bar  [Jayant Deshmukh]
+2dd23a8cce3  Merge pull request #19 from saikiran2001/ten  [GitHub]
+fc26e9df897  Fix NPE when AOSP ambient display preference is removed  [saikiran2001]
+ab7bcc5c70d  ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects  [saikiran2001]
+1e4d7ced38a  SystemUI: add more notification snooze times  [saikiran2001]
+0c03e09141e  base: Q seekbar: Set opacity for the seekbar when it's not interactive  [saikiran2001]
+f9a068d66a2  Fix race in TelephonyScanManager  [saikiran2001]
+34a5561bbba  Scroll: modified velocitytracker  [saikiran2001]
+3b7f0509ec9  Allow faster app switching  [saikiran2001]
+6ad486e72f3  base: Update some icons to MD2  [saikiran2001]
+3e3fbf5f24a  Fix Photosphere/Camera FCs  [saikiran2001]
+7a8700b09d0  Prevent deadlock when going out of idle state  [saikiran2001]
+1bddbf40d78  SystemUI: Prevent NPE in Dependency.get() in BrightnessController  [saikiran2001]
+d4b3b72848d  SystemUI: Update string for add tiles with one click  [saikiran2001]
+c53e6fe91ef  base: Change dividers from Holo Blue to Pixel Blue  [saikiran2001]
+8826d0c5d88  base: use some google pixel colors  [saikiran2001]
+339567b14c1  Avoid NPE in system_server in bringDownServiceLocked()  [saikiran2001]
+4d915bd8cf5  ViewGroup: Remove child parent when a new view is added  [saikiran2001]
+1429bc9d384  SQLite: Do integrity_check only once  [saikiran2001]
+8ca7c8358f9  SQLiteDatabase: Catch corrupt exception during transaction  [saikiran2001]
+dd74efcd0e5  base: limit direct share targets to reduce lag  [saikiran2001]
+2617621a493  FATAL EXCEPTION IN SYSTEM PROCESS: android.ui  [saikiran2001]
+9348ddd29b6  KernelWakelockReader: stop the panic  [saikiran2001]
+ec408a71934  ParcelFileDescriptor: can we stop the panic here?  [saikiran2001]
+b3a838f734d  SystemUI: Fix statusbar padding and layout for system icons  [saikiran2001]
+bb6a6427cef  SystemUI: assist: disable old Assistant animations  [saikiran2001]
+9bb4eeac0f1  Add colors to assistant animation  [saikiran2001]
+0cc09537f28  base: Add rounded corners to activity open/close animation  [saikiran2001]
+ac4d3230a42  hwui: Fix HWUI_COMPILE_FOR_PERF for non-arm  [saikiran2001]
+84f5a3f3bb8  SettingsLib: Allow Skia Vulkan to be used as HW renderer  [saikiran2001]
+b7fa46b07a1  Revert "Revert "Add developer setting to set the default GPU renderer.""  [saikiran2001]
+c1ea587cb1f  MountService: Prevent NPE with DropBoxManager  [saikiran2001]
+85f5e76561a  Optimize IncallUI delay for voice calls  [saikiran2001]
+59fd00dafbc  Settings:Bugfix for NPE, Only valid screen power consumption need to smear  [saikiran2001]
+bd4209df13e  Keyguard: reduce bottom text size  [saikiran2001]
+a10bcdde643  Graphics: Fix NPE in Gdrive  [saikiran2001]
+72f1444eccc  base: SystemUI: make the battery saver tile useful  [saikiran2001]
+d639b1dcef5  Revert "Remove BatteryDetail from BatterySaverTile"  [saikiran2001]
+e8e990bc29d  Cutout force full screen: Remove fullscreen checks  [saikiran2001]
+8f4ec6639d6  fwb: [1/2] Implement cutout force full screen  [saikiran2001]
+   * packages/apps/Settings/
+e3ee291089  Merge pull request #4 from saikiran2001/10  [GitHub]
+d5b59cb741  Settings: Add all gesture preview animations  [saikiran2001]
+89e8d9de6e  Move custom dp settings under Display  [saikiran2001]
+d44ae753b3  Cutout force fullscreen: Disable fast scroller  [saikiran2001]
+56e09b57e3  Settings: [2/2] Implement cutout force full screen  [saikiran2001]
+5cb0d3a135  Settings: Fix the failing strings  [saikiran2001]
+   * packages/apps/SuperiorSettings/
+b432246  Phoenix: Rearrange and categorize statusbar settings  [Jayant Deshmukh]
+   * vendor/xiaomi/
+1b25d66  sdm845-common: Patch qti-telephony-common.jar for compatibility with r9  [saikiran2001]
+=======================
+     11-02-2019
+=======================
+
+
+   * system/core/
+29dd537ba  healthd: cover devices that have voltage_max file with value of 0  [Dyneteve]
+451f3343b  healthd: Reinitialize mChargerNames for every battery update  [Dyneteve]
+7ef9cb1de  healthd: Add support for HVDCP_3 chargers  [Dyneteve]
+477f5cbee  logcat: Map '-C' to 'logcat -v color'  [Dyneteve]
+5b3a7b642  set /system/etc/init.d/* permissions  [Dyneteve]
+bf85b9dfe  utils: Threads: Handle empty thread names  [Dyneteve]
+f597e1a52  Add wrapped key support  [Dyneteve]
+23ce49db8  Camera: Add feature extensions  [Dyneteve]
+e94d899b1  mkbootimg: Make unpack_bootimg py3 compatible  [Dyneteve]
+64f7f69dc  bsdgrep: for -r, use the working directory if none specified  [Dyneteve]
+5bd4e7899  init: update recovery when enabled in settings  [Dyneteve]
+85dcb261e  healthd: Add DASH charger type  [Dyneteve]
+2a7a216cd  init: Add vendor-specific initialization hooks.  [Dyneteve]
+b4b17714a  mkbootimg: add support for --dt  [Dyneteve]
+50863c524  init: don't skip starting a service with no domain if permissive  [Dyneteve]
+f62e08af5  ueventd: parallelize restorecon /sys  [Dyneteve]
+=======================
+     11-01-2019
+=======================
+
+
+   * build/make/
+08af92150  build: Erase cache after flashing  [Sipun Ku Mahanta]
+d7e3dca36  build: make a bit correction  [Sipun Ku Mahanta]
+   * frameworks/base/
+43b484b287c  Revert "perf: Add support for HIDL Lineage power HAL"  [Subinsmani]
+867b9425f93  Keyguard: add binary custom clock face  [Sipun Ku Mahanta]
+53d22f98e59  SystemUI: enable custom clock faces  [Sipun Ku Mahanta]
+281aa2022a8  Always allow back gesture when there are transient bars showing  [Sipun Ku Mahanta]
+e1ed7ca278d  base: Make net monitor even smaller  [Sipun Ku Mahanta]
+bed2329ca65  permissions: Remove Pixel Launcher permissions check  [Sipun Ku Mahanta]
+f9515b59a80  ChooserActivity: remove ugly separator  [Sipun Ku Mahanta]
+6b1f4023ffa  Fingerprints: Increase MAX_FAILED_ATTEMPTS  [Sipun Ku Mahanta]
+6da51eec4d5  Fix no default ringtone for slot2  [Sipun Ku Mahanta]
+741fc456b0a  base: SystemUI: keyguard show charging watt  [Sipun Ku Mahanta]
+db096f914f9  Add battery styles and customizations for Android 10 [1/2]  [Sipun Ku Mahanta]
+cb2bdb09157  SettingsLib: inherit battery meter style in view  [Sipun Ku Mahanta]
+061a5b316dc  ThemedBatteryDrawable: Switch back to java.  [Sipun Ku Mahanta]
+1ea2495e588  Revert "SystemUI: Show estimates on QS only if battery percentage is unavailable or disabled"  [Sipun Ku Mahanta]
+f8a070fc445  base: Add our favourite fonts in AOSP FontEngine [2/2]  [Sipun Ku Mahanta]
+10ea0ba0fa2  Xtended Statusbar Clock Customization [1/2]  [Sipun Ku Mahanta]
+3d6bee05309  Do not apply date customization to QS clock  [Sipun Ku Mahanta]
+74b605bbbcc  SystemUI: Always show date in QS header  [Sipun Ku Mahanta]
+7da8e88958f  Statusbar clock: restore qsheader check within a saved instance  [Sipun Ku Mahanta]
+2e2e4389f4a  Status bar clock customizations [1/2]  [Sipun Ku Mahanta]
+a7f26053f99  base: SystemUI: tuner: fix hiding of statusbar clock  [Sipun Ku Mahanta]
+435ce953513  perf: Add support for HIDL Lineage power HAL  [Chau Truong Thinh]
+00ea8feb82a  KernelCpuUidTimeReader: Decrease log level on non-eng builds  [Chau Truong Thinh]
+8e90aac9a5f  frameworks: Add unlinked ringtone and notification volumes  [Subinsmani]
+a0f4c907156  Merge pull request #18 from saikiran2001/ten  [GitHub]
+   * hardware/superior/interfaces/
+7a23676  lineage/interfaces: power: Add HIDL HAL interface  [Chau Truong Thinh]
+   * manifest/
+1d92242  manifest: Enable QCOM power HAL  [Chau Truong Thinh]
+   * packages/apps/Settings/
+2fb3740937  Skip loading contextual cards if legacy cards are used  [Sipun Ku Mahanta]
+b457f18c7d  Settings: Remove AOSP battery percentage.  [Sipun Ku Mahanta]
+8f4a55c815  Revert "Make fingerprint illustrations single color"  [Sipun Ku Mahanta]
+5829fc594e  Settings: Enable FeatureFlags on "user" builds too  [Sipun Ku Mahanta]
+4ce6c53225  settings: Black theme is getting nicer  [Sipun Ku Mahanta]
+54406ddb12  Settings: Allow setting SettingsSuggestion package in overlay  [Sipun Ku Mahanta]
+a4d4573972  VolumePanel: fix showing notification volume slider when unlinked  [Subinsmani]
+0ee3e95e97  Settings: Use correct icon for ring volume  [Subinsmani]
+3a0e45880a  Settings: Add switch for linked ring and media notification volumes  [Subinsmani]
+   * packages/apps/SuperiorSettings/
+a5ace46  Phoenix: Add battery styles and customizations for Android 10 [2/2]  [Sipun Ku Mahanta]
+cb98fc6  Phoenix: Xtended Statusbar Clock Customization [2/2]  [Sipun Ku Mahanta]
+52d619d  Phoenix: Statusbar clock date customization (2/2)  [Sipun Ku Mahanta]
+239005d  Merge pull request #31 from saikiran2001/10  [GitHub]
+   * vendor/superior/
+5ca92c80  Revert "packages: remove prebuilt Settingsintelligence"  [Sipun Ku Mahanta]
+9f111d4c  fonts: Add our favourite fonts in AOSP FontEngine [1/2]  [Sipun Ku Mahanta]
+=======================
+     10-31-2019
+=======================
+
+
+   * frameworks/base/
+be6ee065310  SystemUI: Add visualizer feature [1/2]  [saikiran2001]
+c073e8bd98a  base: configure lock screen media artwork blur level [1/2]  [saikiran2001]
+d2bcba84699  base: Allow to disable Lockscreen Media Art [1/2]  [saikiran2001]
+cd63e71f468  base: media_seekbar: make it sexy  [saikiran2001]
+516d8c3ecc1  Enable NSRM (Network Socket Request Manager).  [saikiran2001]
+ed2232cf6fa  base: Add OOS style switches  [saikiran2001]
+6911ce3494f  BoostFramework: Add debug to hide logcat spam on devices without QPerformance  [saikiran2001]
+71cc9cf224b  perf: enable gesture fling boost by default  [saikiran2001]
+9c6df844144  BoostFramework: To Enhance performance.  [saikiran2001]
+dc6a1b48748  cgroup follow for procs in the same cgroup.procs  [saikiran2001]
+03ef7a6f00f  Ensure cgroup.procs in the same cgroup  [saikiran2001]
+7bb9b0c46d7  Fix Google dialer FC due to missing permissions  [Sipun Ku Mahanta]
+2d02766bd7a  Allow chromium to sign in  [Sipun Ku Mahanta]
+6c1584fb48a  Fix Google Calendar FC  [Sipun Ku Mahanta]
+79e63f7b48f  Fix permissons for ContactsProvider2  [Sipun Ku Mahanta]
+438ba6d5829  Fix Fi permissions  [Sipun Ku Mahanta]
+6e68bb38b70  Fix Android 7.0+ GApps permisions which were causing F/C  [Sipun Ku Mahanta]
+e53d61011a5  WindowStateAnimator: Fix NPE with wallpaper offset  [Sipun Ku Mahanta]
+5ba4b74d433  SystemUI: Disable tuner pref for battery  [Sipun Ku Mahanta]
+2fb6e3e9351  Add switch for vpn, data saver and roaming icons  [Sipun Ku Mahanta]
+dc6ba6b58a7  TunerService: Prevent NPE with tunable  [Sipun Ku Mahanta]
+4dcaddf049a  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/frameworks/base into ten  [Sipun Ku Mahanta]
+   * manifest/
+f00f1f4  manifest: Use tools/repohooks master branch  [Sipun Ku Mahanta]
+25d7a7d  manifest: track our platform_testing  [Sipun Ku Mahanta]
+91412d9  manifest: track Settingsintelligent from superior  [Sipun Ku Mahanta]
+   * packages/apps/CertInstaller/
+2149178  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/CertInstaller into ten  [Sipun Ku Mahanta]
+   * packages/apps/DeskClock/
+7a1780ea0  make the icons match to google deskclock  [Sipun Ku Mahanta]
+2ef8b333a  DeskClock: Add back flip and shake actions  [Sipun Ku Mahanta]
+9b92e02e5  Deskclock: define app category  [Sipun Ku Mahanta]
+2169ee8e1  AOSP/DeskClock - Fix improperly formatted resource strings in DeskClock.  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+36db775c6  Add autorecord feature  [saikiran2001]
+6a2965ea2  Re-add call statistics.  [saikiran2001]
+588d67525  Allow per-call account selection.  [saikiran2001]
+2850bbdc6  Re-add call recording.  [saikiran2001]
+65b5b528a  Allow using private framework API.  [saikiran2001]
+af60a2a98  Disable answer false touch detection by default  [saikiran2001]
+c97c8e22c  Add setting to enable Do Not Disturb during calls  [saikiran2001]
+e0d2d7347  Add toggle for post call snackbar  [saikiran2001]
+222b44392  Dialer: disable anti-falsing for call answer screen  [saikiran2001]
+ba469c073  Dialer: define app category  [saikiran2001]
+   * packages/apps/Launcher3/
+1528d22a5  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/Launcher3 into ten  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+13795b9  Add visualizer feature [2/2]  [saikiran2001]
+0cbff63  configure lock screen media artwork blur level [2/2]  [saikiran2001]
+a979577  Allow to disable Lockscreen Media Art [2/2]  [saikiran2001]
+   * platform_testing/
+29059589  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/platform_testing into ten  [Sipun Ku Mahanta]
+caa6644f  Revert "Add PlatformScenarioTests to test artifacts."  [Sipun Ku Mahanta]
+4ef90ee8  Revert "Test: Manually tested."  [Sipun Ku Mahanta]
+ede7accc  Revert "Test: Manually tested."  [Sipun Ku Mahanta]
+92e19e0a  Remove LauncherRotationStressTest; Launcher2 was removed  [Sipun Ku Mahanta]
+   * system/netd/
+04462d93  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/system/netd into ten  [Sipun Ku Mahanta]
+   * vendor/superior/
+91b8b6fd  overlay: Clean up Settings overlay  [Sipun Ku Mahanta]
+b09b5337  vendor: use AB_OTA_PARTITIONS flag for including backuptool_ab  [Sipun Ku Mahanta]
+a0ef5dde  extract_utils: Added Suffix uses COMMON_SUFFIX  [Sipun Ku Mahanta]
+7b36c345  build: dt_image: use prebuilt lz4 binary for compressing  [Sipun Ku Mahanta]
+5c826695  config: Fix sounds  [Sipun Ku Mahanta]
+28ebc950  packages: remove prebuilt Settingsintelligence  [Sipun Ku Mahanta]
+=======================
+     10-30-2019
+=======================
+
+   * art/
+f5c38f0197  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/art into ten  [Sipun Ku Mahanta]
+764a81e0b6  Revert "ART: Add version check for memfd_create()"  [Sipun Ku Mahanta]
+   * bionic/
+602c8f498  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/bionic into ten  [Sipun Ku Mahanta]
+   * bootable/recovery/
+1f081cba  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/bootable/recovery into ten  [Sipun Ku Mahanta]
+   * build/make/
+710595d88  Merge tag 'android-10.0.0_r8' of https://android.googlesource.com/platform/build into ten  [Sipun Ku Mahanta]
+   * build/soong/
+145176d6  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/build/soong/ into ten  [Sipun Ku Mahanta]
+9deeb030  Merge pull request #2 from officialyash007/ten  [GitHub]
+   * development/
+2d5660fdd  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/development into ten  [Sipun Ku Mahanta]
+79e1912fb  make-key: Enforce PBEv1 password-protected signing keys  [Sipun Ku Mahanta]
+6310ac9be  Made privapp_permissions.py account for product  [Sipun Ku Mahanta]
+   * device/superior/sepolicy/
+49a39c0  Merge pull request #2 from officialyash007/ten  [GitHub]
+0e5cdac  sepolicy: qcom: RIP legacy  [officialyash007]
+   * frameworks/av/
+be7518b66  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/frameworks/av into ten  [Sipun Ku Mahanta]
+   * frameworks/base/
+754730fb713  Merge pull request #17 from saikiran2001/ten  [GitHub]
+dffd95c6116  CarrierConfigManager: enable LTE+ icon by default  [saikiran2001]
+c2f66bffb42  Revert "Power menu icons color: use theme accent"  [Sipun Ku Mahanta]
+7e73ae8b400  SystemUI: Add AmbientDisplay tile  [Jayant Deshmukh]
+6f0cbec746f  base: Nice looking black theme  [Jayant Deshmukh]
+2b40fa75ca5  SystemUI: QS: SoundTile: Don't toggle DND  [Jayant Deshmukh]
+   * frameworks/native/
+450d64f17  Merge tag 'android-10.0.0_r8' of https://android.googlesource.com/platform/frameworks/native into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/net/ims/
+d782418  IMS: Changes for RTT feature  [Subinsmani]
+ebafc8c  IMS: Add API to check if call is RTT call  [Subinsmani]
+   * frameworks/opt/net/wifi/
+62a96280b  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/telephony/
+7aae90c4e  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/frameworks/opt/telephony into ten  [Sipun Ku Mahanta]
+   * hardware/interfaces/
+2ccc55f2e  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/hardware/interfaces into ten  [Sipun Ku Mahanta]
+   * hardware/libhardware/
+76c493a6  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/hardware/libhardware into ten  [Sipun Ku Mahanta]
+   * hardware/libhardware_legacy/
+d2ad6da  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/hardware/libhardware_legacy into ten  [Sipun Ku Mahanta]
+   * manifest/
+2c5f2b9  manifest: Remove coral repos  [Sipun Ku Mahanta]
+4c469cf  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/manifest into ten  [Sipun Ku Mahanta]
+c7878d7  superior: track dataservices and opt/net/ims from superior  [Subinsmani]
+1b94cc9  superior: track sdm845 and sm8150 hals from superior  [Subinsmani]
+   * packages/apps/Bluetooth/
+963843be  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten  [Sipun Ku Mahanta]
+   * packages/apps/Camera2/
+dbba08470  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/Camera2 into ten  [Sipun Ku Mahanta]
+   * packages/apps/DeskClock/
+15fd64114  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/DeskClock into ten  [Sipun Ku Mahanta]
+   * packages/apps/Nfc/
+c0332f29  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/Nfc into ten  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+b021a480bc  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/Settings/ into ten  [Sipun Ku Mahanta]
+7569e3d563  Changelog: fix possible title pattern mismatches  [Sipun Ku Mahanta]
+69633fd00e  Changelog: use normal font instead of italic for commiter name  [Sipun Ku Mahanta]
+21dfcf68b3  Changelog: Add left padding  [Sipun Ku Mahanta]
+b6d03b8370  Settings: update changelog activity  [Sipun Ku Mahanta]
+da9671b271  Changelog: Fix text selection with dot  [Sipun Ku Mahanta]
+19fb39a0ee  Changelog: clean and make themeable  [Sipun Ku Mahanta]
+65db3d8712  Changelog: prettify  [Sipun Ku Mahanta]
+324c87b836  Change title for Changelog screen  [Sipun Ku Mahanta]
+39d8cc8f87  Changelog: Add left padding  [Sipun Ku Mahanta]
+45a89511dd  Changelog in about phone  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+5ca0433  Maintainers: Add beryllium details (#30)  [Sipun Ku Mahanta]
+debd685  Maintainers: add violet details (#29)  [Sipun Ku Mahanta]
+   * packages/apps/ThemePicker/
+e383786  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten  [Sipun Ku Mahanta]
+   * packages/providers/DownloadProvider/
+2da4a05e  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten  [Sipun Ku Mahanta]
+   * packages/providers/MediaProvider/
+21337ff  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/providers/MediaProvider into ten  [Sipun Ku Mahanta]
+   * packages/services/Telecomm/
+96218e7d  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/services/Telecomm into ten  [Sipun Ku Mahanta]
+   * packages/services/Telephony/
+3846e3a7d  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/packages/services/Telephony into ten  [Sipun Ku Mahanta]
+   * system/bt/
+8e18db0b1  Merge tag 'android-10.0.0_r8' of https://android.googlesource.com/platform/system/bt into ten  [Sipun Ku Mahanta]
+   * system/sepolicy/
+d95a3753  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/system/sepolicy into ten  [Sipun Ku Mahanta]
+   * system/update_engine/
+edc86abe  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/system/update_engine into ten  [Sipun Ku Mahanta]
+   * system/vold/
+f57865e  Merge tag 'android-10.0.0_r9' of https://android.googlesource.com/platform/system/vold into ten  [Sipun Ku Mahanta]
+   * vendor/qcom/opensource/dataservices/
+6956140  Revert "librmnetctl: Add support for UL aggregation features"  [Subinsmani]
+   * vendor/superior/
+05c788c9  Add beryllium to officials (#19)  [Sipun Ku Mahanta]
+5f3fcb41  Add violet to officials (#18)  [Sipun Ku Mahanta]
+=======================
+     10-29-2019
+=======================
+
+
+   * frameworks/base/
+f6ef4fbe689  SystemUI: QS: Add SleepScreen Tile (Power menu on longpress)  [Jayant Deshmukh]
+30f24a0708e  fwb: Add VOLTE icon toggle [1/2]  [Sipun Ku Mahanta]
+f219dfa8eb1  base: Fix SystemUI crash  [Sipun Ku Mahanta]
+a9e9e2c1e6c  Add toast when screenshot is deleted  [Sipun Ku Mahanta]
+1f0f5180097  Power menu icons color: use theme accent  [Sipun Ku Mahanta]
+a9d1be846d0  Fix tuner exports  [Sipun Ku Mahanta]
+3a61388c20c  AppOps: Do not prune apps that are not present  [Sipun Ku Mahanta]
+3c76e45478c  Add support for page theme color to WebView and WebChromeClient.  [Sipun Ku Mahanta]
+b47db5e288a  AppOpsService: Fix up 013a611  [Sipun Ku Mahanta]
+b73696d4849  AppOpsService: Watch op mode changes when an AppOp restriction dies  [Sipun Ku Mahanta]
+2dab49b93c8  CaffeineTile: Fix crash for longClick result  [Sipun Ku Mahanta]
+4c439656943  screenrecord: change save locaton and make sure dirs exist  [Sipun Ku Mahanta]
+b011afd1e7f  aapt2: disable leak detection  [Sipun Ku Mahanta]
+de8564ea14d  NetworkStatsHistory: Prevent IllegalArgumentException  [Sipun Ku Mahanta]
+fbd97be61ad  Prevent crash in TTS engine due to improper configuration  [Sipun Ku Mahanta]
+3bff1c95f62  Framelayout: Fix NPE when view is missing  [Sipun Ku Mahanta]
+1f0929fb1e7  SystemUI: Keyguard: Check for a null errString  [Sipun Ku Mahanta]
+63794400401  Telephony: Don't crash for too long baseband version  [Sipun Ku Mahanta]
+30a95040eae  Dynamically tell the user which vendor image is needed  [Sipun Ku Mahanta]
+1c10429d7f1  Show a more descriptive message when vendor.img is out of date  [Sipun Ku Mahanta]
+8bdf9723c58  base: Use MD2 icon for missed call notification  [Sipun Ku Mahanta]
+afa7662a189  Speed up Orientation Listener  [Sipun Ku Mahanta]
+c6d9b75948e  base: rescuce party: check isDisabled on all public API  [Sipun Ku Mahanta]
+1070de6c354  Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.  [Sipun Ku Mahanta]
+a46d61dff4c  Force disable PlayServices OTA checks  [Sipun Ku Mahanta]
+955153bb881  base: Add new font overlays  [Sipun Ku Mahanta]
+94acea25aa1  TypeClockController: Make it compile with new plugin API  [Sipun Ku Mahanta]
+6ef63e04f34  Revert "Disable ClockOptionsProvider so clocks don't appear in picker app"  [Sipun Ku Mahanta]
+6a0b4270d5a  Revert "Disable custom clock faces in SystemUI"  [Sipun Ku Mahanta]
+d257b6fb86f  Revert "Drop final remnants of Type clock face"  [Sipun Ku Mahanta]
+1a38bf87cfe  Revert "Drop Type clock face."  [Sipun Ku Mahanta]
+   * hardware/qcom-caf/apq8084/audio/
+7feb4b079  apq8084: audio: fix msm8974 symlinks  [gabrielgagz]
+   * manifest/
+f4b95fd  manifest: track tinycompress for superior  [chautruongthinh]
+   * packages/apps/Settings/
+0da481706a  Settings: enable SIM card ringtone only if slot not empty  [Sipun Ku Mahanta]
+ce5c86f8bc  settings: Protect sensitive info on About device  [Sipun Ku Mahanta]
+d0e8c1d99f  Settings: Fix crash when going back from battery  [Sipun Ku Mahanta]
+88f490d7a6  Revert "Revert "fuelgauge: add back battery level animation""  [Sipun Ku Mahanta]
+cd79df1854  Settings: Move Gestures to SuperiorSettings [1/2]  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+6c2c211  Phoenix: Move Gestures to SuperiorSettings [2/2]  [Sipun Ku Mahanta]
+f8ae348  Phoenix: Add VOLTE icon toggle [2/2]  [Sipun Ku Mahanta]
+6fc744f  maintainers: Add ef63 details  [Sipun Ku Mahanta]
+   * vendor/superior/
+51d961da  prebuilt: Fix apps not building  [Jayant Deshmukh]
+05ccb885  sounds: Cleanup duplicate sounds  [Sipun Ku Mahanta]
+efb44abc  Add some font packages  [Sipun Ku Mahanta]
+3b876ef0  Add back fonts from pie  [Sipun Ku Mahanta]
+67b04f3c  accents: Add new accent colors for Q  [Sipun Ku Mahanta]
+7d1224d6  import some accents  [Sipun Ku Mahanta]
+2e709d3b  Revert "vendor: Add SoundPickerPrebuilt"  [Sipun Ku Mahanta]
+4bcabb06  lineage: Mark generated_kernel_includes as recovery_available  [Jayant Deshmukh]
+=======================
+     10-28-2019
+=======================
+
+
+   * frameworks/base/
+d8cde1c2900  PhoneWindowManager: Allow torch and track skip during ambient display  [Jayant Deshmukh]
+   * manifest/
+7766a46  manifest: Track boringssl-compat from lineage  [GitHub]
+d460c09  crowdin: Initial ten changes  [Sipun Ku Mahanta]
+   * vendor/superior/
+eb6fa193  Add ef63 to officials  [GitHub]
+=======================
+     10-27-2019
+=======================
+
+
+   * hardware/qcom/gps/
+e916479  msm8084: gps: Fix for buffer overrun crash at copying nmea string  [Elektroschmock]
+   * vendor/superior/
+764802ad  vendor: Add SoundPickerPrebuilt  [Jayant Deshmukh]
+a5779fa3  Kill sysinit  [Jayant Deshmukh]
+f1e6290a  kernel: Define DTBS_OUT path for dtb.img building  [Jayant Deshmukh]
+310a883a  kernel: Move our dtb.img logic here  [Jayant Deshmukh]
