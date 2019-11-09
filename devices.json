@@ -15,6 +15,21 @@
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-phoenix-whyred30-10-t3994395"
     },
     {
+      "device_name": "Asus Zenfone Max Pro M2",
+      "codename": "X01BD",
+      "assert": ["Max Pro M2", "X01BD", "X01BDA"],
+      "datetime":1566816792,
+      "filename": "SuperiorOS-Phoenix-X01BD-OFFICIAL-20191103-0849.zip",
+      "id": "44466a6c73ceebc271ae7cd5d4b4eca1",
+      "romtype": "OFFICIAL",
+      "size":686267812,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Phoenix-X01BD-OFFICIAL-20191103-0849.zip",
+      "version": "Phoenix",
+      "date": "2019/11/03",
+      "maintainer_name": "Jayant Deshmukh",
+      "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/10-0-superioros-phoenix-t3992395/post80770787"
+    },
+    {
       "device_name": "Poco F1",
       "codename": "beryllium",
       "assert": ["Poco F1"],
