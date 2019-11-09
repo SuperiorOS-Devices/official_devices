@@ -43,5 +43,20 @@
       "date": "2019/11/02",
       "maintainer_name": "Saikiran",
       "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-phoenix-beryllium-t3995999"
+    },
+    {
+      "device_name": "Smartron SRT phone",
+      "codename": "rim02a",
+      "assert": ["rimo02a"],
+      "datetime":1572687645,
+      "filename": "SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
+      "id": "d59771a07b51725b60dbaff28b3ae347",
+      "romtype": "OFFICIAL",
+      "size":799230078,
+      "url": "https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
+      "version": "Phoenix",
+      "date": "2019/11/02",
+      "maintainer_name": "Shreehari Vaasishta",
+      "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-phoenix-beryllium-t3995999"
     }
 ]
