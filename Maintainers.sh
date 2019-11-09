@@ -76,7 +76,7 @@ fi
 cd official_devices
 git add --all
 git commit -m "$device: update $DAY"
-git push -f origin HEAD:pie
+git push -f origin HEAD:ten
 cd ~
 rm -rf official_devices
 rm -rf Maintainers.sh
