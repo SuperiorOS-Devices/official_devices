@@ -59,4 +59,19 @@
       "maintainer_name": "Shreehari Vaasishta",
       "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-superioros-phoenix-beryllium-t3995999"
     }
-]
+    {
+      "device_name": "Xiaomi Mi 8",
+      "codename": "dipper",
+      "assert": ["dipper"],
+      "datetime":1573406134,
+      "filename": "SuperiorOS-Phoenix-dipper-OFFICIAL-20191110-1716.zip",
+      "id": "6e5d97280965ef4f1c8b1b3284c8d595",
+      "romtype": "OFFICIAL",
+      "size":824697749,
+      "url": "https://master.dl.sourceforge.net/project/superioros/dipper/SuperiorOS-Phoenix-dipper-OFFICIAL-20191110-1716.zip",
+      "version": "Phoenix",
+      "date": "2019/11/10",
+      "maintainer_name": "DarkAngelGR",
+      "xda_thread": ""
+     }
+ ]
