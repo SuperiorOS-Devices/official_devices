@@ -73,5 +73,19 @@
       "date": "2019/11/10",
       "maintainer_name": "DarkAngelGR",
       "xda_thread": ""
+     },
+     {
+      "device_name": "Motorola Moto G (5S) Plus",
+      "codename": "sanders",
+      "assert": ["sanders"],
+      "datetime":1560869139,
+      "filename": "SuperiorOS-Nemesis-sanders-OFFICIAL-20190618-1445.zip",
+      "id": "b9ab4a9655e986fb553e8a75a6576127",
+      "romtype": "OFFICIAL",
+      "url": "https://downloads.sourceforge.net/project/superioros/sanders/SuperiorOS-Nemesis-sanders-OFFICIAL-20190618-1445.zip",
+      "version": "Nemesis",
+      "date": "2019/06/18",
+      "maintainer_name": "Mayur Varde",
+      "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-superioros-moto-g5s-plus-t3936993"
      }
  ]
