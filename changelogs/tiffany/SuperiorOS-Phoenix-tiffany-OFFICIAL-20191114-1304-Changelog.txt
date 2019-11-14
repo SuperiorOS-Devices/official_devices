@@ -1,0 +1,200 @@
+=======================
+     11-14-2019
+=======================
+
+
+   * device/xiaomi/tiffany/
+ebf898c  tiffany: Add superior dependencies  [laityts]
+15d4c7f  tiffany: Superior-ify  [laityts]
+   * frameworks/base/
+42305714  Camera: allow camera to use power key as shutter  [Subinsmani]
+   * vendor/superior/
+dff3ea66  Add tiffany as official  [laityts]
+ff36c9ae  prebuilt: Add a script to simplify A-only recovery system mount  [Sipun Ku Mahanta]
+74309a67  Themes: Add all our accents from pie  [Sipun Ku Mahanta]
+c9e6c487  Bring back accents from pie  [Sipun Ku Mahanta]
+be46fee4  vendor: Add Mint accent color  [Sipun Ku Mahanta]
+8b6e187a  vendor: Add Pixel Themes app  [Sipun Ku Mahanta]
+=======================
+     11-13-2019
+=======================
+
+
+   * packages/apps/SuperiorSettings/
+d088109  add sanders information (#34)  [Sipun Ku Mahanta]
+=======================
+     11-12-2019
+=======================
+
+
+   * bootable/recovery/
+9459943  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/bootable/recovery into ten  [Sipun Ku Mahanta]
+   * build/make/
+cf390af  releasetools: Implement system-mount script to support any recovery system mount  [Sipun Ku Mahanta]
+   * packages/apps/ThemePicker/
+19014f8  ThemePicker: Fix READ_EXTERNAL_STORAGE permission and ask on start  [saikiran2001]
+   * vendor/superior/
+fdd33256  vendor: prebuilt: Update backuptool files from los  [Sipun Ku Mahanta]
+bf07929b  add sanders to official (#21)  [Sipun Ku Mahanta]
+433b971f  superior: soong: replace space with colon on TARGET_LD_SHIM_LIBS  [Sipun Ku Mahanta]
+=======================
+     11-11-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8998/display/
+ce08c33  sdm: add board flag for panel shift  [celtare21]
+   * packages/apps/Settings/
+80b36d9  Allow to dismiss notifications with back FP left/right swipe [2/2]  [saikiran2001]
+=======================
+     11-10-2019
+=======================
+
+
+   * device/superior/sepolicy/
+1992682  lineage: Label our legacy Wi-Fi service  [chautruongthinh]
+   * hardware/superior/interfaces/
+4729a1e  wifi: Disable softAP MAC randomization by default  [chautruongthinh]
+   * packages/apps/Dialer/
+0753fec  Dialer: Theme fixes  [saikiran2001]
+   * packages/apps/Messaging/
+99d2423  Messaging: Add night mode  [saikiran2001]
+   * system/core/
+6a139d1  core: Adapt to superior  [Sipun Ku Mahanta]
+=======================
+     11-09-2019
+=======================
+
+
+   * manifest/
+d617d4e  manifest: track hals from los  [Sipun Ku Mahanta]
+   * packages/apps/Launcher3/
+f395559  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/WallpaperPicker2/
+b8ae0bd  WallpaperPicker2: Remove launcher activity  [Sipun Ku Mahanta]
+=======================
+     11-08-2019
+=======================
+
+
+   * device/xiaomi/tiffany/
+1eb21fc  tiffany: Use latest PMGC as prebuilt GCam  [laityts]
+8fb0827  tiffany: Adapt Google Camera for Android 10  [laityts]
+1be3fc4  tiffany: Use pixel fp to bypass safetynet  [laityts]
+5f3411b  PE-ify  [laityts]
+80dc792  tiffany: Whitelist com.android.camera package  [laityts]
+de17869  tiffany: camera: Fix build error for a new SP  [laityts]
+ad2f238  tiffany: sepolicy: Remove binder_in_vendor_violators from fingerprint  [laityts]
+8e3fcca  tiffany: Address 'LOCAL_MODULE_TAGS := eng debug' deprecation.  [laityts]
+5170f95  tiffany: Define CACHEIMAGE TYPE and SIZE  [laityts]
+62bbcb6  tiffany: update fingerprint from V10.3.1.0.ODBCNXM  [laityts]
+a79f585  tiffany: Use Miuicamera.  [laityts]
+77f622a  tiffany: Use handset-stereo-dmic-ef for camcorder-mic usecase  [laityts]
+56a21b5  tiffany: Update vendor SPL  [laityts]
+0ff66e8  tiffany: Add QC RIL service support  [laityts]
+56c6936  tiffany: Increase in-call earpiece volume  [laityts]
+d27fc40  tiffany: Re-enable fluence  [laityts]
+958186e  tiffany: Add fluence properties  [laityts]
+0e7c4d3  tiffany: Update security patch level  [laityts]
+2376ae4  tiffany: Move system props to makefile  [laityts]
+99fefa7  camera: VNDK Compliance changes.  [laityts]
+064ecaf  VNDK: Added required headers  [laityts]
+8621e71  hw-qcom-camera: Completed FR49059 and FR49058  [laityts]
+   * frameworks/av/
+48b3736  stagefright: add changes related to high-framerates in CameraSource  [Chau Truong Thinh]
+=======================
+     11-07-2019
+=======================
+
+
+   * external/f2fs-tools/
+17f84e4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform//external/f2fs-tools into ten  [Sipun Ku Mahanta]
+   * frameworks/native/
+ddb015d  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/native into ten  [Sipun Ku Mahanta]
+   * hardware/interfaces/
+8dd1347  audio hal: Add interface declarations for audio hal service  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+b591cf4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten  [Sipun Ku Mahanta]
+   * packages/apps/Calendar/
+5b63037  Calendar: Drop no longer existing activity from manifest  [Sipun Ku Mahanta]
+   * packages/apps/Updater/
+33ba2b3  updater: Changes for ten  [Subinsmani]
+   * packages/services/Telephony/
+b9a292c  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/services/Telephony into ten  [Sipun Ku Mahanta]
+   * system/bt/
+9f96a52  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/system/bt into ten  [Sipun Ku Mahanta]
+=======================
+     11-06-2019
+=======================
+
+
+   * vendor/superior/
+78a8f3a8  Add dipper as official (#20)  [Sipun Ku Mahanta]
+=======================
+     11-05-2019
+=======================
+
+
+   * hardware/qcom-caf/common/
+27e52b3  fwk-detect: Relocate from vendor/qcom-opensource/core-utils  [Rashed Abdel-Tawab]
+   * tools/repohooks/
+6d340a1  hooks: add more bad Bug: test cases  [Mike Frysinger]
+   * vendor/codeaurora/telephony/
+cf07a22  Revert "IMS-VT: Low battery handling for Video calls"  [Rashed Abdel-Tawab]
+=======================
+     11-04-2019
+=======================
+
+
+   * device/xiaomi/tiffany/
+d530d57  tiffany: sepolicy: Remove persist label  [laityts]
+ec2adb8  tiffany: Fix treble neverallows  [laityts]
+756bf13  tiffany: Update security patch level  [laityts]
+eb4bc5f  tiffany: Snap: Enable support for bokeh mode  [laityts]
+ec2f23c  tiffany: camera: Re-enable HAL1 support  [laityts]
+2372a4b  tiffany: camera: Don't advertise CDS mode values in HAL1  [laityts]
+6fc2a75  tiffany: QCamera2: HAL: Change CDS mode to OFF by default.  [laityts]
+2e21634  tiffany: Build Touch HAL to enable KeyDisabler  [laityts]
+42838af  tiffany: Update sensors configuration  [laityts]
+04ea3c8  tiffany: camera: Move capability offset to the right place  [laityts]
+266adf7  tiffany: sepolicy: Address hal_fingerprint_default neverallows  [laityts]
+69a616a  tiffany: camera: Don't advertise YUV/PRIVATE reprocessing capabilities  [laityts]
+1bf2863  tiffany: Build camera HAL from source  [laityts]
+4eaf579  tiffany: camera: Hacks to make camera HAL compatible with blobs  [laityts]
+6bc6bba  camera: Link to libhidltransport instead of android.hidl.base  [laityts]
+34851d9  tiffany: camera: Import OSS HAL  [laityts]
+fad61ae  tiffany: rootdir: Update for ConfigFS USB support in recovery  [laityts]
+1b16e67  tiffany: Update vendor security patch level  [laityts]
+d7e07e9  tiffany: sepolicy: Resolve init_fingerprint denials  [laityts]
+f28d52c  tiffany: Update vendor security patch level  [laityts]
+0c3f162  tiffany: sepolicy: Address tee denials  [laityts]
+e2c4eb8  tiffany: audio: Update from PKQ1.180917.001  [laityts]
+23e1264  tiffany: Update to P blobs  [laityts]
+bd57db5  tiffany: Update audio configuration for P  [laityts]
+2e3f39e  tiffany: Update persist path for goodix hack  [laityts]
+0bdbcd5  tiffany: Update symlink path for wlan mac  [laityts]
+d9dc4b3  tiffany: Remove extra root folders  [laityts]
+2aba357  tiffany: Fix the sysfs path for fpc1020  [laityts]
+f905fc4  tiffany: Update controls for internal codec  [laityts]
+c595492  tiffany: Update sepolicy for P  [laityts]
+8b1a7ba  tiffany: Add libsoftkeymaster used by goodix fp blobs  [laityts]
+=======================
+     11-03-2019
+=======================
+
+
+   * hardware/qcom/gps/
+96e822f  msm8084: gps: Fix for buffer overrun crash at copying nmea string  [Elektroschmock]
+=======================
+     11-02-2019
+=======================
+
+
+=======================
+     11-01-2019
+=======================
+
+
+   * vendor/superior/
+5ca92c80  Revert "packages: remove prebuilt Settingsintelligence"  [Sipun Ku Mahanta]
+9f111d4c  fonts: Add our favourite fonts in AOSP FontEngine [1/2]  [Sipun Ku Mahanta]

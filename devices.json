@@ -87,5 +87,20 @@
       "date": "2019/06/18",
       "maintainer_name": "Mayur Varde",
       "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-superioros-moto-g5s-plus-t3936993"
-     }
+     },
+    {
+      "device_name": "Xiaomi Mi 5X",
+      "codename": "tiffany",
+      "assert": ["tiffany"],
+      "datetime":1573736635,
+      "filename": "SuperiorOS-Phoenix-tiffany-OFFICIAL-20191114-1304.zip",
+      "id": "10080ff09159ad206a603bbcbf376f9e",
+      "romtype": "OFFICIAL",
+      "size":691622848,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tiffany/SuperiorOS-Phoenix-tiffany-OFFICIAL-20191114-1304.zip",
+      "version": "Phoenix",
+      "date": "2019/11/14",
+      "maintainer_name": "Eytan",
+      "xda_thread": ""
+    }
  ]
