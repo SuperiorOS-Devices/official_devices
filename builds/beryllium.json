@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1573273588,
-      "filename": "SuperiorOS-Phoenix-beryllium-OFFICIAL-20191109-0427.zip",
-      "id": "351a10596e51f7d780ad161490ec8d9d",
+      "datetime":1573746119,
+      "filename": "SuperiorOS-Phoenix-beryllium-OFFICIAL-20191114-1542.zip",
+      "id": "9fa10dc30d68159920d8afbf4cd1a824",
       "romtype": "OFFICIAL",
-      "size":801151259,
-      "url": "https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Phoenix-beryllium-OFFICIAL-20191109-0427.zip",
+      "size":803644584,
+      "url": "https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Phoenix-beryllium-OFFICIAL-20191114-1542.zip",
       "version": "Phoenix"
     }
   ]
