@@ -1,0 +1,14 @@
+
+{
+  "response": [
+    {
+      "datetime":1573905342,
+      "filename": "SuperiorOS-Phoenix-X00T-OFFICIAL-20191116-1156.zip",
+      "id": "c3f1cb83a0f58906923fc0eebf749a2b",
+      "romtype": "OFFICIAL",
+      "size":661774032,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Phoenix-X00T-OFFICIAL-20191116-1156.zip",
+      "version": "Phoenix"
+    }
+  ]
+}
