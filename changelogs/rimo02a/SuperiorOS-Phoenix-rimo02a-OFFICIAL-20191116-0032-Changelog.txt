@@ -1,0 +1,368 @@
+=======================
+     11-16-2019
+=======================
+
+
+=======================
+     11-15-2019
+=======================
+
+
+   * packages/apps/SuperiorSettings/
+cc52e7c  add tiffany information (#35)  [Sipun Ku Mahanta]
+   * vendor/superior/
+d8133227  Add Riva as Official (#23)  [Sipun Ku Mahanta]
+2987b7ac  Add tiffany as official (#22)  [Sipun Ku Mahanta]
+=======================
+     11-14-2019
+=======================
+
+
+   * frameworks/base/
+42305714b6b  Camera: allow camera to use power key as shutter  [Subinsmani]
+48f070e71e5  Add our StatusBar custom settings observer  [Subinsmani]
+d5b7c4b9bd2  Revert "Revert "Remove BatteryDetail from BatterySaverTile""  [Subinsmani]
+72ed0fabfa4  Revert "base: SystemUI: make the battery saver tile useful"  [Subinsmani]
+30864155504  Allow to dismiss notifications with back FP left/right swipe [1/2]  [Subinsmani]
+e05c87cdc06  SettingsProvider: Fix for google backup and restore  [Subinsmani]
+26b60e2925b  Method to detect a notch'd device  [Subinsmani]
+   * vendor/superior/
+ff36c9ae  prebuilt: Add a script to simplify A-only recovery system mount  [Sipun Ku Mahanta]
+74309a67  Themes: Add all our accents from pie  [Sipun Ku Mahanta]
+c9e6c487  Bring back accents from pie  [Sipun Ku Mahanta]
+be46fee4  vendor: Add Mint accent color  [Sipun Ku Mahanta]
+8b6e187a  vendor: Add Pixel Themes app  [Sipun Ku Mahanta]
+=======================
+     11-13-2019
+=======================
+
+
+   * packages/apps/SuperiorSettings/
+d088109  add sanders information (#34)  [Sipun Ku Mahanta]
+0b19ce9  Phoenix: Add SystemSettingsMasterSwitchPreference  [Sipun Ku Mahanta]
+   * packages/apps/ThemePicker/
+19014f8  ThemePicker: Fix READ_EXTERNAL_STORAGE permission and ask on start  [saikiran2001]
+5e1fc13  ThemePicker: make it a standalone app  [saikiran2001]
+=======================
+     11-12-2019
+=======================
+
+
+   * bootable/recovery/
+94599430  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/bootable/recovery into ten  [Sipun Ku Mahanta]
+48fe6364  Bring back file-based OTA edify functions  [Sipun Ku Mahanta]
+   * build/make/
+cf390afa2  releasetools: Implement system-mount script to support any recovery system mount  [Sipun Ku Mahanta]
+061df600a  build: Force system-as-root layout for backuptool  [Sipun Ku Mahanta]
+402b7fa65  build: Fixup backuptool  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+80b36d9e50  Allow to dismiss notifications with back FP left/right swipe [2/2]  [saikiran2001]
+84aff7144e  Suggestion cards: align them to searchbar  [saikiran2001]
+   * vendor/superior/
+fdd33256  vendor: prebuilt: Update backuptool files from los  [Sipun Ku Mahanta]
+bf07929b  add sanders to official (#21)  [Sipun Ku Mahanta]
+433b971f  superior: soong: replace space with colon on TARGET_LD_SHIM_LIBS  [Sipun Ku Mahanta]
+=======================
+     11-11-2019
+=======================
+
+
+   * device/superior/sepolicy/
+1992682  lineage: Label our legacy Wi-Fi service  [chautruongthinh]
+   * frameworks/base/
+429f4ffed7d  Color/tint the wifi/mobile status bar icons correctly  [saikiran2001]
+c1c0d3f53cd  Enter quick doze with non-wakeup alarm.  [saikiran2001]
+bb735b6fe3b  base: Persistent settings icon on qs panel for 10.x  [saikiran2001]
+606569c636c  Fix to handle duplicate call id for conference call  [saikiran2001]
+28339f6d10c  media: Define MPEG-H Encoder Format  [saikiran2001]
+b5bdc293078  audio: add support for extended formats  [saikiran2001]
+f2d52d822dc  wm: Use a different execution context to register WFD rotation receiver  [saikiran2001]
+b610d2c2298  wm::DisplayRotation: Changes for WFD and UIBC.  [saikiran2001]
+82689103e1f  Always clear package cache when upgrade is detected  [saikiran2001]
+54dba26ef7b  BatteryStats: Update WifiState even if EnergyInfo is invalid  [saikiran2001]
+6e07b27fd9f  Fix bugs regarding system app cannot write visible path  [saikiran2001]
+44eae8bc323  Prevent NPE due to unchecked r.uid  [saikiran2001]
+166cae866ef  base: change default list_divider_color_dark  [saikiran2001]
+28737ede9ca  Add mechanism to improve consistancy of notification  [saikiran2001]
+d4c0eb14c13  Consolidate ActivityStack#finishCurrentActivityLocked checking  [saikiran2001]
+db06b9b3de1  Improve comparison of fractions  [saikiran2001]
+b5289ea8fbd  Improve integer aligned coordinate detection  [saikiran2001]
+04966389217  Improve logic when to use filtering in readback and TextureView  [saikiran2001]
+21ea5f17de7  Revert "Fix enumerate corner case"  [saikiran2001]
+380341f3672  Option to mute media with gesture [1/2]  [saikiran2001]
+5f8f64cb080  SystemUI: Fix kill button layout in notification  [saikiran2001]
+a33c5438efe  base: Add toggle to disable charging animation [1/2]  [saikiran2001]
+44d8b0e81e1  base: fix charging animation power level  [saikiran2001]
+839f27be867  base: Use wireless charging animation for wired charging too  [saikiran2001]
+46a398659b8  Ambient music ticker: double tap on track title to skip track  [saikiran2001]
+007a30dfe1a  ScreenOff skiptrack: support Spotify/kdeconn/... remote sessions  [saikiran2001]
+babb2fc2e47  base: Volume dialog timeout (1/2)  [saikiran2001]
+44b4a26e4fa  SystemUI: Prevent dummy expansion of status bar  [saikiran2001]
+fa2088fa9aa  Fix bootanimation stack overflow  [saikiran2001]
+bc4ef113794  etc: Add privapp whitelist permissions for ThemePicker  [saikiran2001]
+0001cb95e4e  Add kill button to notification guts [1/2]  [saikiran2001]
+573eaf9b02b  Configurable 0, 90, 180 and 270 degree rotation [1/2]  [saikiran2001]
+efeb69f1553  SystemUI: Remove data tile dialog  [saikiran2001]
+26f9b71defa  Delay blanking of displays to improve performance  [saikiran2001]
+09d761c13ae  AudioService: Fix camera shutter sound toggle  [saikiran2001]
+fe6ce0d68b9  fw/base: Enable home button wake  [saikiran2001]
+b975c7f08b3  base: SystemUI: Add optional notch friendly VoLTE icon  [saikiran2001]
+77a56748a8b  SystemUI: Improve Privacy indicators layout  [saikiran2001]
+8fc0b079de8  SystemUI: Make BrightlineFalsingManager depend on config  [saikiran2001]
+243d3e48a77  Forward port CM Screen Security settings (1/2)  [saikiran2001]
+e5305674286  SystemUI: Name Cellular Tile based on carrier  [saikiran2001]
+8606fddc348  ActivityManagerService: dont be so hectic on cpu battery stats  [saikiran2001]
+e913ec26d9a  ActivityManager: fix npe in ProcessRecord  [saikiran2001]
+c52b7eec63e  core: ViewRootImpl: Stop the 'requestLayout() improperly called' logspam  [saikiran2001]
+a803b25f9fc  AccountManagerService: Fix ConnectionRecord Leak  [saikiran2001]
+3496ef76ea3  Clear all lingering notifications when network is disconnected  [saikiran2001]
+5007eb9d63c  view: add null check for dispatch touch view  [saikiran2001]
+cdd9c0bc7b4  InputMethodManager: Fixed memory leak when windowDismissed  [saikiran2001]
+bca386d9760  frameworks: Fix null pointer Issue  [saikiran2001]
+   * hardware/qcom-caf/msm8998/display/
+ce08c33d2  sdm: add board flag for panel shift  [celtare21]
+   * hardware/superior/interfaces/
+4729a1e  wifi: Disable softAP MAC randomization by default  [chautruongthinh]
+71b7165  wifi: error out when asked for factory mac address  [chautruongthinh]
+9ac21bb  wifi: Name the service as legacy  [chautruongthinh]
+1718ba2  superior: import wifi service  [chautruongthinh]
+   * packages/apps/Dialer/
+0753fecec  Dialer: Theme fixes  [saikiran2001]
+a7339cab8  Dialer: Use system round corner values for searchbox  [saikiran2001]
+c372a73ca  Dialer: Welcome to night mode  [saikiran2001]
+   * packages/apps/Messaging/
+99d2423  Messaging: Add night mode  [saikiran2001]
+27f5d02  Messaging: Show snackbar instead of toast when deleting conversation  [saikiran2001]
+5b20d8b  Messaging: Swipe right to delete conversation Change "swipe delete" to "swipe right delete", so SwipeArchive and SwipeDelete can exist at the same time.  [saikiran2001]
+13112b5  Messaging: Implement option for swipe to delete.  [saikiran2001]
+   * packages/apps/Settings/
+b2c4e23ab3  Option to mute media with gesture [2/2]  [saikiran2001]
+a1cbf02a59  Settings: Show me more than 4 items in the menus!  [saikiran2001]
+c7e7fbd5a0  DisplaySettings: font size in 5% steps from 80% to 130%  [saikiran2001]
+3eb92b2746  Settings: Fix QrCamera crash on devices without flash  [saikiran2001]
+f32a13f10a  Configurable 0, 90, 180 and 270 degree rotation [2/2]  [saikiran2001]
+d45b584322  Settings: Enable permission hub by default  [saikiran2001]
+5ed80f8723  Revert "Remove Permissions Hub."  [saikiran2001]
+d60781f60c  Port "Battery Usage Alerts" feature from factory images  [saikiran2001]
+4ab1630c0b  InstalledAppDetails: fix refreshing storage summary after force stop  [saikiran2001]
+ce90b61612  Settings: Update some icons to MD2  [saikiran2001]
+339a7830d3  Settings: Forward port pattern visibility settings (2/2)  [saikiran2001]
+f590f3582c  Settings: Forward port lock pattern grid size (2/2)  [saikiran2001]
+0ca71dd77e  settings: remove gestures leftover  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+01f663c  Add toggle to disable charging animation [2/2]  [saikiran2001]
+ea67708  Volume dialog timeout (2/2)  [saikiran2001]
+8a25e45  Import Secure Seekbar & Secure InList Preferences  [saikiran2001]
+d992460  Add kill button to notification guts [2/2]  [saikiran2001]
+   * packages/apps/ThemePicker/
+6988831  ThemePicker:  bugfixes and make this thing more robust  [saikiran2001]
+=======================
+     11-10-2019
+=======================
+
+
+   * build/make/
+e8d4f435d  build: Don't include recovery in OTA package.  [Sipun Ku Mahanta]
+97600550f  Bring back userdebug and allow for ADB root.  [Sipun Ku Mahanta]
+   * system/core/
+6a139d189  core: Adapt to superior  [Sipun Ku Mahanta]
+b4b6d8a97  LockscreenCharging: squashed (2/3)  [Sipun Ku Mahanta]
+52a0e390d  healthd: cover devices that have voltage_max file with value of 0  [Sipun Ku Mahanta]
+25493f729  healthd: Reinitialize mChargerNames for every battery update  [Sipun Ku Mahanta]
+856bc31c3  healthd: Add support for HVDCP_3 chargers  [Sipun Ku Mahanta]
+f3b52e096  logcat: Map '-C' to 'logcat -v color'  [Sipun Ku Mahanta]
+958d66855  set /system/etc/init.d/* permissions  [Sipun Ku Mahanta]
+4d1ee60a5  utils: Threads: Handle empty thread names  [Sipun Ku Mahanta]
+ec46aa9a9  Add wrapped key support  [Sipun Ku Mahanta]
+3695bb689  Camera: Add feature extensions  [Sipun Ku Mahanta]
+4450f75ae  mkbootimg: Make unpack_bootimg py3 compatible  [Sipun Ku Mahanta]
+060d8eb74  bsdgrep: for -r, use the working directory if none specified  [Sipun Ku Mahanta]
+fde755a78  init: update recovery when enabled in settings  [Sipun Ku Mahanta]
+3e0024023  healthd: Add DASH charger type  [Sipun Ku Mahanta]
+dae56fa39  init: Add vendor-specific initialization hooks.  [Sipun Ku Mahanta]
+60dd1ab82  mkbootimg: add support for --dt  [Sipun Ku Mahanta]
+613964057  init: don't skip starting a service with no domain if permissive  [Sipun Ku Mahanta]
+7b4427a52  ueventd: parallelize restorecon /sys  [Sipun Ku Mahanta]
+=======================
+     11-09-2019
+=======================
+
+
+   * build/make/
+c41e7f3d1  build: Livewalls up  [Sipun Ku Mahanta]
+   * frameworks/base/
+fbf03c41c6d  Automatic translation import  [Sipun Ku Mahanta]
+   * manifest/
+d617d4e  manifest: track hals from los  [Sipun Ku Mahanta]
+357b20e  manifest: Stop tracking clang from superior  [Sipun Ku Mahanta]
+a1a0f7e  manifest: Track wallpaperpicker2 from superior  [Sipun Ku Mahanta]
+458f4c4  manifest: Add launcher3 to crowdin  [Sipun Ku Mahanta]
+   * packages/apps/Launcher3/
+f39555910  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+0a1b3dbcf3  Automatic translation import  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+d2e56fb  Automatic translation import  [Sipun Ku Mahanta]
+b96d497  Phoenix: Use accent colors in drawables  [Sipun Ku Mahanta]
+dd3e88e  Phoenix: About    * fixup  [Sipun Ku Mahanta]
+   * packages/apps/WallpaperPicker2/
+b8ae0bd  WallpaperPicker2: Remove launcher activity  [Sipun Ku Mahanta]
+=======================
+     11-08-2019
+=======================
+
+
+   * build/make/
+d56ced36e  core: Use prebuilt lzma  [Sipun Ku Mahanta]
+2ecca2175  build: Stop installing the sample APN list  [Sipun Ku Mahanta]
+   * frameworks/av/
+48b373618  stagefright: add changes related to high-framerates in CameraSource  [Chau Truong Thinh]
+02b18eccc  stagefright: Move QCOM_BSP_LEGACY flag to correct blueprint file  [Chau Truong Thinh]
+   * frameworks/base/
+6be50ce2c6f  Keep recent tasks for more time in memory  [Subinsmani]
+d325a84c781  Make percentage text inside battery readable  [Subinsmani]
+cff28943749  SystemUI: Reduce padding between battery & signal  [Subinsmani]
+3539128e8ac  SystemUI: Tweak battery icon size to match rest  [Subinsmani]
+6c9cdaa5312  SystemUI: Make battery icon slightly thicker for text visability  [Subinsmani]
+82cde999543  [1/2] base: navigation mode settings  [saikiran2001]
+   * packages/apps/Settings/
+3a6d3c8f58  Merge pull request #5 from saikiran2001/10  [GitHub]
+d035d5d456  Settings: Add platform and RAM to Model & Hardware  [saikiran2001]
+f21cc31ccd  Settings: Navigation mode settings [2/2]  [saikiran2001]
+a755107b26  Settings: Fix dismissal card bg color  [saikiran2001]
+cf4877144a  Fix ViLTE is not available when WiFi Calling is disabled  [saikiran2001]
+=======================
+     11-07-2019
+=======================
+
+
+   * build/make/
+6b76504ac  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/build into ten  [Sipun Ku Mahanta]
+   * device/superior/sepolicy/
+974277e  sepolicy: vendor: Migrate to power 1.2  [Sipun Ku Mahanta]
+   * external/f2fs-tools/
+17f84e4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform//external/f2fs-tools into ten  [Sipun Ku Mahanta]
+   * frameworks/av/
+fd5b56e27  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/av into ten  [Sipun Ku Mahanta]
+   * frameworks/base/
+cca44fd0045  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/base into ten  [Subinsmani]
+   * frameworks/native/
+ddb015d15  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/native into ten  [Sipun Ku Mahanta]
+   * hardware/interfaces/
+8dd1347f6  audio hal: Add interface declarations for audio hal service  [Sipun Ku Mahanta]
+415e56c37  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform//hardware/interfaces into ten  [Sipun Ku Mahanta]
+   * manifest/
+8419b0e  manifest: track sdm845 hals from los  [Subinsmani]
+e4170bc  manifest: track some external repos from superior  [Sipun Ku Mahanta]
+8ca6f36  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/manifest into ten  [Sipun Ku Mahanta]
+67f82d9  manifest: Track calculator - Also remove settings intellegence we have it it prebuilt  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+b591cf44  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten  [Sipun Ku Mahanta]
+   * packages/apps/Calendar/
+5b63037b  Calendar: Drop no longer existing activity from manifest  [Sipun Ku Mahanta]
+8f367261  Calendar: Don't optimize out no-arg Fragment constructors  [Sipun Ku Mahanta]
+76f66be4  Calendar: Fix translatables  [Sipun Ku Mahanta]
+b07161e6  Calendar: adaptive icon  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+a938e2420e  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Settings/ into ten  [Sipun Ku Mahanta]
+   * packages/apps/Updater/
+33ba2b3  updater: Changes for ten  [Subinsmani]
+   * packages/services/Telephony/
+b9a292cfb  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/services/Telephony into ten  [Sipun Ku Mahanta]
+   * system/bt/
+9f96a527e  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/system/bt into ten  [Sipun Ku Mahanta]
+=======================
+     11-06-2019
+=======================
+
+
+   * hardware/qcom-caf/common/
+27e52b3  fwk-detect: Relocate from vendor/qcom-opensource/core-utils  [Rashed Abdel-Tawab]
+   * packages/apps/SuperiorSettings/
+980653b  Maintainers: Add dipper details (#33)  [Sipun Ku Mahanta]
+   * vendor/codeaurora/telephony/
+cf07a22  Revert "IMS-VT: Low battery handling for Video calls"  [Rashed Abdel-Tawab]
+   * vendor/superior/
+78a8f3a8  Add dipper as official (#20)  [Sipun Ku Mahanta]
+=======================
+     11-05-2019
+=======================
+
+
+   * manifest/
+84db708  Manifest for Android 10.0.0 Release 14  [The Android Open Source Project]
+0ad853a  Manifest for Android 10.0.0 Release 13  [The Android Open Source Project]
+425389b  Manifest for Android 10.0.0 Release 12  [The Android Open Source Project]
+   * packages/apps/SuperiorSettings/
+6838cd1  Update superior_strings.xml (#32)  [Sipun Ku Mahanta]
+   * tools/repohooks/
+6d340a1  hooks: add more bad Bug: test cases  [Mike Frysinger]
+=======================
+     11-04-2019
+=======================
+
+
+   * frameworks/base/
+dffc73bc547  Revert "Disable dashboards conditions and suggestions (1/2)"  [Jayant Deshmukh]
+   * hardware/qcom/gps/
+1c6419a  msm8084: Return the correct length of nmea sentence  [Elektroschmock]
+96e822f  msm8084: gps: Fix for buffer overrun crash at copying nmea string  [Elektroschmock]
+   * packages/apps/Settings/
+678b910ee7  settings: correct charging sound string  [Jayant Deshmukh]
+803d55b42b  Revert "Disable dashboards conditions and suggestions (2/2)"  [Jayant Deshmukh]
+   * packages/apps/SuperiorSettings/
+b432246  Phoenix: Rearrange and categorize statusbar settings  [Jayant Deshmukh]
+=======================
+     11-03-2019
+=======================
+
+
+   * frameworks/base/
+dd945b25b23  SystemUI: Fix crash when trying to remove an already removed statusbar item * Fixes crash: https://del.dog/eguracinoq * Needs proof of concept  [Jayant Deshmukh]
+215fcde524c  base: Show battery in qs status bar  [Jayant Deshmukh]
+2dd23a8cce3  Merge pull request #19 from saikiran2001/ten  [GitHub]
+fc26e9df897  Fix NPE when AOSP ambient display preference is removed  [saikiran2001]
+ab7bcc5c70d  ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects  [saikiran2001]
+1e4d7ced38a  SystemUI: add more notification snooze times  [saikiran2001]
+0c03e09141e  base: Q seekbar: Set opacity for the seekbar when it's not interactive  [saikiran2001]
+f9a068d66a2  Fix race in TelephonyScanManager  [saikiran2001]
+34a5561bbba  Scroll: modified velocitytracker  [saikiran2001]
+3b7f0509ec9  Allow faster app switching  [saikiran2001]
+6ad486e72f3  base: Update some icons to MD2  [saikiran2001]
+3e3fbf5f24a  Fix Photosphere/Camera FCs  [saikiran2001]
+7a8700b09d0  Prevent deadlock when going out of idle state  [saikiran2001]
+1bddbf40d78  SystemUI: Prevent NPE in Dependency.get() in BrightnessController  [saikiran2001]
+d4b3b72848d  SystemUI: Update string for add tiles with one click  [saikiran2001]
+c53e6fe91ef  base: Change dividers from Holo Blue to Pixel Blue  [saikiran2001]
+8826d0c5d88  base: use some google pixel colors  [saikiran2001]
+339567b14c1  Avoid NPE in system_server in bringDownServiceLocked()  [saikiran2001]
+4d915bd8cf5  ViewGroup: Remove child parent when a new view is added  [saikiran2001]
+1429bc9d384  SQLite: Do integrity_check only once  [saikiran2001]
+8ca7c8358f9  SQLiteDatabase: Catch corrupt exception during transaction  [saikiran2001]
+dd74efcd0e5  base: limit direct share targets to reduce lag  [saikiran2001]
+2617621a493  FATAL EXCEPTION IN SYSTEM PROCESS: android.ui  [saikiran2001]
+9348ddd29b6  KernelWakelockReader: stop the panic  [saikiran2001]
+ec408a71934  ParcelFileDescriptor: can we stop the panic here?  [saikiran2001]
+b3a838f734d  SystemUI: Fix statusbar padding and layout for system icons  [saikiran2001]
+bb6a6427cef  SystemUI: assist: disable old Assistant animations  [saikiran2001]
+9bb4eeac0f1  Add colors to assistant animation  [saikiran2001]
+0cc09537f28  base: Add rounded corners to activity open/close animation  [saikiran2001]
+ac4d3230a42  hwui: Fix HWUI_COMPILE_FOR_PERF for non-arm  [saikiran2001]
+84f5a3f3bb8  SettingsLib: Allow Skia Vulkan to be used as HW renderer  [saikiran2001]
+b7fa46b07a1  Revert "Revert "Add developer setting to set the default GPU renderer.""  [saikiran2001]
+c1ea587cb1f  MountService: Prevent NPE with DropBoxManager  [saikiran2001]
+85f5e76561a  Optimize IncallUI delay for voice calls  [saikiran2001]
+59fd00dafbc  Settings:Bugfix for NPE, Only valid screen power consumption need to smear  [saikiran2001]
+bd4209df13e  Keyguard: reduce bottom text size  [saikiran2001]
+a10bcdde643  Graphics: Fix NPE in Gdrive  [saikiran2001]
+72f1444eccc  base: SystemUI: make the battery saver tile useful  [saikiran2001]
+d639b1dcef5  Revert "Remove BatteryDetail from BatterySaverTile"  [saikiran2001]
+e8e990bc29d  Cutout force full screen: Remove fullscreen checks  [saikiran2001]
+8f4ec6639d6  fwb: [1/2] Implement cutout force full screen  [saikiran2001]
+   * packages/apps/Settings/
+e3ee291089  Merge pull request #4 from saikiran2001/10  [GitHub]
+d5b59cb741  Settings: Add all gesture preview animations  [saikiran2001]
+89e8d9de6e  Move custom dp settings under Display  [saikiran2001]
+d44ae753b3  Cutout force fullscreen: Disable fast scroller  [saikiran2001]
+56e09b57e3  Settings: [2/2] Implement cutout force full screen  [saikiran2001]
+5cb0d3a135  Settings: Fix the failing strings  [saikiran2001]
