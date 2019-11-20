@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1573997322,
-      "filename": "SuperiorOS-Phoenix-tiffany-OFFICIAL-20191117-1329.zip",
-      "id": "82f94ccbbea7f56547b47a5d8713da59",
+      "datetime":1574263493,
+      "filename": "SuperiorOS-Phoenix-tiffany-OFFICIAL-20191120-1525.zip",
+      "id": "3cd5568d3b136bd7260f19b904b8bb53",
       "romtype": "OFFICIAL",
-      "size":605057205,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tiffany/SuperiorOS-Phoenix-tiffany-OFFICIAL-20191117-1329.zip",
+      "size":602358214,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tiffany/SuperiorOS-Phoenix-tiffany-OFFICIAL-20191120-1525.zip",
       "version": "Phoenix"
     }
   ]
