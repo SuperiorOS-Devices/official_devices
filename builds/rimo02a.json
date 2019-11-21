@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1573864302,
-      "filename": "SuperiorOS-Phoenix-rimo02a-OFFICIAL-20191116-0032.zip",
-      "id": "a816f08ed6825d2677f28b6d56609741",
+      "datetime":1574354548,
+      "filename": "SuperiorOS-Phoenix-rimo02a-OFFICIAL-20191121-1643.zip",
+      "id": "9f666aa138b37493068253c7cefd44d5",
       "romtype": "OFFICIAL",
-      "size":563793931,
-      "url": "https://master.dl.sourceforge.net/project/superioros/rimo02a/SuperiorOS-Phoenix-rimo02a-OFFICIAL-20191116-0032.zip",
+      "size":561377689,
+      "url": "https://master.dl.sourceforge.net/project/superioros/rimo02a/SuperiorOS-Phoenix-rimo02a-OFFICIAL-20191121-1643.zip",
       "version": "Phoenix"
     }
   ]
