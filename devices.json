@@ -117,5 +117,20 @@
       "date": "2019/11/17",
       "maintainer_name": "Eytan",
       "xda_thread": ""
+    },
+    {
+      "device_name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "assert": ["violet"],
+      "datetime":1574576363,
+      "filename": "SuperiorOS-Phoenix-violet-OFFICIAL-20191124-0621.zip",
+      "id": "d7d85df7d6b5949acd19f4357d14c2ad",
+      "romtype": "OFFICIAL",
+      "size":842858503,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Phoenix-violet-OFFICIAL-20191124-0621.zip",
+      "version": "Phoenix",
+      "date": "2019/11/24",
+      "maintainer_name": "Yashpal Joshi(officialyash007)",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-t4008643/post80996073#post80996073"
     }
  ]
