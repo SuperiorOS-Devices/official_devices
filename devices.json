@@ -132,5 +132,22 @@
       "date": "2019/11/24",
       "maintainer_name": "Yashpal Joshi(officialyash007)",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-t4008643/post80996073#post80996073"
+    },
+    {
+      "device_name": "Xiaomi Redmi Note 7",
+      "codename": "lavender",
+      "assert": ["lavender"],
+      "datetime":1574259349,
+      "filename": "SuperiorOS-Phoenix-lavender-OFFICIAL-20191120-1416.zip",
+      "id": "8738235fa6899b84b617ce8b3fe4abde",
+      "romtype": "OFFICIAL",
+      "size":842757618,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20191120-1416.zip",
+      "version": "Phoenix",
+      "date": "2019/11/20",
+      "maintainer_name": "Clythe Freed",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/10-0-superior-os-t4006547"
     }
  ]
+
+ 
