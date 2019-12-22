@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1574342669,
-      "filename": "SuperiorOS-Phoenix-X01BD-OFFICIAL-20191121-1325.zip",
-      "id": "2f6e0151024a0da6de1221cfdefe4814",
+      "datetime":1577027756,
+      "filename": "SuperiorOS-Phoenix-X01BD-OFFICIAL-20191222-1516.zip",
+      "id": "ed47b297fd28bb96dd6a8b6b4fb9c2dc",
       "romtype": "OFFICIAL",
-      "size":672021308,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Phoenix-X01BD-OFFICIAL-20191121-1325.zip",
+      "size":671907494,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Phoenix-X01BD-OFFICIAL-20191222-1516.zip",
       "version": "Phoenix"
     }
   ]
