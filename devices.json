@@ -154,15 +154,15 @@
       "codename": "rosy",
       "assert": ["rosy"],
       "datetime":1572687645,
-      "filename": "SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
-      "id": "d59771a07b51725b60dbaff28b3ae347",
+      "filename": "",
+      "id": "",
       "romtype": "OFFICIAL",
       "size":799230078,
-      "url":"https://master.dl.sourceforge.net/project/superioros/beryllium/SuperiorOS-Phoenix-beryllium-OFFICIAL-20191102-0941.zip",
+      "url":"",
       "version": "Phoenix",
       "date": "2019/11/02",
       "maintainer_name": "Speedhorn | Vishalcj",
-      "xda_thread":"https://forum.xda-developers.com/poco-f1/development/rom-superioros-phoenix-beryllium-t3995999"
+      "xda_thread":""
     }
 
  ]
