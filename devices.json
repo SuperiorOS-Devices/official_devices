@@ -147,7 +147,24 @@
       "date": "2019/11/20",
       "maintainer_name": "Clythe Freed",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/10-0-superior-os-t4006547"
+    },
+
+{
+      "device_name": "Xiaomi Redmi 5",
+      "codename": "rosy",
+      "assert": ["rosy"],
+      "datetime":1572687645,
+      "filename": "",
+      "id": "",
+      "romtype": "OFFICIAL",
+      "size":799230078,
+      "url":"",
+      "version": "Phoenix",
+      "date": "2019/11/02",
+      "maintainer_name": "Speedhorn | Vishalcj",
+      "xda_thread":""
     }
+
  ]
 
- 
+
