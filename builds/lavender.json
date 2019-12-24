@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1574259349,
-      "filename": "SuperiorOS-Phoenix-lavender-OFFICIAL-20191120-1416.zip",
-      "id": "8738235fa6899b84b617ce8b3fe4abde",
+      "datetime":1577159797,
+      "filename": "SuperiorOS-Phoenix-lavender-OFFICIAL-20191224-0358.zip",
+      "id": "808d2fb534999d2834834f40c52001ec",
       "romtype": "OFFICIAL",
-      "size":842757618,
-      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20191120-1416.zip",
+      "size":801511738,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20191224-0358.zip",
       "version": "Phoenix"
     }
   ]
