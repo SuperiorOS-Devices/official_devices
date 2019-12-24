@@ -1,0 +1,221 @@
+====================
+     12-24-2019
+====================
+
+
+====================
+     12-23-2019
+====================
+
+
+   * packages/apps/SuperiorSettings/
+725986f  add support for rosy (#38)  [Sipun Ku Mahanta]
+4fd9302  Add tissot to official  [Jayant Deshmukh]
+   * vendor/superior/
+c3df556a  add official support for rosy (#27)  [Jayant Deshmukh]
+====================
+     12-22-2019
+====================
+
+
+   * frameworks/base/
+15b2ad8218b  SystemUI: fix black screen for pulse and AOD  [Jayant Deshmukh]
+1eddc79e97b  DO NOT MERGE Revert all scrim related changes in qpr  [Jayant Deshmukh]
+1295186033b  Revert "SystemUI: fix black screen for pulse"  [Jayant Deshmukh]
+e1ec37701c1  base: Reduce the traffic arrow padding  [Jayant Deshmukh]
+   * packages/services/Telecomm/
+416e7db0  Increase vibration strength  [Jayant Deshmukh]
+   * vendor/superior/
+c8584d3a  Add tissot to official  [Jayant Deshmukh]
+====================
+     12-21-2019
+====================
+
+
+   * frameworks/base/
+9b1e4a33aba  Revert "Initial import of SystemUIGoogleFactory"  [Jayant Deshmukh]
+8210e1487de  Revert "SystemUI: Port code to improve pixel live wallpapers"  [Jayant Deshmukh]
+c9cfe16f2ee  Open Sound settings on long click at the panel button  [Jayant Deshmukh]
+ad851a8aa13  SystemUI: fix black screen for pulse  [Jayant Deshmukh]
+4fd21d2f967  base: fix battery icon not visible in qs statusbar while using light theme  [Jayant Deshmukh]
+9ef867f8b8e  Merge tag 'android-10.0.0_r20' into ten  [Jayant Deshmukh]
+====================
+     12-20-2019
+====================
+
+   * art/
+65d9ba2eff  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/art into ten  [Sipun Ku Mahanta]
+   * hardware/qcom-caf/sm8150/audio/
+79442b0ff  Merge tag 'LA.UM.8.1.r1-12800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten  [Dyneteve]
+   * hardware/qcom-caf/sm8150/display/
+847a7dbad  sdm: hwc2 : Correcting the display Index handling  [Dyneteve]
+4d07831c7  sdm: Add transform information in HWPipeInfo  [Dyneteve]
+ed6e6bc30  config: Add libs to display product package  [Dyneteve]
+a6864974e  sdm: Implement Display Config 1_11 Qsync API's.  [Dyneteve]
+   * hardware/qcom-caf/sm8150/media/
+453cf8d63  Merge tag 'LA.UM.8.1.r1-12800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten  [Dyneteve]
+   * packages/apps/Launcher3/
+b73f8857f  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform//packages/apps/Launcher3 into ten  [Jayant Deshmukh]
+   * packages/apps/ThemePicker/
+ab1eed1  Require wallpaper privapp whitelist package  [Jayant Deshmukh]
+====================
+     12-19-2019
+====================
+
+
+   * build/make/
+e8da97910  build: releasetools: Make it clean  [Sipun Ku Mahanta]
+   * manifest/
+56619ff  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/manifest into ten  [Sipun Ku Mahanta]
+   * packages/apps/Settings/
+d225d08c40  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings/ into ten  [Sipun Ku Mahanta]
+   * tools/repohooks/
+36d2ce6  utils: rename RunCommandError to CalledProcessError  [Mike Frysinger]
+f482d76  utils: RunCommandError: drop eq/ne support  [Mike Frysinger]
+9b5eceb  utils: run: rename error_code_ok to check  [Mike Frysinger]
+   * vendor/superior/
+97f65911  Revert "vendor: Set ringtone for 2nd slot on MSIM devices"  [Sipun Ku Mahanta]
+====================
+     12-18-2019
+====================
+
+
+   * external/f2fs-tools/
+cf72aaf  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform//external/f2fs-tools into ten  [Sipun Ku Mahanta]
+   * external/selinux/
+c74994c6  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/external/selinux into ten  [Sipun Ku Mahanta]
+   * frameworks/av/
+c5ecf6803  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into ten  [Subinsmani]
+   * frameworks/opt/net/ims/
+c672ed1  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/frameworks/opt/net/ims into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/net/wifi/
+ef041fe68  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/telephony/
+9a200539d  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/frameworks/opt/telephony into ten  [Sipun Ku Mahanta]
+64b35d16c  Don't unregister supplementary service notification.  [Sipun Ku Mahanta]
+b68358e6d  Fix to block data call request for no change in Data RAT  [Sipun Ku Mahanta]
+df924fd64  Reset preferred APN setting after restoring default APNs  [Sipun Ku Mahanta]
+1d0444bd5  Fix non-roaming overlay not work issue.  [Sipun Ku Mahanta]
+a31dbb072  Set service class with SERVICE_CLASS_NONE over CS  [Sipun Ku Mahanta]
+53ab1c1d4  Fix attach issue due to wrong attach apn  [Sipun Ku Mahanta]
+826a0fcbd  Add Null check to getIccId.  [Sipun Ku Mahanta]
+4a50a45a3  Fix iccid issue during android upgrade.  [Sipun Ku Mahanta]
+23c05a431  Emergency Number Implementation for SS & DS  [Sipun Ku Mahanta]
+037d25629  Telephony: Get SIM card capacity of SMS  [Sipun Ku Mahanta]
+a43e836ee  Fix data deactivate issue due to intermediate network requests  [Sipun Ku Mahanta]
+c5bcd426b  Add check for CSIM application presence  [Sipun Ku Mahanta]
+   * packages/services/Telecomm/
+699ca474  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/packages/services/Telecomm into ten  [Sipun Ku Mahanta]
+   * packages/services/Telephony/
+355119fbf  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/packages/services/Telephony into ten  [Subinsmani]
+   * tools/repohooks/
+34b29cc  utils: run: delete unused options  [Mike Frysinger]
+70b78f0  utils: rename run_command to run  [Mike Frysinger]
+====================
+     12-17-2019
+====================
+
+
+====================
+     12-16-2019
+====================
+
+
+   * frameworks/base/
+2ab973984d7  Brightness slider: Visual improvements  [Jayant Deshmukh]
+402f30b6c56  Brightness QS: Make +- buttons optional  [Jayant Deshmukh]
+825dbff2009  Brightness slider + - buttons: use more granular values  [Jayant Deshmukh]
+014e9d92b68  Refresh QS brightness icon and improve its touch area and padding  [Jayant Deshmukh]
+ffe5c469d20  Multi-User fixes for brightness slider mod  [Jayant Deshmukh]
+d8c8190b1c3  Adapt custom brightness actions to BrightnessDialog  [Jayant Deshmukh]
+ac9729f3359  Brightness slider: fixes and improvements  [Jayant Deshmukh]
+9f450ab685e  Brightness slider: Vibrate after a long press  [Jayant Deshmukh]
+a00e56a53ce  Brightness Buttons: Improve touch area  [Jayant Deshmukh]
+56506448eda  Brightness slider: improve hide/show animation  [Jayant Deshmukh]
+4aabf4bc6f6  Brightness buttons: make touch area more reliable  [Jayant Deshmukh]
+ddb6c4c9ab3  Brightness slider buttons: make them dynamic (auto and manual)  [Jayant Deshmukh]
+9b47ee49923  Brightness slider: fix FC and code cleanup  [Jayant Deshmukh]
+d6e13aa0f31  Make use of the brightness slider buttons  [Jayant Deshmukh]
+245b7dccf62  Rework auto brightness implementation  [Jayant Deshmukh]
+ad2327d26d2  Fix brightness icon not showing  [Jayant Deshmukh]
+b4a2e596023  Fix automatic brightness QS toggle icon  [Jayant Deshmukh]
+5e715e76a47  SystemUI: auto brightness toggle improvements  [Jayant Deshmukh]
+cac253053ca  Revert "SystemUI: OOS style brightness slider design"  [Jayant Deshmukh]
+   * hardware/libhardware/
+1b5537c5  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/hardware/libhardware into ten  [Sipun Ku Mahanta]
+   * hardware/libhardware_legacy/
+3f1ed76  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/hardware/libhardware_legacy into ten  [Sipun Ku Mahanta]
+   * packages/apps/Bluetooth/
+b0e605eb  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten  [Sipun Ku Mahanta]
+   * packages/apps/Dialer/
+b4c998cb7  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform//packages/apps/Dialer into ten  [Sipun Ku Mahanta]
+   * packages/apps/Nfc/
+27120b54  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Nfc into ten  [Sipun Ku Mahanta]
+   * packages/apps/SuperiorSettings/
+40fa225  Phoenix: Brightness QS: Make +- buttons optional  [Jayant Deshmukh]
+   * system/bt/
+5b7099554  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/system/bt into ten  [Sipun Ku Mahanta]
+   * system/vold/
+a3cad84  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/system/vold into ten  [Sipun Ku Mahanta]
+====================
+     12-15-2019
+====================
+
+
+   * frameworks/base/
+d6b2ba1a2a3  NetworkTraffic: Refactor text formatting  [Jayant Deshmukh]
+   * packages/apps/SuperiorSettings/
+8c9899a  phoenix: Use SystemSettingSeekBarPreference  [Jayant Deshmukh]
+====================
+     12-14-2019
+====================
+
+
+   * packages/apps/SuperiorSettings/
+6876e9a  SuperiorSettings: Allow to pulse on new tracks [2/2]  [Jayant Deshmukh]
+====================
+     12-13-2019
+====================
+
+
+   * build/blueprint/
+333898a  Merge tag 'android-10.0.0_r20' of http://android.googlesource.com/platform/build/blueprint into ten  [Sipun Ku Mahanta]
+   * build/soong/
+166a71f0  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform//build/soong into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/telephony/
+bd40c9a7e  Use tcp buffer values for rat LTE_CA  [Dyneteve]
+23f6164a1  Fix to release partial wakelock for SRVCC handover.  [Dyneteve]
+712fdb6d4  Refresh SIM operator numeric for multi-mode SIM  [Dyneteve]
+be314880a  Delay intialization of subscription listener  [Dyneteve]
+34768b3a7  Fix the deregistration which happens soon after registration.  [Dyneteve]
+70290fc1e  Add support for overriding methods from PhoneSwitcher  [jhenrique09]
+   * hardware/qcom-caf/msm8998/audio/
+c5c1655ce  audio: Make platform_check_backends_match handle input devices as well  [Łukasz Patron]
+====================
+     12-12-2019
+====================
+
+
+   * bionic/
+22885bd15  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/bionic into ten  [Sipun Ku Mahanta]
+a83d4677e  bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels  [Sipun Ku Mahanta]
+   * build/make/
+2e061e649  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/build into ten  [Sipun Ku Mahanta]
+   * frameworks/native/
+29889a9b2  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into ten  [Sipun Ku Mahanta]
+   * frameworks/opt/telephony/
+2f8fc364b  Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [jhenrique09]
+   * system/core/
+dd575481d  Merge tag 'android-10.0.0_r20' of https://android.googlesource.com/platform/system/core into ten  [Sipun Ku Mahanta]
+====================
+     12-11-2019
+====================
+
+
+   * hardware/qcom/gps/
+b5d527d  gps: Fix for buffer overrun crash at copying nmea string  [Arne Coucheron]
+8704ff1  gps: msm8960: Fix compiler warnings  [Arne Coucheron]
+   * manifest/
+6e14d65  Manifest for Android 10.0.0 Release 20 (QQ1C.191205.016.A1)  [The Android Open Source Project]
+78bc3f2  Manifest for Android 10.0.0 Release 19 (QQ1B.191205.012.A1)  [The Android Open Source Project]
+75d21f0  Manifest for Android 10.0.0 Release 18 (QQ1B.191205.011)  [The Android Open Source Project]
