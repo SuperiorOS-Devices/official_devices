@@ -1,14 +1,13 @@
-
 {
   "response": [
     {
-      "datetime":1563972948,
-      "filename": "SuperiorOS-Nemesis-riva-OFFICIAL-20190724-1255.zip",
-      "id": "e3d43325645e3ff8667110bd6fce5040",
+      "datetime":1577238903,
+      "filename": "SuperiorOS-Phoenix-riva-OFFICIAL-20191225-0156.zip",
+      "id": "264eb058627725825ffd9be428b98432",
       "romtype": "OFFICIAL",
-      "size":575841472,
-      "url": "https://master.dl.sourceforge.net/project/superioros/riva/SuperiorOS-Nemesis-riva-OFFICIAL-20190724-1255.zip",
-      "version": "Nemesis"
+      "size":570401306,
+      "url": "https://sourceforge.net/projects/superioros/files/riva/SuperiorOS-Phoenix-riva-OFFICIAL-20191225-0156.zip/download",
+      "version": "Phoenix"
     }
   ]
 }

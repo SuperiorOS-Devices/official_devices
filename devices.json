@@ -75,6 +75,21 @@
      "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-4x/development/official-superioros-phoenix-santoni16-t4052013"
     },
     {
+      "device_name": "Xiaomi Redmi 5A",
+      "codename": "riva",
+      "assert": ["riva"],
+      "datetime":1577238903,
+      "filename": "SuperiorOS-Phoenix-riva-OFFICIAL-20191225-0156.zip",
+      "id": "264eb058627725825ffd9be428b98432",
+      "romtype": "OFFICIAL",
+      "size":570401306,
+      "url": "https://sourceforge.net/projects/superioros/files/riva/SuperiorOS-Phoenix-riva-OFFICIAL-20191225-0156.zip/download",
+      "version": "Phoenix",
+      "date": "2019/12/25",
+      "maintainer_name": "Nick",
+      "xda_thread": ""
+     },
+    {
       "device_name": "Asus Zenfone Max Pro M2",
       "codename": "X01BD",
       "assert": ["Max Pro M2", "X01BD", "X01BDA"],
