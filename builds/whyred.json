@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1571494588,
-      "filename": "SuperiorOS-Nemesis-whyred-OFFICIAL-20191019-1416.zip",
-      "id": "3262deb00d0b18712517a5253ec1abcf",
+      "datetime":1577716549,
+      "filename": "SuperiorOS-Nemesis-whyred-OFFICIAL-20191230-1435.zip",
+      "id": "cda52441245b8849ae748ee6543747c5",
       "romtype": "OFFICIAL",
-      "size":696813042,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Nemesis-whyred-OFFICIAL-20191019-1416.zip",
+      "size":696926090,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Nemesis-whyred-OFFICIAL-20191230-1435.zip",
       "version": "Nemesis"
     }
   ]

@@ -1,0 +1,111 @@
+====================
+     12-30-2019
+====================
+
+   * manifest/
+315e768  manifest: Updates for 2019-12 P ASB  [Sipun Ku Mahanta]
+da82c44  manifest: Updates for 2019-11 P ASB  [Sipun Ku Mahanta]
+
+====================
+     12-29-2019
+====================
+
+
+====================
+     12-28-2019
+====================
+
+
+====================
+     12-27-2019
+====================
+
+
+====================
+     12-26-2019
+====================
+
+
+====================
+     12-25-2019
+====================
+
+
+====================
+     12-24-2019
+====================
+
+   * frameworks/base/
+1f6228c3ced  fix build error  [HeartStealer786]
+
+====================
+     12-23-2019
+====================
+
+   * build/make/
+6167e2704  Bump Security String to 2019-12-05  [HeartStealer786]
+6d9fd9bac  Bump Security String to 2019-11-05  [HeartStealer786]
+a59677ea9  Bump Security String to 2019-10-05  [HeartStealer786]
+   * external/libhevc/
+00c580b  decoder: Reset slice header at start of slice header decode  [HeartStealer786]
+e4765f1  Check change in CTB size when decoding multiple SPS with same id  [HeartStealer786]
+   * frameworks/av/
+a5cd2a481  AudioFlinger: enforce OP_RECORD_AUDIO during recording  [HeartStealer786]
+a7ab8f7df  Fix OOB access in mpeg4/h263 decoder  [HeartStealer786]
+0d90fe670  m4v_h263: add a test for invalid/negative value  [HeartStealer786]
+   * frameworks/base/
+112e8edc2bf  NotificationEntryManager: Fix ClassCastException  [HeartStealer786]
+c02e9a04072  RESTRICT AUTOMERGE Do not compute outside given range in TextLine  [HeartStealer786]
+624840250cc  DO NOT MERGE revoke certain app-ops on suspend  [HeartStealer786]
+223e999af4f  Force FGS notifications to show for a minimum time  [HeartStealer786]
+e4cb6b027e6  RESTRICT AUTOMERGE Strict SQLiteQueryBuilder needs to be stricter.  [HeartStealer786]
+48f7c7b508e  Set default phonebook access to ACCESS_REJECTED when user didn't choose one  [HeartStealer786]
+7c7faf92046  RESTRICT AUTOMERGE Enable stricter SQLiteQueryBuilder options.  [HeartStealer786]
+be4e59f7f1d  fixes a security vulnerability in slice provider  [HeartStealer786]
+ddddf9aaf1a  Add MANAGED_PROVISIONING_DPC_DOWNLOADED (nyc).  [HeartStealer786]
+e6affd52c6b  OP_REQUEST_INSTALL_PACKAGES denied by default  [HeartStealer786]
+865e1ae9271  Pass correct realCallingUid to startActivity() if provided by PendingIntentRecord#sendInner()  [HeartStealer786]
+   * packages/apps/Bluetooth/
+9e0ce878  DO NOT MERGE: AdapterService: Check the PIN code length before using  [HeartStealer786]
+   * packages/apps/Nfc/
+38982ac2  Prevent length underflow in NfcTag.cpp  [HeartStealer786]
+   * packages/apps/Settings/
+9b0bc1a2a3  Treat mode_default as denied for install_unknown_apps  [HeartStealer786]
+   * packages/providers/DownloadProvider/
+baccd3f  RESTRICT AUTOMERGE Enable stricter SQLiteQueryBuilder options.  [HeartStealer786]
+
+====================
+     12-22-2019
+====================
+
+
+====================
+     12-21-2019
+====================
+
+
+====================
+     12-20-2019
+====================
+
+
+====================
+     12-19-2019
+====================
+
+
+====================
+     12-18-2019
+====================
+
+
+====================
+     12-17-2019
+====================
+
+
+====================
+     12-16-2019
+====================
+
+
