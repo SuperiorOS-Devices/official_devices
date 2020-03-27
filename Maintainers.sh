@@ -25,7 +25,7 @@ set -e
 
 if [ ! -d ~/official_devices ];then
 cd ~
-git clone https://github.com/SuperiorOS/official_devices.git -b pie
+git clone https://github.com/SuperiorOS/official_devices.git -b ten
 fi
 
 if [ -d ~/official_devices ];then
@@ -64,19 +64,12 @@ url="https://master.dl.sourceforge.net/project/superioros/$device/$zip_name"
 url_old=`cat ~/official_devices/builds/$device.json | grep https | cut -d '"' -f4`
 `sed -i "s|$url_old|$url|g" ~/official_devices/builds/$device.json`
 
-# Changelogs
-if [ -d ~/official_devices/changelogs/$device ];then
-cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelogs/$device/
-else
-mkdir -p ~/official_devices/changelogs/$device
-cp ~/$sourcerom/out/target/product/$device/*$DATE*.txt ~/official_devices/changelogs/$device/
-fi
 
 # add & push commit to github
 cd official_devices
 git add --all
 git commit -m "$device: update $DAY"
-git push -f origin HEAD:pie
+git push -f origin HEAD:ten
 cd ~
 rm -rf official_devices
 rm -rf Maintainers.sh

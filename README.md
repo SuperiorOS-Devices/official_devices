@@ -29,7 +29,7 @@ Any failure in following the below instructions will make you unfit for the main
 
 ----------------------------------------------------------------------
 
-Maintainers Form - [**Maintainership Form**](https://docs.google.com/forms/d/e/1FAIpQLSdFQxpaVjQAf5MAAqreMuw1HxLVtBka8Epr_LDeHmsQ6Akpeg/viewform) 
+Maintainers Form - [**Maintainership Form**](https://docs.google.com/forms/d/1catO6tXeNhqyrlybTki098oTJl-sztZzA3jzfQ1fRJw/viewform) 
 
 -----------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ If U added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/pie/OTA.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/OTA.sh
 
 ```
 
@@ -64,7 +64,7 @@ If U didn't added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/pie/Maintainers.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/Maintainers.sh
 
 ```
 
