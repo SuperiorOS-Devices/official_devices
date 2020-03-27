@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1584765935,
-      "filename": "SuperiorOS-Nemesis-tissot-OFFICIAL-20200321-0445.zip",
-      "id": "58bb8fcc497ad53956bf332e4907fce4",
+      "datetime":1585325430,
+      "filename": "SuperiorOS-Phoenix-tissot-OFFICIAL-20200327-1611.zip",
+      "id": "c68a26426a79082abe02067d4da8b8c9",
       "romtype": "OFFICIAL",
-      "size":605295142,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Nemesis-tissot-OFFICIAL-20200321-0445.zip",
-      "version": "Nemesis"
+      "size":674770429,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Phoenix-tissot-OFFICIAL-20200327-1611.zip",
+      "version": "Phoenix"
     }
   ]
 }
