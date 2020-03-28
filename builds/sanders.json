@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime":1570888483,
-      "filename": "SuperiorOS-Nemesis-sanders-OFFICIAL-20191012-1355.zip",
-      "id": "25f1bed01782fba36b9635e1b2a64a57",
+      "datetime":1585403483,
+      "filename": "SuperiorOS-Phoenix-sanders-OFFICIAL-20200328-1352.zip",
+      "id": "b1415f2a581ddd2003dc93de0808098e",
       "romtype": "OFFICIAL",
-      "size":617413049,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sanders/SuperiorOS-Nemesis-sanders-OFFICIAL-20191012-1355.zip",
-      "version": "Nemesis"
+      "size":649098556,
+      "url": "https://sourceforge.net/projects/superioros/files/sanders/SuperiorOS-Phoenix-sanders-OFFICIAL-20200328-1352.zip/download",
+      "version": "Phoenix"
     }
   ]
 }
