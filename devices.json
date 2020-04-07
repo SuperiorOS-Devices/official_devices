@@ -193,5 +193,20 @@
       "date": "2020/03/29",
       "maintainer_name": "Dhinesh",
       "xda_thread": ""
+    },
+    {
+      "device_name": "Xiaomi Mi A2 Lite",
+      "codename": "daisy",
+      "assert": ["daisy"],
+      "datetime":1570303281,
+      "filename": "SuperiorOS-Nemesis-daisy-OFFICIAL-20191005-1922.zip",
+      "id": "bfc0477c9f0fe446f30622b48f333b5f",
+      "romtype": "OFFICIAL",
+      "size":612924049,
+      "url": "https://master.dl.sourceforge.net/project/superioros/daisy/SuperiorOS-Nemesis-daisy-OFFICIAL-20191005-1922.zip",
+      "version": "Nemesis",
+      "date": "2019/10/05",
+      "maintainer_name": "pawelik001",
+      "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/9-0-superioros-xiaomi-mi-a2-lite-t3946434"
     }
 ]
