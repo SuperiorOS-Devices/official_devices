@@ -208,5 +208,20 @@
       "date": "2019/10/05",
       "maintainer_name": "pawelik001",
       "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/9-0-superioros-xiaomi-mi-a2-lite-t3946434"
+    },
+    {
+     "device_name": "Mi 5S Plus",
+     "codename": "natrium",
+     "assert": ["Mi 5S Plus"],
+     "datetime":1585451349,
+     "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
+     "id": "47ddacefe49230c4b98a213187d322aa",
+     "romtype": "OFFICIAL",
+     "size":733898328,
+     "url": "https://downloads.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
+     "version": "Phoenix",
+     "date": "2020/03/29",
+     "maintainer_name": "Hendy Augustama",
+     "xda_thread": "https://forum.xda-developers.com/mi-5s-plus/development/unofficial-superioros-phoenix-natrium03-t4076697"
     }
 ]
