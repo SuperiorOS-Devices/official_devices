@@ -183,16 +183,16 @@
       "device_name": "Motorola Moto X4",
       "codename": "payton",
       "assert": ["payton", "payton_retail", "XT1900"],
-      "datetime":1585451349,
-      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200329-0309.zip",
-      "id": "47ddacefe49230c4b98a213187d322aa",
+      "datetime":1586268809,
+      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200407-1414.zip",
+      "id": "2e52afe631b3bfc5651d37940fcc770d",
       "romtype": "OFFICIAL",
-      "size":733898328,
-      "url": "https://downloads.sourceforge.net/project/superioros/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200329-0309.zip",
+      "size":749665679,
+      "url": "https://downloads.sourceforge.net/projects/superioros/files/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200407-1414.zip",
       "version": "Phoenix",
-      "date": "2020/03/29",
+      "date": "2020/04/07",
       "maintainer_name": "Dhinesh",
-      "xda_thread": ""
+      "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
     },
     {
       "device_name": "Xiaomi Mi A2 Lite",
