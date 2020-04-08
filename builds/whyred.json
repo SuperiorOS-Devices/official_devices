@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1585417304,
-      "filename": "SuperiorOS-Phoenix-whyred-OFFICIAL-20200328-1742.zip",
-      "id": "6e3aba5fdab6b590a93f603e2ecd0600",
+      "datetime":1586323796,
+      "filename": "SuperiorOS-Phoenix-whyred-OFFICIAL-20200408-0530.zip",
+      "id": "0b67dc5df4ba25795019d4de59a1e44a",
       "romtype": "OFFICIAL",
-      "size":771580522,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Phoenix-whyred-OFFICIAL-20200328-1742.zip",
+      "size":803530358,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Phoenix-whyred-OFFICIAL-20200408-0530.zip",
       "version": "Phoenix"
     }
   ]
