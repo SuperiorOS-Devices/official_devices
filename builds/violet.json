@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1570898131,
-      "filename": "SuperiorOS-Nemesis-violet-OFFICIAL-20191012-1635.zip",
-      "id": "db3bbbaf8e6d0cb139c894ea0908ecb7",
+      "datetime":1586330002,
+      "filename": "SuperiorOS-Phoenix-violet-OFFICIAL-20200408-0713.zip",
+      "id": "196e7868a286808975a2a7eb31eb8872",
       "romtype": "OFFICIAL",
-      "size":872290127,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Nemesis-violet-OFFICIAL-20191012-1635.zip",
-      "version": "Nemesis"
+      "size":997788104,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Phoenix-violet-OFFICIAL-20200408-0713.zip",
+      "version": "Phoenix"
     }
   ]
 }
