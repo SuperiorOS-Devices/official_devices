@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1568799046,
-      "filename": "SuperiorOS-Nemesis-capricorn-OFFICIAL-20190918-0932.zip",
-      "id": "70b90c5343fd22b7c55c6159c6790eea",
+      "datetime":1586310168,
+      "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200408-0143.zip",
+      "id": "08c625ec1821350ba9b6c3ac80988a45",
       "romtype": "OFFICIAL",
-      "size":669296571,
-      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Nemesis-capricorn-OFFICIAL-20190918-0932.zip",
-      "version": "Nemesis"
+      "size":726063924,
+      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200408-0143.zip",
+      "version": "Phoenix"
     }
   ]
 }
