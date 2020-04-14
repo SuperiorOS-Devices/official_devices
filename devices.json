@@ -223,5 +223,20 @@
      "date": "2020/04/08",
      "maintainer_name": "Hendy Augustama",
      "xda_thread": "https://forum.xda-developers.com/mi-5s-plus/development/unofficial-superioros-phoenix-natrium03-t4076697"
+    },
+    {
+     "device_name": "Xiaomi Redmi 5 Plus",
+     "codename": "vince",
+     "assert": ["vince"],
+     "datetime":1586313926,
+     "filename": "SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
+     "id": "692824bbe1cd648414ce958fd7dd83de",
+     "romtype": "OFFICIAL",
+     "size":723963579,
+     "url": "https://downloads.sourceforge.net/project/superioros/natrium/SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
+     "version": "Phoenix",
+     "date": "2020/04/08",
+     "maintainer_name": "NitroFuN",
+     "xda_thread": "https://forum.xda-developers.com/redmi-note-5/development/unofficial-superioros-phoenix-redmi-5-t4075211"
     }
 ]
