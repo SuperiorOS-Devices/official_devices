@@ -45,6 +45,21 @@
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
     },
     {
+      "device_name": "Redmi 5A",
+      "codename": "riva",
+      "assert": ["riva"],
+      "datetime":1586536894,
+      "filename": "SuperiorOS-Phoenix-riva-OFFICIAL-20200410-1641.zip",
+      "id": "09b8d0d06221b340a168a0d4e03c82a2",
+      "romtype": "OFFICIAL",
+      "size":648488782,
+      "url": "https://master.dl.sourceforge.net/project/superioros/riva/SuperiorOS-Phoenix-riva-OFFICIAL-20200410-1641.zip",
+      "version": "Phoenix",
+      "date": "2020/04/10",
+      "maintainer_name": "Nick",
+      "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-5a/development/superior-os-official-treble-update-q-t4029969"
+    },
+    {
       "device_name": "Poco F1",
       "codename": "beryllium",
       "assert": ["Poco F1"],
