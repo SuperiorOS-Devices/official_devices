@@ -162,7 +162,7 @@
       "version": "Phoenix",
       "date": "2019/09/16",
       "maintainer_name": "Yashpal Joshi",
-      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-violet-t3942448" 
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superior-os-violet-t3942448"
     },
     {
       "device_name": "Motorola Moto G5S Plus",
@@ -253,5 +253,65 @@
      "date": "2020/04/08",
      "maintainer_name": "Szymon Wiatrowski (NitroFuN)",
      "xda_thread": "https://forum.xda-developers.com/redmi-note-5/development/unofficial-superioros-phoenix-redmi-5-t4075211"
+   },
+    {
+     "device_name": "Samsung Galaxy Note 3",
+     "codename": "hlte",
+     "assert": ["hlte"],
+     "datetime":,
+     "filename": "",
+     "id": "",
+     "romtype": "OFFICIAL",
+     "size":,
+     "url": "",
+     "version": "Phoenix",
+     "date": "",
+     "maintainer_name": "Amin Fauzi",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
+   },
+	{
+     "device_name": "Samsung Galaxy Note 3",
+     "codename": "hltechn",
+     "assert": ["hltechn"],
+     "datetime":,
+     "filename": "",
+     "id": "",
+     "romtype": "OFFICIAL",
+     "size":,
+     "url": "",
+     "version": "Phoenix",
+     "date": "",
+     "maintainer_name": "Amin Fauzi",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
+   },
+	{
+     "device_name": "Samsung Galaxy Note 3",
+     "codename": "hltekor",
+     "assert": ["hltekor"],
+     "datetime":,
+     "filename": "",
+     "id": "",
+     "romtype": "OFFICIAL",
+     "size":,
+     "url": "",
+     "version": "Phoenix",
+     "date": "",
+     "maintainer_name": "Amin Fauzi",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
+   },
+	{
+     "device_name": "Samsung Galaxy Note 3",
+     "codename": "hltetmo",
+     "assert": ["hltetmo"],
+     "datetime":,
+     "filename": "",
+     "id": "",
+     "romtype": "OFFICIAL",
+     "size":,
+     "url": "",
+     "version": "Phoenix",
+     "date": "",
+     "maintainer_name": "Amin Fauzi",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
     }
 ]
