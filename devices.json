@@ -313,5 +313,20 @@
      "date": "2020/04/29",
      "maintainer_name": "Amin Fauzi",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
+    },
+    {
+     "device_name": "Mi 5",
+     "codename": "gemini",
+     "assert": ["Mi 5"],
+     "datetime":1585451349,
+     "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
+     "id": "47ddacefe49230c4b98a213187d322aa",
+     "romtype": "OFFICIAL",
+     "size":733898328,
+     "url": "https://downloads.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
+     "version": "Phoenix",
+     "date": "2020/03/29",
+     "maintainer_name": "Hendy Augustama",
+     "xda_thread": "https://forum.xda-developers.com/mi-5/development/unofficial-superioros-phoenix-gemini03-t4093813"
     }
 ]
