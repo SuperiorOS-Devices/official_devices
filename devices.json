@@ -328,5 +328,20 @@
      "date": "2020/03/29",
      "maintainer_name": "Hendy Augustama",
      "xda_thread": "https://forum.xda-developers.com/mi-5/development/unofficial-superioros-phoenix-gemini03-t4093813"
+    },
+    {
+     "device_name": "Lenovo Zuk Z2 plus",
+     "codename": "z2_plus",
+     "assert": ["z2_plus"],
+     "datetime":1588661370,
+     "filename": "SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200505-0650.zip",
+     "id": "c53ca5abdc18ec5b4fc1eaca10cadc6a",
+     "romtype": "OFFICIAL",
+     "size":771727664,
+     "url": "https://sourceforge.net/projects/superioros/files/z2_plus/SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200505-0650.zip",
+     "version": "Phoenix",
+     "date": "2020/05/05",
+     "maintainer_name": "Varshank Dhiman",
+     "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-superioros-phoenix-t4088485"
     }
 ]
