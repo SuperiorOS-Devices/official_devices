@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1587179980,
-      "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200418-0320.zip",
-      "id": "d992668a8a3bedee570e9fdcfbe58643",
+      "datetime":1588710857,
+      "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200505-2035.zip",
+      "id": "795df0e3da39f5e056fbbab2c8a567b7",
       "romtype": "OFFICIAL",
-      "size":822909739,
-      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200418-0320.zip",
+      "size":817080158,
+      "url": "https://master.dl.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200505-2035.zip",
       "version": "Phoenix"
     }
   ]
