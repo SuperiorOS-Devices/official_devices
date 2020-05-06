@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime":1570903335,
-      "filename": "SuperiorOS-Nemesis-z2_plus-OFFICIAL-20191012-1802.zip",
-      "id": "a907a3ca24a5c1d4c0bffda0fdb5f35f",
+      "datetime":1588766103,
+      "filename": "SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip",
+      "id": "7c3ce802426ac392c5186f372aa503dc",
       "romtype": "OFFICIAL",
-      "size":629951893,
-      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Nemesis-z2_plus-OFFICIAL-20191012-1802.zip",
-      "version": "Nemesis"
+      "size":772137064,
+      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip",
+      "version": "Phoenix"
     }
   ]
 }
