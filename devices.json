@@ -283,5 +283,20 @@
      "date": "06/05/2020",
      "maintainer_name": "Amin Fauzi",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
+    },
+    {
+      "device_name": "Lenovo ZUK Z2 Plus",
+      "codename": "z2_plus",
+      "assert": ["z2_plus"],
+      "datetime":1588766103,
+      "filename": "SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip",
+      "id": "7c3ce802426ac392c5186f372aa503dc",
+      "romtype": "OFFICIAL",
+      "size":772137064,
+      "url": "https://sourceforge.net/projects/superioros/files/z2_plus/SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip/download",
+      "version": "Phoenix",
+      "date": "06/05/2020",
+      "maintainer_name": "Varshank Dhiman",
+      "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-superioros-phoenix-t4088485"
     }
 ]
