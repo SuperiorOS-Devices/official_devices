@@ -165,6 +165,21 @@
       "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/official-superioros-phoenix-moto-g5s-t4003257"
     },
     {
+      "device_name": "Motorola Moto X4",
+      "codename": "payton",
+      "assert": ["payton", "payton_retail", "XT1900"],
+      "datetime":1585403483,
+      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200407-1414.zip",
+      "id": "8a2d19b73ea5dc38fa43eae6f5574b628dec856e",
+      "romtype": "OFFICIAL",
+      "size":749798328,
+      "url": "https://sourceforge.net/projects/superioros/files/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200407-1414.zip"
+      "version": "Phoenix",
+      "date": "2020/04/07",
+      "maintainer_name": "Dhinesh",
+      "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
+    },
+    {
      "device_name": "Mi 5S",
      "codename": "capricorn",
      "assert": ["Mi 5S"],
