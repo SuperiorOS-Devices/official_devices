@@ -193,5 +193,35 @@
      "date": "2020/03/29",
      "maintainer_name": "Hendy Augustama",
      "xda_thread": "https://forum.xda-developers.com/mi-5s/development/official-devdb-superioros-phoenix-t4050787"
+    },
+    {
+     "device_name": "Mi 5S Plus",
+     "codename": "natrium",
+     "assert": ["Mi 5S Plus"],
+     "datetime":1586313926,
+     "filename": "SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
+     "id": "692824bbe1cd648414ce958fd7dd83de",
+     "romtype": "OFFICIAL",
+     "size":723963579,
+     "url": "https://downloads.sourceforge.net/project/superioros/natrium/SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
+     "version": "Phoenix",
+     "date": "2020/04/08",
+     "maintainer_name": "Hendy Augustama",
+     "xda_thread": "https://forum.xda-developers.com/mi-5s-plus/development/unofficial-superioros-phoenix-natrium03-t4076697"
+    },
+    {
+     "device_name": "Mi 5",
+     "codename": "gemini",
+     "assert": ["Mi 5"],
+     "datetime":1588698329,
+     "filename": "SuperiorOS-Phoenix-gemini-OFFICIAL-20200505-1706.zip",
+     "id": "7cfc3bb33a64dbd457f2478363ed6800",
+     "romtype": "OFFICIAL",
+     "size":749600323,
+     "url": "https://downloads.sourceforge.net/project/superioros/gemini/SuperiorOS-Phoenix-gemini-OFFICIAL-20200505-1706.zip",
+     "version": "Phoenix",
+     "date": "2020/05/05",
+     "maintainer_name": "Hendy Augustama",
+     "xda_thread": "https://forum.xda-developers.com/mi-5/development/unofficial-superioros-phoenix-gemini03-t4093813"
     }
 ]
