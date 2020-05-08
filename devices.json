@@ -138,16 +138,16 @@
       "device_name": "ONEPLUS ONE",
       "codename": "bacon",
       "assert": ["oneplus","one"],
-      "datetime":1568610615,
-      "filename": "SuperiorOS-Nemesis-bacon-OFFICIAL-20190916-0510.zip",
-      "id": "44dc7110cf070b295283c0316c0cc735",
+      "datetime":1588858165,
+      "filename": "SuperiorOS-Phoenix-bacon-OFFICIAL-20200507-1329.zip",
+      "id": "254b38408b829dba75c7b8c58ae9108a",
       "romtype": "OFFICIAL",
-      "size":436346595,
-      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Nemesis-bacon-OFFICIAL-20190916-0510.zip",
+      "size":542214947,
+      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Phoenix-bacon-OFFICIAL-20200507-1329.zip",
       "version": "Phoenix",
-      "date": "2019/09/16",
+      "date": "2020/05/08",
       "maintainer_name": "Shahbaz Qadri",
-      "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superior-os-nemesis-t3942192"
+      "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superioros-phoenix-t4027989"
     },
     {
       "device_name": "REDMI NOTE 7 PRO",
