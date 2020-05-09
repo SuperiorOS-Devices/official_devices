@@ -1,0 +1,14 @@
+
+{
+  "response": [
+    {
+      "datetime":1588994128,
+      "filename": "SuperiorOS-Phoenix-gemini-OFFICIAL-20200509-0316.zip",
+      "id": "59c32a5d8b543c0f4eb44a153f134a55",
+      "romtype": "OFFICIAL",
+      "size":817968862,
+      "url": "https://master.dl.sourceforge.net/project/superioros/gemini/SuperiorOS-Phoenix-gemini-OFFICIAL-20200509-0316.zip",
+      "version": "Phoenix"
+    }
+  ]
+}
