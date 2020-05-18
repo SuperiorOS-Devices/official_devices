@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da4a5010_aec89123",
+        "filename": "devices.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-05-18T15:22:34Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "range": {
+        "startLine": 165,
+        "startChar": 22,
+        "endLine": 165,
+        "endChar": 24
+      },
+      "revId": "ce5e074912a1ebb85c8c6661dc7597eb5fb14594",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299",
+      "unresolved": true
+    }
+  ]
+}
