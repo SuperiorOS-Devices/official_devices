@@ -149,6 +149,21 @@
       "maintainer_name": "Shahbaz Qadri",
       "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superioros-phoenix-t4027989"
     },
+     {
+      "device_name": "Redmi Note 7",
+      "codename": "lavender",
+      "assert": ["lavender"],
+      "datetime":1588865118,
+      "filename": "SuperiorOS-Nemesis-lavender-OFFICIAL-20200112-1238.zip",
+      "id": "f6e6098d66b132f7c75549aeb9dd5763",
+      "romtype": "OFFICIAL",
+      "size":846568390,
+      "url": "https://sourceforge.net/projects/superioros/files/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20200112-1238.zip/download",
+      "version": "Phoenix",
+      "date": "2020/01/12",
+      "maintainer_name": "Jimgsey",
+      "xda_thread": "" 
+    },
     {
       "device_name": "Redmi Note 7 Pro",
       "codename": "violet",
