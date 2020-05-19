@@ -328,5 +328,20 @@
       "date": "06/05/2020",
       "maintainer_name": "Varshank Dhiman",
       "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-superioros-phoenix-t4088485"
-    }
+    },
+    {
+     "device_name": "Realme XT",
+      "codename": "RMX1921",
+      "assert": ["RMX1921"],
+      "datetime": 1589810021,
+      "filename": "SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip",
+      "id": "923d9f0343a4e1211e6398033062949e",
+      "romtype": "OFFICIAL",
+      "size": 983884296,
+      "url": "https://sourceforge.net/projects/superioros/files/RMX1921/SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip/download",
+      "version": "Phoenix",
+      "date": "18/05/2020",
+      "maintainer_name": "Amrish",
+      "xda_thread": "https://forum.xda-developers.com/realme-xt/development/rom-superior-os-realme-xt-t4100637"
+     },
 ]
