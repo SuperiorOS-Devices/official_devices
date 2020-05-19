@@ -153,16 +153,16 @@
       "device_name": "Redmi Note 7",
       "codename": "lavender",
       "assert": ["lavender"],
-      "datetime":1588865118,
-      "filename": "SuperiorOS-Nemesis-lavender-OFFICIAL-20200112-1238.zip",
-      "id": "f6e6098d66b132f7c75549aeb9dd5763",
+      "datetime":1589894399,
+      "filename": "SuperiorOS-Nemesis-lavender-OFFICIAL-20200519-1320.zip",
+      "id": "83d4196d1f0f829d102357350040206b",
       "romtype": "OFFICIAL",
-      "size":846568390,
-      "url": "https://sourceforge.net/projects/superioros/files/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20200112-1238.zip/download",
+      "size":948160837,
+      "url": "https://sourceforge.net/projects/superioros/files/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20200519-1320.zip/download",
       "version": "Phoenix",
-      "date": "2020/01/12",
+      "date": "2020/05/19",
       "maintainer_name": "Jimgsey",
-      "xda_thread": ""
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-superior-os-t4101885"
     },
     {
       "device_name": "Redmi Note 7 Pro",
