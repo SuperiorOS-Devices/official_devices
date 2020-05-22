@@ -149,6 +149,21 @@
       "maintainer_name": "Shahbaz Qadri",
       "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superioros-phoenix-t4027989"
     },
+      {
+      "device_name": "Oneplus One 3",
+      "codename": "oneplus3",
+      "assert": ["oneplus3"],
+      "datetime":1589962708,
+      "filename": "SuperiorOS-Phoenix-oneplus3-OFFICIAL-20200520-0819.zip",
+      "id": "888feaddf136a2df5d6af15854a213e4",
+      "romtype": "OFFICIAL",
+      "size":770655676,
+      "url": "https://master.dl.sourceforge.net/project/superioros/oneplus3/SuperiorOS-Phoenix-oneplus3-OFFICIAL-20200520-0819.zip",
+      "version": "Phoenix",
+      "date": "2020/05/20",
+      "maintainer_name": "Dinesh",
+      "xda_thread":"https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/superior-os-oneplus-3-3t-android-10-04-t4093429"
+     },
      {
       "device_name": "Redmi Note 7",
       "codename": "lavender",
