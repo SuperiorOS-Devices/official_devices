@@ -29,11 +29,15 @@ Any failure in following the below instructions will make you unfit for the main
 
 ----------------------------------------------------------------------
 
-Maintainers Form - [**Maintainership Form**](https://docs.google.com/forms/d/1catO6tXeNhqyrlybTki098oTJl-sztZzA3jzfQ1fRJw/viewform) 
+Mail us at - superioros123@gmail.com with stuffs given below.
 
+• Sources - All device trees which you used to build the rom(Need modified trees)
+• XDA Thread - Your XDA thread for unofficial builds.
+• TG Id - Your telegram username.
+• Screenshot - Your about Phone screenshot.
 -----------------------------------------------------------------------
 
-OTA Guide for maintainers:-
+OTA Guide for maintainers:-[Deprecated now]
 ======================
 
 • After Building the ROM push to sf then folllow the procedures given below:-
