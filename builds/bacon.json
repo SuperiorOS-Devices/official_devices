@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1570862229,
-      "filename": "SuperiorOS-Nemesis-bacon-OFFICIAL-20191012-0637.zip",
-      "id": "079a3bba4c0a8e9d1b4325075542806a",
+      "datetime":1591420082,
+      "filename": "SuperiorOS-Phoenix-bacon-OFFICIAL-20200606-0508.zip",
+      "id": "6660f7d3638b26b098e284fd92b89f59",
       "romtype": "OFFICIAL",
-      "size":437132810,
-      "url": "https://master.dl.sourceforge.net/project/superioros/bacon/SuperiorOS-Nemesis-bacon-OFFICIAL-20191012-0637.zip",
-      "version": "Nemesis"
+      "size":498814723,
+      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Phoenix-bacon-OFFICIAL-20200606-0508.zip",
+      "version": "Phoenix"
     }
   ]
 }
