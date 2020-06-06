@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1588856933,
-      "filename": "SuperiorOS-Phoenix-riva-OFFICIAL-20200507-1309.zip",
-      "id": "154d4667c7369e9bd4d175fde65dd82a",
+      "datetime":1591439215,
+      "filename": "SuperiorOS-Phoenix-riva-OFFICIAL-20200606-1027.zip",
+      "id": "e9fa38bdfac8d7a4be4b5b5429e01be8",
       "romtype": "OFFICIAL",
-      "size":703641357,
-      "url": "https://sourceforge.net/projects/superioros/files/riva/SuperiorOS-Phoenix-riva-OFFICIAL-20200507-1309.zip/download",
+      "size":660925248,
+      "url": "https://sourceforge.net/projects/superioros/files/riva/SuperiorOS-Phoenix-riva-OFFICIAL-20200606-1027.zip/download",
       "version": "Phoenix"
     }
   ]
