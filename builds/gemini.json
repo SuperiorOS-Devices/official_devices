@@ -2,13 +2,14 @@
 {
   "response": [
     {
-      "datetime":1588994128,
-      "filename": "SuperiorOS-Phoenix-gemini-OFFICIAL-20200509-0316.zip",
-      "id": "59c32a5d8b543c0f4eb44a153f134a55",
+      "datetime":1591426929,
+      "filename": "SuperiorOS-Phoenix-gemini-OFFICIAL-20200606-0703.zip",
+      "id": "dba339748d55af89451320d3a064111b",
       "romtype": "OFFICIAL",
-      "size":817968862,
-      "url": "https://master.dl.sourceforge.net/project/superioros/gemini/SuperiorOS-Phoenix-gemini-OFFICIAL-20200509-0316.zip",
+      "size":688795961,
+      "url": "https://master.dl.sourceforge.net/project/superioros/gemini/SuperiorOS-Phoenix-gemini-OFFICIAL-20200606-0703.zip",
       "version": "Phoenix"
     }
   ]
 }
+

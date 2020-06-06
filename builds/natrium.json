@@ -2,13 +2,14 @@
 {
   "response": [
     {
-      "datetime":1589014364,
-      "filename": "SuperiorOS-Phoenix-natrium-OFFICIAL-20200509-0853.zip",
-      "id": "5e1abfc7e85897f7cea89f9c422cc822",
+      "datetime":1591433846,
+      "filename": "SuperiorOS-Phoenix-natrium-OFFICIAL-20200606-0858.zip",
+      "id": "26f44e7e2f917df9564ee98024b7fe23",
       "romtype": "OFFICIAL",
-      "size":815333170,
-      "url": "https://master.dl.sourceforge.net/project/superioros/natrium/SuperiorOS-Phoenix-natrium-OFFICIAL-20200509-0853.zip",
+      "size":686225424,
+      "url": "https://master.dl.sourceforge.net/project/superioros/natrium/SuperiorOS-Phoenix-natrium-OFFICIAL-20200606-0858.zip",
       "version": "Phoenix"
     }
   ]
 }
+
