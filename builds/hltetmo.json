@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1588787586,
-      "filename": "SuperiorOS-Phoenix-hltetmo-OFFICIAL-20200506-1754.zip",
-      "id": "72e5e5746ca5e542686a9a1696fc7198730b9f00",
+      "datetime":1591526722,
+      "filename": "SuperiorOS-Phoenix-hltetmo-OFFICIAL-20200607-1046.zip",
+      "id": "e26d4fb0fad3800eb22b939a0c23e3104405eecf",
       "romtype": "OFFICIAL",
-      "size":571473920,
-      "url": "https://master.dl.sourceforge.net/project/superioros/hltetmo/SuperiorOS-Phoenix-hltetmo-OFFICIAL-20200506-1754.zip",
+      "size":554277273.6,
+      "url": "https://master.dl.sourceforge.net/project/superioros/hltetmo/SuperiorOS-Phoenix-hltetmo-OFFICIAL-20200607-1046.zip",
       "version": "Phoenix"
     }
   ]
