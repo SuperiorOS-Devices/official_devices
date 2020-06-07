@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1589810021,
-      "filename": "SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip",
-      "id": "923d9f0343a4e1211e6398033062949e",
+      "datetime":1591516312,
+      "filename": "SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200607-0752.zip",
+      "id": "89f13a2b94cfe00f9599d48083aab0bb",
       "romtype": "OFFICIAL",
-      "size":983884296,
-      "url": "https://sourceforge.net/projects/superioros/files/RMX1921/SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip/download",
+      "size":983992219,
+      "url": "https://master.dl.sourceforge.net/project/superioros/RMX1921/SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200607-0752.zip",
       "version": "Phoenix"
     }
   ]
