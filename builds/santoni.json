@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1554517242,
-      "filename": "SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
-      "id": "7357225a00654e5f9fe5699169895dab",
+      "datetime":1591606151,
+      "filename": "SuperiorOS-Phoenix-santoni-OFFICIAL-20200608-0850.zip",
+      "id": "0233574231603ef52f04b72a5098fe4a",
       "romtype": "OFFICIAL",
-      "size":605062743,
-      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Nemesis-santoni-OFFICIAL-20190406-0221.zip",
-      "version": "Nemesis"
+      "size":681679033,
+      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Phoenix-santoni-OFFICIAL-20200608-0850.zip",
+      "version": "Phoenix"
     }
   ]
 }
