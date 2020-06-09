@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1585403483,
-      "filename": "SuperiorOS-Phoenix-sanders-OFFICIAL-20200328-1352.zip",
-      "id": "b1415f2a581ddd2003dc93de0808098e",
+      "datetime":1591545256,
+      "filename": "SuperiorOS-Phoenix-sanders-OFFICIAL-20200607-1555.zip",
+      "id": "ff6b97a6ebcfd4e1dd8873bfd4603f3a",
       "romtype": "OFFICIAL",
-      "size":649098556,
-      "url": "https://sourceforge.net/projects/superioros/files/sanders/SuperiorOS-Phoenix-sanders-OFFICIAL-20200328-1352.zip/download",
+      "size":714209820,
+      "url": "https://downloads.sourceforge.net/project/superioros/sanders/SuperiorOS-Phoenix-sanders-OFFICIAL-20200607-1555.zip",
       "version": "Phoenix"
     }
   ]
