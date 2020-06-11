@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1588766103,
-      "filename": "SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip",
-      "id": "7c3ce802426ac392c5186f372aa503dc",
+      "datetime":1591856242,
+      "filename": "SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200611-0618.zip",
+      "id": "5ce0911ef922793ba32f296ba5105fd2",
       "romtype": "OFFICIAL",
-      "size":772137064,
-      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200506-1155.zip",
+      "size":728496065,
+      "url": "https://master.dl.sourceforge.net/project/superioros/z2_plus/SuperiorOS-Phoenix-z2_plus-OFFICIAL-20200611-0618.zip",
       "version": "Phoenix"
     }
   ]
