@@ -1,22 +1,13 @@
 {
   "response": [
     {
-      "datetime":1551525542,
-      "filename": "SuperiorOS-Nemesis-ef63-OFFICIAL-20190302-1119.zip",
-      "id": "678fb05d43c64d17e4d01124311eb2ed",
+      "datetime":1592652683,
+      "filename": "SuperiorOS-Phoenix-ef63-OFFICIAL-20200620-1132.zip",
+      "id": "42294cd334a03631bf5228191cc55717",
       "romtype": "OFFICIAL",
-      "size":405391155,
-      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Nemesis-ef63-OFFICIAL-20190302-1119.zip",
-      "version": "Destructor"
-    },
-    {
-      "datetime": "1573731649",
-      "filename": "SuperiorOS-Nemesis-ef63-OFFICIAL-20191114-1141.zip",
-      "id": "4a7bea5c047dc21e2d58af2b70227180",
-      "romtype": "OFFICIAL",
-      "size": "415427646",
-      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Nemesis-ef63-OFFICIAL-20191114-1141.zip",
-      "version": "Nemesis"
+      "size":507561087,
+      "url": "https://sourceforge.net/projects/superioros/files/ef63/SuperiorOS-Phoenix-ef63-OFFICIAL-20200620-1132.zip",
+      "version": "Phoenix"
     }
   ]
 }
