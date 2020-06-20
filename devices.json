@@ -134,6 +134,21 @@
       "maintainer_name": "Pavan Patel",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/9-0-superioros-t3890607"
     },
+    {	
+      "device_name": "VEGA IRON 2",
+      "codename": "ef63",
+      "assert": ["ef63s", "ef63k", "ef63l"],
+      "datetime":1592652683,
+      "filename": "SuperiorOS-Phoenix-ef63-OFFICIAL-20200620-1132.zip",
+      "id": "42294cd334a03631bf5228191cc55717",
+      "romtype": "OFFICIAL",
+      "size":507561087,
+      "url": "https://sourceforge.net/projects/superioros/files/ef63/SuperiorOS-Phoenix-ef63-OFFICIAL-20200620-1132.zip",
+      "version": "Phoenix",
+      "date": "2020/06/20",
+      "maintainer_name": "Chau Truong Thinh",
+      "xda_thread": ""
+    },
     {
       "device_name": "ONEPLUS ONE",
       "codename": "bacon",
