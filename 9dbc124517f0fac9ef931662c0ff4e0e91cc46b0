@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82502b5b_c1be3811",
+        "filename": "devices.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-06-21T03:16:06Z",
+      "side": 1,
+      "message": "So many whitespaces",
+      "revId": "9dbc124517f0fac9ef931662c0ff4e0e91cc46b0",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299",
+      "unresolved": true
+    }
+  ]
+}
