@@ -373,5 +373,19 @@
       "date": "18/05/2020",
       "maintainer_name": "Amrish",
       "xda_thread": "https://forum.xda-developers.com/realme-xt/development/rom-superior-os-realme-xt-t4100637"
+     },
+    {
+     "device_name": "Redmi K20 Pro",
+      "codename": "raphael",
+      "assert": ["raphael"],
+      "datetime": 1594144613,
+      "filename": "SuperiorOS-Phoenix-raphael-OFFICIAL-20200707-1757.zip",
+      "id": "baa62aab27c9cc88babe77312a7178a3",
+      "romtype": "OFFICIAL",
+      "size": 961510088,
+      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/SuperiorOS-Phoenix-raphael-OFFICIAL-20200707-1757.zip",
+      "version": "Phoenix",
+      "date": "08/07/2020",
+      "maintainer_name": "HSgod",
      }
 ]
