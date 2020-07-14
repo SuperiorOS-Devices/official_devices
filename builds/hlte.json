@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1591495994,
-      "filename": "SuperiorOS-Phoenix-hlte-OFFICIAL-20200607-0214.zip",
-      "id": "769c644d04ca35e078c65d6dde3d01c7091dd886",
+      "datetime":1594686374,
+      "filename": "SuperiorOS-Phoenix-hlte-OFFICIAL-20200714-0027.zip",
+      "id": "b1383e7e278cdb0f2eb94d8f304b2e173899e5b9",
       "romtype": "OFFICIAL",
-      "size":555850137.6,
-      "url": "https://master.dl.sourceforge.net/project/superioros/hlte/SuperiorOS-Phoenix-hlte-OFFICIAL-20200607-0214.zip",
+      "size":552494694.4,
+      "url": "https://master.dl.sourceforge.net/project/superioros/hlte/SuperiorOS-Phoenix-hlte-OFFICIAL-20200714-0027.zip",
       "version": "Phoenix"
     }
   ]
