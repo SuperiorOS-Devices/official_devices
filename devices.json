@@ -387,5 +387,20 @@
       "version": "Phoenix",
       "date": "08/07/2020",
       "maintainer_name": "HSgod"
+     },
+    {
+     "device_name": "Realme X2",
+      "codename": "x2",
+      "assert": ["RMX1991", "RMX1992", "RMX1993"],
+      "datetime": 1589810021,
+      "filename": "SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip",
+      "id": "923d9f0343a4e1211e6398033062949e",
+      "romtype": "OFFICIAL",
+      "size": 983884296,
+      "url": "https://sourceforge.net/projects/superioros/files/RMX1921/SuperiorOS-Phoenix-RMX1921-OFFICIAL-20200518-1354.zip/download",
+      "version": "Phoenix",
+      "date": "18/05/2020",
+      "maintainer_name": "Shubham",
+      "xda_thread": "https://forum.xda-developers.com/realme-x2/development/rom-superior-os-t4132303"
      }
 ]
