@@ -344,6 +344,23 @@
      "maintainer_name": "Amin Fauzi",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
     },
+    
+    {
+     "device_name": "Samsung Galaxy Note 8",
+     "codename": "greatlte",
+     "assert": ["greatlte"],
+     "datetime":1594189892,
+     "filename": "SuperiorOS-Phoenix-greatlte-UNOFFICIAL-20200715-0817.zip",
+     "id": "2263c09249e86079121e8c32e47d10c9",
+     "romtype": "UNOFFICIAL",
+     "size":710600000,
+     "url": "https://sourceforge.net/projects/superior-greatlte/files/SuperiorOS-Phoenix-greatlte-UNOFFICIAL-20200715-0817.zip/download",
+     "version": "Phoenix",
+     "date": "15/07/2020",
+     "maintainer_name": "HaSSaN",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-8/development/rom-superioros-t4133051"
+    },
+
     {
       "device_name": "Lenovo ZUK Z2 Plus",
       "codename": "z2_plus",
