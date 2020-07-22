@@ -41,7 +41,7 @@ Mail us at - superioros123@gmail.com with stuffs given below.
 
 -----------------------------------------------------------------------
 
-OTA Guide for maintainers:-[Deprecated now]
+OTA Guide for maintainers:-
 ======================
 
 • After Building the ROM push to sf then folllow the procedures given below:-
@@ -51,7 +51,7 @@ If U added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/OTA.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/ten/OTA.sh
 
 ```
 
@@ -72,7 +72,7 @@ If U didn't added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/Maintainers.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/ten/Maintainers.sh
 
 ```
 
