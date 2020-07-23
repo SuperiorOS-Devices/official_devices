@@ -90,6 +90,21 @@
       "xda_thread": ""
      },
     {
+      "device_name": "Xiaomi Redmi 4A",
+      "codename": "rolex",
+      "assert": ["rolex"],
+      "datetime":1577238903,
+      "filename": "SuperiorOS-Phoenix-rolex-UNOFFICIAL-20200708-0256.zip",
+      "id": "264eb058627725825ffd9be428b98432",
+      "romtype": "UNOFFICIAL",
+      "size":570401306,
+      "url": "https://github.com/koito97/yuuki_yuuna_release/releases/download/8%2F7%2F2020/SuperiorOS-Phoenix-rolex-UNOFFICIAL-20200708-0256.zip",
+      "version": "Phoenix",
+      "date": "2020/07/08",
+      "maintainer_name": "koito97",
+      "xda_thread": ""
+     },
+    {
       "device_name": "Asus Zenfone Max Pro M2",
       "codename": "X01BD",
       "assert": ["Max Pro M2", "X01BD", "X01BDA"],
