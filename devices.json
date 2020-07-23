@@ -439,15 +439,15 @@
      "device_name": "Redmi Note 8",
       "codename": "ginkgo",
       "assert": ["ginkgo"],
-      "datetime": 1594189892,
+      "datetime": 1595231124,
       "filename": "SuperiorOS-Phoenix-raphael-OFFICIAL-20200708-0632.zip",
-      "id": "2263c09249e86079121e8c32e47d10c9",
+      "id": "af591b355fae1f9a6ff1d0a911e62d17",
       "romtype": "OFFICIAL",
-      "size": 962141351,
-      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/SuperiorOS-Phoenix-raphael-OFFICIAL-20200708-0632.zip",
+      "size": 930212039,
+      "url": "https://sourceforge.net/projects/superioros/files/ginkgo/SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200719-0347.zip/download",
       "version": "Phoenix",
-      "date": "18/05/2020",
+      "date": "19/07/2020",
       "maintainer_name": "MADMAX",
-      "xda_thread": "https://forum.xda-developers.com/realme-x2/development/rom-superior-os-t4132303"
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/rom-superioros-phoenix-ginkgo-t4130883/post83023029#post83023029"
      }
 ]
