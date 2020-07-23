@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1563867666,
-      "filename": "SuperiorOS-Nemesis-rolex-OFFICIAL-20190723-0741.zip",
-      "id": "8003cc49fc2a7a103b047d517f280d70",
+      "datetime":1595484788,
+      "filename": "SuperiorOS-Phoenix-rolex-OFFICIAL-20200723-0613.zip",
+      "id": "81f7cbd7b8bcc02cffa0e66dae34580e",
       "romtype": "OFFICIAL",
-      "size":575748566,
-      "url": "https://master.dl.sourceforge.net/project/superioros/rolex/SuperiorOS-Nemesis-rolex-OFFICIAL-20190723-0741.zip",
-      "version": "Nemesis"
+      "size":661644357,
+      "url": "https://jaist.dl.sourceforge.net/project/superioros/rolex/SuperiorOS-Phoenix-rolex-OFFICIAL-20200723-0613.zip",
+      "version": "Phoenix"
     }
   ]
 }
