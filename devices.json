@@ -410,15 +410,16 @@
      "device_name": "Redmi K20 Pro",
       "codename": "raphael",
       "assert": ["raphael"],
-      "datetime": 1594189892,
-      "filename": "SuperiorOS-Phoenix-raphael-OFFICIAL-20200708-0632.zip",
-      "id": "2263c09249e86079121e8c32e47d10c9",
+      "datetime": 1596876985,
+      "filename": "SuperiorOS-Phoenix-raphael-OFFICIAL-20200808-0857.zip",
+      "id": "2e9438eac097d4931d6039b9a0f95bea",
       "romtype": "OFFICIAL",
-      "size": 962141351,
-      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/SuperiorOS-Phoenix-raphael-OFFICIAL-20200708-0632.zip",
+      "size": 764155386,
+      "url": "https://sourceforge.net/projects/superioros/files/raphael/SuperiorOS-Phoenix-raphael-OFFICIAL-20200808-0857.zip/download",
       "version": "Phoenix",
-      "date": "08/07/2020",
-      "maintainer_name": "HSgod"
+      "date": "08/08/2020",
+      "maintainer_name": "HSgod",
+      "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-superioros-t4130867"
      },
     {
      "device_name": "Realme X2",
