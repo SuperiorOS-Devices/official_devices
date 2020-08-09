@@ -389,14 +389,15 @@
       "codename": "ginkgo",
       "assert": ["ginkgo"],
       "datetime": 1595231124,
-      "filename": "SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200719-0347.zip",
+      "filename": "SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200807-1435.zip",
       "id": "af591b355fae1f9a6ff1d0a911e62d17",
       "romtype": "OFFICIAL",
       "size": 930212039,
-      "url": "https://sourceforge.net/projects/superioros/files/ginkgo/SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200719-0347.zip/download",
+      "url": "https://sourceforge.net/projects/superioros/files/ginkgo/SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200807-1435.zip/download",
       "version": "Phoenix",
-      "date": "19/07/2020",
+      "date": "08/08/2020",
       "maintainer_name": "MADMAX",
+      "telegram_username": "@Prophecy_Child",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/rom-superioros-phoenix-ginkgo-t4130883/post83023029#post83023029"
      }
 ]
