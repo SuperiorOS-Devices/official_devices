@@ -1,20 +1,5 @@
 [
     {
-      "device_name": "Redmi Note 4",
-      "codename": "mido",
-      "assert": ["Redmi Note 4", "Redmi Note 4X", "mido"],
-      "datetime":1585318676,
-      "filename": "SuperiorOS-Phoenix-mido-OFFICIAL-20200327-1418.zip",
-      "id": "8f369ffeeefd7163518a4182255a6f6f",
-      "romtype": "OFFICIAL",
-      "size":627223026,
-      "url": "https://downloads.sourceforge.net/project/superioros/mido/SuperiorOS-Phoenix-mido-OFFICIAL-20200327-1418.zip",
-      "version": "Phoenix",
-      "date": "2020/03/27",
-      "maintainer_name": "",
-      "xda_thread": ""
-    },
-    {
       "device_name": "Asus Zenfone Max Pro M1",
       "codename": "X00T",
       "assert": ["Max Pro M1", "X00TDA", "X00TD", "X00T"],
@@ -27,6 +12,7 @@
       "version": "Phoenix",
       "date": "2020/03/27",
       "maintainer_name": "Priyanshu Pandey",
+     "telegram_username": "@LordShenron",
       "xda_thread": ""
     },
     {
@@ -42,6 +28,7 @@
       "version": "Phoenix",
       "date": "2020/03/27",
       "maintainer_name": "Sipun Ku Mahanta",
+     "telegram_username": "@Darkstar085",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
     },
     {
@@ -57,6 +44,7 @@
       "version": "Phoenix",
       "date": "2020/03/28",
       "maintainer_name": "Deadpool1704",
+     "telegram_username": "@Deadpool1704",
       "xda_thread": ""
     },
     {
@@ -88,6 +76,7 @@
       "version": "Phoenix",
       "date": "2019/12/25",
       "maintainer_name": "Nick",
+     "telegram_username": "@nick89786",
       "xda_thread": ""
      },
     {
@@ -103,6 +92,7 @@
       "version": "Phoenix",
       "date": "2020/07/23",
       "maintainer_name": "koito97",
+     "telegram_username": "@koito97",
       "xda_thread": ""
      },
     {
@@ -118,6 +108,7 @@
       "version": "Phoenix",
       "date": "2020/03/27",
       "maintainer_name": "Jayant Deshmukh",
+     "telegram_username": "@JD1811",
       "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/10-0-superioros-phoenix-t3992395/post82097757"
     },
     {
@@ -133,22 +124,8 @@
       "version": "Phoenix",
       "date": "2020/03/27",
       "maintainer_name": "Jayant Deshmukh",
+     "telegram_username": "@jD1811",
       "xda_thread": "https://forum.xda-developers.com/mi-a1/development/official-superioros-nemesis-t3929007"
-    },
-    {
-      "device_name": "Xiaomi Redmi Note 6 Pro",
-      "codename": "tulip",
-      "assert": ["Redmi Note 6 Pro"],
-      "datetime":1585407526,
-      "filename": "SuperiorOS-Phoenix-tulip-OFFICIAL-20200328-1459.zip",
-      "id": "a6762071b5516879f40ac0f98129c26c",
-      "romtype": "OFFICIAL",
-      "size":765522289,
-      "url": "https://downloads.sourceforge.net/project/superioros/tulip/SuperiorOS-Phoenix-tulip-OFFICIAL-20200328-1459.zip",
-      "version": "Nemesis",
-      "date": "2020/03/28",
-      "maintainer_name": "Pavan Patel",
-      "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/9-0-superioros-t3890607"
     },
     {
       "device_name": "VEGA IRON 2",
@@ -163,6 +140,7 @@
       "version": "Phoenix",
       "date": "2020/07/08",
       "maintainer_name": "Chau Truong Thinh",
+     "telegram_username": "@chautruongthinh",
       "xda_thread": ""
     },
     {
@@ -178,6 +156,7 @@
       "version": "Phoenix",
       "date": "2020/05/08",
       "maintainer_name": "Shahbaz Qadri",
+     "telegram_username": "@IamShaB",
       "xda_thread": "https://forum.xda-developers.com/oneplus-one/development/rom-superioros-phoenix-t4027989"
     },
       {
@@ -193,6 +172,7 @@
       "version": "Phoenix",
       "date": "2020/05/20",
       "maintainer_name": "Dinesh",
+     "telegram_username": "@dlasdl",
       "xda_thread":"https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/superior-os-oneplus-3-3t-android-10-04-t4093429"
      },
      {
@@ -208,6 +188,7 @@
       "version": "Phoenix",
       "date": "2020/06/06",
       "maintainer_name": "Jimgsey",
+     "telegram_username": "@Jimgsey",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-superior-os-t4101885"
     },
     {
@@ -255,52 +236,8 @@
       "version": "Phoenix",
       "date": "2020/08/07",
       "maintainer_name": "Dhinesh",
+     "telegram_username": "@cool585",
       "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
-    },
-    {
-     "device_name": "Mi 5S",
-     "codename": "capricorn",
-     "assert": ["Mi 5S"],
-     "datetime":1585451349,
-     "filename": "SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
-     "id": "47ddacefe49230c4b98a213187d322aa",
-     "romtype": "OFFICIAL",
-     "size":733898328,
-     "url": "https://downloads.sourceforge.net/project/superioros/capricorn/SuperiorOS-Phoenix-capricorn-OFFICIAL-20200329-0309.zip",
-     "version": "Phoenix",
-     "date": "2020/03/29",
-     "maintainer_name": "Hendy Augustama",
-     "xda_thread": "https://forum.xda-developers.com/mi-5s/development/official-devdb-superioros-phoenix-t4050787"
-    },
-    {
-     "device_name": "Mi 5S Plus",
-     "codename": "natrium",
-     "assert": ["Mi 5S Plus"],
-     "datetime":1586313926,
-     "filename": "SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
-     "id": "692824bbe1cd648414ce958fd7dd83de",
-     "romtype": "OFFICIAL",
-     "size":723963579,
-     "url": "https://downloads.sourceforge.net/project/superioros/natrium/SuperiorOS-Phoenix-natrium-OFFICIAL-20200408-0246.zip",
-     "version": "Phoenix",
-     "date": "2020/04/08",
-     "maintainer_name": "Hendy Augustama",
-     "xda_thread": "https://forum.xda-developers.com/mi-5s-plus/development/unofficial-superioros-phoenix-natrium03-t4076697"
-    },
-    {
-     "device_name": "Mi 5",
-     "codename": "gemini",
-     "assert": ["Mi 5"],
-     "datetime":1588698329,
-     "filename": "SuperiorOS-Phoenix-gemini-OFFICIAL-20200505-1706.zip",
-     "id": "7cfc3bb33a64dbd457f2478363ed6800",
-     "romtype": "OFFICIAL",
-     "size":749600323,
-     "url": "https://downloads.sourceforge.net/project/superioros/gemini/SuperiorOS-Phoenix-gemini-OFFICIAL-20200505-1706.zip",
-     "version": "Phoenix",
-     "date": "2020/05/05",
-     "maintainer_name": "Hendy Augustama",
-     "xda_thread": "https://forum.xda-developers.com/mi-5/development/unofficial-superioros-phoenix-gemini03-t4093813"
     },
     {
      "device_name": "Samsung Galaxy Note 3",
@@ -366,7 +303,6 @@
      "telegram_username": "@amirulaminfauzi",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
     },
-    
     {
      "device_name": "Samsung Galaxy Note 8",
      "codename": "greatlte",
@@ -380,6 +316,7 @@
      "version": "Phoenix",
      "date": "15/07/2020",
      "maintainer_name": "HaSSaN",
+     "telegram_username": "@HaSSaN_MoHI ",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-8/development/rom-superioros-t4133051"
     },
 
@@ -396,7 +333,8 @@
       "version": "Phoenix",
       "date": "06/05/2020",
       "maintainer_name": "Varshank Dhiman",
-      "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-superioros-phoenix-t4088485"
+     "telegram_username": "@VarshankDhiman",
+     "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-superioros-phoenix-t4088485"
     },
     {
      "device_name": "Realme XT",
@@ -411,6 +349,7 @@
       "version": "Phoenix",
       "date": "18/05/2020",
       "maintainer_name": "Amrish",
+     "telegram_username": "@rishi_7799",
       "xda_thread": "https://forum.xda-developers.com/realme-xt/development/rom-superior-os-realme-xt-t4100637"
      },
     {
