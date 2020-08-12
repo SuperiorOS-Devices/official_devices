@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1594693813,
-      "filename": "SuperiorOS-Phoenix-hltekor-OFFICIAL-20200714-0231.zip",
-      "id": "5b8b8a9aa3d853a88f94faaa995ee863c9b9ccb7",
+      "datetime":1596951482,
+      "filename": "SuperiorOS-Phoenix-hltekor-OFFICIAL-20200809-0538.zip",
+      "id": "48f6ff326e48d77a8783c22fd168cf4c80720677",
       "romtype": "OFFICIAL",
-      "size":551970406.4,
-      "url": "https://master.dl.sourceforge.net/project/superioros/hltekor/SuperiorOS-Phoenix-hltekor-OFFICIAL-20200714-0231.zip",
+      "size":575353651.2,
+      "url": "https://master.dl.sourceforge.net/project/superioros/hltekor/SuperiorOS-Phoenix-hltekor-OFFICIAL-20200809-0538.zip",
       "version": "Phoenix"
     }
   ]

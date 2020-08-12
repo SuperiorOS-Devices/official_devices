@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1595218046,
-      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200720-0408.zip",
-      "id": "26a5cd1282c652089213e227fc91fcdd",
+      "datetime":1596821415,
+      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200807-1731.zip",
+      "id": "717c020d2c74f1e4fa99e45acefec4f8",
       "romtype": "OFFICIAL",
-      "size":781677114,
-      "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200720-0408.zip",
+      "size":807915075,
+      "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200807-1731.zip",
       "version": "Phoenix"
     }
   ]

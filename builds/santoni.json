@@ -1,13 +1,12 @@
-
 {
   "response": [
     {
-      "datetime":1594566747,
-      "filename": "SuperiorOS-Phoenix-santoni-OFFICIAL-20200712-1513.zip",
-      "id": "fc9e94fca4824921da6dba2632afd840",
+      "datetime":1596958643,
+      "filename": "SuperiorOS-Phoenix-santoni-OFFICIAL-20200809-0737.zip",
+      "id": "c2bc57cbd1104bc423e611f1170dc56d",
       "romtype": "OFFICIAL",
-      "size":682519728,
-      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Phoenix-santoni-OFFICIAL-20200712-1513.zip",
+      "size":713098085,
+      "url": "https://master.dl.sourceforge.net/project/superioros/santoni/SuperiorOS-Phoenix-santoni-OFFICIAL-20200809-0737.zip",
       "version": "Phoenix"
     }
   ]
