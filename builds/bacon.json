@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1594194800,
-      "filename": "SuperiorOS-Phoenix-bacon-OFFICIAL-20200708-0757.zip",
-      "id": "3578a899e3d3625c80f3e4a6cc1e6831",
+      "datetime":1597303891,
+      "filename": "SuperiorOS-Phoenix-bacon-OFFICIAL-20200813-0732.zip",
+      "id": "ff8c6d5c14f833f1298efcf337ee5377",
       "romtype": "OFFICIAL",
-      "size":495616209,
-      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Phoenix-bacon-OFFICIAL-20200708-0757.zip/download",
+      "size":523934081,
+      "url": "https://sourceforge.net/projects/superioros/files/bacon/SuperiorOS-Phoenix-bacon-OFFICIAL-20200813-0732.zip/download",
       "version": "Phoenix"
     }
   ]
