@@ -128,6 +128,22 @@
       "xda_thread": "https://forum.xda-developers.com/mi-a1/development/official-superioros-nemesis-t3929007"
     },
     {
+      "device_name": "Xiaomi Mi A2 Lite",
+      "codename": "daisy",
+      "assert": ["daisy", "Mi A2 Lite, daisy_sprout"],
+      "datetime":1593541079,
+      "filename": "SuperiorOS-Phoenix-daisy-OFFICIAL-20200630-1818.zip",
+      "id": "42d8157f36232fbb742e7f20fc79c262",
+      "romtype": "OFFICIAL",
+      "size":708174737,
+      "url": "https://sourceforge.net/projects/superioros/files/daisy/SuperiorOS-Phoenix-daisy-OFFICIAL-20200630-1818.zip/download",
+      "version": "Phoenix",
+      "date": "2020/06/30",
+      "maintainer_name": "pawelik001",
+      "telegram_username": "@pawelik001",
+      "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/10-superioros-xiaomi-mi-a2-lite-t3998109"
+    },
+    {
       "device_name": "VEGA IRON 2",
       "codename": "ef63",
       "assert": ["ef63s", "ef63k", "ef63l"],
