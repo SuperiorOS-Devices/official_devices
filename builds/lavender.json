@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1591429462,
-      "filename": "SuperiorOS-Phoenix-lavender-OFFICIAL-20200606-0745.zip",
-      "id": "0ba1867b32f51c2f52aa450793895921",
+      "datetime":1600154427,
+      "filename": "SuperiorOS-Phoenix-lavender-OFFICIAL-20200915-0721.zip",
+      "id": "a87c3eb55633364557942f5610c8199f",
       "romtype": "OFFICIAL",
-      "size":947744124,
-      "url": "https://downloads.sourceforge.net/project/superioros/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20200606-0745.zip",
+      "size":995153757,
+      "url": "https://downloads.sourceforge.net/project/superioros/lavender/SuperiorOS-Phoenix-lavender-OFFICIAL-20200915-0721.zip",
       "version": "Phoenix",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-superior-os-t4101885"
     }
