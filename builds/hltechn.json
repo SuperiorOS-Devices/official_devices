@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1596947928,
-      "filename": "SuperiorOS-Phoenix-hltechn-OFFICIAL-20200809-0440.zip",
-      "id": "2e684d298037ad9f2b64078357ceef1312b68bdc",
+      "datetime":1600315071,
+      "filename": "SuperiorOS-Phoenix-hltechn-OFFICIAL-20200917-0359.zip",
+      "id": "a44ccc633cd8aae827ef1f3bd24ddd08d68cbc9b",
       "romtype": "OFFICIAL",
-      "size":575248793.6,
-      "url": "https://master.dl.sourceforge.net/project/superioros/hltechn/SuperiorOS-Phoenix-hltechn-OFFICIAL-20200809-0440.zip",
+      "size":578918809.6,
+      "url": "https://master.dl.sourceforge.net/project/superioros/hltechn/SuperiorOS-Phoenix-hltechn-OFFICIAL-20200917-0359.zip",
       "version": "Phoenix"
     }
   ]
