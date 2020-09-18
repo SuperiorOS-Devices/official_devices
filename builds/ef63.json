@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1599145877,
-      "filename": "SuperiorOS-Phoenix-ef63-OFFICIAL-20200903-1512.zip",
-      "id": "9d3ffbf1f45514cfad39e62754730c80",
+      "datetime":1600404817,
+      "filename": "SuperiorOS-Phoenix-ef63-OFFICIAL-20200918-0454.zip",
+      "id": "f2484f3dc5fca924342640d0252d21c0",
       "romtype": "OFFICIAL",
-      "size":524206599,
-      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Phoenix-ef63-OFFICIAL-20200903-1512.zip",
+      "size":525148667,
+      "url": "https://master.dl.sourceforge.net/project/superioros/ef63/SuperiorOS-Phoenix-ef63-OFFICIAL-20200918-0454.zip",
       "version": "Phoenix"
     }
   ]
