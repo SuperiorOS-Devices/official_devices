@@ -319,6 +319,41 @@
      "telegram_username": "@amirulaminfauzi",
      "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-superioros-phoenix-t4086515"
     },
+
+    {
+     "device_name": "Samsung Galaxy S8",
+     "codename": "dreamlte",
+     "assert": ["dreamlte"],
+     "datetime":1594189892,
+     "filename": "",
+     "id": "2263c09249e86079121e8c32e47d10c9",
+     "romtype": "OFFICIAL",
+     "size":710600000,
+     "url": "",
+     "version": "Phoenix",
+     "date": "19/09/2020",
+     "maintainer_name": "HaSSaN",
+     "telegram_username": "@HaSSaN_MoHI ",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-8/development/rom-superioros-t4133051"
+    },
+
+    {
+     "device_name": "Samsung Galaxy S8+",
+     "codename": "dream2lte",
+     "assert": ["dream2te"],
+     "datetime":1594189892,
+     "filename": "",
+     "id": "2263c09249e86079121e8c32e47d10c9",
+     "romtype": "OFFICIAL",
+     "size":710600000,
+     "url": "",
+     "version": "Phoenix",
+     "date": "15/07/2020",
+     "maintainer_name": "HaSSaN",
+     "telegram_username": "@HaSSaN_MoHI ",
+     "xda_thread": "https://forum.xda-developers.com/galaxy-note-8/development/rom-superioros-t4133051"
+    },
+
     {
      "device_name": "Samsung Galaxy Note 8",
      "codename": "greatlte",
