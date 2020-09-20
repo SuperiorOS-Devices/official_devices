@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1596836674,
-      "filename": "SuperiorOS-Phoenix-X00T-OFFICIAL-20200807-2145.zip",
-      "id": "90c2cb534a83ab0fb6352cb3f4dd4f31",
+      "datetime":1600533022,
+      "filename": "SuperiorOS-Phoenix-X00T-OFFICIAL-20200919-1631.zip",
+      "id": "2b75b080ea69d99bd014fe155a2f596f",
       "romtype": "OFFICIAL",
-      "size":784680239,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Phoenix-X00T-OFFICIAL-20200807-2145.zip",
+      "size":799134238,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Phoenix-X00T-OFFICIAL-20200919-1631.zip",
       "version": "Phoenix"
     }
   ]
