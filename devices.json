@@ -32,6 +32,22 @@
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/official-superioros-whyred10-10-2018-t3852545"
     },
     {
+      "device_name": "Oneplus Nord",
+      "codename": "avicii",
+      "assert": ["avicii"],
+      "datetime":1589962708,
+      "filename": "SuperiorOS-Phoenix-avicii-OFFICIAL-20200520-0819.zip",
+      "id": "888feaddf136a2df5d6af15854a213e4",
+      "romtype": "OFFICIAL",
+      "size":770655676,
+      "url": "https://master.dl.sourceforge.net/project/superioros/avicii/SuperiorOS-Phoenix-avicii-OFFICIAL-20200520-0819.zip",
+      "version": "Phoenix",
+      "date": "2020/05/20",
+      "maintainer_name": "Sipun Ku Mahanta",
+     "telegram_username": "@Darkstar085",
+      "xda_thread":""
+     },
+    {
       "device_name": "Poco F1",
       "codename": "beryllium",
       "assert": ["Poco F1"],
