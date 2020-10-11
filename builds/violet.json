@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1600081896,
-      "filename": "SuperiorOS-Phoenix-violet-OFFICIAL-20200914-1112.zip",
-      "id": "b59b874ab710c812ebc9178761ea20ce",
+      "datetime":1602367670,
+      "filename": "SuperiorOS-Phoenix-violet-OFFICIAL-20201010-2208.zip",
+      "id": "836c9d3a1ad2d8088e390f05741ff542",
       "romtype": "OFFICIAL",
-      "size":954354334,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Phoenix-violet-OFFICIAL-20200914-1112.zip",
+      "size":989576369,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Phoenix-violet-OFFICIAL-20201010-2208.zip",
       "version": "Phoenix"
     }
   ]
