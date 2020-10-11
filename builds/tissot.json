@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1600079277,
-      "filename": "SuperiorOS-Phoenix-tissot-OFFICIAL-20200914-1028.zip",
-      "id": "43d701f8e83cc0909688af2b3ac4fb24",
+      "datetime":1602364909,
+      "filename": "SuperiorOS-Phoenix-tissot-OFFICIAL-20201010-2122.zip",
+      "id": "cb708ad582729ad0d4bdf4ed4d2e6c8c",
       "romtype": "OFFICIAL",
-      "size":704363877,
-      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Phoenix-tissot-OFFICIAL-20200914-1028.zip",
+      "size":729028596,
+      "url": "https://master.dl.sourceforge.net/project/superioros/tissot/SuperiorOS-Phoenix-tissot-OFFICIAL-20201010-2122.zip",
       "version": "Phoenix"
     }
   ]
