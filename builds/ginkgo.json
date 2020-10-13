@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1597199867,
-      "filename": "SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200812-0238.zip",
-      "id": "67fee935fcd3b6807cbeb38f7096b995",
+      "datetime":1602440532,
+      "filename": "SuperiorOS-Phoenix-ginkgo-OFFICIAL-20201011-1823.zip",
+      "id": "925450b0e8e4aa8f242c53afb4954173",
       "romtype": "OFFICIAL",
-      "size":942454666,
-      "url": "https://sourceforge.net/projects/superioros/files/ginkgo/SuperiorOS-Phoenix-ginkgo-OFFICIAL-20200812-0238.zip/download",
+      "size":979025920,
+      "url": "https://sourceforge.net/projects/superioros/files/ginkgo/SuperiorOS-Phoenix-ginkgo-OFFICIAL-20201011-1823.zip/download",
       "version": "Phoenix"
     }
   ]
