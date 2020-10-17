@@ -51,7 +51,7 @@ If U added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/ten/OTA.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/eleven/OTA.sh
 
 ```
 
@@ -72,7 +72,7 @@ If U didn't added Your SSH key then use this -
 
 ```bash
 
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/ten/Maintainers.sh
+cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/eleven/Maintainers.sh
 
 ```
 

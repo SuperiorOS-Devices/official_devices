@@ -38,7 +38,7 @@ set -e
 
 if [ ! -d ~/official_devices ];then
 cd ~
-git clone git@github.com:SuperiorOS-Devices/official_devices.git -b ten
+git clone git@github.com:SuperiorOS-Devices/official_devices.git -b eleven
 fi
 
 if [ -d ~/official_devices ];then
@@ -82,7 +82,7 @@ url_old=`cat ~/official_devices/builds/$device.json | grep https | cut -d '"' -f
 cd official_devices
 git add --all
 git commit -m "$device: update $DAY"
-git push -f origin HEAD:ten
+git push -f origin HEAD:eleven
 cd ~
 rm -rf official_devices
 rm -rf OTA.sh
