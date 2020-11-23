@@ -62,5 +62,22 @@
     "maintainer_name": "pawelik001",
     "telegram_username": "@pawelik001",
     "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/10-superioros-xiaomi-mi-a2-lite-t3998109"
+  },
+  {
+    "device_name": "Xiaomi Redmi Note 6 Pro",
+    "codename": "tulip",
+    "assert": ["tulip", "Redmi Note 6 Pro, twolip"],
+    "datetime":1593541079,
+    "filename": "SuperiorOS-Xcalibur-tulip-OFFICIAL-20201123-0516.zip",
+    "id": "a0189ddb62f59856608a731a58d2d070",
+    "romtype": "OFFICIAL",
+    "size":708174737,
+    "url": "https://sourceforge.net/projects/superioros/files/tulip/SuperiorOS-Xcalibur-tulip-OFFICIAL-20201123-0516.zip/download",
+    "version": "Xcalibur",
+    "date": "2020/11/23",
+    "maintainer_name": "AtlanPrime",
+    "telegram_username": "@AtlanPrime",
+    "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-superioros-xcalibur-t4192863"
   }
 ]
+
