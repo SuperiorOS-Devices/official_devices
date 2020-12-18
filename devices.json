@@ -94,6 +94,22 @@
     "maintainer_name": "MADMAX",
     "telegram_username": "@Prophecy_Child",
     "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/rom-superioros-phoenix-ginkgo-t4130883/post83023029#post83023029"
+  },
+  {
+    "device_name": "Redmi Note 7 Pro",
+    "codename": "violet",
+    "assert": ["violet"],
+    "datetime": 1561909361,
+    "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20201117-0912.zip",
+    "id": "c69142e68fa88cc47d57280a5e89858b",
+    "romtype": "OFFICIAL",
+    "size": 840540844,
+    "url": "https://sourceforge.net/projects/superioros/files/violet/SuperiorOS-Xcalibur-violet-OFFICIAL-20201117-0912.zip/download",
+    "version": "Xcalibur",
+    "date": "2020/11/18",
+    "maintainer_name": "Nipin NA",
+    "telegram_username": "@Joker-V2_0",
+    "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superioros-t4191765"
   }
 ]
 
