@@ -110,6 +110,21 @@
     "maintainer_name": "Nipin NA",
     "telegram_username": "@Joker-V2_0",
     "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superioros-t4191765"
-  }
-]
-
+  },
+  {
+      "device_name": "Motorola Moto X4",
+      "codename": "payton",
+      "assert": ["payton", "payton_retail", "XT1900"],
+      "datetime":1596821415,
+      "filename": "SuperiorOS-Phoenix-payton-OFFICIAL-20200807-1731.zip",
+      "id": "717c020d2c74f1e4fa99e45acefec4f8",
+      "romtype": "OFFICIAL",
+      "size":807915075,
+      "url": "https://sourceforge.net/projects/superioros/files/payton/SuperiorOS-Phoenix-payton-OFFICIAL-20200807-1731.zip",
+      "version": "Xcalibur",
+      "date": "2020/12/24",
+      "maintainer_name": "Dhinesh",
+     "telegram_username": "@cool585",
+      "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
+    }
+  ]
