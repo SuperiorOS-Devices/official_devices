@@ -126,5 +126,21 @@
       "maintainer_name": "Dhinesh",
      "telegram_username": "@cool585",
       "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
+    },
+    {
+      "device_name": "Asus Zenfone Max Pro M2",
+      "codename": "X01BD",
+      "assert": ["X01BD", "X01BDA"],
+      "datetime":1596821415,
+      "filename": "",
+      "id": "",
+      "romtype": "OFFICIAL",
+      "size":807915075,
+      "url": "",
+      "version": "Xcalibur",
+      "date": "2020/12/27",
+      "maintainer_name": "Priyanshu Gupta",
+     "telegram_username": "@prigup",
+      "xda_thread": ""
     }
   ]
