@@ -151,5 +151,22 @@
     "maintainer_name": "Priyanshu Gupta",
     "telegram_username": "@prigup",
     "xda_thread": ""
+  },
+  {
+    "brand": "Poco",
+    "device_name": "X3",
+    "codename": "surya",
+    "assert": ["surya"],
+    "datetime": 1561909361,
+    "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20201117-0912.zip",
+    "id": "c69142e68fa88cc47d57280a5e89858b",
+    "romtype": "OFFICIAL",
+    "size": 840540844,
+    "url": "https://sourceforge.net/projects/superioros/files/surya/SuperiorOS-Xcalibur-surya-OFFICIAL-20201117-0912.zip/download",
+    "version": "Xcalibur",
+    "date": "2020/11/18",
+    "maintainer_name": "AmJith",
+    "telegram_username": "@TheMarc43",
+    "xda_thread": ""
     }
   ]
