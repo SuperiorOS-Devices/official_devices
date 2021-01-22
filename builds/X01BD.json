@@ -1,0 +1,14 @@
+
+{
+  "response": [
+    {
+      "datetime":1602373384,
+      "filename": "SuperiorOS-Phoenix-X01BD-OFFICIAL-20201010-2343.zip",
+      "id": "d0c08832db12beeba23e977b01161eb5",
+      "romtype": "OFFICIAL",
+      "size":859404948,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/SuperiorOS-Phoenix-X01BD-OFFICIAL-20201010-2343.zip",
+      "version": "Phoenix"
+    }
+  ]
+}
