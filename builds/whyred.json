@@ -2,13 +2,13 @@
 {
   "response": [
     {
-      "datetime":1602370414,
-      "filename": "SuperiorOS-Phoenix-whyred-OFFICIAL-20201010-2254.zip",
-      "id": "7b0a11d28f6ea541452f59f588248019",
+      "datetime":1615985865,
+      "filename": "SuperiorOS-Xcalibur-whyred-OFFICIAL-20210317-1259.zip",
+      "id": "ad425f2b75cc2d47125885e0319bb0d8",
       "romtype": "OFFICIAL",
-      "size":841860411,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Phoenix-whyred-OFFICIAL-20201010-2254.zip",
-      "version": "Phoenix"
+      "size":792076845,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210317-1259.zip",
+      "version": "Xcalibur"
     }
   ]
 }
