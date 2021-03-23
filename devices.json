@@ -50,4 +50,21 @@
     "telegram_username": "@cool585",
     "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
   }
+{
+    "brand": "Xiaomi",
+    "device_name": "POCO X3",
+    "codename": "surya",
+    "assert": ["surya","karna"],
+    "datetime": 1615985865,
+    "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20210313-1106.zip",
+    "id": "ad425f2b75cc2d47125885e0319bfgd8",
+    "romtype": "OFFICIAL",
+    "size": 812564845,
+    "url": "https://master.dl.sourceforge.net/project/superioros/surya/SuperiorOS-Xcalibur-surya-OFFICIAL-20210313-1106.zip",
+    "version": "Xcalibur",
+    "date": "2021/03/13",
+    "maintainer_name": "AmJith","Nipin NA",
+    "telegram_username": "@TheMarc43""@Joker_V2_0",
+    "xda_thread": "https://forum.xda-developers.com/t/rom-official-superioros-poco-x3-11.4237765/"
+  }
 ]
