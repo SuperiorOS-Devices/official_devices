@@ -17,6 +17,23 @@
     "xda_thread": "https://forum.xda-developers.com/t/official-eleven-superioros-xcalibur-for-whyred-17-03-2021.3994395/"
   },
   {
+    "brand": "Xiaomi",
+    "device_name": "Redmi Note 7 Pro",
+    "codename": "violet",
+    "assert": ["Redmi Note 7 Pro"],
+    "datetime": 1615528227,
+    "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
+    "id": "bca525af7a31f41e3d22d7c35f3bef0c",
+    "romtype": "OFFICIAL",
+    "size": 955104642,
+    "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
+    "version": "Xcalibur",
+    "date": "2021/03/12",
+    "maintainer_name": "Nipin NA",
+    "telegram_username": "@Joker_V2_0",
+    "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superioros-t4191765"
+  },
+  {
    "brand": "Motorola",
     "device_name": "Motorola Moto X4",
     "codename": "payton",
