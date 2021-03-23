@@ -34,23 +34,6 @@
     "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-superioros-t4191765"
   },
   {
-   "brand": "Motorola",
-    "device_name": "Motorola Moto X4",
-    "codename": "payton",
-    "assert": ["payton", "payton_retail", "XT1900"],
-    "datetime":1615488769,
-    "filename": "SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
-    "id": "834bc99bc1a42c9783cc725b72bd922",
-    "romtype": "OFFICIAL",
-    "size":692201839,
-    "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
-    "version": "Xcalibur",
-    "date": "2021/03/11",
-    "maintainer_name": "Dhinesh",
-    "telegram_username": "@cool585",
-    "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
-  }
-{
     "brand": "Xiaomi",
     "device_name": "POCO X3",
     "codename": "surya",
@@ -66,5 +49,22 @@
     "maintainer_name": "AmJith","Nipin NA",
     "telegram_username": "@TheMarc43""@Joker_V2_0",
     "xda_thread": "https://forum.xda-developers.com/t/rom-official-superioros-poco-x3-11.4237765/"
+  },
+  {
+   "brand": "Motorola",
+    "device_name": "Motorola Moto X4",
+    "codename": "payton",
+    "assert": ["payton", "payton_retail", "XT1900"],
+    "datetime":1615488769,
+    "filename": "SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
+    "id": "834bc99bc1a42c9783cc725b72bd922",
+    "romtype": "OFFICIAL",
+    "size":692201839,
+    "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
+    "version": "Xcalibur",
+    "date": "2021/03/11",
+    "maintainer_name": "Dhinesh",
+    "telegram_username": "@cool585",
+    "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
   }
 ]
