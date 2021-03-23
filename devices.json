@@ -15,5 +15,22 @@
     "maintainer_name": "Sipun Ku Mahanta",
     "telegram_username": "@Darkstar085",
     "xda_thread": "https://forum.xda-developers.com/t/official-eleven-superioros-xcalibur-for-whyred-17-03-2021.3994395/"
+  },
+  {
+   "brand": "Motorola",
+    "device_name": "Motorola Moto X4",
+    "codename": "payton",
+    "assert": ["payton", "payton_retail", "XT1900"],
+    "datetime":1615488769,
+    "filename": "SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
+    "id": "834bc99bc1a42c9783cc725b72bd922",
+    "romtype": "OFFICIAL",
+    "size":692201839,
+    "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Xcalibur-payton-OFFICIAL-20210311-1855.zip",
+    "version": "Xcalibur",
+    "date": "2021/03/11",
+    "maintainer_name": "Dhinesh",
+    "telegram_username": "@cool585",
+    "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
   }
-  ]
+]
