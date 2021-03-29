@@ -2,12 +2,12 @@
 {
   "response": [
     {
-      "datetime":1617009619,
-      "filename": "SuperiorOS-Xcalibur-whyred-OFFICIAL-20210329-0921.zip",
-      "id": "d24641e034e91c2d62eb04f6b5e02394",
+      "datetime":1617054722,
+      "filename": "SuperiorOS-Xcalibur-whyred-OFFICIAL-20210329-2153.zip",
+      "id": "b6066b2813f9cfab05d52b405eb5be37",
       "romtype": "OFFICIAL",
-      "size":850239352,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210329-0921.zip",
+      "size":850325974,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210329-2153.zip",
       "version": "Xcalibur"
     }
   ]
