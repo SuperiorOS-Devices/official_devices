@@ -51,7 +51,7 @@
     "xda_thread": "https://forum.xda-developers.com/t/rom-official-superioros-poco-x3-11.4237765/"
   },
   {
-   "brand": "Motorola",
+    "brand": "Motorola",
     "device_name": "Motorola Moto X4",
     "codename": "payton",
     "assert": ["payton", "payton_retail", "XT1900"],
@@ -66,5 +66,22 @@
     "maintainer_name": "Dhinesh",
     "telegram_username": "@cool585",
     "xda_thread": "https://forum.xda-developers.com/moto-x4/development/rom-superior-os-t4017109"
+  },
+  {
+    "brand": "Google",
+    "device_name": "Google Pixel 4a",
+    "codename": "sunfish",
+    "assert": ["sunfish"],
+    "datetime":1617596163,
+    "filename": "SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210405-0417.zip",
+    "id": "17023876d435f45c574dd44f7bcbd3b1",
+    "romtype": "OFFICIAL",
+    "size":1591734843,
+    "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210405-0417.zip",
+    "version": "Xcalibur",
+    "date": "2021/04/05",
+    "maintainer_name": "Jayant Deshmukh",
+    "telegram_username": "@jd1811",
+    "xda_thread": "https://forum.xda-developers.com/t/official-superioros-xcalibur-android-11.4181587/"
   }
 ]
