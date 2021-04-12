@@ -44,44 +44,24 @@ Mail us at - superioros123@gmail.com with stuffs given below.
 OTA Guide for maintainers:-
 ======================
 
-• After Building the ROM push to sf then folllow the procedures given below:-
+• Create device specific directory (Use device codename).
 
-If U added Your SSH key then use this -
--------------------------------------
+• Create build.json for vanilla builds and gapps_build.json for GApps builds.
 
-```bash
-
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/eleven/OTA.sh
+### Example
 
 ```
-
-Then
-
-```bash
-
-bash OTA.sh <device_codename> <rom_dir>
-
+{
+  "response": [
+    {
+      "datetime":1615528227,
+      "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
+      "id": "bca525af7a31f41e3d22d7c35f3bef0c",
+      "romtype": "OFFICIAL",
+      "size":955104642,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
+      "version": "Xcalibur"
+    }
+  ]
+}
 ```
-
-Example - bash OTA.sh whyred superior
-
-
-
-If U didn't added Your SSH key then use this -
---------------------------------------------------------------------------------
-
-```bash
-
-cd ~ && wget https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/eleven/Maintainers.sh
-
-```
-
-Then
-
-```bash
-
-bash Maintainers.sh <device_codename> <rom_dir>
-
-```
-
-Example - bash Maintainers.sh whyred superior
