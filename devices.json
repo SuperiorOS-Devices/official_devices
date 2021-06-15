@@ -18,6 +18,23 @@
   },
   {
     "brand": "Xiaomi",
+    "device_name": "Redmi Y2/S2",
+    "codename": "ysl",
+    "assert": ["Redmi Y2/S2"],
+    "datetime": 1623766998,
+    "filename": "SuperiorOS-Xcalibur-ysl-OFFICIAL-20210615-1424.zip",
+    "id": "173a706915b851b22d50a9d4dcb35394",
+    "romtype": "OFFICIAL",
+    "size": 773877473,
+    "url": "https://sourceforge.net/projects/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210615-1424.zip",
+    "version": "Xcalibur",
+    "date": "2021/06/15",
+    "maintainer_name": "ItsMeVedansh",
+    "telegram_username": "@ItsMeZyrus",
+    "xda_thread": "https://forum.xda-developers.com/t/superior-os-for-redmi-y2-s2-ysl-official.4285457/"
+  },
+  {
+    "brand": "Xiaomi",
     "device_name": "Redmi Note 7 Pro",
     "codename": "violet",
     "assert": ["Redmi Note 7 Pro"],

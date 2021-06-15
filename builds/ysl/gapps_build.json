@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":,
-      "filename": "",
-      "id": "",
+      "datetime":1623764832,
+      "filename": "SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210615-1348.zip",
+      "id": "e8c0236eb49c962a6608560bb8420277",
       "romtype": "OFFICIAL",
-      "size":,
-      "url": "",
+      "size":1218570953,
+      "url": "https://sourceforge.net/projects/superioros/files/ysl/gapps/SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210615-1348.zip",
       "version": "Xcalibur"
     }
   ]
