@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1618571721,
-      "filename": "SuperiorOS-Xcalibur-X00T-OFFICIAL-20210416-1233.zip",
-      "id": "4c249a3efdec084e3bab998654c7567c",
+      "datetime":1624105171,
+      "filename": "SuperiorOS-Xcalibur-X00T-OFFICIAL-20210619-1220.zip",
+      "id": "ad6fc11e983fb21daad0c1c05abdc82b",
       "romtype": "OFFICIAL",
-      "size":753381760,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Xcalibur-X00T-OFFICIAL-20210416-1233.zip",
+      "size":778727144,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Xcalibur-X00T-OFFICIAL-20210619-1220.zip",
       "version": "Xcalibur"
     }
   ]
