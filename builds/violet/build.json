@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1623633392,
-      "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20210614-0119.zip",
-      "id": "f36e0a1841622e9f3151be5ac9716e9e",
+      "datetime":1625926224,
+      "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20210710-1412.zip",
+      "id": "6f9a25401cd7c9bba1debeb225dd302b",
       "romtype": "OFFICIAL",
-      "size":986862003,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Xcalibur-violet-OFFICIAL-20210614-0119.zip",
+      "size":1126225796,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Xcalibur-violet-OFFICIAL-20210710-1412.zip",
       "version": "Xcalibur"
     }
   ]
