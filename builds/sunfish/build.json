@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1620449472,
-      "filename": "SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210508-0451.zip",
-      "id": "13e291fa9f981f9d4de1d9171320ca4b",
+      "datetime":1625988796,
+      "filename": "SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210711-0735.zip",
+      "id": "59e4e812503df9613824f07b63970579",
       "romtype": "OFFICIAL",
-      "size":1526975800,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210508-0451.zip",
+      "size":1459839190,
+      "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210711-0735.zip",
       "version": "Xcalibur"
     }
   ]
