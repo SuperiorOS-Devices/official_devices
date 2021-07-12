@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":,
-      "filename": "",
-      "id": "",
+      "datetime":1625922249,
+      "filename": "SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210629-1006.zip",
+      "id": "9e483b6832282d27e25e13479e8493c8",
       "romtype": "OFFICIAL",
-      "size":,
-      "url": "",
+      "size":1570287871,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/gapps/SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210629-1006.zip",
       "version": "Xcalibur"
     }
   ]
