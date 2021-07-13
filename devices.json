@@ -1,5 +1,22 @@
 [
   {
+    "brand": "Asus",
+    "device_name": "Asus Zenfone Max Pro M2",
+    "codename": "X01BD",
+    "assert": ["Asus Zenfone Max Pro M2"],
+    "datetime": 1626085187,
+    "filename": "SuperiorOS-Xcalibur-X01BD-OFFICIAL-20210712-1019.zip",
+    "id": "f5777dd1d6e1c959041c7838be690b14",
+    "romtype": "OFFICIAL",
+    "size": 796300755,
+    "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/vanilla/SuperiorOS-Xcalibur-X01BD-OFFICIAL-20210712-1019.zip",
+    "version": "Xcalibur",
+    "date": "2021/07/12",
+    "maintainer_name": "Shibi Krishna",
+    "telegram_username": "@shibierr404",
+    "xda_thread": "https://forum.xda-developers.com/t/official-eleven-superioros-xcalibur-for-x01bd.4304915/"
+  },
+  {
     "brand": "Xiaomi",
     "device_name": "Redmi Note 5 Pro",
     "codename": "whyred",
