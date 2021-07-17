@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1626090215,
-      "filename": "SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210712-1146.zip",
-      "id": "18080992e4b0713c6ee095c18516dad2",
+      "datetime":1626365140,
+      "filename": "SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210715-1608.zip",
+      "id": "bb60d726b9a7bd81455ef6214d70415d",
       "romtype": "OFFICIAL",
-      "size":1514102545,
-      "url": "https://master.dl.sourceforge.net/project/superioros/surya/gapps/SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210712-1146.zip",
+      "size":1515064866,
+      "url": "https://master.dl.sourceforge.net/project/superioros/surya/gapps/SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210715-1608.zip",
       "version": "Xcalibur"
     }
   ]

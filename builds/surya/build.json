@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1626088238,
-      "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20210712-1110.zip",
-      "id": "2158625ce597fa3994f3b0402f712c38",
+      "datetime":1626363081,
+      "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20210715-1533.zip",
+      "id": "35a58d3ced23e3449dd4563ced8d683f",
       "romtype": "OFFICIAL",
-      "size":1061836787,
-      "url": "https://master.dl.sourceforge.net/project/superioros/surya/vanilla/SuperiorOS-Xcalibur-surya-OFFICIAL-20210712-1110.zip",
+      "size":1062700017,
+      "url": "https://master.dl.sourceforge.net/project/superioros/surya/vanilla/SuperiorOS-Xcalibur-surya-OFFICIAL-20210715-1533.zip",
       "version": "Xcalibur"
     }
   ]
