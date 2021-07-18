@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1623766998,
-      "filename": "SuperiorOS-Xcalibur-ysl-OFFICIAL-20210615-1424.zip",
-      "id": "173a706915b851b22d50a9d4dcb35394",
+      "datetime": 1626618572,
+      "filename": "SuperiorOS-Xcalibur-ysl-OFFICIAL-20210718-1431.zip",
+      "id": "700064cf6d67930706c54792045bad7b",
       "romtype": "OFFICIAL",
-      "size"773877473:,
-      "url": "https://sourceforge.net/projects/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210615-1424.zip",
+      "size": 775618608,
+      "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210718-1431.zip",
       "version": "Xcalibur"
     }
   ]
