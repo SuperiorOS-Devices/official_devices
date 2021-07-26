@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":822144853,
       "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210710-1531.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Xiaomi Redmi Note 5 Pro",
+      "maintainer": "Sipun Ku Mahanta"
     }
   ]
 }
