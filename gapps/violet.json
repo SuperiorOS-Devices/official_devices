@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":1570287871,
       "url": "https://master.dl.sourceforge.net/project/superioros/violet/gapps/SuperiorOS-Xcalibur-violet-GAPPS-OFFICIAL-20210710-1304.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Xiaomi Redmi Note 7 Pro",
+      "maintainer": "Nipin NA (Joker-V2)"
     }
   ]
 }
