@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":872479934,
       "url": "https://master.dl.sourceforge.net/project/superioros/jason/SuperiorOS-Xcalibur-jason-OFFICIAL-20210710-1806.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Xiaomi Mi Note 3",
+      "maintainer": "Enweazu Daniel(Danny)"
     }
   ]
 }
