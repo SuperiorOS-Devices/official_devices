@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":746936389,
       "url": "https://master.dl.sourceforge.net/project/superioros/payton/SuperiorOS-Xcalibur-payton-OFFICIAL-20210712-0415.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Motorola Moto X4",
+      "maintainer": "Dhinesh (cool585)"
     }
   ]
 }
