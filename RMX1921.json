@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":,
       "url": "",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Realme XT",
+      "maintainer": "Ayan Mukherjee"
     }
   ]
 }
