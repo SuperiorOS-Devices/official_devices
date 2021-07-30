@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":1062700017,
       "url": "https://master.dl.sourceforge.net/project/superioros/surya/vanilla/SuperiorOS-Xcalibur-surya-OFFICIAL-20210715-1533.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "POCO X3",
+      "maintainer": "AmJith Babu (TheMarc43)"
     }
   ]
 }

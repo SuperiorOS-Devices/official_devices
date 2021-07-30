@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":1515064866,
       "url": "https://master.dl.sourceforge.net/project/superioros/surya/gapps/SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210715-1608.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "POCO X3",
+      "maintainer": "AmJith Babu (TheMarc43)"
     }
   ]
 }
