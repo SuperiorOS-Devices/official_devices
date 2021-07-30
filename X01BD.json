@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":778727144,
       "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/vanilla/SuperiorOS-Xcalibur-X01BD-OFFICIAL-20210629-0921.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Asus Zenfone Max Pro M2",
+      "maintainer": "Shibi Krishna"
     }
   ]
 }
