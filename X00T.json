@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":780425831,
       "url": "https://master.dl.sourceforge.net/project/superioros/X00T/SuperiorOS-Xcalibur-X00T-OFFICIAL-20210723-0512.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "ASUS ZenFone Max Pro M1",
+      "maintainer": "Priyanshu (LordShenron)"
     }
   ]
 }
