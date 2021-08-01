@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":1459839190,
       "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-Xcalibur-sunfish-OFFICIAL-20210711-0735.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Google Pixel 4a",
+      "maintainer": "Jayant Deshmukh"
     }
   ]
 }
