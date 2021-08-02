@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size": 775618608,
       "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210718-1431.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Xiaomi Redmi S2",
+      "maintainer": "Vedansh"
     }
   ]
 }

@@ -7,7 +7,9 @@
       "romtype": "OFFICIAL",
       "size":1128502657,
       "url": "https://netix.dl.sourceforge.net/project/superioros/miatoll/SuperiorOS-Xcalibur-miatoll-OFFICIAL-20210312-1453.zip",
-      "version": "Xcalibur"
+      "version": "Xcalibur",
+      "device_name": "Poco M2 Pro/Redmi Note 9S/Pro/Pro Max",
+      "maintainer": "Hassan"
     }
   ]
 }
