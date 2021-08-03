@@ -44,9 +44,9 @@ Mail us at - superioros123@gmail.com with stuffs given below.
 OTA Guide for maintainers:-
 ======================
 
-• Create device specific directory (Use device codename).
+• Create device specific file (Use device codename i.e- whyred.json).
 
-• Create build.json for vanilla builds and gapps_build.json for GApps builds.
+• For GApps builds create file under gapps folder.
 
 ### Example
 
@@ -54,13 +54,15 @@ OTA Guide for maintainers:-
 {
   "response": [
     {
-      "datetime":1615528227,
-      "filename": "SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
-      "id": "bca525af7a31f41e3d22d7c35f3bef0c",
+      "datetime":1625931044,
+      "filename": "SuperiorOS-Xcalibur-whyred-OFFICIAL-20210710-1531.zip",
+      "id": "a8852f80e88156aa7fa8c9dc64f8a44a",
       "romtype": "OFFICIAL",
-      "size":955104642,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/SuperiorOS-Xcalibur-violet-OFFICIAL-20210312-0555.zip",
-      "version": "Xcalibur"
+      "size":822144853,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210710-1531.zip",
+      "version": "Xcalibur",
+      "device_name": "Xiaomi Redmi Note 5 Pro",
+      "maintainer": "Sipun Ku Mahanta"
     }
   ]
 }

@@ -46,75 +46,75 @@ else
     if [ $3 = "vanilla" ]; then
       # datetime
       timestamp=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.build.date.utc | cut -d'=' -f2)
-      timestamp_old=$(cat ~/official_devices/builds/$device/build.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/builds/$device/build.json)
+      timestamp_old=$(cat ~/official_devices/$device.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
+      $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/$device.json)
 
       # filename
       zip_name=$(echo $zip_path | cut -d'/' -f9)
-      zip_name_old=$(cat ~/official_devices/builds/$device/build.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/builds/$device/build.json)
+      zip_name_old=$(cat ~/official_devices/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/$device.json)
 
       # id
       id=$(md5sum $zip_path | cut -d' ' -f1)
-      id_old=$(cat ~/official_devices/builds/$device/build.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$id_old|$id|g" ~/official_devices/builds/$device/build.json)
+      id_old=$(cat ~/official_devices/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
 
       # Rom type
       type=$(echo $zip_path | cut -d'-' -f4)
-      type_old=$(cat ~/official_devices/builds/$device/build.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$type_old|$type|g" ~/official_devices/builds/$device/build.json)
+      type_old=$(cat ~/official_devices/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$type_old|$type|g" ~/official_devices/$device.json)
 
       # Rom size
       size_new=$(stat -c "%s" $zip_path)
-      size_old=$(cat ~/official_devices/builds/$device/build.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$size_old|$size_new|g" ~/official_devices/builds/$device/build.json)
+      size_old=$(cat ~/official_devices/$device.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
+      $(sed -i "s|$size_old|$size_new|g" ~/official_devices/$device.json)
 
       # Rom version
       version=$(echo $zip_path | cut -d'-' -f2)
-      version_old=$(cat ~/official_devices/builds/$device/build.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$version_old|$version|g" ~/official_devices/builds/$device/build.json)
+      version_old=$(cat ~/official_devices/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
 
       # url
       url="https://master.dl.sourceforge.net/project/superioros/$device/$zip_name"
-      url_old=$(cat ~/official_devices/builds/$device/build.json | grep https | cut -d '"' -f4)
-      $(sed -i "s|$url_old|$url|g" ~/official_devices/builds/$device/build.json)
+      url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
+      $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
 
     elif [ $3 = "gapps" ]; then
 
       # datetime
       timestamp=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.build.date.utc | cut -d'=' -f2)
-      timestamp_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/builds/$device/gapps_build.json)
+      timestamp_old=$(cat ~/official_devices/gapps/$device.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
+      $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/gapps/$device.json)
 
       # filename
       zip_name=$(echo $zip_path | cut -d'/' -f9)
-      zip_name_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/builds/$device/gapps_build.json)
+      zip_name_old=$(cat ~/official_devices/gapps/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/gapps/$device.json)
 
       # id
       id=$(md5sum $zip_path | cut -d' ' -f1)
-      id_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$id_old|$id|g" ~/official_devices/builds/$device/gapps_build.json)
+      id_old=$(cat ~/official_devices/gapps/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$id_old|$id|g" ~/official_devices/gapps/$device.json)
 
       # Rom type
       type=$(echo $zip_path | cut -d'-' -f4)
-      type_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$type_old|$type|g" ~/official_devices/builds/$device/gapps_build.json)
+      type_old=$(cat ~/official_devices/gapps/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$type_old|$type|g" ~/official_devices/gapps/$device.json)
 
       # Rom size
       size_new=$(stat -c "%s" $zip_path)
-      size_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$size_old|$size_new|g" ~/official_devices/builds/$device/gapps_build.json)
+      size_old=$(cat ~/official_devices/gapps/$device.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
+      $(sed -i "s|$size_old|$size_new|g" ~/official_devices/gapps/$device.json)
 
       # Rom version
       version=$(echo $zip_path | cut -d'-' -f2)
-      version_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$version_old|$version|g" ~/official_devices/builds/$device/gapps_build.json)
+      version_old=$(cat ~/official_devices/gapps/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
+      $(sed -i "s|$version_old|$version|g" ~/official_devices/gapps/$device.json)
 
       # url
       url="https://master.dl.sourceforge.net/project/superioros/$device/$zip_name"
-      url_old=$(cat ~/official_devices/builds/$device/gapps_build.json | grep https | cut -d '"' -f4)
-      $(sed -i "s|$url_old|$url|g" ~/official_devices/builds/$device/gapps_build.json)
+      url_old=$(cat ~/official_devices/gapps/$device.json | grep https | cut -d '"' -f4)
+      $(sed -i "s|$url_old|$url|g" ~/official_devices/gapps/$device.json)
     fi
 
     # add & push commit to github
