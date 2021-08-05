@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1626616688,
-      "filename": "SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210718-1358.zip",
-      "id": "7cf731f20642782965d4e6ac55b514c2",
+      "datetime": 1628189386,
+      "filename": "SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210805-1851.zip",
+      "id": "933c57d7891152ebe0ca36b9a0f3bcbd",
       "romtype": "OFFICIAL",
-      "size": 1218129826,
-      "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/gapps/SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210718-1358.zip",
+      "size": 1211640975,
+      "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/gapps/SuperiorOS-Xcalibur-ysl-GAPPS-OFFICIAL-20210805-1851.zip",
       "version": "Xcalibur",
       "device_name": "Xiaomi Redmi S2",
       "maintainer": "Vedansh"

@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1626618572,
-      "filename": "SuperiorOS-Xcalibur-ysl-OFFICIAL-20210718-1431.zip",
-      "id": "700064cf6d67930706c54792045bad7b",
+      "datetime": 1628197091,
+      "filename": "SuperiorOS-Xcalibur-ysl-OFFICIAL-20210805-2059.zip",
+      "id": "7fe6daf9225945ddb72a69f1d4266ee9",
       "romtype": "OFFICIAL",
-      "size": 775618608,
-      "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210718-1431.zip",
+      "size": 767229157,
+      "url": "https://master.dl.sourceforge.net/project/superioros/files/ysl/vanilla/SuperiorOS-Xcalibur-ysl-OFFICIAL-20210805-2059.zip",
       "version": "Xcalibur",
       "device_name": "Xiaomi Redmi S2",
       "maintainer": "Vedansh"
