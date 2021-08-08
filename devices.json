@@ -134,5 +134,22 @@
     "maintainer_name": "Jayant Deshmukh",
     "telegram_username": "@jd1811",
     "xda_thread": "https://forum.xda-developers.com/t/official-superioros-xcalibur-android-11.4181587/"
+  },
+  {
+    "brand": "Xiaomi",
+    "device_name": "Redmi 7",
+    "codename": "onclite",
+    "assert": ["onclite", "onc"],
+    "datetime":1628358428 ,
+    "filename": "SuperiorOS-Xcalibur-onclite-OFFICIAL-20210807-1751.zip",
+    "id": "7a9c45401f94100ae99f666a123513ca ",
+    "romtype": "OFFICIAL",
+    "size":876679441,
+    "url": "https://master.dl.sourceforge.net/project/superioros/onclite/SuperiorOS-Xcalibur-onclite-OFFICIAL-20210807-1751.zip",
+    "version": "Xcalibur",
+    "date": "2021/08/07",
+    "maintainer_name": "Abhay K Sanjay",
+    "telegram_username": "@itachiuchiiah",
+    "xda_thread": "https://forum.xda-developers.com/t/official-rom-stable-eleven-superioros-xcalibur-for-onclite-08-08-2021.4306691/"
   }
 ]
