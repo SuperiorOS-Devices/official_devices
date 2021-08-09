@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1628410716,
-      "filename": "SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210808-0820.zip",
-      "id": "4db3f9fd93eb3d0961d582ef98ee62a8",
+      "datetime":1628504854,
+      "filename": "SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210809-1029.zip",
+      "id": "e8c4de3f1f2928b52ac1c261c0496fcc",
       "romtype": "OFFICIAL",
-      "size":1517800707,
-      "url": "https://master.dl.sourceforge.net/project/superioros/surya/gapps/SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210808-0820.zip",
+      "size":1517822705,
+      "url": "https://master.dl.sourceforge.net/project/superioros/surya/gapps/SuperiorOS-Xcalibur-surya-GAPPS-OFFICIAL-20210809-1029.zip",
       "version": "Xcalibur",
       "device_name": "POCO X3",
       "maintainer": "AmJith Babu (TheMarc43)"
