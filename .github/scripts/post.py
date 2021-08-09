@@ -181,6 +181,6 @@ for i in get_diff(new, old):
     time.sleep(15)
 
 
-open("commit_mesg.txt", "w+").write( "OTA : " + commit_message + " [BOT]\n" + commit_descriptions)
+open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
 
 update(new)
