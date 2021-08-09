@@ -12,41 +12,21 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Install necessary dependencies for the script to work
+      - name: Install Dep
+        run: sudo pip install pyTelegramBotAPI
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: Checkout Repo
+        uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-          ignore-files: "README.md"
-          ignore-directories: "gapps"
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          for device in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep json); do
-                d=${device/.json/}
-                CHAT_ID="-1001262333411"
-                msg=$(mktemp)
-                date=$(TZ='Asia/Kolkata' date +"%d/%m/%Y, %l:%M %p")
-                device_name=$(jq -r .response[].device_name "${device}")
-                dev=$(jq -r .response[].maintainer "${device}")
-                filename=$(jq -r .response[].filename "${device}")
-                zip=$(jq -r .response[].filename "${device}")
-                filesize=$(($(($(jq -r .response[].size "${device}") / 1024)) / 1024))
-                sha=$(jq -r .response[].id "${device}")
-                {
-                    echo "<b> New Update for $device_name (${d}) is here!</b>"
-                    echo " by <b>$dev</b>"
-                    echo
-                    echo "▫️ <b>Build:</b> $filename"
-                    echo "▫️ <b>Size:</b> $filesize MB"
-                    echo "▫️ <b>Date:</b> $date"
-                    echo "▫️ <b>SHA256:</b> <code>$sha</code>"
-                    echo "▫️ <b>Download:</b> <a href=\"https://sourceforge.net/projects/superioros/files/$d\">Sourceforge</a>"
-                    echo "▫️ <b>Changelog:</b> <a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/xcalibur_$d.txt\">Github</a>"
-                    echo 
-                    echo " #${d} | #besuperior | @superioros "
-                } > "${msg}"
-                MESSAGE=$(cat "$msg")
-                curl -X POST -s "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendPhoto" -d "caption=$MESSAGE&chat_id=$CHAT_ID&parse_mode=HTML&disable_web_page_preview=True" -d "photo=https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/eleven/.github/assets/banner.png"
-                sleep 5s 
-                curl -s -X POST "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendSticker" --data "chat_id=$CHAT_ID&sticker=CAACAgUAAxkBAAECnFNg-AABFfAWqPOep8GY1VTw4iC9TQsAAiYEAALTXBBXwFGChYjyKZkgBA"
-            done
+          token: ${{ secrets.GH_TOKEN }}
+          ref: eleven
+     # Post the update
+      - name: Bot
+        run: sudo -E python3 .github/scripts/post.py
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT: ${{ secrets.CHAT_ID }}
+     # Commit the changes and push to git
+      - name: Commit and Push Changes
+        run: sudo bash .github/scripts/push.sh
