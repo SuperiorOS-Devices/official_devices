@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1628621118,
+      "filename": "SuperiorOS-Xcalibur-RMX1901-GAPPS-OFFICIAL-20210810-1847.zip",
+      "id": "4fd0c9e68ab984aa3ea9aa47319dbb88",
+      "romtype": "OFFICIAL",
+      "size":1607145512,
+      "url": "https://sourceforge.net/projects/superioros/files/RMX1901/SuperiorOS-Xcalibur-RMX1901-GAPPS-OFFICIAL-20210810-1847.zip/download",
+      "version": "Xcalibur",
+      "device_name": "Realme X",
+      "maintainer": "HaSSaN"
+    }
+  ]
+}
