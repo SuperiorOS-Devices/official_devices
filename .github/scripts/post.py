@@ -40,6 +40,11 @@ fileDir = "."
 fileExt = ".json"
 gappsDir = "gapps"
 
+# Github releases tag
+
+GithubReleasesTag = time.time()
+open("tag.txt","w+").write(str(GithubReleasesTag))
+
 def send_mes(message):
     return bot.send_message(chat_id=CHAT_ID, text=message, disable_web_page_preview=True)
 
@@ -155,7 +160,7 @@ def cook_content(information):
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>") + "\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/geek0609/official_devices/releases/download/" + str(GithubReleasesTag) + "/" + str(information["filename"]) + "\">Github Releases</a>") + "\n" + \
         "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/xcalibur_" + str(information['device']) + ".txt\">Changelog</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
@@ -171,6 +176,8 @@ if len(get_diff(new, old)) == 0:
 print(get_diff(new, old))
 commit_message = "Update new IDS"
 commit_descriptions = "Data of the following device(s) were changed :\n"
+release_notes = "New Superior OS Update has been released for the following devices :\n"
+urls = ""
 for i in get_diff(new, old):
     print(i)
     info = get_info(i)
@@ -178,9 +185,13 @@ for i in get_diff(new, old):
     send_photo(".github/assets/banner.png", cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
+    release_notes += info['name'] + " (" + info['device'] + ")\n"
+    urls += info['url'] + "\n"
     time.sleep(15)
 
 
 open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
+open("release_notes.txt", "w+").write(release_notes)
+open("urls.txt", "w+").write(urls)
 
 update(new)
