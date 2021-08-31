@@ -207,7 +207,7 @@ for i in get_diff(new, old):
 
 
 open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
-open("release_notes.txt", "w+").write(release_notes)
+open("release_notes.txt", "w+").write(release_notes + "\n\n *THIS WAS AN AUTOMATED RELEASE TRIGGERED THRU A PUSH, IF ANYTHING IS WRONG MAKE SURE TO TELL US THRU TELEGRAM*")
 open("urls.txt", "w+").write(urls)
 
 update(new)
