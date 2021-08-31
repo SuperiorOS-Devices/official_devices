@@ -203,7 +203,7 @@ for i in get_diff(new, old):
     urls += info['url'] + "\n"
     if not info["isOnlyVanilla"]:
         urls += info['gapps_url'] + "\n"
-    time.sleep(15)
+    time.sleep(2)
 
 
 open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
