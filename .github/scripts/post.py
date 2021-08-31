@@ -118,8 +118,20 @@ def get_info(id):
 
     if device + ".json" in os.listdir(fileDir + "/" + gappsDir):
         variant = "Both GApps and Vanilla"
+        isOnlyVanilla = False
     else:
         variant = "Vanilla Only"
+        isOnlyVanilla = True
+
+    if isOnlyVanilla:
+        gapps_url = ""
+    else:
+        file = open( fileDir + "/" + gappsDir + "/" + device + ".json" , "r")
+        gapps_json_processed = json.loads(file.read())
+        print(gapps_json_processed['response'][0])
+        gapps_required = gapps_json_processed['response'][0]
+        gapps_url = gapps_required['url']
+
 
     print("Device is : " + device)
     print("Size is : " + str(required['size']))
@@ -140,6 +152,8 @@ def get_info(id):
         "id" : required['id'],
         "romtype" : required['romtype'],
         "url" : required['url'],
+        "isOnlyVanilla": isOnlyVanilla,
+        "gapps_url" : gapps_url,
     }
 
 
@@ -160,7 +174,7 @@ def cook_content(information):
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/geek0609/official_devices/releases/download/" + str(GithubReleasesTag) + "/" + str(information["filename"]) + "\">Github Releases</a>") + "\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/geek0609/official_devices/releases/download/" + str(GithubReleasesTag) + "\">Github Releases</a>") + "\n" + \
         "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/xcalibur_" + str(information['device']) + ".txt\">Changelog</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
@@ -187,6 +201,8 @@ for i in get_diff(new, old):
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
     release_notes += info['name'] + " (" + info['device'] + ")\n"
     urls += info['url'] + "\n"
+    if not info["isOnlyVanilla"]:
+        urls += info['gapps_url'] + "\n"
     time.sleep(15)
 
 
