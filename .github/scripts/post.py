@@ -203,6 +203,17 @@ for i in get_diff(new, old):
     urls += info['url'] + "\n"
     if not info["isOnlyVanilla"]:
         urls += info['gapps_url'] + "\n"
+    print (info['url'])
+    print (info['gapps_url'])
+    if info['url'].endswith('.zip'):
+        if not info["isOnlyVanilla"]:
+            if info["gapps_url"].endswith(".zip"):
+                pass
+            else:
+                raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
+        pass
+    else:
+        raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
     time.sleep(2)
 
 
