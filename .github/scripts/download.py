@@ -19,7 +19,13 @@
 import requests
 import os
 import time
-urls = open("urls.txt", "r")
+try:
+    urls = open("urls.txt", "r")
+
+except FileNotFoundError:
+    print("NO UPDATES or artifacts missing")
+    open("noupdates.txt", "w+").write("NO UPDATES or artifacts missing")
+    exit()
 
 for url in urls.readlines():
     print (url)

@@ -16,5 +16,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 
+if [ -f "noupdates.txt" ]; then
+    exit
+fi
+
 RELEASE_MESSAGE=$(cat tag.txt)
 gh release create "$RELEASE_MESSAGE" ./*.zip -F release_notes.txt -t "New Superior OS Update"
