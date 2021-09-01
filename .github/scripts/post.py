@@ -40,6 +40,11 @@ fileDir = "."
 fileExt = ".json"
 gappsDir = "gapps"
 
+# Github releases tag
+
+GithubReleasesTag = time.time()
+open("tag.txt","w+").write(str(GithubReleasesTag))
+
 def send_mes(message):
     return bot.send_message(chat_id=CHAT_ID, text=message, disable_web_page_preview=True)
 
@@ -113,8 +118,20 @@ def get_info(id):
 
     if device + ".json" in os.listdir(fileDir + "/" + gappsDir):
         variant = "Both GApps and Vanilla"
+        isOnlyVanilla = False
     else:
         variant = "Vanilla Only"
+        isOnlyVanilla = True
+
+    if isOnlyVanilla:
+        gapps_url = ""
+    else:
+        file = open( fileDir + "/" + gappsDir + "/" + device + ".json" , "r")
+        gapps_json_processed = json.loads(file.read())
+        print(gapps_json_processed['response'][0])
+        gapps_required = gapps_json_processed['response'][0]
+        gapps_url = gapps_required['url']
+
 
     print("Device is : " + device)
     print("Size is : " + str(required['size']))
@@ -135,6 +152,8 @@ def get_info(id):
         "id" : required['id'],
         "romtype" : required['romtype'],
         "url" : required['url'],
+        "isOnlyVanilla": isOnlyVanilla,
+        "gapps_url" : gapps_url,
     }
 
 
@@ -155,7 +174,7 @@ def cook_content(information):
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>") + "\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/geek0609/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github Releases</a>") + "\n" + \
         "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/xcalibur_" + str(information['device']) + ".txt\">Changelog</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
@@ -171,6 +190,8 @@ if len(get_diff(new, old)) == 0:
 print(get_diff(new, old))
 commit_message = "Update new IDS"
 commit_descriptions = "Data of the following device(s) were changed :\n"
+release_notes = "New Superior OS Update has been released for the following devices :\n"
+urls = ""
 for i in get_diff(new, old):
     print(i)
     info = get_info(i)
@@ -178,9 +199,26 @@ for i in get_diff(new, old):
     send_photo(".github/assets/banner.png", cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
-    time.sleep(15)
+    release_notes += info['name'] + " (" + info['device'] + ")\n"
+    urls += info['url'] + "\n"
+    if not info["isOnlyVanilla"]:
+        urls += info['gapps_url'] + "\n"
+    print (info['url'])
+    print (info['gapps_url'])
+    if info['url'].endswith('.zip'):
+        if not info["isOnlyVanilla"]:
+            if info["gapps_url"].endswith(".zip"):
+                pass
+            else:
+                raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
+        pass
+    else:
+        raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
+    time.sleep(2)
 
 
 open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
+open("release_notes.txt", "w+").write(release_notes + "\n\n *THIS WAS AN AUTOMATED RELEASE TRIGGERED THRU A PUSH, IF ANYTHING IS WRONG MAKE SURE TO TELL US THRU TELEGRAM*")
+open("urls.txt", "w+").write(urls)
 
 update(new)
