@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime":1628422209,
-      "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20210808-1131.zip",
-      "id": "3c55f56447b24324959f039932ec61c1",
+      "datetime":1631292329,
+      "filename": "SuperiorOS-Xcalibur-surya-OFFICIAL-20210910-1647.zip",
+      "id": "dfc2117b8267aba463dcf8f0d51e5c77",
       "romtype": "OFFICIAL",
-      "size":1063961010,
-      "url": "https://master.dl.sourceforge.net/project/superioros/surya/vanilla/SuperiorOS-Xcalibur-surya-OFFICIAL-20210808-1131.zip",
+      "size":1061962805,
+      "url": "https://master.dl.sourceforge.net/project/superioros/surya/vanilla/SuperiorOS-Xcalibur-surya-OFFICIAL-20210910-1647.zip",
       "version": "Xcalibur",
       "device_name": "POCO X3",
-      "maintainer": "AmJith Babu (TheMarc43)"
+      "maintainer": "AmJith Babu (TheMarc43) & Nipin NA (Joker-V2)"
     }
   ]
 }
