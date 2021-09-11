@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1631341927,
+      "filename": "SuperiorOS-Xcalibur-onclite-GAPPS-OFFICIAL-20210911-0636.zip",
+      "id": "bca3bbd6f2f307fd67c6dd2eb29a2b6d",
+      "romtype": "OFFICIAL",
+      "size":1320709441,
+      "url": "https://master.dl.sourceforge.net/project/superioros/onclite/gapps/SuperiorOS-Xcalibur-onclite-GAPPS-OFFICIAL-20210911-0636.zip",
+      "version": "Xcalibur",
+      "device_name": "Redmi 7",
+      "maintainer": "Abhay K Sanjay"
+    }
+  ]
+}

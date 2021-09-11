@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1628358428,
-      "filename": "SuperiorOS-Xcalibur-onclite-OFFICIAL-20210807-1751.zip",
-      "id": "7a9c45401f94100ae99f666a123513ca",
+      "datetime":1631348097,
+      "filename": "SuperiorOS-Xcalibur-onclite-OFFICIAL-20210911-0819.zip",
+      "id": "8c2e221801a13c23813a19072373b20d",
       "romtype": "OFFICIAL",
-      "size":876679441,
-      "url": "https://master.dl.sourceforge.net/project/superioros/onclite/SuperiorOS-Xcalibur-onclite-OFFICIAL-20210807-1751.zip",
+      "size":872367403,
+      "url": "https://master.dl.sourceforge.net/project/superioros/onclite/vanilla/SuperiorOS-Xcalibur-onclite-OFFICIAL-20210911-0819.zip",
       "version": "Xcalibur",
       "device_name": "Redmi 7",
       "maintainer": "Abhay K Sanjay"
