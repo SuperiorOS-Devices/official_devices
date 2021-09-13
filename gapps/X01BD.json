@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1628778981,
-      "filename": "SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210812-1436.zip",
-      "id": "0e8588ffecd16333961ac3a68fd4d3dd",
+      "datetime":1631527102,
+      "filename": "SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210913-1000.zip",
+      "id": "5753503bf2fd3d3c05b61f44653d60c6",
       "romtype": "OFFICIAL",
-      "size":1277028814,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/gapps/SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210812-1436.zip",
+      "size":1283936815,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/gapps/SuperiorOS-Xcalibur-X01BD-GAPPS-OFFICIAL-20210913-1000.zip",
       "version": "Xcalibur",
       "device_name": "Asus Zenfone Max Pro M2",
       "maintainer": "Shibi Krishna"
