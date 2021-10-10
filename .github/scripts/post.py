@@ -125,12 +125,14 @@ def get_info(id):
 
     if isOnlyVanilla:
         gapps_url = ""
+        gapps_size = 0
     else:
         file = open( fileDir + "/" + gappsDir + "/" + device + ".json" , "r")
         gapps_json_processed = json.loads(file.read())
         print(gapps_json_processed['response'][0])
         gapps_required = gapps_json_processed['response'][0]
         gapps_url = gapps_required['url']
+        gapps_size = gapps_required['size']
 
 
     print("Device is : " + device)
@@ -142,7 +144,7 @@ def get_info(id):
 
     return {
         "device": device,
-        "size": str(required['size']),
+        "size": int(required['size']),
         "maintainer": required['maintainer'],
         "variant": variant,
         "version" : required['version'],
@@ -154,6 +156,7 @@ def get_info(id):
         "url" : required['url'],
         "isOnlyVanilla": isOnlyVanilla,
         "gapps_url" : gapps_url,
+        "gapps_size" : int(gapps_size)
     }
 
 
@@ -165,12 +168,17 @@ def bold(text1, text2):
 # Prepare in the format needed
 def cook_content(information):
     message = ""
+    displaySize = "ERROR GETTING SIZE"
+    if information['isOnlyVanilla']:
+        displaySize = str(round((information['size']/1000000))) + "MB"
+    else:
+        displaySize = str(round((information['size']/1000000))) + "MB (Vanilla) " + str(round((information['gapps_size'] /1000000))) + "MB (GApps)"
     # links need to be in this format <a href="http://www.example.com/">inline URL</a>
     message = message + \
         "<b>New Update for " + information['name'] +  " (" + str(information['device'] ) + ") is here!</b>\n" + \
         bold("by ", str(information["maintainer"])) + "\n\n" + \
         "▫️ " + bold("Build: ", str(information['filename'])) + "\n" +\
-        "▫️ " + bold("Size: ", str(information['size'])) + "\n" + \
+        "▫️ " + bold("Size: ", str(displaySize)) + "\n" + \
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
