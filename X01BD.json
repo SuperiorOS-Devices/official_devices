@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1631526012,
-      "filename": "SuperiorOS-Xcalibur-X01BD-OFFICIAL-20210913-0941.zip",
-      "id": "7a9ad1c9d02b0f9ef805a067e5480cb8",
+      "datetime":1633831052,
+      "filename": "SuperiorOS-Xcalibur-X01BD-OFFICIAL-20211010-0157.zip",
+      "id": "8c9e044dbc03bd2333fbaf5538b24ea5",
       "romtype": "OFFICIAL",
-      "size":834789920,
-      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/vanilla/SuperiorOS-Xcalibur-X01BD-OFFICIAL-20210913-0941.zip",
+      "size":844647778,
+      "url": "https://master.dl.sourceforge.net/project/superioros/X01BD/vanilla/SuperiorOS-Xcalibur-X01BD-OFFICIAL-20211010-0157.zip",
       "version": "Xcalibur",
       "device_name": "Asus Zenfone Max Pro M2",
       "maintainer": "Shibi Krishna"
