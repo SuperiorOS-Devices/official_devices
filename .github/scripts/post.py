@@ -183,7 +183,7 @@ def cook_content(information):
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
         "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github Releases</a>") + "\n" + \
-        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/changelog.md\">Source Changelog</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/eleven/xcalibur_" + str(information['device']) + ".txt\"> Device Changelog</a>") + "\n\n" + \
+        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/changelog.md\">Source Changelog</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/twelve_" + str(information['device']) + ".txt\"> Device Changelog</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
 

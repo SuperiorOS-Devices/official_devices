@@ -39,7 +39,7 @@ else
 
   if [ ! -d ~/official_devices ]; then
     cd ~
-    git clone git@github.com:SuperiorOS-Devices/official_devices.git -b eleven
+    git clone git@github.com:SuperiorOS-Devices/official_devices.git -b twelve
   fi
 
   if [ -d ~/official_devices ]; then
@@ -121,7 +121,7 @@ else
     cd official_devices
     git add --all
     git commit -m "$device: $buildtype: update $DAY"
-    git push -f origin HEAD:eleven
+    git push -f origin HEAD:twelve
     cd ~
     rm -rf official_devices
     rm -rf OTA.sh
