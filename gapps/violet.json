@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1633748484,
-      "filename": "SuperiorOS-Xcalibur-violet-GAPPS-OFFICIAL-20211009-0303.zip",
-      "id": "728e116d4bff331c48f290f52d7e67c7",
+      "datetime":1636700954,
+      "filename": "SuperiorOS-Xcalibur-violet-GAPPS-OFFICIAL-20211112-0711.zip",
+      "id": "721494eef6020c3fa2ecc093c7509d4f",
       "romtype": "OFFICIAL",
-      "size":1584376121,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/gapps/SuperiorOS-Xcalibur-violet-GAPPS-OFFICIAL-20211009-0303.zip",
+      "size":1584944825,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/gapps/SuperiorOS-Xcalibur-violet-GAPPS-OFFICIAL-20211112-0711.zip",
       "version": "Xcalibur",
       "device_name": "Xiaomi Redmi Note 7 Pro",
       "maintainer": "Nipin NA (Joker-V2)"
