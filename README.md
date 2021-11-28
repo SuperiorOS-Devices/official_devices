@@ -1,33 +1,33 @@
 ---------------------------------------------------------------------
 
-## Official devices application
+## SuperiorOS Official Maintainership Application
 
-Before you apply to add your device into our list of official devices, you should know a few things:
+• Before you apply to add your device into our list of official devices, you should know a few things:
 
-Any failure in following the below instructions will make you unfit for the maintainership. No questions asked.
+• Any failure in following the below instructions will make you unfit for the maintainership. No questions asked.
 
-### To turn into a maintainer of Superior OS:
+### To turn into a maintainer of SuperiorOS
 
-• You must own the device. Blind and untested builds aren't allowed.
+• The maintainer must own the device. Blind and untested builds aren't allowed.
 
-• You must have knowledge of git.
+• The maintainer must have an account on Github, Gerrit and also knowledge about those.
 
-• You must do one or two unofficial build[Post at XDA],  be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
+• The maintainer must do unofficial builds on forums.
 
-• You must have your device sources public [Modified trees needed]  .
+• The maintainer device sources must be stable, open and properly maintained.
 
 
-### 2. Maintainers conduct notes:
+### Maintainers conduct notes
 
-• The maintainers mustn't do any unofficial modifications.
+• The maintainer isn't allowed to make any unofficial modifications to the source.
 
-• The maintainers must upload theirs trees on [SuperiorOS-Devices](https://github.com/SuperiorOS-Devices) organization. The trees should fully reflect the changes when a new build is pushed for that specific device tree. Last but not the least, it should be fully buildable.
+• The maintainer must test every build before sending OTA update to user.
 
-• The maintainers must test every build before sending OTA update to user.
-
-• The maintainers must keep authorship of git commits that are pushed, mandatory for all repository. Force-pushes are acceptable.
+• The maintainer must display proper authorship and maintain proper commit history. No Excuses for "KANGED" commits.
 
 ----------------------------------------------------------------------
+
+## Time to apply
 
 Mail us at - superioros123@gmail.com with stuffs given below.
 
@@ -40,30 +40,3 @@ Mail us at - superioros123@gmail.com with stuffs given below.
 • Screenshot - Your about Phone screenshot.
 
 -----------------------------------------------------------------------
-
-OTA Guide for maintainers:-
-======================
-
-• Create device specific file (Use device codename i.e- whyred.json).
-
-• For GApps builds create file under gapps folder.
-
-### Example
-
-```
-{
-  "response": [
-    {
-      "datetime":1625931044,
-      "filename": "SuperiorOS-Xcalibur-whyred-OFFICIAL-20210710-1531.zip",
-      "id": "a8852f80e88156aa7fa8c9dc64f8a44a",
-      "romtype": "OFFICIAL",
-      "size":822144853,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/SuperiorOS-Xcalibur-whyred-OFFICIAL-20210710-1531.zip",
-      "version": "Xcalibur",
-      "device_name": "Xiaomi Redmi Note 5 Pro",
-      "maintainer": "Sipun Ku Mahanta"
-    }
-  ]
-}
-```
