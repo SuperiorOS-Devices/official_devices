@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1642393456,
+      "filename": "SuperiorOS-Twelve-miatoll-GAPPS-OFFICIAL-20220117-0606.zip",
+      "id": "a7825fc0de3834bb9913c64e475b6d7b",
+      "romtype": "GAPPS",
+      "size":1895248974,
+      "url": "https://master.dl.sourceforge.net/project/superioros/miatoll/Gapps/SuperiorOS-Twelve-miatoll-GAPPS-OFFICIAL-20220117-0606.zip",
+      "version": "Twelve",
+      "device_name": "Redmi Note 9S Series",
+      "maintainer": "HaSSaN"
+    }
+  ]
+}
