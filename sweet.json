@@ -1,11 +1,11 @@
 {
   "response": [
-    { "datetime":1645611758,
-     "filename": "SuperiorOS-Twelve-sweet-OFFICIAL-20220223-1024.zip",
-     "id": "eb0de38ffaa287038d1e9e932ede57852515663f4e619d44277d604136b3dd67",
+    { "datetime":1645869054,
+     "filename": "SuperiorOS-Twelve-sweet-OFFICIAL-20220226-1209.zip",
+     "id": "730809ca15e2ac04248ca99bf3c40ee3aa0de2c854585475d3b9e990f5ed1954",
      "romtype": "OFFICIAL",
-     "size":1125952113,
-     "url": "https://master.dl.sourceforge.net/project/superioros/sweet/vanilla/SuperiorOS-Twelve-sweet-OFFICIAL-20220223-1024.zip",
+     "size":1190389311,
+     "url": "https://master.dl.sourceforge.net/project/superioros/sweet/vanilla/SuperiorOS-Twelve-sweet-OFFICIAL-20220226-1209.zip",
      "version": "Twelve",
      "device_name": "Redmi Note 10 Pro",
      "maintainer": "Faizan Bashir (the_doctorstrange)"
