@@ -1,11 +1,11 @@
 {
   "response": [
-    { "datetime":1644766337,
-      "filename": "SuperiorOS-Twelve-phoenix-OFFICIAL-20220214-1433.zip",
-      "id":  "163f7e04a5f3040aad991d05da48b6da9b43b788",
+    { "datetime":1650524488,
+      "filename": "SuperiorOS-TwelveL-phoenix-OFFICIAL-20220421-0704.zip",
+      "id":  "19c732fc76acfea526bd3e5d1519026ccb39ad5d",
       "romtype": "OFFICIAL",
-      "size": "1022940696",
-      "url":  "https://master.dl.sourceforge.net/project/superioros/phoenix/vanilla/SuperiorOS-Twelve-phoenix-OFFICIAL-20220214-1433.zip", 
+      "size": "1089338015",
+      "url":  "https://master.dl.sourceforge.net/project/superioros/phoenix/vanilla/SuperiorOS-TwelveL-phoenix-OFFICIAL-20220421-0704.zip", 
       "version": "Twelve",
       "device_name": "Poco X2",
       "maintainer": "Ankan Ghosh (ankan005)"
