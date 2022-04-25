@@ -1,14 +1,14 @@
 {
   "response": [
-    { "datetime":1645869054,
-      "filename": "SuperiorOS-Twelve-sweet-GAPPS-OFFICIAL-20220226-1221.zip",
-      "id": "0f0eb4213f58c5b63145c407215fd33a6a4d0887854a7d9f5976da80a209360a",
+    { "datetime":1650899826,
+      "filename": "SuperiorOS-TwelveL-sweet-GAPPS-OFFICIAL-20220422-1917.zip",
+      "id": "74badd7bbf832c37c4b5df29bcd993d63a7d77df48a0b72103c7f6009b6159af",
       "romtype": "OFFICIAL",
       "size":1538350191,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sweet/gapps/SuperiorOS-Twelve-sweet-GAPPS-OFFICIAL-20220226-1221.zip",
+      "url": "https://sourceforge.net/projects/superioros/files/sweet/gapps/SuperiorOS-TwelveL-sweet-GAPPS-OFFICIAL-20220422-1917.zip/download",
       "version": "Twelve",
       "device_name": "Redmi Note 10 Pro",
-      "maintainer": "Faizan Bashir (the_doctorstrange)"
+      "maintainer": "Jash (sedlyf6969)"
     }
   ]
 }
