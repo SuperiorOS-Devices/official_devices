@@ -204,7 +204,7 @@ for i in get_diff(new, old):
     print(i)
     info = get_info(i)
     #send_mes(cook_content(info))
-    send_photo(".github/assets/banner.jpeg", cook_content(info))
+    send_photo(".github/assets/banner.jpg", cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
     release_notes += info['name'] + " (" + info['device'] + ")\n"
