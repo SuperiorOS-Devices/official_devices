@@ -170,9 +170,9 @@ def cook_content(information):
     message = ""
     displaySize = "ERROR GETTING SIZE"
     if information['isOnlyVanilla']:
-        displaySize = str(round((information['size']/1000000))) + "MB"
+        displaySize = str(round(information['size'] / 1024 / 1024, 2)) + " MB"
     else:
-        displaySize = str(round((information['size']/1000000))) + "MB (Vanilla) " + str(round((information['gapps_size'] /1000000))) + "MB (GApps)"
+        displaySize = str(round(information['size'] / 1024 / 1024, 2)) + "MB (Vanilla) " +" | " + str(round(information['gapps_size'] / 1024 / 1024, 2)) + "MB (GApps)"
     # links need to be in this format <a href="http://www.example.com/">inline URL</a>
     message = message + \
         "<b>New Update for " + information['name'] +  " (" + str(information['device'] ) + ") is here!</b>\n" + \
