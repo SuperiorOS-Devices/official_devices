@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime":1650440366,
-      "filename": "SuperiorOS-TwelveL-whyred-GAPPS-OFFICIAL-20220420-0740.zip",
-      "id": "e5341245d345ccc2084ab4ae434073d3717d4cdb380be0c6370f8dc43bb3bfb9",
+      "datetime":1651921337,
+      "filename": "SuperiorOS-TwelveL-whyred-GAPPS-OFFICIAL-20220507-1103.zip",
+      "id": "ea46012139b24636017d1bf0940279600ec727cfa444722e440bffefa63dea01",
       "romtype": "GAPPS",
-      "size":1185159105,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/gapps/SuperiorOS-TwelveL-whyred-GAPPS-OFFICIAL-20220420-0740.zip",
-      "version": "Twelve",
+      "size":1185322324,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/gapps/SuperiorOS-TwelveL-whyred-GAPPS-OFFICIAL-20220507-1103.zip",
+      "version": "TwelveL",
       "device_name": "Xiaomi Redmi Note 5 Pro",
       "maintainer": "Sipun Ku Mahanta"
     }
