@@ -1,12 +1,12 @@
 {
   "response": [
-    { "datetime":1645676685,
+    { "datetime":1652624546,
       "filename": "SuperiorOS-Twelve-alioth-OFFICIAL-20220224-0426.zip",
       "id":  "bfa731c76681ea23d63a851e932aaca438155290b7bb650042fd33dce74212e7",
       "romtype": "OFFICIAL",
       "size": "1204736176",
       "url":  "https://master.dl.sourceforge.net/project/superioros/alioth/vanilla/SuperiorOS-Twelve-alioth-OFFICIAL-20220224-0426.zip", 
-      "version": "Twelve",
+      "version": "TwelveL",
       "device_name": "Poco F3",
       "maintainer": "theangelofdead01"
     }
