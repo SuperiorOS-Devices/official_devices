@@ -1,12 +1,12 @@
 {
   "response": [
-    { "datetime":1645668100,
-      "filename": "SuperiorOS-Twelve-alioth-GAPPS-OFFICIAL-20220224-0204.zip",
-      "id":  "911e10c169c8cbbad47f30ad28b4b338e07b40964cbf00411604e2661f71763b",
+    { "datetime":1652624546,
+      "filename": "SuperiorOS-TwelveL-alioth-GAPPS-OFFICIAL-20220515-1424.zip",
+      "id":  "ffd5bca2011f6f162bb173a8952ceeece162e43f77c71965a075ba8bdc2a6f39",
       "romtype": "OFFICIAL",
-      "size": "1478913503",
-      "url":  "https://master.dl.sourceforge.net/project/superioros/alioth/gapps/SuperiorOS-Twelve-alioth-GAPPS-OFFICIAL-20220224-0204.zip", 
-      "version": "Twelve",
+      "size": "1492644722",
+      "url":  "https://master.dl.sourceforge.net/project/superioros/alioth/gapps/SuperiorOS-TwelveL-alioth-GAPPS-OFFICIAL-20220515-1424.zip", 
+      "version": "TwelveL",
       "device_name": "Poco F3",
       "maintainer": "theangelofdead01"
     }
