@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1654860129,
-      "filename": "SuperiorOS-TwelveL-violet-OFFICIAL-20220610-1124.zip",
-      "id": "408fa77e22bb7ecda963e3b8139d30c30b47d416daabb299735332b4057f2d7c",
+      "datetime":1657344033,
+      "filename": "SuperiorOS-TwelveL-violet-OFFICIAL-20220709-0521.zip",
+      "id": "f60c466947afdd8fbac3aae41088c155d82a8c12e5180cf7c5f5bcc258984fea",
       "romtype": "OFFICIAL",
-      "size":1229275251,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-TwelveL-violet-OFFICIAL-20220610-1124.zip",
+      "size":1236006977,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-TwelveL-violet-OFFICIAL-20220709-0521.zip",
       "version": "TwelveL",
       "device_name": "Xiaomi Redmi Note 7 Pro",
       "maintainer": "Nipin NA (Joker-V2)"
