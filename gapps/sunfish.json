@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1656754761,
-      "filename": "SuperiorOS-TwelveL-sunfish-GAPPS-OFFICIAL-20220702-0939.zip",
-      "id": "733ea5312ad361122597be3060bb7426dec71c45710e35e46eac022f048efb7f",
+      "datetime":1659157453,
+      "filename": "SuperiorOS-TwelveL-sunfish-GAPPS-OFFICIAL-20220730-0506.zip",
+      "id": "07cfe240e27727f636683d3da4f9821e95c472d8f62ea974f2a59c4e1c7ab938",
       "romtype": "OFFICIAL",
-      "size":1593288367,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-TwelveL-sunfish-GAPPS-OFFICIAL-20220702-0939.zip",
+      "size":1579875951,
+      "url": "https://master.dl.sourceforge.net/project/superioros/sunfish/SuperiorOS-TwelveL-sunfish-GAPPS-OFFICIAL-20220730-0506.zip",
       "version": "TwelveL",
       "device_name": "Google Pixel 4a",
       "maintainer": "Jayant Deshmukh"
