@@ -38,7 +38,6 @@ bot = telebot.TeleBot(BOT_API, parse_mode="HTML")
 # Where to look for .json files
 fileDir = "."
 fileExt = ".json"
-gappsDir = "gapps"
 
 # Github releases tag
 
@@ -47,7 +46,6 @@ open("tag.txt","w+").write(str(GithubReleasesTag))
 
 def send_mes(message):
     return bot.send_message(chat_id=CHAT_ID, text=message, disable_web_page_preview=True)
-
 
 def send_photo(image, caption):
     if not caption or caption == "" or caption is None:
@@ -116,37 +114,18 @@ def get_info(id):
             break
 
 
-    if device + ".json" in os.listdir(fileDir + "/" + gappsDir):
-        variant = "Both GApps and Vanilla"
-        isOnlyVanilla = False
-    else:
-        variant = "Vanilla Only"
-        isOnlyVanilla = True
-
-    if isOnlyVanilla:
-        gapps_url = ""
-        gapps_size = 0
-    else:
-        file = open( fileDir + "/" + gappsDir + "/" + device + ".json" , "r")
-        gapps_json_processed = json.loads(file.read())
-        print(gapps_json_processed['response'][0])
-        gapps_required = gapps_json_processed['response'][0]
-        gapps_url = gapps_required['url']
-        gapps_size = gapps_required['size']
-
-
     print("Device is : " + device)
     print("Size is : " + str(required['size']))
     print("Maintained by : " + required['maintainer'])
     print("File name : " + required['filename'])
     print("Version : " + required['version'])
-    print("Variant : " + variant)
+    print("Variant : Vanilla")
 
     return {
         "device": device,
         "size": int(required['size']),
         "maintainer": required['maintainer'],
-        "variant": variant,
+        "variant": "Vanilla",
         "version" : required['version'],
         'name' : required["device_name"],
         "time" : required['datetime'],
@@ -154,9 +133,6 @@ def get_info(id):
         "id" : required['id'],
         "romtype" : required['romtype'],
         "url" : required['url'],
-        "isOnlyVanilla": isOnlyVanilla,
-        "gapps_url" : gapps_url,
-        "gapps_size" : int(gapps_size)
     }
 
 
@@ -168,22 +144,20 @@ def bold(text1, text2):
 # Prepare in the format needed
 def cook_content(information):
     message = ""
-    displaySize = "ERROR GETTING SIZE"
-    if information['isOnlyVanilla']:
-        displaySize = str(round(information['size'] / 1024 / 1024, 2)) + " MB"
-    else:
-        displaySize = str(round(information['size'] / 1024 / 1024, 2)) + "MB (Vanilla) " +" | " + str(round(information['gapps_size'] / 1024 / 1024, 2)) + "MB (GApps)"
+    displaySize = str(round(information['size'] / 1000000, 2)) + " MB"
+
     # links need to be in this format <a href="http://www.example.com/">inline URL</a>
     message = message + \
         "<b>New Update for " + information['name'] +  " (" + str(information['device'] ) + ") is here!</b>\n" + \
         bold("by ", str(information["maintainer"])) + "\n\n" + \
-        "▫️ " + bold("Build: ", str(information['filename'])) + "\n" +\
+        "▫️ " + bold("Build: ", str(information["filename"])) + "\n" +\
         "▫️ " + bold("Size: ", str(displaySize)) + "\n" + \
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github Releases</a>") + "\n" + \
-        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/changelogs.txt\">Source Changelog</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/twelve_" + str(information['device']) + ".txt\"> Device Changelog</a>") + "\n\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1908484\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github</a>") + "\n" + \
+        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/thirteen_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
+        "▫️ " + bold("Donate: ", "<a href=\"https://www.paypal.me/Sipun\">Paypal</a>" + " | " + "<a href=\"https://telegra.ph/Donate-to-Darkstar085-08-31\"> UPI</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
 
@@ -198,27 +172,19 @@ if len(get_diff(new, old)) == 0:
 print(get_diff(new, old))
 commit_message = "Update new IDS"
 commit_descriptions = "Data of the following device(s) were changed :\n"
-release_notes = "New Superior OS Update has been released for the following devices :\n"
+release_notes = "New Superior OS Update has been released for the device :\n"
 urls = ""
 for i in get_diff(new, old):
     print(i)
     info = get_info(i)
     #send_mes(cook_content(info))
-    send_photo(".github/assets/banner.jpg", cook_content(info))
+    send_photo(".github/assets/vanilla.jpg", cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
     release_notes += info['name'] + " (" + info['device'] + ")\n"
     urls += info['url'] + "\n"
-    if not info["isOnlyVanilla"]:
-        urls += info['gapps_url'] + "\n"
     print (info['url'])
-    print (info['gapps_url'])
     if info['url'].endswith('.zip'):
-        if not info["isOnlyVanilla"]:
-            if info["gapps_url"].endswith(".zip"):
-                pass
-            else:
-                raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
         pass
     else:
         raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")

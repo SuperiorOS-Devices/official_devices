@@ -9,4 +9,4 @@ rm release_notes.txt
 rm urls.txt
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push origin twelve
+git push origin thirteen

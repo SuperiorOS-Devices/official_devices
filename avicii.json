@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime":1663237499,
+      "datetime": 1663237499,
       "filename": "SuperiorOS-TwelveL-avicii-OFFICIAL-20220915-1026.zip",
       "id": "c3c1b82bc9de7a51db817eae2de38cf8",
       "romtype": "OFFICIAL",
-      "size":1384847087,
+      "size": 1384847087,
       "url": "https://master.dl.sourceforge.net/project/superioros/avicii/vanilla/SuperiorOS-TwelveL-avicii-OFFICIAL-20220915-1026.zip",
       "version": "TwelveL",
       "device_name": "Oneplus Nord",
