@@ -25,10 +25,6 @@ $myname ef63 superior
 EOF
 }
 
-if [ -z "$3" ]; then
-  help >&3
-else
-
   device=$1
   sourcerom=$2
   DATE="$(date +%Y%m%d)"
@@ -54,7 +50,7 @@ else
       $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/$device.json)
 
       # id
-      id=$(md5sum $zip_path | cut -d' ' -f1)
+      id=$(sha256sum $zip_path | cut -d' ' -f1)
       id_old=$(cat ~/official_devices/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
 
@@ -74,7 +70,7 @@ else
       $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
 
       # url
-      url="https://master.dl.sourceforge.net/project/superioros/$device/$zip_name"
+      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name"
       url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
       $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
     fi
@@ -83,9 +79,7 @@ else
     cd official_devices
     git add --all
     git commit -m "$device: $buildtype: update $DAY"
-    git push -f origin HEAD:thirteen
+    git push origin HEAD:thirteen
     cd ~
     rm -rf official_devices
     rm -rf OTA.sh
-  fi
-fi
