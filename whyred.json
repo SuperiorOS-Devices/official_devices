@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1663312964,
-      "filename": "SuperiorOS-TwelveL-whyred-OFFICIAL-20220916-0722.zip",
-      "id": "f28d817754a279d4b62281ac3f3fa6cf",
+      "datetime":1665145596,
+      "filename": "SuperiorOS-TwelveL-whyred-OFFICIAL-20221007-1226.zip",
+      "id": "51548102c8347e27295f03a2799584d632dd0e4ac23e2f0de0a83450ae987493",
       "romtype": "OFFICIAL",
-      "size":877211643,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/vanilla/SuperiorOS-TwelveL-whyred-OFFICIAL-20220916-0722.zip",
+      "size":867851039,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/vanilla/SuperiorOS-TwelveL-whyred-OFFICIAL-20221007-1226.zip",
       "version": "TwelveL",
       "device_name": "Xiaomi Redmi Note 5 Pro",
       "maintainer": "Sipun Ku Mahanta"
