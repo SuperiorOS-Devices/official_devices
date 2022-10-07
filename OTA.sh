@@ -55,7 +55,7 @@ else
       $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/$device.json)
 
       # id
-      id=$(md5sum $zip_path | cut -d' ' -f1)
+      id=$(sha256sum $zip_path | cut -d' ' -f1)
       id_old=$(cat ~/official_devices/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
 
@@ -92,12 +92,12 @@ else
       $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/gapps/$device.json)
 
       # id
-      id=$(md5sum $zip_path | cut -d' ' -f1)
+      id=$(sha256sum $zip_path | cut -d' ' -f1)
       id_old=$(cat ~/official_devices/gapps/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$id_old|$id|g" ~/official_devices/gapps/$device.json)
 
       # Rom type
-      type=$(echo $zip_path | cut -d'-' -f4)
+      type=$(echo $zip_path | cut -d'-' -f5)
       type_old=$(cat ~/official_devices/gapps/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$type_old|$type|g" ~/official_devices/gapps/$device.json)
 
@@ -121,7 +121,7 @@ else
     cd official_devices
     git add --all
     git commit -m "$device: $buildtype: update $DAY"
-    git push -f origin HEAD:twelve
+    git push origin HEAD:twelve
     cd ~
     rm -rf official_devices
     rm -rf OTA.sh
