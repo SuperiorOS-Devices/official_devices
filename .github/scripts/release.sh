@@ -21,4 +21,4 @@ if [ -f "noupdates.txt" ]; then
 fi
 
 RELEASE_MESSAGE=$(cat tag.txt)
-gh release create "$RELEASE_MESSAGE" ./*.zip -F release_notes.txt -t "New Superior OS Update"
+gh release create "$RELEASE_MESSAGE" ./*.zip -F release_notes.txt -t "New Superior OS Update [TwelveL]"
