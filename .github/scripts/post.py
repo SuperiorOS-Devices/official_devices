@@ -182,8 +182,9 @@ def cook_content(information):
         "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
         "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
         "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://sourceforge.net/projects/superioros/files/" + str(information['device']) + "\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github Releases</a>") + "\n" + \
-        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/changelogs.txt\">Source Changelog</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/twelve_" + str(information['device']) + ".txt\"> Device Changelog</a>") + "\n\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1288955\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github</a>") + "\n" + \
+        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/twelve/twelve_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
+        "▫️ " + bold("Donate: ", "<a href=\"https://www.paypal.me/Sipun\">Paypal</a>" + " | " + "<a href=\"https://telegra.ph/Donate-to-Darkstar085-08-31\"> UPI</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message
 
