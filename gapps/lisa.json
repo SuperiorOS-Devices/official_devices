@@ -1,12 +1,12 @@
 {
     "response": [
       {
-        "datetime":1663316520,
-        "filename": "SuperiorOS-TwelveL-lisa-GAPPS-OFFICIAL-20220916-0823.zip",
-        "id": "60474229e22808446654f56fd1cb6361e2bb7b260b5a52acbf59417e557cd5e4",
+        "datetime":1665164017,
+        "filename": "SuperiorOS-TwelveL-lisa-GAPPS-OFFICIAL-20221007-1733.zip",
+        "id": "1f3a7e9f322b12677c8a0dae41a8de04012337078305467886187428d3ac3e97",
         "romtype": "OFFICIAL",
-        "size":1987956546,
-        "url": "https://master.dl.sourceforge.net/project/superioros/lisa/gapps/SuperiorOS-TwelveL-lisa-GAPPS-OFFICIAL-20220916-0823.zip",
+        "size":1973225203,
+        "url": "https://master.dl.sourceforge.net/project/superioros/lisa/gapps/SuperiorOS-TwelveL-lisa-GAPPS-OFFICIAL-20221007-1733.zip",
         "version": "TwelveL",
         "device_name": "Xiaomi 11 Lite NE 5g",
         "maintainer": "Mikdadali"
