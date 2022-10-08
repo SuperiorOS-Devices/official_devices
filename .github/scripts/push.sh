@@ -1,5 +1,5 @@
-git config --global user.email "superioros123@gmail.com"
-git config --global user.name "superioros-bot"
+git config --global user.email "sipunkumar85@gmail.com"
+git config --global user.name "Darkstar085"
 git fetch
 git pull
 COMMIT_MESSAGE=$(cat commit_mesg.txt)
