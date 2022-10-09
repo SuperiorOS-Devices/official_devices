@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime":1664032923,
+      "datetime": 1664032923,
       "filename": "SuperiorOS-Thirteen-Alpha-whyred-RELEASE-20220924-1523.zip",
       "id": "7486e20b80a7d1bacedb1d39d3b9e7650d5292c3c8e061e2b91e2e355b96e5a4",
       "romtype": "whyred",
-      "size":797494201,
+      "size": 797494201,
       "url": "https://master.dl.sourceforge.net/project/superioros/whyred/vanilla/SuperiorOS-Thirteen-Alpha-whyred-RELEASE-20220924-1523.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi Note 5 Pro",
