@@ -29,7 +29,7 @@ EOF
   sourcerom=$2
   DATE="$(date +%Y%m%d)"
   DAY="$(date +%d/%m/%Y)"
-  zip_path=~/$sourcerom/out/target/product/$device/vanilla/*$DATE*.zip
+  zip_path=~/$sourcerom/out/target/product/$device/*$DATE*.zip
   set -e
 
   if [ ! -d ~/official_devices ]; then
