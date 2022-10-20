@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1664077210,
-      "filename": "SuperiorOS-Thirteen-Alpha-Mi439-RELEASE-20220925-0340.zip",
-      "id": "59190afec7e51d89738f7dc1971955df2d5f7ee7a9e01c0d323a941ebebe4747",
+      "datetime": 1666222664,
+      "filename": "SuperiorOS-Thirteen-Mi439-RELEASE-20221019-2340.zip",
+      "id": "81c2a3db2a4f419dcc36ca6c11471b19115880975eae00337de7597103fbee2a",
       "romtype": "Mi439",
-      "size": 868602067,
-      "url": "https://master.dl.sourceforge.net/project/superioros/Mi439/vanilla/SuperiorOS-Thirteen-Alpha-Mi439-RELEASE-20220925-0340.zip",
+      "size": 872970847,
+      "url": "https://master.dl.sourceforge.net/project/superioros/Mi439/vanilla/SuperiorOS-Thirteen-Mi439-RELEASE-20221019-2340.zip",
       "version": "Thirteen",
       "device_name": "Redmi 7a/ 8 series",
       "maintainer": "karann2354"
