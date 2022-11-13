@@ -45,9 +45,9 @@ EOF
       $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/$device.json)
 
       # filename
-      zip_name=$(echo $zip_path | cut -d'/' -f9)
+      zip_name=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.superior.version | cut -d'=' -f2)
       zip_name_old=$(cat ~/official_devices/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/$device.json)
+      $(sed -i "s|$zip_name_old|$zip_name.zip|g" ~/official_devices/$device.json)
 
       # id
       id=$(sha256sum $zip_path | cut -d' ' -f1)
@@ -55,7 +55,7 @@ EOF
       $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
 
       # Rom type
-      type=$(echo $zip_path | cut -d'-' -f4)
+      type="OFFICIAL"
       type_old=$(cat ~/official_devices/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$type_old|$type|g" ~/official_devices/$device.json)
 
@@ -65,12 +65,12 @@ EOF
       $(sed -i "s|$size_old|$size_new|g" ~/official_devices/$device.json)
 
       # Rom version
-      version=$(echo $zip_path | cut -d'-' -f2)
+      version=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.modversion | cut -d'=' -f2)
       version_old=$(cat ~/official_devices/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
 
       # url
-      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name"
+      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name.zip"
       url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
       $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
     fi
