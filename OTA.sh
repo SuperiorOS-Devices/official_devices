@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (C) 2020-21 Superior OS Project
+# Copyright (C) 2020-22 Superior OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,15 +44,16 @@ else
 
   if [ -d ~/official_devices ]; then
     if [ $3 = "vanilla" ]; then
+
       # datetime
       timestamp=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.build.date.utc | cut -d'=' -f2)
       timestamp_old=$(cat ~/official_devices/$device.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
       $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/$device.json)
 
       # filename
-      zip_name=$(echo $zip_path | cut -d'/' -f9)
+      zip_name=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.superior.version | cut -d'=' -f2)
       zip_name_old=$(cat ~/official_devices/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/$device.json)
+      $(sed -i "s|$zip_name_old|$zip_name.zip|g" ~/official_devices/$device.json)
 
       # id
       id=$(sha256sum $zip_path | cut -d' ' -f1)
@@ -60,7 +61,7 @@ else
       $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
 
       # Rom type
-      type=$(echo $zip_path | cut -d'-' -f4)
+      type="OFFICIAL"
       type_old=$(cat ~/official_devices/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$type_old|$type|g" ~/official_devices/$device.json)
 
@@ -70,12 +71,12 @@ else
       $(sed -i "s|$size_old|$size_new|g" ~/official_devices/$device.json)
 
       # Rom version
-      version=$(echo $zip_path | cut -d'-' -f2)
+      version=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.modversion | cut -d'=' -f2)
       version_old=$(cat ~/official_devices/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
 
       # url
-      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name"
+      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name.zip"
       url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
       $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
 
@@ -87,9 +88,9 @@ else
       $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/gapps/$device.json)
 
       # filename
-      zip_name=$(echo $zip_path | cut -d'/' -f9)
+      zip_name=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.superior.version | cut -d'=' -f2)
       zip_name_old=$(cat ~/official_devices/gapps/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name|g" ~/official_devices/gapps/$device.json)
+      $(sed -i "s|$zip_name_old|$zip_name.zip|g" ~/official_devices/gapps/$device.json)
 
       # id
       id=$(sha256sum $zip_path | cut -d' ' -f1)
@@ -97,7 +98,7 @@ else
       $(sed -i "s|$id_old|$id|g" ~/official_devices/gapps/$device.json)
 
       # Rom type
-      type=$(echo $zip_path | cut -d'-' -f5)
+      type="OFFICIAL"
       type_old=$(cat ~/official_devices/gapps/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$type_old|$type|g" ~/official_devices/gapps/$device.json)
 
@@ -107,12 +108,12 @@ else
       $(sed -i "s|$size_old|$size_new|g" ~/official_devices/gapps/$device.json)
 
       # Rom version
-      version=$(echo $zip_path | cut -d'-' -f2)
+      version=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.modversion | cut -d'=' -f2)
       version_old=$(cat ~/official_devices/gapps/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
       $(sed -i "s|$version_old|$version|g" ~/official_devices/gapps/$device.json)
 
       # url
-      url="https://master.dl.sourceforge.net/project/superioros/$device/gapps/$zip_name"
+      url="https://master.dl.sourceforge.net/project/superioros/$device/gapps/$zip_name.zip"
       url_old=$(cat ~/official_devices/gapps/$device.json | grep https | cut -d '"' -f4)
       $(sed -i "s|$url_old|$url|g" ~/official_devices/gapps/$device.json)
     fi
