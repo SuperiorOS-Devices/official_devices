@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1668377046,
+      "filename": "SuperiorOS-Thirteen-lavender-RELEASE-20221113-2207.zip",
+      "id": "6df8fc9df5e9adf808b9e2ee1f35e212004316d3cccfe71590c586169cbeebad",
+      "romtype": "RELEASE",
+      "size":915578348,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/vanilla/SuperiorOS-Thirteen-lavender-RELEASE-20221113-2207.zip",
+      "version": "Thirteen",
+      "device_name": "Xiaomi Redmi Note 7/7s",
+      "maintainer": "Ahmed Hridoy"
+    }
+  ]
+}
