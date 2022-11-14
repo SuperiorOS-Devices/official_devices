@@ -55,6 +55,27 @@ echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
+elif [ $1 = "spes" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf hardware/qcom-caf/sm8250/display
+rm -rf device/xiaomi/spes
+rm -rf kernel/xiaomi/spes
+rm -rf vendor/xiaomi/spes
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-19.1-caf-sm8250 hardware/qcom-caf/sm8250/display
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
+git clone https://github.com/enweazudaniel/android_device_xiaomi_spes.git -b 13.0 device/xiaomi/spes
+git clone  https://github.com/enweazudaniel/kernel_xiaomi_spes_header.git -b 13.0 kernel/xiaomi/spes
+git clone https://github.com/enweazudaniel/android_vendor_xiaomi_spes.git -b 13.0 vendor/xiaomi/spes
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
 elif [ $1 = "avicii" ]
   then
 echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
