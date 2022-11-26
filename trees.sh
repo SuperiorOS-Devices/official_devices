@@ -66,8 +66,7 @@ echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
-git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-19.1-caf-sm8250 hardware/qcom-caf/sm8250/display
-git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b  lineage-20 hardware/xiaomi
+
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_spes.git device/xiaomi/spes
 git clone  https://github.com/SuperiorOS-Devices/kernel_xiaomi_spes.git kernel/xiaomi/spes
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_spes.git vendor/xiaomi/spes
