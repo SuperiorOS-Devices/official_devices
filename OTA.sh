@@ -78,7 +78,7 @@ EOF
     # add & push commit to github
     cd official_devices
     git add --all
-    git commit -m "$device: $buildtype: update $DAY"
+    git commit -m "$device: update $DAY"
     git push origin HEAD:thirteen
     cd ~
     rm -rf official_devices
