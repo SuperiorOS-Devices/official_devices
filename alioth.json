@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1668403081,
-      "filename": "SuperiorOS-Thirteen-alioth-RELEASE-20221114-0903.zip",
-      "id": "5b4a95bad30b67918e0d36e30b826a705ddebd0bcd87c359054030e624b928dd",
+      "datetime":1670854633,
+      "filename": "SuperiorOS-Thirteen-alioth-RELEASE-20221216-0804.zip",
+      "id": "a49be6057c6b9b1f38b9297e4af81255da23c71458dca365a4e8991c7aed5530",
       "romtype": "RELEASE",
-      "size":1074332252,
-      "url": "https://master.dl.sourceforge.net/project/superioros/alioth/vanilla/SuperiorOS-Thirteen-alioth-RELEASE-20221114-0903.zip",
+      "size":1131943424,
+      "url": "https://versaweb.dl.sourceforge.net/project/superioros/alioth/vanilla/SuperiorOS-Thirteen-alioth-RELEASE-20221216-0804.zip",
       "version": "Thirteen",
       "device_name": "Poco F3/ Mi 11x/ Redmi K40",
       "maintainer": "Ashutosh Chettri"
