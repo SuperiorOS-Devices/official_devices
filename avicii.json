@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1668327581,
-      "filename": "SuperiorOS-TwelveL-avicii-OFFICIAL-20221113-0821.zip",
-      "id": "af121fcb17f11b8bad24bc787a8e3f1a2751c6bd7339f12df2b08927e21b7ffa",
+      "datetime":1671418830,
+      "filename": "SuperiorOS-TwelveL-EOL-avicii-OFFICIAL-20221219-0301.zip",
+      "id": "72e496e6b4052258b8d444b10a71be31146be72871688811c21cabcd0f7600a2",
       "romtype": "OFFICIAL",
-      "size":1376762746,
-      "url": "https://master.dl.sourceforge.net/project/superioros/avicii/vanilla/SuperiorOS-TwelveL-avicii-OFFICIAL-20221113-0821.zip",
+      "size":1377039820,
+      "url": "https://master.dl.sourceforge.net/project/superioros/avicii/vanilla/SuperiorOS-TwelveL-EOL-avicii-OFFICIAL-20221219-0301.zip",
       "version": "TwelveL",
       "device_name": "Oneplus Nord",
       "maintainer": "Sipun Ku Mahanta"
