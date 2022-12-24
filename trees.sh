@@ -27,8 +27,9 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 usage() {
 
 printf "\navailable options:\n"
-printf "\n     avicii         - for Oreo\n"
-printf "\n     whyred         - for Pie\n"
+printf "\n     avicii         - for Oneplus Nord\n"
+printf "\n     whyred         - for Xiaomi Redmi Note 5 Pro\n"
+printf "\n     spes           - for Xiaomi Redmi Note 11\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
