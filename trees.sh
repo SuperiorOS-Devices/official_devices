@@ -31,6 +31,7 @@ printf "\n     avicii         - for Oneplus Nord\n"
 printf "\n     whyred         - for Xiaomi Redmi Note 5 Pro\n"
 printf "\n     spes           - for Xiaomi Redmi Note 11\n"
 printf "\n     violet         - for Xiaomi Redmi Note 7 Pro\n"
+printf "\n     lancelot       - for Xiaomi Redmi 9/Poco M2 Pro\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -114,6 +115,27 @@ git clone git@github.com:SuperiorOS-Devices/vendor_xiaomi_violet.git -b thirteen
 git clone git@github.com:SuperiorOS-Devices/device_xiaomi_violet.git -b thirteen device/xiaomi/violet
 git clone git@github.com:SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet
 git clone https://gitlab.com/Joker-V2/vendor_xiaomi-firmware_violet vendor/xiaomi-firmware/violet
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
+elif [ $1 = "lancelot" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf device/xiaomi/lancelot
+rm -rf kernel/xiaomi/lancelot
+rm -rf vendor/xiaomi/lancelot
+rm -rf device/mediatek/sepolicy_vndr
+rm -rf vendor/goodix/opensource/interfaces
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_lancelot -b thirteen device/xiaomi/lancelot
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
+git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
+git clone https://github.com/JR205-5000/android_hardware_mediatek -b lineage-20 hardware/mediatek
+git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b lineage-20 device/mediatek/sepolicy_vndr 
+git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b lineage-20 vendor/mediatek/opensource/interfaces
+git clone https://github.com/JR205-5000/vendor_goodix_opensource_interfaces -b lineage-20 vendor/goodix/opensource/interfaces
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
