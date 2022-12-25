@@ -128,6 +128,10 @@ rm -rf kernel/xiaomi/lancelot
 rm -rf vendor/xiaomi/lancelot
 rm -rf device/mediatek/sepolicy_vndr
 rm -rf vendor/goodix/opensource/interfaces
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_lancelot -b thirteen device/xiaomi/lancelot
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
