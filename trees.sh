@@ -30,6 +30,7 @@ printf "\navailable options:\n"
 printf "\n     avicii         - for Oneplus Nord\n"
 printf "\n     whyred         - for Xiaomi Redmi Note 5 Pro\n"
 printf "\n     spes           - for Xiaomi Redmi Note 11\n"
+printf "\n     violet         - for Xiaomi Redmi Note 7 Pro\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -94,6 +95,26 @@ git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii-common.git
 git clone https://github.com/SuperiorOS-Devices/hardware_oneplus.git -b thirteen hardware/oneplus
 git clone https://gitlab.com/superioros/vendor_oneplus-firmware.git -b thirteen vendor/oneplus/firmware
 git clone https://gitlab.com/superioros/packages_apps_googlecamera.git -b thirteen packages/apps/GoogleCamera
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
+elif [ $1 = "violet" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf device/xiaomi/violet
+rm -rf kernel/xiaomi/violet
+rm -rf vendor/xiaomi/violet
+rm -rf vendor/xiaomi-firmware/violet
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone git@github.com:SuperiorOS-Devices/vendor_xiaomi_violet.git -b thirteen vendor/xiaomi/violet
+git clone git@github.com:SuperiorOS-Devices/device_xiaomi_violet.git -b thirteen device/xiaomi/violet
+git clone git@github.com:SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet
+git clone https://gitlab.com/Joker-V2/vendor_xiaomi-firmware_violet vendor/xiaomi-firmware/violet
+echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
