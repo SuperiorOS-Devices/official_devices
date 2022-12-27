@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1670905281,
-      "filename": "SuperiorOS-Thirteen-violet-RELEASE-20221213-0425.zip",
-      "id": "714d9282f65705841e4273e2719cce6bbf14d40d34a6916bbaaa348cdb438108",
+      "datetime":1672113870,
+      "filename": "SuperiorOS-Thirteen-violet-RELEASE-20221227-0406.zip",
+      "id": "feb8a427332bd1f623825525dc42fedd2adc6cf6bd1996cd32eca68b1d2928fa",
       "romtype": "RELEASE",
-      "size":1079380753,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Thirteen-violet-RELEASE-20221213-0425.zip",
+      "size":1100983161,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Thirteen-violet-RELEASE-20221227-0406.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi Note 7 Pro",
       "maintainer": "Nipin NA (Joker-V2)"
