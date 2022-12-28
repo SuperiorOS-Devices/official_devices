@@ -136,9 +136,9 @@ git clone https://github.com/SuperiorOS-Devices/device_xiaomi_lancelot -b thirte
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
 git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
-git clone https://github.com/JR205-5000/android_hardware_mediatek -b lineage-20 hardware/mediatek
-git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b lineage-20 device/mediatek/sepolicy_vndr 
-git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b lineage-20 vendor/mediatek/opensource/interfaces
+git clone https://github.com/JR205-5000/android_hardware_mediatek -b main hardware/mediatek
+git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b main device/mediatek/sepolicy_vndr 
+git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b main vendor/mediatek/opensource/interfaces
 git clone https://github.com/JR205-5000/vendor_goodix_opensource_interfaces -b lineage-20 vendor/goodix/opensource/interfaces
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
