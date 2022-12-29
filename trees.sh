@@ -31,7 +31,8 @@ printf "\n     avicii         - for Oneplus Nord\n"
 printf "\n     whyred         - for Xiaomi Redmi Note 5 Pro\n"
 printf "\n     spes           - for Xiaomi Redmi Note 11\n"
 printf "\n     violet         - for Xiaomi Redmi Note 7 Pro\n"
-printf "\n     lancelot       - for Xiaomi Redmi 9/Poco M2 Pro\n"
+printf "\n     lancelot       - for Xiaomi Redmi 9/Poco M2\n"
+printf "\n     merlinx        - for Xiaomi Redmi Note 9/Redmi 10X 4G\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -124,7 +125,7 @@ elif [ $1 = "lancelot" ]
   then
 echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/lancelot
-rm -rf kernel/xiaomi/lancelot
+rm -rf kernel/xiaomi/mt6768
 rm -rf vendor/xiaomi/lancelot
 rm -rf device/mediatek/sepolicy_vndr
 rm -rf vendor/goodix/opensource/interfaces
@@ -133,6 +134,35 @@ echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_lancelot -b thirteen device/xiaomi/lancelot
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
+git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
+git clone https://github.com/JR205-5000/android_hardware_mediatek -b main hardware/mediatek
+git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b main device/mediatek/sepolicy_vndr 
+git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b main vendor/mediatek/opensource/interfaces
+git clone https://github.com/JR205-5000/vendor_goodix_opensource_interfaces -b lineage-20 vendor/goodix/opensource/interfaces
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
+elif [ $1 = "merlinx" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf device/xiaomi/merlinx
+rm -rf kernel/xiaomi/mt6768
+rm -rf vendor/xiaomi/lancelot
+rm -rf vendor/xiaomi/merlinx
+rm -rf vendor/xiaomi/mt6768-common
+rm -rf vendor/xiaomi/mt6768-ims
+rm -rf device/mediatek/sepolicy_vndr
+rm -rf vendor/goodix/opensource/interfaces
+rm -rf vendor/mediatek/opensource/interfaces
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_merlinx -b thirteen device/xiaomi/merlinx
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
 git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
