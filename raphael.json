@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1672217590,
+      "filename": "SuperiorOS-Thirteen-raphael-RELEASE-20221229-1817.zip",
+      "id": "b389c411d7cbeb8b29fe6cae7b49203e4f8272c9d0b0cd25cb07ad66d4c1476f",
+      "romtype": "RELEASE",
+      "size":1302590666,
+      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/vanilla/SuperiorOS-Thirteen-raphael-RELEASE-20221229-1817.zip",
+      "version": "Thirteen",
+      "device_name": "Xiaomi Redmi K20 Pro",
+      "maintainer": "Anirban (@SageOfD6Path)"
+    }
+  ]
+}
