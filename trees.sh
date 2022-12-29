@@ -33,6 +33,7 @@ printf "\n     spes           - for Xiaomi Redmi Note 11\n"
 printf "\n     violet         - for Xiaomi Redmi Note 7 Pro\n"
 printf "\n     lancelot       - for Xiaomi Redmi 9/Poco M2\n"
 printf "\n     merlinx        - for Xiaomi Redmi Note 9/Redmi 10X 4G\n"
+printf "\n     begonia        - for Xiaomi Redmi Note 8 Pro\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -175,14 +176,42 @@ echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
+elif [ $1 = "begonia" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf device/redmi/begonia
+rm -rf kernel/xiaomi/mt6785
+rm -rf vendor/redmi/begonia
+rm -rf vendor/redmi/begonia-ims
+rm -rf vendor/redmi/begonia-firmware
+rm -rf packages/apps/MtkFMRadio
+rm -rf prebuilts/clang/host/linux-x86/clang-azure
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/SuperiorOS-Devices/device_redmi_begonia -b 13 device/redmi/begonia
+git clone https://github.com/Nova-Kernels/kernel_xiaomi_mt6785 -b nova kernel/xiaomi/mt6785
+git clone https://github.com/SuperiorOS-Devices/vendor_redmi_begonia -b 13 vendor/redmi/begonia
+git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-ims -b tiramisu vendor/redmi/begonia-ims
+git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-firmware -b tiramisu vendor/redmi/begonia-firmware
+git clone https://github.com/Trinity-ROMS/android_packages_apps_MtkFMRadio -b tiramisu packages/apps/MtkFMRadio
+git clone https://gitlab.com/Panchajanya1999/azure-clang -b main prebuilts/clang/host/linux-x86/clang-azure
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
 elif [ $1 = "clean" ]
   then
 echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi
+rm -rf device/redmi
 rm -rf device/oneplus
 rm -rf kernel/xiaomi
 rm -rf kernel/oneplus
 rm -rf vendor/xiaomi
+rm -rf vendor/redmi
 rm -rf vendor/oneplus
 rm -rf hardware/oneplus
 rm -rf packages/apps/GoogleCamera
