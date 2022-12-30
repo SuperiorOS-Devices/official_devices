@@ -191,7 +191,7 @@ echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_redmi_begonia -b 13 device/redmi/begonia
-git clone https://github.com/Nova-Kernels/kernel_xiaomi_mt6785 -b nova kernel/xiaomi/mt6785
+git clone https://github.com/SHADOW-REX/kernel_xiaomi_mt6785 -b nova kernel/xiaomi/mt6785
 git clone https://github.com/SuperiorOS-Devices/vendor_redmi_begonia -b 13 vendor/redmi/begonia
 git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-ims -b tiramisu vendor/redmi/begonia-ims
 git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-firmware -b tiramisu vendor/redmi/begonia-firmware
