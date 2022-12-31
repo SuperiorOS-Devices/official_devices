@@ -96,7 +96,6 @@ git clone https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii.git -b thi
 git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii.git -b thirteen vendor/oneplus/avicii
 git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii-common.git -b thirteen vendor/oneplus/sm7250-common
 git clone https://github.com/SuperiorOS-Devices/hardware_oneplus.git -b thirteen hardware/oneplus
-git clone https://gitlab.com/superioros/vendor_oneplus-firmware.git -b thirteen vendor/oneplus/firmware
 git clone https://gitlab.com/superioros/packages_apps_googlecamera.git -b thirteen packages/apps/GoogleCamera
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
@@ -128,7 +127,9 @@ echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/lancelot
 rm -rf kernel/xiaomi/mt6768
 rm -rf vendor/xiaomi/lancelot
+rm -rf hardware/mediatek
 rm -rf device/mediatek/sepolicy_vndr
+rm -rf vendor/mediatek/opensource/interfaces
 rm -rf vendor/goodix/opensource/interfaces
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
@@ -156,6 +157,7 @@ rm -rf vendor/xiaomi/lancelot
 rm -rf vendor/xiaomi/merlinx
 rm -rf vendor/xiaomi/mt6768-common
 rm -rf vendor/xiaomi/mt6768-ims
+rm -rf hardware/mediatek
 rm -rf device/mediatek/sepolicy_vndr
 rm -rf vendor/goodix/opensource/interfaces
 rm -rf vendor/mediatek/opensource/interfaces
@@ -204,18 +206,23 @@ echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "clean" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_RED}Removing every devices repos...${CLR_RST}"
 rm -rf device/xiaomi
 rm -rf device/redmi
 rm -rf device/oneplus
+rm -rf device/mediatek
 rm -rf kernel/xiaomi
 rm -rf kernel/oneplus
 rm -rf vendor/xiaomi
 rm -rf vendor/redmi
 rm -rf vendor/oneplus
-rm -rf hardware/oneplus
-rm -rf packages/apps/GoogleCamera
 rm -rf vendor/MiuiCamera
+rm -rf vendor/goodix
+rm -rf hardware/oneplus
+rm -rf hardware/mediatek
+rm -rf packages/apps/GoogleCamera
+rm -rf packages/apps/MtkFMRadio
+rm -rf prebuilts/clang/host/linux-x86/clang-azure
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
