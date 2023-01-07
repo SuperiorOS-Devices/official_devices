@@ -62,68 +62,66 @@ echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "spes" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_BLU}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/spes
 rm -rf kernel/xiaomi/spes
 rm -rf vendor/xiaomi/spes
 echo -e ""
-echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e "${CLR_BLD_BLU}Device repos removed ...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+echo -e "${CLR_BLD_BLU}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_spes device/xiaomi/spes
 git clone https://github.com/SuperiorOS-Devices/kernel_xiaomi_spes kernel/xiaomi/spes
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_spes vendor/xiaomi/spes
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e "${CLR_BLD_BLU}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "avicii" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_PPL}Removing device repos...${CLR_RST}"
 rm -rf device/oneplus
 rm -rf kernel/oneplus/avicii
 rm -rf vendor/oneplus
 rm -rf hardware/oneplus
-rm -rf packages/apps/GoogleCamera
 echo -e ""
-echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e "${CLR_BLD_PPL}Device repos removed ...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+echo -e "${CLR_BLD_PPL}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_oneplus_avicii.git -b thirteen device/oneplus/avicii
 git clone https://github.com/SuperiorOS-Devices/device_oneplus_avicii-common.git -b thirteen device/oneplus/sm7250-common
 git clone https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii.git -b thirteen kernel/oneplus/avicii
 git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii.git -b thirteen vendor/oneplus/avicii
 git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii-common.git -b thirteen vendor/oneplus/sm7250-common
 git clone https://github.com/SuperiorOS-Devices/hardware_oneplus.git -b thirteen hardware/oneplus
-git clone https://gitlab.com/superioros/packages_apps_googlecamera.git -b thirteen packages/apps/GoogleCamera
-echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e "${CLR_BLD_PPL}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "violet" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_GRN}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/violet
 rm -rf kernel/xiaomi/violet
 rm -rf vendor/xiaomi/violet
 rm -rf vendor/xiaomi-firmware/violet
 echo -e ""
-echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e "${CLR_BLD_GRN}Device repos removed ...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+echo -e "${CLR_BLD_GRN}Cloning device repos...${CLR_RST}"
 git clone git@github.com:SuperiorOS-Devices/vendor_xiaomi_violet.git -b thirteen vendor/xiaomi/violet
 git clone git@github.com:SuperiorOS-Devices/device_xiaomi_violet.git -b thirteen device/xiaomi/violet
 git clone git@github.com:SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet
 git clone https://gitlab.com/Joker-V2/vendor_xiaomi-firmware_violet vendor/xiaomi-firmware/violet
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e "${CLR_BLD_GRN}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "lancelot" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_CYA}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/lancelot
 rm -rf kernel/xiaomi/mt6768
 rm -rf vendor/xiaomi/lancelot
@@ -132,9 +130,9 @@ rm -rf device/mediatek/sepolicy_vndr
 rm -rf vendor/mediatek/opensource/interfaces
 rm -rf vendor/goodix/opensource/interfaces
 echo -e ""
-echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e "${CLR_BLD_CYA}Device repos removed ...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+echo -e "${CLR_BLD_CYA}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_lancelot -b thirteen device/xiaomi/lancelot
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
@@ -144,13 +142,13 @@ git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b
 git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b main vendor/mediatek/opensource/interfaces
 git clone https://github.com/JR205-5000/vendor_goodix_opensource_interfaces -b lineage-20 vendor/goodix/opensource/interfaces
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e "${CLR_BLD_CYA}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
 elif [ $1 = "merlinx" ]
   then
-echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+echo -e "${CLR_BLD_YLW}Removing device repos...${CLR_RST}"
 rm -rf device/xiaomi/merlinx
 rm -rf kernel/xiaomi/mt6768
 rm -rf vendor/xiaomi/lancelot
@@ -162,9 +160,9 @@ rm -rf device/mediatek/sepolicy_vndr
 rm -rf vendor/goodix/opensource/interfaces
 rm -rf vendor/mediatek/opensource/interfaces
 echo -e ""
-echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e "${CLR_BLD_YLW}Device repos removed ...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+echo -e "${CLR_BLD_YLW}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_merlinx -b thirteen device/xiaomi/merlinx
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b thirteen device/xiaomi/mt6768-common
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
@@ -174,7 +172,7 @@ git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b
 git clone https://github.com/JR205-5000/vendor_mediatek_opensource_interfaces -b main vendor/mediatek/opensource/interfaces
 git clone https://github.com/JR205-5000/vendor_goodix_opensource_interfaces -b lineage-20 vendor/goodix/opensource/interfaces
 echo -e ""
-echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e "${CLR_BLD_YLW}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
