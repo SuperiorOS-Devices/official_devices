@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime":1673159927,
+      "filename": "SuperiorOS-Thirteen-lancelot-RELEASE-20230108-0640.zip",
+      "id": "889ad022e24f1d81102141e6c0fffd6baff20d17debae316044a07fa029163cd",
+      "romtype": "RELEASE",
+      "size":973434698,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lancelot/vanilla/SuperiorOS-Thirteen-lancelot-RELEASE-20230108-0640.zip",
+      "version": "Thirteen",
+      "device_name": "Redmi 9 / Poco M2",
+      "maintainer": "Soni Dharma (01soni247)"
+    }
+  ]
+}
