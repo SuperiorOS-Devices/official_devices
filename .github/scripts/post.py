@@ -6,6 +6,7 @@
 # See README for more.
 #
 # Copyright (C) 2021 Ashwin DS <astroashwin@outlook.com>
+# Copyright (C) 2022 Sipun Ku Mahanta <sipunkumar85@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -42,10 +43,12 @@ fileExt = ".json"
 # Github releases tag
 
 GithubReleasesTag = time.time()
-open("tag.txt","w+").write(str(GithubReleasesTag))
+open("tag.txt", "w+").write(str(GithubReleasesTag))
+
 
 def send_mes(message):
     return bot.send_message(chat_id=CHAT_ID, text=message, disable_web_page_preview=True)
+
 
 def send_photo(image, caption):
     if not caption or caption == "" or caption is None:
@@ -56,7 +59,7 @@ def send_photo(image, caption):
 
 # store MD5s in a file to compare
 def update(IDs):
-    with open(".github/scripts/log.txt", "w+") as f:
+    with open(".github/scripts/id.txt", "w+") as f:
         for s in IDs:
             f.write(str(s) + "\n")
 
@@ -71,8 +74,8 @@ def get_id():
 
     file_id = []
     for a in result:
-        print (a)
-        file = open( fileDir + "/" + a, "r")
+        print(a)
+        file = open(fileDir + "/" + a, "r")
         json_processed = json.loads(file.read())
         try:
             file_id.append(json_processed['response'][0]['id'])
@@ -84,7 +87,7 @@ def get_id():
 # Return previous IDs
 def read_old():
     old_id = []
-    file = open(".github/scripts/log.txt", "r")
+    file = open(".github/scripts/id.txt", "r")
     for line in file.readlines():
         old_id.append(line.replace("\n", ""))
     return old_id
@@ -113,7 +116,6 @@ def get_info(id):
             device = a.replace(".json", "")
             break
 
-
     print("Device is : " + device)
     print("Size is : " + str(required['size']))
     print("Maintained by : " + required['maintainer'])
@@ -126,13 +128,13 @@ def get_info(id):
         "size": int(required['size']),
         "maintainer": required['maintainer'],
         "variant": "Vanilla",
-        "version" : required['version'],
-        'name' : required["device_name"],
-        "time" : required['datetime'],
-        "filename" : required['filename'],
-        "id" : required['id'],
-        "romtype" : required['romtype'],
-        "url" : required['url'],
+        "version": required['version'],
+        'name': required["device_name"],
+        "time": required['datetime'],
+        "filename": required['filename'],
+        "id": required['id'],
+        "romtype": required['romtype'],
+        "url": required['url'],
     }
 
 
@@ -144,17 +146,25 @@ def bold(text1, text2):
 # Prepare in the format needed
 def cook_content(information):
     message = ""
-    displaySize = str(round(information['size'] / 1000000, 2)) + " MB"
+
+    # Show size in MB if its less than 1GB else show in GB
+    if information['size'] < 1000000000:
+        displaySize = str(round(information['size'] / 1000000, 2)) + " MB"
+    else:
+        displaySize = str(round(information['size'] / 1000000000, 2)) + " GB"
+
+    # Convert time to human readable format
+    buildtime = datetime.datetime.fromtimestamp(information['time']).strftime('%d/%m/%Y')
 
     # links need to be in this format <a href="http://www.example.com/">inline URL</a>
     message = message + \
-        "<b>New Update for " + information['name'] +  " (" + str(information['device'] ) + ") is here!</b>\n" + \
+        "<b>New Update for " + information['name'] + " (" + str(information['device']) + ") is here!</b>\n" + \
         bold("by ", str(information["maintainer"])) + "\n\n" + \
-        "▫️ " + bold("Build: ", str(information["filename"])) + "\n" +\
-        "▫️ " + bold("Size: ", str(displaySize)) + "\n" + \
-        "▫️ " + bold("Variant: ", str(information["variant"])) + "\n" + \
-        "▫️ " + bold("Date: ", str(datetime.date.today()).replace("-", "/")) + "\n" + \
-        "▫️ " + bold("SHA256: ", str(information['id'])) + "\n" + \
+        "▫️ " + bold("Build: ","<code>" + str(information["filename"])) + "</code>" + "\n" +\
+        "▫️ " + bold("Size: ","<code>" + str(displaySize)) + "</code>" + "\n" + \
+        "▫️ " + bold("Variant: ","<code>" + str(information["variant"])) + "</code>" + "\n" + \
+        "▫️ " + bold("Date: ","<code>" + str(buildtime)) + "</code>" + "\n" + \
+        "▫️ " + bold("SHA256: ","<code>" + str(information['id'])) + "</code>" + "\n" + \
         "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1908484\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github</a>") + "\n" + \
         "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/thirteen_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
         "▫️ " + bold("Donate: ", "<a href=\"https://www.paypal.me/Sipun\">Paypal</a>" + " | " + "<a href=\"https://telegra.ph/Donate-to-Darkstar085-08-31\"> UPI</a>") + "\n\n" + \
@@ -177,22 +187,25 @@ urls = ""
 for i in get_diff(new, old):
     print(i)
     info = get_info(i)
-    #send_mes(cook_content(info))
+    # send_mes(cook_content(info))
     send_photo(".github/assets/vanilla.png", cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
     release_notes += info['name'] + " (" + info['device'] + ")\n"
     urls += info['url'] + "\n"
-    print (info['url'])
+    print(info['url'])
     if info['url'].endswith('.zip'):
         pass
     else:
-        raise Exception("Provide direct link to SF, Download Link MUST end only with \".zip\".")
+        raise Exception(
+            "Provide direct link to SF, Download Link MUST end only with \".zip\".")
     time.sleep(2)
 
 
-open("commit_mesg.txt", "w+").write( "official_devices : " + commit_message + " [BOT]\n" + commit_descriptions)
-open("release_notes.txt", "w+").write(release_notes + "\n\n *THIS WAS AN AUTOMATED RELEASE TRIGGERED THRU A PUSH, IF ANYTHING IS WRONG MAKE SURE TO TELL US THRU TELEGRAM*")
+open("commit_mesg.txt", "w+").write("official_devices : " +
+                                    commit_message + " [BOT]\n" + commit_descriptions)
+open("release_notes.txt", "w+").write(release_notes +
+                                      "\n\n *THIS WAS AN AUTOMATED RELEASE TRIGGERED THRU A PUSH, IF ANYTHING IS WRONG MAKE SURE TO TELL US THRU TELEGRAM*")
 open("urls.txt", "w+").write(urls)
 
 update(new)

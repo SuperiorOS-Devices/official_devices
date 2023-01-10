@@ -28,5 +28,5 @@ except FileNotFoundError:
     exit()
 
 for url in urls.readlines():
-    print (url)
+    print(url)
     os.system("sudo wget " + url)
