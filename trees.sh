@@ -187,6 +187,7 @@ git clone https://github.com/SHADOW-REX/kernel_xiaomi_mt6785 -b nova kernel/xiao
 git clone https://github.com/SuperiorOS-Devices/vendor_redmi_begonia -b 13 vendor/redmi/begonia
 git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-ims -b tiramisu vendor/redmi/begonia-ims
 git clone https://github.com/Trinity-ROMS/android_vendor_redmi_begonia-firmware -b tiramisu vendor/redmi/begonia-firmware
+git clone https://github.com/santoshhh000/vendor_ANXCamera -b 11 vendor/ANXCamera
 git clone https://github.com/Trinity-ROMS/android_packages_apps_MtkFMRadio -b tiramisu packages/apps/MtkFMRadio
 git clone https://gitlab.com/Panchajanya1999/azure-clang -b main prebuilts/clang/host/linux-x86/clang-azure
 echo -e ""
