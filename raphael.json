@@ -2,11 +2,11 @@
   "response": [
     {
       "datetime":1674064451,
-      "filename": "SuperiorOS-Thirteen-raphael-RELEASE-20230120-0731.zip",
-      "id": "acf2126db5792a1aca8c2566bbbe79f9daffb77ff5885ae7440f7691e808e8af",
+      "filename":"SuperiorOS-Thirteen-raphael-RELEASE-HOTFIX-20230122-0259.zip",
+      "id": "1c0e2f1926e521b90e725536c85c81fc06fb943a40dad20ebf05a9a285ed0536",
       "romtype": "RELEASE",
-      "size":1308804878,
-      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/vanilla/SuperiorOS-Thirteen-raphael-RELEASE-20230120-0731.zip",
+      "size":1307709276,
+      "url": "https://master.dl.sourceforge.net/project/superioros/raphael/vanilla/SuperiorOS-Thirteen-raphael-RELEASE-HOTFIX-20230122-0259.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi K20 Pro",
       "maintainer": "Anirban (@SageOfD6Path)"
