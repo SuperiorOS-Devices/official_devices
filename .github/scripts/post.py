@@ -165,7 +165,7 @@ def cook_content(information):
         "▫️ " + bold("Variant: ","<code>" + str(information["variant"])) + "</code>" + "\n" + \
         "▫️ " + bold("Date: ","<code>" + str(buildtime)) + "</code>" + "\n" + \
         "▫️ " + bold("SHA256: ","<code>" + str(information['id'])) + "</code>" + "\n" + \
-        "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1908484\">Sourceforge</a>" + " | " + "<a href=\"https://github.com/SuperiorOS-Devices/official_devices/releases/tag/" + str(GithubReleasesTag) + "\">Github</a>") + "\n" + \
+        "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1908484\">Sourceforge</a>") + "\n" + \
         "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/thirteen_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
         "▫️ " + bold("Donate: ", "<a href=\"https://www.paypal.me/Sipun\">Paypal</a>" + " | " + "<a href=\"https://telegra.ph/Donate-to-Darkstar085-08-31\"> UPI</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
@@ -187,8 +187,7 @@ urls = ""
 for i in get_diff(new, old):
     print(i)
     info = get_info(i)
-    # send_mes(cook_content(info))
-    send_photo(".github/assets/vanilla.png", cook_content(info))
+    send_mes(cook_content(info))
     bot.send_sticker(CHAT_ID, STICKER_ID)
     commit_descriptions += info['name'] + " (" + info['device'] + ")\n"
     release_notes += info['name'] + " (" + info['device'] + ")\n"
