@@ -126,7 +126,6 @@ rm -rf device/xiaomi/lancelot
 rm -rf kernel/xiaomi/mt6768
 rm -rf vendor/xiaomi/lancelot
 rm -rf hardware/mediatek
-rm -rf device/mediatek/sepolicy_vndr
 echo -e ""
 echo -e "${CLR_BLD_CYA}Device repos removed ...${CLR_RST}"
 echo -e ""
@@ -136,7 +135,6 @@ git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b t
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
 git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
 git clone https://github.com/JR205-5000/android_hardware_mediatek -b main hardware/mediatek
-git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b main device/mediatek/sepolicy_vndr 
 echo -e ""
 echo -e "${CLR_BLD_CYA}Cloning Complete...${CLR_RST}"
 echo -e ""
@@ -152,7 +150,6 @@ rm -rf vendor/xiaomi/merlinx
 rm -rf vendor/xiaomi/mt6768-common
 rm -rf vendor/xiaomi/mt6768-ims
 rm -rf hardware/mediatek
-rm -rf device/mediatek/sepolicy_vndr
 echo -e ""
 echo -e "${CLR_BLD_YLW}Device repos removed ...${CLR_RST}"
 echo -e ""
@@ -162,7 +159,6 @@ git clone https://github.com/SuperiorOS-Devices/device_xiaomi_mt6768-common -b t
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common -b thirteen vendor/xiaomi
 git clone https://github.com/JR205-5000/JR205-6768 -b Liella! kernel/xiaomi/mt6768
 git clone https://github.com/JR205-5000/android_hardware_mediatek -b main hardware/mediatek
-git clone https://github.com/JR205-5000/android_device_mediatek-sepolicy_vndr -b main device/mediatek/sepolicy_vndr 
 echo -e ""
 echo -e "${CLR_BLD_YLW}Cloning Complete...${CLR_RST}"
 echo -e ""
