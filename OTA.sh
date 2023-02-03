@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (C) 2020-21 Superior OS Project
+# Copyright (C) 2020-23 The Superior OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,61 +25,127 @@ $myname ef63 superior
 EOF
 }
 
-  device=$1
-  sourcerom=$2
-  DATE="$(date +%Y%m%d)"
-  DAY="$(date +%d/%m/%Y)"
-  zip_path=~/$sourcerom/out/target/product/$device/*$DATE*.zip
-  set -e
+if [ $# -lt 2 ]; then
+  echo "ERROR: Not enough arguments provided"
+  help
+  exit 1
+fi
 
-  if [ ! -d ~/official_devices ]; then
-    cd ~
-    git clone git@github.com:SuperiorOS-Devices/official_devices.git -b thirteen
-  fi
+device=$1
+sourcerom=$2
 
-  if [ -d ~/official_devices ]; then
+DATE="$(grep ro.build.date.utc ~/$sourcerom/out/target/product/$device/system/build.prop | cut -d'=' -f2)"
 
-      # datetime
-      timestamp=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.build.date.utc | cut -d'=' -f2)
-      timestamp_old=$(cat ~/official_devices/$device.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/$device.json)
+if [ -z "$DATE" ]; then
+  echo "ERROR: Failed to retrieve build date"
+  exit 1
+fi
 
-      # filename
-      zip_name=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.superior.version | cut -d'=' -f2)
-      zip_name_old=$(cat ~/official_devices/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$zip_name_old|$zip_name.zip|g" ~/official_devices/$device.json)
+echo ""
 
-      # id
-      id=$(sha256sum $zip_path | cut -d' ' -f1)
-      id_old=$(cat ~/official_devices/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
+# make DATE human readable like 20230203
+BUILDDATE="$(date -d @$DATE +%Y%m%d)"
+DAY="$(date -d @$DATE +%d/%m/%Y)"
 
-      # Rom type
-      type="RELEASE"
-      type_old=$(cat ~/official_devices/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$type_old|$type|g" ~/official_devices/$device.json)
+# get the zip path from out folder using the date
+zip_path=~/$sourcerom/out/target/product/$device/*$BUILDDATE*.zip
 
-      # Rom size
-      size_new=$(stat -c "%s" $zip_path)
-      size_old=$(cat ~/official_devices/$device.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
-      $(sed -i "s|$size_old|$size_new|g" ~/official_devices/$device.json)
+# don't fail if there is no device json
+set +e
 
-      # Rom version
-      version=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.modversion | cut -d'=' -f2)
-      version_old=$(cat ~/official_devices/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
-      $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
+if [ ! -d ~/official_devices ]; then
+  cd ~
+  git clone git@github.com:SuperiorOS-Devices/official_devices.git -b thirteen
+fi
 
-      # url
-      url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name.zip"
-      url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
-      $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
-    fi
+echo ""
 
-    # add & push commit to github
-    cd official_devices
-    git add --all
-    git commit -m "$device: update $DAY"
-    git push origin HEAD:thirteen
-    cd ~
-    rm -rf official_devices
-    rm -rf OTA.sh
+if [ -d ~/official_devices ]; then
+
+  # datetime
+  timestamp=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.build.date.utc | cut -d'=' -f2)
+  timestamp_old=$(cat ~/official_devices/$device.json | grep "datetime" | cut -d':' -f2 | cut -d',' -f1)
+  $(sed -i "s|$timestamp_old|$timestamp|g" ~/official_devices/$device.json)
+
+  # filename
+  zip_name=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.superior.version | cut -d'=' -f2)
+  zip_name_old=$(cat ~/official_devices/$device.json | grep "filename" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$zip_name_old|$zip_name.zip|g" ~/official_devices/$device.json)
+
+  # id
+  id=$(sha256sum $zip_path | cut -d' ' -f1)
+  id_old=$(cat ~/official_devices/$device.json | grep "id" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$id_old|$id|g" ~/official_devices/$device.json)
+
+  # Rom type
+  type="RELEASE"
+  type_old=$(cat ~/official_devices/$device.json | grep "romtype" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$type_old|$type|g" ~/official_devices/$device.json)
+
+  # Rom size
+  size_new=$(stat -c "%s" $zip_path)
+  size_old=$(cat ~/official_devices/$device.json | grep "size" | cut -d':' -f2 | cut -d',' -f1)
+  $(sed -i "s|$size_old|$size_new|g" ~/official_devices/$device.json)
+
+  # Rom version
+  version=$(cat ~/$sourcerom/out/target/product/$device/system/build.prop | grep ro.modversion | cut -d'=' -f2)
+  version_old=$(cat ~/official_devices/$device.json | grep "version" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$version_old|$version|g" ~/official_devices/$device.json)
+
+  # url
+  url="https://master.dl.sourceforge.net/project/superioros/$device/vanilla/$zip_name.zip"
+  url_old=$(cat ~/official_devices/$device.json | grep https | cut -d '"' -f4)
+  $(sed -i "s|$url_old|$url|g" ~/official_devices/$device.json)
+fi
+
+echo ""
+
+# if there is no json file, create one
+if [ ! -f ~/official_devices/$device.json ]; then
+  echo "No json file found, creating one"
+  echo "Creating json file for $device"
+  echo "{
+  \"response\": [
+    {
+      \"datetime\": $timestamp,
+      \"filename\": \"$zip_name.zip\",
+      \"id\": \"$id\",
+      \"romtype\": \"$type\",
+      \"size\": $size_new,
+      \"url\": \"$url\",
+      \"version\": \"$version\",
+      \"device_name\": \"Unknown\",
+      \"maintainer\": \"Noob\"
+    }
+  ]
+}" >~/official_devices/$device.json
+  sleep 1
+  echo "Done"
+fi
+
+echo ""
+# if device name and maintainer is not set, ask for it
+if [ "$(cat ~/official_devices/$device.json | grep "device_name" | cut -d':' -f2 | cut -d'"' -f2)" == "Unknown" ]; then
+  echo "Device name is not set, please enter it"
+  read -p "Device name: " device_name
+  device_name_old=$(cat ~/official_devices/$device.json | grep "device_name" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$device_name_old|$device_name|g" ~/official_devices/$device.json)
+fi
+
+if [ "$(cat ~/official_devices/$device.json | grep "maintainer" | cut -d':' -f2 | cut -d'"' -f2)" == "Noob" ]; then
+  echo "Maintainer is not set, please enter it"
+  read -p "Maintainer: " maintainer
+  maintainer_old=$(cat ~/official_devices/$device.json | grep "maintainer" | cut -d':' -f2 | cut -d'"' -f2)
+  $(sed -i "s|$maintainer_old|$maintainer|g" ~/official_devices/$device.json)
+fi
+
+# add & push commit to github
+echo ""
+echo "Pushing commit to github"
+cd ~/official_devices
+git add --all
+git commit -m "$device: update $DAY"
+cd ~
+rm -rf OTA.sh
+echo "Done"
+echo ""
