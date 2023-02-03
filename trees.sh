@@ -54,7 +54,8 @@ echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_whyred.git -b thirteen device/xiaomi/whyred
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_whyred-common.git -b thirteen device/xiaomi/sdm660-common
 git clone https://github.com/SuperiorOS-Devices/kernel_xiaomi_whyred.git -b thirteen kernel/xiaomi/whyred
-git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred.git -b thirteen vendor/xiaomi
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred.git -b thirteen vendor/xiaomi/whyred
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred-common.git -b thirteen vendor/xiaomi/sdm660-common
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
