@@ -85,17 +85,16 @@ echo -e "${CLR_BLD_PPL}Removing device repos...${CLR_RST}"
 rm -rf device/oneplus
 rm -rf kernel/oneplus/avicii
 rm -rf vendor/oneplus
-rm -rf hardware/oneplus
+rm -rf hardware/oplus
 echo -e ""
 echo -e "${CLR_BLD_PPL}Device repos removed ...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_PPL}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_oneplus_avicii.git -b thirteen device/oneplus/avicii
-git clone https://github.com/SuperiorOS-Devices/device_oneplus_avicii-common.git -b thirteen device/oneplus/sm7250-common
 git clone https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii.git -b thirteen kernel/oneplus/avicii
 git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii.git -b thirteen vendor/oneplus/avicii
-git clone https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii-common.git -b thirteen vendor/oneplus/sm7250-common
-git clone https://github.com/SuperiorOS-Devices/hardware_oneplus.git -b thirteen hardware/oneplus
+git clone https://github.com/SuperiorOS-Devices/hardware_oplus.git -b thirteen hardware/oplus
+git clone https://gitlab.com/superioros/vendor_oneplus-firmware.git -b thirteen vendor/oneplus/firmware
 echo -e "${CLR_BLD_PPL}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
