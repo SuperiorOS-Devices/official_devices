@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1673159927,
-      "filename": "SuperiorOS-Thirteen-lancelot-RELEASE-20230108-0640.zip",
-      "id": "889ad022e24f1d81102141e6c0fffd6baff20d17debae316044a07fa029163cd",
+      "datetime":1676111922,
+      "filename": "SuperiorOS-Thirteen-lancelot-RELEASE-20230211-1040.zip",
+      "id": "9c97031ce04f1fe38a0939f6dcfc24700deb1974665f76b78d7beca33657ce83",
       "romtype": "RELEASE",
-      "size":973434698,
-      "url": "https://master.dl.sourceforge.net/project/superioros/lancelot/vanilla/SuperiorOS-Thirteen-lancelot-RELEASE-20230108-0640.zip",
+      "size":984261039,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lancelot/vanilla/SuperiorOS-Thirteen-lancelot-RELEASE-20230211-1040.zip",
       "version": "Thirteen",
       "device_name": "Redmi 9 / Poco M2",
       "maintainer": "Soni Dharma (@TimJR205)"
