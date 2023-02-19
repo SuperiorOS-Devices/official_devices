@@ -114,6 +114,7 @@ git clone git@github.com:SuperiorOS-Devices/vendor_xiaomi_violet.git -b thirteen
 git clone git@github.com:SuperiorOS-Devices/device_xiaomi_violet.git -b thirteen device/xiaomi/violet
 git clone git@github.com:SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet
 git clone https://gitlab.com/Joker-V2/vendor_xiaomi-firmware_violet vendor/xiaomi-firmware/violet
+git clone https://gitlab.com/Joker-V2/android_vendor_MiuiCamera vendor/MiuiCamera
 echo -e ""
 echo -e "${CLR_BLD_GRN}Cloning Complete...${CLR_RST}"
 echo -e ""
