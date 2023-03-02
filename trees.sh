@@ -35,6 +35,7 @@ printf "\n     lancelot       - for Xiaomi Redmi 9/Poco M2\n"
 printf "\n     merlinx        - for Xiaomi Redmi Note 9/Redmi 10X 4G\n"
 printf "\n     begonia        - for Xiaomi Redmi Note 8 Pro\n"
 printf "\n     alioth         - for Poco F3/Mi 11x/Redmi K40\n"
+printf "\n     davinci         - for Mi 9T/Redmi K20\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -212,6 +213,30 @@ echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
+elif [ $1 = "davinci" ]
+  then
+echo -e "${CLR_BLD_RED}Removing device repos...${CLR_RST}"
+rm -rf device/xiaomi/davinci
+rm -rf device/xiaomi/sm6150-common
+rm -rf vendor/xiaomi/davinci
+rm -rf vendor/xiaomi/sm6150-common
+rm -rf kernel/xiaomi/sm6150
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_davinci -b thirteen device/xiaomi/davinci
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sm6150-common -b thirteen device/xiaomi/sm6150-common
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_davinci -b thirteen vendor/xiaomi/davinci
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_sm6150-common -b thirteen vendor/xiaomi/sm6150-common
+git clone https://github.com/helliscloser/kernel_xiaomi_sm6150 -b 13x kernel/xiaomi/sm6150
+git clone https://gitlab.com/varunhardgamer/trb_clang.git -b 16 prebuilts/clang/host/linux-x86/trb_clang
+git clone https://gitlab.com/ItzDFPlayer/vendor_davinci-miuicamera -b leica vendor/xiaomi/miuicamera
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
 elif [ $1 = "clean" ]
   then
 echo -e "${CLR_BLD_RED}Removing every devices repos...${CLR_RST}"
@@ -232,6 +257,7 @@ rm -rf packages/apps/GoogleCamera
 rm -rf packages/apps/MtkFMRadio
 rm -rf prebuilts/clang/host/linux-x86/clang-azure
 rm -rf prebuilts/clang/host/linux-x86/ZyC-clang
+rm -rf prebuilts/clang/host/linux-x86/trb_clang
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
