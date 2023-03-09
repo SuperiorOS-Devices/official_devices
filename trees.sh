@@ -280,7 +280,6 @@ git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sweet-common.git -
 git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_sweet.git -b thirteen vendor/xiaomi
 git clone https://gitlab.com/unsatifsed27/clang.git -b play17 prebuilts/clang/host/linux-x86/clang-playground
 git clone https://gitlab.com/unsatifsed27/miuicamera.git -b tosle vendor/xiaomi/sweet-miuicamera
-git clone https://github.com/RooGhz720/Aghisna_Sweet_Kernel.git -b aghisna-13 kernel/xiaomi/sm6150
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
