@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime": 1678326361,
+      "filename": "SuperiorOS-Thirteen-davinci-RELEASE-20230309-0147.zip",
+      "id": "e75d74da480bb1c91218d898e06fe6c615ef86fc0ad04fea9c1b1ddf00ca1646",
+      "romtype": "RELEASE",
+      "size": 1456551307,
+      "url": "https://master.dl.sourceforge.net/project/superioros/davinci/vanilla/SuperiorOS-Thirteen-davinci-RELEASE-20230309-0147.zip",
+      "version": "Thirteen",
+      "device_name": "Xiaomi Mi 9T/Redmi K20",
+      "maintainer": "MK(@SILENT_KILLER404)"
+    }
+  ]
+}
