@@ -37,6 +37,7 @@ printf "\n     begonia        - for Xiaomi Redmi Note 8 Pro\n"
 printf "\n     alioth         - for Poco F3/Mi 11x/Redmi K40\n"
 printf "\n     davinci        - for Mi 9T/Redmi K20\n"
 printf "\n     venus          - for Mi 11"
+printf "\n     sweet          - for Xiaomi Redmi Note 10 Pro\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -262,6 +263,29 @@ echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
+elif [ $1 = "sweet" ]
+  then
+rm -rf device/xiaomi/sweet
+rm -rf device/xiaomi/sm6150-common
+rm -rf vendor/xiaomi
+rm -rf kernel/xiaomi/sm6150
+rm -rf vendor/xiaomi/sweet-miuicamera
+rm -rf prebuilts/clang/host/linux-x86/clang-playground
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sweet.git -b thirteen device/xiaomi/sweet
+git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sweet-common.git -b thirteen device/xiaomi/sm6150-common
+git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_sweet.git -b thirteen vendor/xiaomi
+git clone https://gitlab.com/unsatifsed27/clang.git -b play17 prebuilts/clang/host/linux-x86/clang-playground
+git clone https://gitlab.com/unsatifsed27/miuicamera.git -b tosle vendor/xiaomi/sweet-miuicamera
+git clone https://github.com/RooGhz720/Aghisna_Sweet_Kernel.git -b aghisna-13 kernel/xiaomi/sm6150
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
 elif [ $1 = "clean" ]
   then
 echo -e "${CLR_BLD_RED}Removing every devices repos...${CLR_RST}"
@@ -284,6 +308,7 @@ rm -rf prebuilts/clang/host/linux-x86/clang-azure
 rm -rf prebuilts/clang/host/linux-x86/ZyC-clang
 rm -rf prebuilts/clang/host/linux-x86/trb_clang
 rm -rf prebuilts/clang/host/linux-x86/clang-prelude
+rm -rf prebuilts/clang/host/linux-x86/clang-playground
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
