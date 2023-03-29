@@ -119,7 +119,7 @@ git clone git@github.com:SuperiorOS-Devices/device_xiaomi_violet.git -b thirteen
 git clone git@github.com:SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet
 git clone https://gitlab.com/Joker-V2/vendor_xiaomi-firmware_violet vendor/xiaomi-firmware/violet
 git clone https://gitlab.com/Joker-V2/android_vendor_MiuiCamera vendor/MiuiCamera
-git clone https://gitlab.com/Joker-V2/prebuilts_clang_host_linux-x86_clang-r487747 prebuilts/clang_host/linux-x86/clang-r487747
+git clone https://gitlab.com/Joker-V2/prebuilts_clang_host_linux-x86_clang-r487747 prebuilts/clang/host/linux-x86/clang-r487747
 echo -e ""
 echo -e "${CLR_BLD_GRN}Cloning Complete...${CLR_RST}"
 echo -e ""
@@ -312,7 +312,7 @@ rm -rf prebuilts/clang/host/linux-x86/ZyC-clang
 rm -rf prebuilts/clang/host/linux-x86/trb_clang
 rm -rf prebuilts/clang/host/linux-x86/clang-prelude
 rm -rf prebuilts/clang/host/linux-x86/clang-playground
-rm -rf prebuilts/clang_host/linux-x86/clang-r487747
+rm -rf prebuilts/clang/host/linux-x86/clang-r487747
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
