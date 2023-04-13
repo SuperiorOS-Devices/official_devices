@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1679911187,
-      "filename": "SuperiorOS-Thirteen-venus-RELEASE-20230327-1001.zip",
-      "id": "73868630a3a87a51982bdd419de748644d18edb63014124d66711ce5ab8ff332",
+      "datetime":1681346889,
+      "filename": "SuperiorOS-Thirteen-venus-RELEASE-20230413-0049.zip",
+      "id": "eb9379cc93b03b2ccf5c874093c7627c96178cf9bdf1c30525b7f0b268ddb0f4",
       "romtype": "RELEASE",
-      "size":1838950168,
-      "url": "https://master.dl.sourceforge.net/project/superioros/venus/vanilla/SuperiorOS-Thirteen-venus-RELEASE-20230327-1001.zip",
+      "size":1839442377,
+      "url": "https://master.dl.sourceforge.net/project/superioros/venus/vanilla/SuperiorOS-Thirteen-venus-RELEASE-20230413-0049.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Mi 11",
       "maintainer": "Alan Lin"
