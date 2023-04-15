@@ -38,6 +38,7 @@ printf "\n     alioth         - for Poco F3/Mi 11x/Redmi K40\n"
 printf "\n     davinci        - for Mi 9T/Redmi K20\n"
 printf "\n     venus          - for Mi 11"
 printf "\n     sweet          - for Xiaomi Redmi Note 10 Pro\n"
+printf "\n     lavender         - for Xiaomi Redmi Note 7/7S\n"
 printf "\n     clean          - for deleting trees\n\n"
 
 }
@@ -290,6 +291,25 @@ echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
 echo -e ""
 echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
 echo -e ""
+elif [ $1 = "lavender" ]
+  then
+rm -rf device/xiaomi/lavender
+rm -rf kernel/xiaomi/lavender
+rm -rf vendor/xiaomi/lavender
+rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
+echo -e ""
+echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
+git clone https://github.com/ahmedhridoy371/Device_wip.git -b s device/xiaomi/lavender
+git clone https://github.com/ahmedhridoy371/Vevice_wip.git -b 13 vendor/xiaomi/lavender
+git clone https://github.com/ahmedhridoy371/kernel_xiaomi_lavender-4.4.git -b a13-qti-camfix kernel/xiaomi/lavender
+git clone https://gitlab.com/ahmedgaming371/clang13.git -b master prebuilts/clang/host/linux-x86/clang-r450784d
+echo -e ""
+echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
+echo -e ""
+echo -e "${CLR_BLD_RED}Now You are good to Go${CLR_RST}"
+echo -e ""
 elif [ $1 = "clean" ]
   then
 echo -e "${CLR_BLD_RED}Removing every devices repos...${CLR_RST}"
@@ -314,6 +334,7 @@ rm -rf prebuilts/clang/host/linux-x86/trb_clang
 rm -rf prebuilts/clang/host/linux-x86/clang-prelude
 rm -rf prebuilts/clang/host/linux-x86/clang-playground
 rm -rf prebuilts/clang/host/linux-x86/clang-r487747
+rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
 echo -e ""
 echo -e "${CLR_BLD_RED}Device repos removed ...${CLR_RST}"
 echo -e ""
