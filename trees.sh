@@ -280,10 +280,10 @@ echo -e ""
 echo -e "${CLR_BLD_RED}Cloning device repos...${CLR_RST}"
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sweet.git -b thirteen device/xiaomi/sweet
 git clone https://github.com/SuperiorOS-Devices/device_xiaomi_sweet-common.git -b thirteen device/xiaomi/sm6150-common
-git clone https://github.com/SuperiorOS-Devices/vendor_xiaomi_sweet.git -b thirteen vendor/xiaomi
+git clone https://github.com/UnsatifsedError/vendor_xiaomi_sm6150-common.git -b telulas vendor/xiaomi/sm6150-common
+git clone https://github.com/UnsatifsedError/vendor_xiaomi-sweet.git -b telulas vendor/xiaomi/sweet
 git clone https://gitlab.com/unsatifsed27/clang.git -b play17 prebuilts/clang/host/linux-x86/clang-playground
 git clone https://gitlab.com/unsatifsed27/miuicamera.git -b tosle vendor/xiaomi/sweet-miuicamera
-git clone https://gitlab.com/unsatifsed27/kernel_xiaomi_sm6150.git -b aghisna-13 kernel/xiaomi/sm6150
 git clone https://gitlab.com/unsatifsed27/dolby.git -b sondolby vendor/dolby
 echo -e ""
 echo -e "${CLR_BLD_RED}Cloning Complete...${CLR_RST}"
