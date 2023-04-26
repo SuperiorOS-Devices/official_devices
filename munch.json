@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime": 1682185334,
+      "filename": "SuperiorOS-Thirteen-munch-RELEASE-20230426-1301.zip",
+      "id": "ac57517041546e6dcee53cce13d7d6d7428ad5a827c07918620a3c53c73f6433",
+      "romtype": "RELEASE",
+      "size": 1389560105,
+      "url": "https://master.dl.sourceforge.net/project/superioros/munch/vanilla/SuperiorOS-Thirteen-munch-RELEASE-20230426-1301.zip",
+      "version": "Thirteen",
+      "device_name": "Poco F4",
+      "maintainer": "Mudit"
+    }
+  ]
+}
