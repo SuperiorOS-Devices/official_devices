@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1681728470,
-      "filename": "SuperiorOS-Thirteen-RMX3461-RELEASE-20230417-1048.zip",
+      "datetime":1683900384,
+      "filename": "SuperiorOS-Thirteen-RMX3461-RELEASE-20230512-1408.zip",
       "id": "dffd5135104d84848f0aad7e8f2fc70638f86a933d18d12ca95f386b5f9d0e53",
       "romtype": "RELEASE",
-      "size": 1572850830,
-      "url": "https://master.dl.sourceforge.net/project/superioros/RMX3461/vanilla/SuperiorOS-Thirteen-RMX3461-RELEASE-20230417-1048.zip",
+      "size":1520972157,
+      "url": "https://master.dl.sourceforge.net/project/superioros/RMX3461/vanilla/SuperiorOS-Thirteen-RMX3461-RELEASE-20230512-1408.zip",
       "version": "Thirteen",
       "device_name": "Realme 9 SE 5G",
       "maintainer": "ZirgomHaidar"
