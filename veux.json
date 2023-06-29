@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1682330954,
-      "filename": "SuperiorOS-Thirteen-veux-RELEASE-20230424-1011.zip",
-      "id": "9643a46ac1ed5c4ce7bc70efe9ef86beb01dc3cd94ae0c19de13acfac33b62b1",
+      "datetime":1688017130,
+      "filename": "SuperiorOS-Thirteen-veux-RELEASE-20230629-0540.zip",
+      "id": "8ef694d5315cc8bbfc2b8a847c0337184e34ba4280c152b8fdddbc0c30f4cd75",
       "romtype": "RELEASE",
-      "size":1295972784,
-      "url": "https://master.dl.sourceforge.net/project/superioros/veux/vanilla/SuperiorOS-Thirteen-veux-RELEASE-20230424-1011.zip",
+      "size":1320526714,
+      "url": "https://master.dl.sourceforge.net/project/superioros/veux/vanilla/SuperiorOS-Thirteen-veux-RELEASE-20230629-0540.zip",
       "version": "Thirteen",
       "device_name": "Poco X4 Pro/ Redmi note 11 Pro+ 5G",
       "maintainer": "Anant Goel (@Anant_Goel)"
