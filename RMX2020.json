@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1687982651,
-      "filename": "SuperiorOS-Thirteen-RMX2020-RELEASE-20230628-2005.zip",
-      "id": "6937d23d30d19586a4025b26d6763bee9d2592d4f07ecd39ca09b2d88a37e025",
+      "datetime":1688891118,
+      "filename": "SuperiorOS-Thirteen-RMX2020-RELEASE-20230628-0827.zip",
+      "id": "4e7cceb23761eb8696916486bff1581145fe399432508a084432382d1bfa1366",
       "romtype": "RELEASE",
-      "size":1093145193,
-      "url": "https://master.dl.sourceforge.net/project/superioros/RMX2020/vanilla/SuperiorOS-Thirteen-RMX2020-RELEASE-20230628-2005.zip",
+      "size":1097691441,
+      "url": "https://master.dl.sourceforge.net/project/superioros/RMX2020/vanilla/SuperiorOS-Thirteen-RMX2020-RELEASE-20230628-0827.zip",
       "version": "Thirteen",
       "device_name": "Realme C3/ Narzo 10A",
       "maintainer": "Lakshit (@WillyS69)"
