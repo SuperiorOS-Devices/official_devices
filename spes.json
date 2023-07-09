@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1688277741,
-      "filename": "SuperiorOS-Thirteen-spes-RELEASE-20230702-0602.zip",
-      "id": "025a232c0f9f6e1a328e6e4dbe4d176e08790f283a01b5e8e4083d37622cf6e1",
+      "datetime":1688833129,
+      "filename": "SuperiorOS-Thirteen-spes-RELEASE-20230708-1620.zip",
+      "id": "c4788aa5aaa614f8309ad715950024c5a9beddf1d5e0711eb4504f323895a431",
       "romtype": "RELEASE",
-      "size":1114699825,
-      "url": "https://master.dl.sourceforge.net/project/superioros/spes/vanilla/SuperiorOS-Thirteen-spes-RELEASE-20230702-0602.zip",
+      "size":1116673466,
+      "url": "https://master.dl.sourceforge.net/project/superioros/spes/vanilla/SuperiorOS-Thirteen-spes-RELEASE-20230708-1620.zip",
       "version": "Thirteen",
       "device_name": "Redmi Note 11",
       "maintainer": "Enweazu Daniel (@dandollar1)"
