@@ -2,11 +2,11 @@
   "response": [
     {
       "datetime": 1689161755,
-      "filename": "SuperiorOS-Thirteen-munch-RELEASE-20230713-1032.zip",
-      "id": "419dd06557501f177c09b9e4dab97e5fc23d58e6b4ab333ff6c09185e9c8ba54",
+      "filename": "SuperiorOS-Thirteen-munch-RELEASE-20230713-1624.zip",
+      "id": "ece0e2f21f7889ad1048944c55a32f513ecd1bbdc1fb305fc800ddd3ec4dbd47",
       "romtype": "RELEASE",
-      "size": 1442153559,
-      "url": "https://master.dl.sourceforge.net/project/superioros/munch/vanilla/SuperiorOS-Thirteen-munch-RELEASE-20230713-1032.zip",
+      "size": 1446497417,
+      "url": "https://master.dl.sourceforge.net/project/superioros/munch/vanilla/SuperiorOS-Thirteen-munch-RELEASE-20230713-1624.zip",
       "version": "Thirteen",
       "device_name": "Poco F4",
       "maintainer": "Mudit (@Mudit1808)"
