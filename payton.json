@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1682319706,
-      "filename": "SuperiorOS-Thirteen-payton-RELEASE-20230424-0704.zip",
-      "id": "4dd41b7fcd8963cdafe4c79ed83fe42cd3d978a2914d5d52507f7753dd8494fe",
+      "datetime":1689272476,
+      "filename": "SuperiorOS-Thirteen-payton-RELEASE-20230713-1824.zip",
+      "id": "2d07746afd6f5a24e4824a4d13845c37d3ddd873f52a544a6dc4594a8fb83ccf",
       "romtype": "RELEASE",
-      "size":931527424,
-      "url": "https://master.dl.sourceforge.net/project/superioros/payton/vanilla/SuperiorOS-Thirteen-payton-RELEASE-20230424-0704.zip",
+      "size":908779874,
+      "url": "https://master.dl.sourceforge.net/project/superioros/payton/vanilla/SuperiorOS-Thirteen-payton-RELEASE-20230713-1824.zip",
       "version": "Thirteen",
       "device_name": "Moto X4",
       "maintainer": "Dhinesh (@cool585)"
