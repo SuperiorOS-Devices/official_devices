@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1689259591,
-      "filename": "SuperiorOS-Thirteen-lavender-RELEASE-20230713-1538.zip",
-      "id": "42dcf1ed273f21f4d26ed36eb66c9ca109b94bb01405e092304e2831f74901cc",
+      "datetime":1690364918,
+      "filename": "SuperiorOS-Thirteen-lavender-RELEASE-20230726-1038.zip",
+      "id": "f9a3dcb245781ac60d2cb022e27a449efa5d129518718af05c79d3663a2a8e76",
       "romtype": "RELEASE",
-      "size":1044663911,
-      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/vanilla/SuperiorOS-Thirteen-lavender-RELEASE-20230713-1538.zip",
+      "size":1000612065,
+      "url": "https://master.dl.sourceforge.net/project/superioros/lavender/vanilla/SuperiorOS-Thirteen-lavender-RELEASE-20230726-1038.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi Note 7/7s",
       "maintainer": "Prashant"
