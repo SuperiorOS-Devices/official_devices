@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1690469146,
-      "filename": "SuperiorOS-Thirteen-miatoll-RELEASE-20230727-1448.zip",
-      "id": "92470a72cff9d567d8f2e9bc30a4d53d41f519dc8f854371ff2484855d97ed92",
+      "datetime":1691898739,
+      "filename": "SuperiorOS-Thirteen-miatoll-RELEASE-20230813-0355.zip",
+      "id": "61167e93ae5df70e083a6d0218af325de683260a151f9fb95b3d6653ad67aa8c",
       "romtype": "RELEASE",
-      "size":1451118408,
-      "url": "https://master.dl.sourceforge.net/project/superioros/miatoll/vanilla/SuperiorOS-Thirteen-miatoll-RELEASE-20230727-1448.zip",
+      "size":1403733936,
+      "url": "https://master.dl.sourceforge.net/project/superioros/miatoll/vanilla/SuperiorOS-Thirteen-miatoll-RELEASE-20230813-0355.zip",
       "version": "Thirteen",
       "device_name": "Redmi Note 9S/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro",
       "maintainer": "ARINDAM BHATTACHARJEE"
