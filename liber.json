@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1690382443,
-      "filename": "SuperiorOS-Thirteen-liber-RELEASE-20230726-1443.zip",
-      "id": "fc914a52ac58e13c46e36ee43b525699b0e6061211698e12a44a1e646f92942e",
+      "datetime":1692029253,
+      "filename": "SuperiorOS-Thirteen-liber-RELEASE-20230814-1611.zip",
+      "id": "fbf5d928140feac208ffcbcfcdd38d4dea6dcc0a39ce6e04a17364631140d7a8",
       "romtype": "RELEASE",
-      "size":843829716,
-      "url": "https://master.dl.sourceforge.net/project/superioros/liber/vanilla/SuperiorOS-Thirteen-liber-RELEASE-20230726-1443.zip",
+      "size":842939889,
+      "url": "https://master.dl.sourceforge.net/project/superioros/liber/vanilla/SuperiorOS-Thirteen-liber-RELEASE-20230814-1611.zip",
       "version": "Thirteen",
       "device_name": "Moto One Fusion+",
       "maintainer": "Dhinesh (@cool585)"
