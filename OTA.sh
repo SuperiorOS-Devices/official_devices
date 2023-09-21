@@ -13,6 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# git pull if repo already exist
+if [ -d ~/official_devices ]; then
+  echo "Pulling the latest changes from the official_devices repository..."
+  cd ~/official_devices
+  git pull
+  cd ~
+fi
+
 myname="$0"
 function help() {
   cat <<EOF
