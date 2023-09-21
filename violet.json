@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1691719895,
-      "filename": "SuperiorOS-Thirteen-violet-RELEASE-20230811-0212.zip",
-      "id": "8fba5e298a76a11c19bc313ab1a09ad8bdf4a59f5124a5401b860a79629bbab9",
+      "datetime":1695261582,
+      "filename": "SuperiorOS-Thirteen-violet-RELEASE-20230921-0201.zip",
+      "id": "0d26e47096fae6c072bc0636555c97d48c71599f18eaadf5ded4fff08b7a8a3b",
       "romtype": "RELEASE",
-      "size":1461674558,
-      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Thirteen-violet-RELEASE-20230811-0212.zip",
+      "size":1471364489,
+      "url": "https://master.dl.sourceforge.net/project/superioros/violet/vanilla/SuperiorOS-Thirteen-violet-RELEASE-20230921-0201.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi Note 7 Pro",
       "maintainer": "Nipin NA (@Joker_V2_0)"
