@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1695313458,
-      "filename": "SuperiorOS-Thirteen-merlinx-RELEASE-20230921-1625.zip",
-      "id": "a3bcabb7d4a88ae5710ecaaf3e060bf8cef4c94fd247314cd7e417d96e76c058",
+      "datetime":1697781198,
+      "filename": "SuperiorOS-Thirteen-merlinx-RELEASE-20231020-0556.zip",
+      "id": "8b8bc459b27b0e737f58f8fd1dd9c9aaa038f001e9e28f4d9f2824304a3484ee",
       "romtype": "RELEASE",
-      "size":1022804362,
-      "url": "https://master.dl.sourceforge.net/project/superioros/merlinx/vanilla/SuperiorOS-Thirteen-merlinx-RELEASE-20230921-1625.zip",
+      "size":1018690001,
+      "url": "https://master.dl.sourceforge.net/project/superioros/merlinx/vanilla/SuperiorOS-Thirteen-merlinx-RELEASE-20231020-0556.zip",
       "version": "Thirteen",
       "device_name": "Redmi Note 9 / Redmi 10X 4G",
       "maintainer": "Soni Dharma (@TimJR205)"
