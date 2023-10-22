@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1695436697,
-      "filename": "SuperiorOS-Thirteen-sweet-RELEASE-20230923-0239.zip",
-      "id": "f525b71d49ea063041e6a52c99d996253906ecd47ab037871bd23e6e70e01959",
+      "datetime":1697973558,
+      "filename": "SuperiorOS-Thirteen-sweet-RELEASE-20231022-1123.zip",
+      "id": "9f9349874f73f114142564d18f7394a42740c572674a1055305a8965bd45e7c5",
       "romtype": "RELEASE",
-      "size":1330539861,
-      "url": "https://master.dl.sourceforge.net/project/superioros/sweet/vanilla/SuperiorOS-Thirteen-sweet-RELEASE-20230923-0239.zip",
+      "size":1326855136,
+      "url": "https://master.dl.sourceforge.net/project/superioros/sweet/vanilla/SuperiorOS-Thirteen-sweet-RELEASE-20231022-1123.zip",
       "version": "Thirteen",
       "device_name": "Xiaomi Redmi Note 10 Pro",
       "maintainer": "Unsatifsed27 (@unsatifsed27)"
