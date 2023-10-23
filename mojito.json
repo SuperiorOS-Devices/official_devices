@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1695256181,
-      "filename": "SuperiorOS-Thirteen-mojito-RELEASE-20230921-0031.zip",
-      "id": "94c2fd8c866cae58e8b286baddea48822879367216ea47f63ea44c7babc17f8d",
+      "datetime":1698039032,
+      "filename": "SuperiorOS-Thirteen-mojito-RELEASE-20231023-0530.zip",
+      "id": "34913416b2b622c329a0f87d4d9863d0c2eb4a19d28272cf5f211d814528d71a",
       "romtype": "RELEASE",
-      "size":1423877366,
-      "url": "https://master.dl.sourceforge.net/project/superioros/mojito/vanilla/SuperiorOS-Thirteen-mojito-RELEASE-20230921-0031.zip",
+      "size":1420490873,
+      "url": "https://master.dl.sourceforge.net/project/superioros/mojito/vanilla/SuperiorOS-Thirteen-mojito-RELEASE-20231023-0530.zip",
       "version": "Thirteen",
       "device_name": "Redmi Note 10",
       "maintainer": "Rom Bdr. Gharti (@Romgharti)"
