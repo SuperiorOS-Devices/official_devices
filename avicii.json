@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1699685914,
-      "filename": "SuperiorOS-Thirteen-avicii-RELEASE-20231111-0700.zip",
-      "id": "ca955bd8f4d208ddb21cae611d76463476c216ed976f2eca5a7ae628e9ddbd22",
+      "datetime":1701316099,
+      "filename": "SuperiorOS-Thirteen-avicii-RELEASE-20231130-0349.zip",
+      "id": "6a227c66a383b50a8d2b97bae50ba3c971a48ea4162f2c9b3e4d920913b4befc",
       "romtype": "RELEASE",
-      "size":1331170926,
-      "url": "https://master.dl.sourceforge.net/project/superioros/avicii/vanilla/SuperiorOS-Thirteen-avicii-RELEASE-20231111-0700.zip",
+      "size":1331172852,
+      "url": "https://master.dl.sourceforge.net/project/superioros/avicii/vanilla/SuperiorOS-Thirteen-avicii-RELEASE-20231130-0349.zip",
       "version": "Thirteen",
       "device_name": "Oneplus Nord",
       "maintainer": "Sipun Ku Mahanta (@Darkstar085)"
