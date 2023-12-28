@@ -24,6 +24,8 @@
 
 • The maintainer must display proper authorship and maintain proper commit history. No Excuses for "KANGED" commits.
 
+• We do not allow inbuilt **kernelsu** in SuperiorOS. So make sure your build must not contain it.
+
 ---
 
 ## Time to apply

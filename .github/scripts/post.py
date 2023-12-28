@@ -166,8 +166,8 @@ def cook_content(information):
         "▫️ " + bold("Date: ","<code>" + str(buildtime)) + "</code>" + "\n" + \
         "▫️ " + bold("SHA256: ","<code>" + str(information['id'])) + "</code>" + "\n" + \
         "▫️ " + bold("Download: ", "<a href=\"https://www.pling.com/p/1908484\">Sourceforge</a>") + "\n" + \
-        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/thirteen/thirteen_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
-        "▫️ " + bold("Flashing Method: ", "<a href=\"https://github.com/SuperiorOS-Devices/changelogs/blob/thirteen/flashing_method/" + str(information['device']) + ".md\">Here</a>") + "\n" + \
+        "▫️ " + bold("Changelog: ", "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/fourteen/changelogs.txt\">Source</a>" + " | " + "<a href=\"https://raw.githubusercontent.com/SuperiorOS-Devices/changelogs/fourteen/fourteen_" + str(information['device']) + ".txt\"> Device</a>") + "\n" + \
+        "▫️ " + bold("Flashing Method: ", "<a href=\"https://github.com/SuperiorOS-Devices/changelogs/blob/fourteen/flashing_method/" + str(information['device']) + ".md\">Here</a>") + "\n" + \
         "▫️ " + bold("Donate: ", "<a href=\"https://www.paypal.me/Sipun\">Paypal</a>" + " | " + "<a href=\"https://drive.google.com/file/d/1LBQroRWeklmDj_12drVtgVL_VqoImEsD\"> UPI</a>") + "\n\n" + \
         "#" + str(information['device']) + " | #besuperior | @superioros"
     return message

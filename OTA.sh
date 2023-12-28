@@ -63,7 +63,7 @@ set +e
 
 if [ ! -d ~/official_devices ]; then
   cd ~
-  git clone https://github.com/SuperiorOS-Devices/official_devices.git -b thirteen
+  git clone https://github.com/SuperiorOS-Devices/official_devices.git -b fourteen
 fi
 
 echo ""
