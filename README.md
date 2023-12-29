@@ -1,43 +1,31 @@
----
+# SuperiorOS Fourteen Maintainer Search
 
-## SuperiorOS Official Maintainership Application
+Hello everyone!
 
-• Before you apply to add your device into our list of official devices, you should know a few things.
+We are currently in search of dedicated maintainers for SuperiorOS Fourteen with Android Version 14. We have a few prerequisites that we expect our potential maintainers to meet:
 
-• Any failure in following the below instructions will make you unfit for the maintainership. No questions asked.
+1. **Knowledge of Git:** You should be proficient in Git operations like push, pull, cherry-pick, and rebase. This is essential for managing and contributing to our project effectively.
 
-### To turn into a maintainer of SuperiorOS -
+2. **Thoughtful Feature Requests:** We appreciate input and new ideas, but we're not looking for spammy feature requests. Any features you propose should make sense and will be considered for discussion and potential inclusion.
 
-• The maintainer must own the device. Blind and untested builds aren't allowed.
+3. **No Inbuilt Kernelsu:** We do not allow inbuilt kernelsu in SuperiorOS. Please refrain from including it in your contributions.
 
-• The maintainer must have an account on Github, Gerrit and also knowledge about those.
+4. **Commit Authorship:** Maintain proper commit authorship. This helps us keep track of contributions and gives credit to the right individuals for their work.
 
-• The maintainer must do unofficial builds and release them for users to test.
+5. **Preserve Source for Official Releases:** We expect maintainers to maintain the integrity of the SuperiorOS source code for official releases. Any modifications should be in line with our project's goals and standards.
 
-• The maintainer device sources must be stable, open and properly maintained.
+If you believe you meet these requirements and are interested in becoming a maintainer for SuperiorOS, please go through the procedure outlined below.
 
- ### Maintainers conduct notes -
+We appreciate your interest and look forward to welcoming new maintainers to our team. Together, we can continue to build and improve SuperiorOS!
 
-• The maintainer isn't allowed to make any unofficial modifications to the source.
+## How to Apply
 
-• The maintainer must test every build before sending OTA update to user.
+Contact us via email at [superioros123@gmail.com](mailto:superioros123@gmail.com) with the following details, or you can also DM us on Telegram [**Darkstar**](https://t.me/Darkstar085):
 
-• The maintainer must display proper authorship and maintain proper commit history. No Excuses for "KANGED" commits.
+- **Sources:** All device trees which you used to build the ROM (Need modified trees).
 
-• We do not allow inbuilt **kernelsu** in SuperiorOS. So make sure your build must not contain it.
+- **XDA Thread:** Your XDA thread for unofficial builds. [Optional]
 
----
+- **TG Id:** Your Telegram username.
 
-## Time to apply
-
-Mail us at - superioros123@gmail.com with stuffs given below or you can also DM us on telegram [**Darkstar**](https://t.me/Darkstar085) or [**Joker**](https://t.me/Joker_V2_0)
-
-• Sources - All device trees which you used to build the rom (Need modified trees).
-
-• XDA Thread - Your XDA thread for unofficial builds.[Optional]
-
-• TG Id - Your telegram username.
-
-• Screenshot - Your about Phone screenshot.
-
----
+- **Screenshot:** Your About Phone screenshot.
