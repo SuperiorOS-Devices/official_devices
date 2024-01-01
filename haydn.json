@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime": 1704127327,
+      "filename": "SuperiorOS-Fourteen-haydn-RELEASE-20240101-1642.zip",
+      "id": "16e7163751cc5edcf73dffd6671e3199d764b6153c2860505087f0ec67825729",
+      "romtype": "RELEASE",
+      "size": 1748878808,
+      "url": "https://master.dl.sourceforge.net/project/superioros/haydn/vanilla/SuperiorOS-Fourteen-haydn-RELEASE-20240101-1642.zip",
+      "version": "Fourteen",
+      "device_name": "Mi 11x pro/Redmi K40 Pro",
+      "maintainer": "AshraySingh (@AshraySingh)"
+    }
+  ]
+}
