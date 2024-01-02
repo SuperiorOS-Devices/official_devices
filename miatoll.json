@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime":1697796421,
-      "filename": "SuperiorOS-Thirteen-miatoll-RELEASE-20231020-1008.zip",
-      "id": "803715d023d246f41635d90645cd08eab2b70f8094725a5aff40c7778ae47f46",
+      "datetime":1704160119,
+      "filename": "SuperiorOS-Fourteen-miatoll-RELEASE-20240102-0150.zip",
+      "id": "61a8df43226ba78d4391b92fd3177d46df43575a4ded1f0e19665a9aea55fbd2",
       "romtype": "RELEASE",
-      "size":1408911771,
-      "url": "https://master.dl.sourceforge.net/project/superioros/miatoll/vanilla/SuperiorOS-Thirteen-miatoll-RELEASE-20231020-1008.zip",
-      "version": "Thirteen",
-      "device_name": "Redmi Note 9S/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro",
-      "maintainer": "ARINDAM BHATTACHARJEE"
+      "size":1440625450,
+      "url": "https://master.dl.sourceforge.net/project/superioros/miatoll/vanilla/SuperiorOS-Fourteen-miatoll-RELEASE-20240102-0150.zip",
+      "version": "Fourteen",
+      "device_name": "Redmi Note 9 Pro",
+      "maintainer": "Clarence K (@clarencelol)"
     }
   ]
 }
