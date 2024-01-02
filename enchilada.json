@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "datetime": 1704157639,
+      "filename": "SuperiorOS-Fourteen-enchilada-RELEASE-20240102-0109.zip",
+      "id": "01dc6b129e8b2f4af35e348bb229ec0e8f2edab05372cc75706ab41cef861c49",
+      "romtype": "RELEASE",
+      "size": 1114546413,
+      "url": "https://master.dl.sourceforge.net/project/superioros/enchilada/vanilla/SuperiorOS-Fourteen-enchilada-RELEASE-20240102-0109.zip",
+      "version": "Fourteen",
+      "device_name": "Oneplus 6",
+      "maintainer": "Vikas Yaduvanshi  (@Vikas_2_0)"
+    }
+  ]
+}
