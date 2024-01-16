@@ -18,7 +18,7 @@ jobs:
         run: sudo pip install pyTelegramBotAPI
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
           ref: fourteen
@@ -39,7 +39,7 @@ jobs:
         run: sudo ls
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: releases
           retention-days: 2
@@ -57,13 +57,13 @@ jobs:
     needs: poster
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
           ref: fourteen
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: releases
 
