@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1704010951,
-      "filename": "SuperiorOS-Fourteen-merlinx-RELEASE-20231231-0824.zip",
-      "id": "d45f30f68e91429acf8dfae3d2234c4a04abd058a784baddeeab87d2b6e86139",
+      "datetime":1705581795,
+      "filename": "SuperiorOS-Fourteen-merlinx-RELEASE-20240118-1245.zip",
+      "id": "84c9b851e1aef92e6843e468e50626135c1c3c76a4e16d88e5e1ada05ad77677",
       "romtype": "RELEASE",
-      "size":1160558154,
-      "url": "https://master.dl.sourceforge.net/project/superioros/merlinx/vanilla/SuperiorOS-Fourteen-merlinx-RELEASE-20231231-0824.zip",
+      "size":1171810663,
+      "url": "https://master.dl.sourceforge.net/project/superioros/merlinx/vanilla/SuperiorOS-Fourteen-merlinx-RELEASE-20240118-1245.zip",
       "version": "Fourteen",
       "device_name": "Redmi Note 9 / Redmi 10X 4G",
       "maintainer": "Soni Dharma (@TimJR205)"
