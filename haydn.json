@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1704127327,
-      "filename": "SuperiorOS-Fourteen-haydn-RELEASE-20240101-1642.zip",
-      "id": "16e7163751cc5edcf73dffd6671e3199d764b6153c2860505087f0ec67825729",
+      "datetime":1705558566,
+      "filename": "SuperiorOS-Fourteen-haydn-RELEASE-20240118-0621.zip",
+      "id": "b45572fef4019b3a5436a1386cabe6340d4bcf3be3fecf248a04dd13e077856c",
       "romtype": "RELEASE",
-      "size": 1748878808,
-      "url": "https://master.dl.sourceforge.net/project/superioros/haydn/vanilla/SuperiorOS-Fourteen-haydn-RELEASE-20240101-1642.zip",
+      "size":1758675815,
+      "url": "https://master.dl.sourceforge.net/project/superioros/haydn/vanilla/SuperiorOS-Fourteen-haydn-RELEASE-20240118-0621.zip",
       "version": "Fourteen",
       "device_name": "Mi 11x pro/Redmi K40 Pro",
       "maintainer": "AshraySingh (@AshraySingh)"
