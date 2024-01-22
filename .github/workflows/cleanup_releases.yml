@@ -1,0 +1,21 @@
+name: Delete Older Releases
+
+on:
+  schedule:
+    - cron: '30 18 * * 6'
+  workflow_dispatch:
+
+jobs:
+  delete_old_releases:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Delete Older Releases
+      uses: dev-drprasad/delete-older-releases@v0.3.2
+      with:
+        keep_latest: 15
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
