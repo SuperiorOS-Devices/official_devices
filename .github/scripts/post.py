@@ -148,10 +148,10 @@ def cook_content(information):
     message = ""
 
     # Show size in MB if its less than 1GB else show in GB
-    if information['size'] < 1000000000:
-        displaySize = str(round(information['size'] / 1000000, 2)) + " MB"
+    if information["size"] < 1000000000:
+        displaySize = "{:.2f} MB".format(information["size"] / (1024 * 1024))
     else:
-        displaySize = str(round(information['size'] / 1000000000, 2)) + " GB"
+        displaySize = "{:.2f} GB".format(information["size"] / (1024 * 1024 * 1024))
 
     # Convert time to human readable format
     buildtime = datetime.datetime.fromtimestamp(information['time']).strftime('%d/%m/%Y')
