@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1704133002,
-      "filename": "SuperiorOS-Fourteen-fajita-RELEASE-20240101-1816.zip",
-      "id": "4d7be240e68cc03b548fd67bac7b47a5d2168208c3085a950fc4f4e2d98be01f",
+      "datetime":1707596385,
+      "filename": "SuperiorOS-Fourteen-fajita-RELEASE-20240210-2026.zip",
+      "id": "a9aa023e8cce8a273f6fa1fbda454d4348ece542697ff0f9dfab5e35ae1cbe41",
       "romtype": "RELEASE",
-      "size": 1116038382,
-      "url": "https://master.dl.sourceforge.net/project/superioros/fajita/vanilla/SuperiorOS-Fourteen-fajita-RELEASE-20240101-1816.zip",
+      "size":1132483883,
+      "url": "https://master.dl.sourceforge.net/project/superioros/fajita/vanilla/SuperiorOS-Fourteen-fajita-RELEASE-20240210-2026.zip",
       "version": "Fourteen",
       "device_name": "Oneplus 6T",
       "maintainer": "Vikas Yaduvanshi (@Vikas_2_0)"
