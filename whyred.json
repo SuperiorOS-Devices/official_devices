@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1715480550,
-      "filename": "SuperiorOS-Fourteen-whyred-RELEASE-20240512-0228.zip",
-      "id": "b04911a001491325141f346e18eb244d44a92ddd34d468de2ab5d8331daeab8c",
+      "datetime":1717062383,
+      "filename": "SuperiorOS-Fourteen-whyred-RELEASE-20240530-0947.zip",
+      "id": "f336fe95f292cf39ad5f4c5d9badd995c3fe846dee5c27c54224c515c5d9426b",
       "romtype": "RELEASE",
-      "size":1002200085,
-      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/vanilla/SuperiorOS-Fourteen-whyred-RELEASE-20240512-0228.zip",
+      "size":1003112696,
+      "url": "https://master.dl.sourceforge.net/project/superioros/whyred/vanilla/SuperiorOS-Fourteen-whyred-RELEASE-20240530-0947.zip",
       "version": "Fourteen",
       "device_name": "Xiaomi Redmi Note 5 Pro",
       "maintainer": "Sipun Ku Mahanta"
